@@ -1,6 +1,6 @@
 # knowledge
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library combining wikidata and clojure core.logic.
 
 ## Usage
 
@@ -8,6 +8,6 @@ FIXME
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 Mingli Yuan
 
 Distributed under the Eclipse Public License, the same as Clojure.
