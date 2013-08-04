@@ -12,7 +12,7 @@
           "\\(" "")
         "\\)" "")
       "," "")
-    "\\\\" "_"))
+    "/" "_"))
 
 (defn dname [name]
   (.replaceAll
@@ -23,7 +23,7 @@
           "\\(" "")
         "\\)" "")
       "," "")
-    "\\\\" "_"))
+    "/" "_"))
 
 (defn tname [name]
   (string/capitalize (dname name)))
@@ -34,7 +34,7 @@
       (.write w (str "\n(defrel " (tname type) " name)\n")))))
 
 (defn write-properties [depth property subject object]
-  (if-not (or (> depth 1) (nil? property))
+  (if-not (or (> depth 2) (nil? property))
     (with-open [w (clojure.java.io/writer  "src/concepts/properties.clj" :append true)]
       (.write w (str "\n(defrel " (dname property) " " subject " " object ")\n")))))
 

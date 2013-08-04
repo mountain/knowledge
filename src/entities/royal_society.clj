@@ -10,7 +10,7 @@
 
 (fact main-type-gnd "Royal Society" "organization")
 
-(fact foundation/creation-date "Royal Society" "+00000001660-11-01T00:00:00Z")
+(fact foundation_creation-date "Royal Society" "+00000001660-11-01T00:00:00Z")
 
 (fact image "Royal Society" "RoyalSociety20040420CopyrightKaihsuTai.jpg")
 
