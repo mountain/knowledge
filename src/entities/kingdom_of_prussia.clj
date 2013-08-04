@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Kingdom of Prussia")
+(fact Geographical-feature "Kingdom of Prussia")
 
 (fact commons-category "Kingdom of Prussia" "Prussia")
 

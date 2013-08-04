@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "physicist")
+(fact Term "physicist")
 
 (fact main-type-gnd "physicist" "term")
 

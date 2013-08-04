@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Royal Society")
+(fact Organization "Royal Society")
 
 (fact commons-category "Royal Society" "Royal Society")
 

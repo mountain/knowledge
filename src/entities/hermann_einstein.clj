@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Hermann Einstein")
+(fact Person "Hermann Einstein")
 
 (fact place-of-birth "Hermann Einstein" "Bad Buchau")
 

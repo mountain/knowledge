@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Hans Albert Einstein")
+(fact Person "Hans Albert Einstein")
 
 (fact lccn-identifier "Hans Albert Einstein" "n85802437")
 

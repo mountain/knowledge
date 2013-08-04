@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "German")
+(fact Term "German")
 
 (fact iso-639-3 "German" "deu")
 

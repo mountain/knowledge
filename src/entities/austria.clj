@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Austria")
+(fact Geographical-feature "Austria")
 
 (fact iso-3166-1-alpha-2 "Austria" "AT")
 

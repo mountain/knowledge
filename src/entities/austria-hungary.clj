@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Austria-Hungary")
+(fact Geographical-feature "Austria-Hungary")
 
 (fact lccn-identifier "Austria-Hungary" "n50057161")
 

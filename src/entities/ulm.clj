@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Ulm")
+(fact Geographical-feature "Ulm")
 
 (fact local-dialing-code "Ulm" "0731")
 

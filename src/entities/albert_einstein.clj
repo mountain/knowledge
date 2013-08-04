@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Albert Einstein")
+(fact Person "Albert Einstein")
 
 (fact award-received "Albert Einstein" "Barnard Medal for Meritorious Service to Science")
 

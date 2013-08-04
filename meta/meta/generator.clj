@@ -1,32 +1,52 @@
 (ns meta.generator
   (:require [http.async.client :as http])
-  (:require [cheshire.core :refer :all]))
+  (:require [cheshire.core :refer :all])
+  (:require [clojure.string :as string]))
 
 (defn fname [name]
-  (.replaceAll (.toLowerCase name) " " "_"))
+  (.replaceAll
+    (.replaceAll
+      (.replaceAll
+        (.replaceAll
+          (.replaceAll (.toLowerCase name) " " "_")
+          "\\(" "")
+        "\\)" "")
+      "," "")
+    "\\\\" "_"))
 
 (defn dname [name]
-  (.replaceAll (.replaceAll (.replaceAll (.replaceAll (.toLowerCase name) " " "-") "\\(" "") "\\)" "") "," ""))
+  (.replaceAll
+    (.replaceAll
+      (.replaceAll
+        (.replaceAll
+          (.replaceAll (.toLowerCase name) " " "-")
+          "\\(" "")
+        "\\)" "")
+      "," "")
+    "\\\\" "_"))
 
-(defn write-types [type]
-  (if-not (nil? type)
+(defn tname [name]
+  (string/capitalize (dname name)))
+
+(defn write-types [depth type]
+  (if-not (or (> depth 1) (nil? type))
     (with-open [w (clojure.java.io/writer  "src/concepts/types.clj" :append true)]
-      (.write w (str "\n(defrel " type " name)\n")))))
+      (.write w (str "\n(defrel " (tname type) " name)\n")))))
 
-(defn write-properties [property subject object]
-  (if-not (nil? property)
+(defn write-properties [depth property subject object]
+  (if-not (or (> depth 1) (nil? property))
     (with-open [w (clojure.java.io/writer  "src/concepts/properties.clj" :append true)]
       (.write w (str "\n(defrel " (dname property) " " subject " " object ")\n")))))
 
 (defn write-entity [depth name type statements]
-  (if-not (or (> depth 1) (nil? name))
-    (with-open [w (clojure.java.io/writer  (str "src/entities/" (fname name) ".clj") :append true)]
+  (if-not (or (> depth 1) (nil? name) (nil? type))
+    (with-open [w (clojure.java.io/writer  (str "src/entities/" (fname name) ".clj") :append false)]
       (.write w (str "(ns entities." (dname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
       (.write w "   (:use clojure.core.logic\n")
       (.write w "         types\n")
       (.write w "         properties))\n\n")
-      (.write w (str "(fact \"" type "\" \"" name "\")\n\n"))
+      (.write w (str "(fact " (tname type) " \"" name "\")\n\n"))
       (doseq [stat statements]
         (doseq [fact (second stat)]
           (.write w (str "(fact " (dname (first stat)) " \"" name "\" \"" fact "\")\n\n")))))))
@@ -53,7 +73,7 @@
     (str prefix id)))
 
 (defn type-id-of [data]
-  (get-entity-id (get-in data ["claims" "p107"])))
+  (get-entity-id (first (get-in data ["claims" "p107"]))))
 
 (def ftable (atom {}))
 
@@ -91,7 +111,7 @@
             name   (get-in data ["labels" lang "value"])
             descr  (get-in data ["descriptions" lang"value"])]
         (swap! namecache assoc id name)
-        (write-properties name "subj" "obj")
+        (write-properties depth name "subj" "obj")
         name))))
 
 (defn genq [depth lang id]
@@ -102,11 +122,13 @@
       (let [data   (fetch lang id)
             label  (get (get (get data "labels") lang) "value")
             descr  (get (get (get data "descriptions") lang) "value")
-            name   (if (nil? label) (get-in data [(str lang "wiki") "title"]) label)
-            type   (let [tname (genq (inc depth) lang (type-id-of data))]
-                     (write-types tname)
-                     tname)
-            type   (if type type "term")
+            name   (if-not (nil? label) label (get-in data ["sitelinks" (str lang "wiki") "title"]))
+            tid    (type-id-of data)
+            type   (if-let [tentry (find @namecache tid)]
+                     (val tentry)
+                     (let [tn (genq (inc depth) lang tid)]
+                       (write-types depth tn)
+                       (if tn tn "term")))
             claims (get data "claims")]
         (swap! namecache assoc id name)
         (write-entity depth name type (for [idclaim claims]

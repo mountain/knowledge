@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Nobel Prize in Physics")
+(fact Term "Nobel Prize in Physics")
 
 (fact part-of "Nobel Prize in Physics" "Nobel prize")
 

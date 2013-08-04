@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Barnard Medal for Meritorious Service to Science")
+(fact Term "Barnard Medal for Meritorious Service to Science")
 
 (fact main-type-gnd "Barnard Medal for Meritorious Service to Science" "term")
 

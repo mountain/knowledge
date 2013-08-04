@@ -4,7 +4,7 @@
          types
          properties))
 
-(fact "term" "Princeton")
+(fact Geographical-feature "Princeton")
 
 (fact commons-category "Princeton" "Princeton, New Jersey")
 
