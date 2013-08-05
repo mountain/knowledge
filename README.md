@@ -1,6 +1,6 @@
 # knowledge
 
-A Clojure experiment library combining wikidata and clojure core.logic.
+A Clojure experimental library combining wikidata and clojure core.logic.
 
 ## Usage
 
