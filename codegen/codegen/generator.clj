@@ -9,12 +9,18 @@
       (.replaceAll
         (.replaceAll
           (.replaceAll
-            (.replaceAll (.toLowerCase name) " " "_")
-            "\\(" "")
-          "\\)" "")
-        "," "")
-      "/" "_")
-    "\\." "_"))
+            (.replaceAll
+              (.replaceAll
+                (.replaceAll
+                  (.replaceAll (.toLowerCase name) " " "_")
+                "\\(" "")
+              "\\)" "")
+            "," "")
+          "/" "_")
+        "\\." "_")
+      "\\+" "_")
+    ":" "_")
+  "^class$" "clazz"))
 
 (defn dname [name]
   (.replaceAll
@@ -22,12 +28,18 @@
       (.replaceAll
         (.replaceAll
           (.replaceAll
-            (.replaceAll (.toLowerCase name) " " "-")
-            "\\(" "")
-          "\\)" "")
-        "," "")
-      "/" "_")
-    "\\." "_"))
+            (.replaceAll
+              (.replaceAll
+                (.replaceAll
+                  (.replaceAll (.toLowerCase name) " " "-")
+                "\\(" "")
+              "\\)" "")
+            "," "")
+          "/" "_")
+        "\\." "_")
+      "\\+" "_")
+    ":" "_")
+  "^class$" "clazz"))
 
 (defn tname [name]
   (string/capitalize (dname name)))
