@@ -1,10 +1,18 @@
 # knowledge
 
-A Clojure library combining wikidata and clojure core.logic.
+A Clojure experiment library combining wikidata and clojure core.logic.
 
 ## Usage
 
-FIXME
+To generate knowledge code
+```shell
+lein run
+```
+
+To test knowledge code
+```shell
+lein test
+```
 
 ## License
 

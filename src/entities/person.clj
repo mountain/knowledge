@@ -1,8 +1,8 @@
 (ns entities.person
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic
-         types
-         properties))
+         meta.types
+         meta.properties))
 
 (fact Term "person")
 

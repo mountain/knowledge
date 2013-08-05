@@ -1,8 +1,8 @@
 (ns entities.nobel-prize-in-physics
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic
-         types
-         properties))
+         meta.types
+         meta.properties))
 
 (fact Term "Nobel Prize in Physics")
 

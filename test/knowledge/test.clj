@@ -2,8 +2,8 @@
   (:refer-clojure :exclude [==])
   (:require [clojure.test :as test])
   (:use clojure.core.logic
-        predicates
-        people.albert-einstein))
+        meta.properties
+        entities.albert-einstein))
 
 (test/deftest test-place-of-death 
   (test/is (= (first (first (run* [q]

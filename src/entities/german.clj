@@ -1,8 +1,8 @@
 (ns entities.german
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic
-         types
-         properties))
+         meta.types
+         meta.properties))
 
 (fact Term "German")
 
@@ -10,7 +10,7 @@
 
 (fact language-family "German" "Indo-European languages")
 
-(fact gost-7.75-97-code "German" "нем 481")
+(fact gost-7_75-97-code "German" "нем 481")
 
 (fact wikimedia-language-code "German" "de")
 

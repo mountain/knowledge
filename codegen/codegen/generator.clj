@@ -1,4 +1,4 @@
-(ns meta.generator
+(ns codegen.generator
   (:require [http.async.client :as http])
   (:require [cheshire.core :refer :all])
   (:require [clojure.string :as string]))
@@ -8,34 +8,38 @@
     (.replaceAll
       (.replaceAll
         (.replaceAll
-          (.replaceAll (.toLowerCase name) " " "_")
-          "\\(" "")
-        "\\)" "")
-      "," "")
-    "/" "_"))
+          (.replaceAll
+            (.replaceAll (.toLowerCase name) " " "_")
+            "\\(" "")
+          "\\)" "")
+        "," "")
+      "/" "_")
+    "\\." "_"))
 
 (defn dname [name]
   (.replaceAll
     (.replaceAll
       (.replaceAll
         (.replaceAll
-          (.replaceAll (.toLowerCase name) " " "-")
-          "\\(" "")
-        "\\)" "")
-      "," "")
-    "/" "_"))
+          (.replaceAll
+            (.replaceAll (.toLowerCase name) " " "-")
+            "\\(" "")
+          "\\)" "")
+        "," "")
+      "/" "_")
+    "\\." "_"))
 
 (defn tname [name]
   (string/capitalize (dname name)))
 
 (defn write-types [depth type]
   (if-not (or (> depth 1) (nil? type))
-    (with-open [w (clojure.java.io/writer  "src/concepts/types.clj" :append true)]
+    (with-open [w (clojure.java.io/writer  "src/meta/types.clj" :append true)]
       (.write w (str "\n(defrel " (tname type) " name)\n")))))
 
 (defn write-properties [depth property subject object]
   (if-not (or (> depth 2) (nil? property))
-    (with-open [w (clojure.java.io/writer  "src/concepts/properties.clj" :append true)]
+    (with-open [w (clojure.java.io/writer  "src/meta/properties.clj" :append true)]
       (.write w (str "\n(defrel " (dname property) " " subject " " object ")\n")))))
 
 (defn write-entity [depth name type statements]
@@ -44,8 +48,8 @@
       (.write w (str "(ns entities." (dname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
       (.write w "   (:use clojure.core.logic\n")
-      (.write w "         types\n")
-      (.write w "         properties))\n\n")
+      (.write w "         meta.types\n")
+      (.write w "         meta.properties))\n\n")
       (.write w (str "(fact " (tname type) " \"" name "\")\n\n"))
       (doseq [stat statements]
         (doseq [fact (second stat)]

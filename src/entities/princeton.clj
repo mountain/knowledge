@@ -1,8 +1,8 @@
 (ns entities.princeton
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic
-         types
-         properties))
+         meta.types
+         meta.properties))
 
 (fact Geographical-feature "Princeton")
 

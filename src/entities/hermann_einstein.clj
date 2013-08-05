@@ -1,8 +1,8 @@
 (ns entities.hermann-einstein
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic
-         types
-         properties))
+         meta.types
+         meta.properties))
 
 (fact Person "Hermann Einstein")
 

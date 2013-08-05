@@ -1,8 +1,8 @@
 (ns entities.kingdom-of-prussia
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic
-         types
-         properties))
+         meta.types
+         meta.properties))
 
 (fact Geographical-feature "Kingdom of Prussia")
 

@@ -1,8 +1,8 @@
 (ns entities.barnard-medal-for-meritorious-service-to-science
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic
-         types
-         properties))
+         meta.types
+         meta.properties))
 
 (fact Term "Barnard Medal for Meritorious Service to Science")
 

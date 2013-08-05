@@ -1,4 +1,4 @@
-(ns properties
+(ns meta.properties
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic))
 
@@ -30,7 +30,7 @@
 
 (defrel language-family subj obj)
 
-(defrel gost-7.75-97-code subj obj)
+(defrel gost-7_75-97-code subj obj)
 
 (defrel wikimedia-language-code subj obj)
 

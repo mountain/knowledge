@@ -1,8 +1,8 @@
 (ns entities.physicist
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic
-         types
-         properties))
+         meta.types
+         meta.properties))
 
 (fact Term "physicist")
 

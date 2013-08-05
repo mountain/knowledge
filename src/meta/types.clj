@@ -1,4 +1,4 @@
-(ns types
+(ns meta.types
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic))
 
