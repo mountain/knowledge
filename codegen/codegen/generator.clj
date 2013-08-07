@@ -12,7 +12,9 @@
             (.replaceAll
               (.replaceAll
                 (.replaceAll
-                  (.replaceAll (.toLowerCase name) " " "_")
+                  (.replaceAll
+                    (.replaceAll (.toLowerCase name) " " "_")
+                  "-" "_")
                 "\\(" "")
               "\\)" "")
             "," "")
