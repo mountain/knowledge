@@ -57,12 +57,12 @@
   (string/capitalize (dname label)))
 
 (defn write-kinds [depth kind]
-  (if-not (or (> depth 4) (nil? kind))
+  (if-not (or (> depth 6) (nil? kind))
     (with-open [w (clojure.java.io/writer  "src/meta/meta.clj" :append true)]
       (.write w (str "\n(defrel " (tname kind) " name)\n")))))
 
 (defn write-properties [depth name names descrs]
-  (if-not (or (> depth 4) (nil? name))
+  (if-not (or (> depth 6) (nil? name))
     (with-open [w (clojure.java.io/writer  (str "src/properties/" (fname name) ".clj") :append false)]
       (.write w (str "(ns properties." (fname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
@@ -78,7 +78,7 @@
       (.write w "\n"))))
 
 (defn write-clazz [depth name names descrs kind parents statements]
-  (if-not (or (> depth 2) (nil? name) (nil? kind))
+  (if-not (or (> depth 4) (nil? name) (nil? kind))
     (with-open [w (clojure.java.io/writer (str "src/clazzes/" (fname name) ".clj") :append false)]
       (.write w (str "(ns clazzes." (fname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
@@ -100,7 +100,7 @@
           (.write w (str "(fact claim \"" name "\" \"" (dname (first stat)) "\" \"" fact "\")\n")))))))
 
 (defn write-entity [depth name names descrs kind clazzes statements]
-  (if-not (or (> depth 2) (nil? name) (nil? kind))
+  (if-not (or (> depth 4) (nil? name) (nil? kind))
     (with-open [w (clojure.java.io/writer  (str "src/entities/" (fname name) ".clj") :append false)]
       (.write w (str "(ns entities." (fname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
@@ -212,7 +212,7 @@
 (defn genp [depth id]
   (if-let [entry (find @namecache id)]
     (val entry)
-    (if (> depth 4)
+    (if (> depth 6)
       id
       (let [data   (fetch id)
             name    (get-name "en" data)
@@ -233,7 +233,7 @@
 (defn genq [depth id]
   (if-let [entry (find @namecache id)]
     (val entry)
-    (if (> depth 4)
+    (if (> depth 6)
       id
       (let [data    (fetch id)
             name    (get-name "en" data)

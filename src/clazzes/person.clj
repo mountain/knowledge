@@ -20,10 +20,10 @@
 (descr-as-in "person" "реальная или вымышленная персона" "ru")
 (descr-as-in "person" "indivíduo" "pt")
 (descr-as-in "person" "individu" "fr")
-(descr-as-in "person" "individuo (se usa con Propiedad:P107 "tipo principal (GND)")" "es")
+(descr-as-in "person" "individuo (se usa con Propiedad:P107 tipo principal (GND))" "es")
 (descr-as-in "person" "個人" "ja")
 (descr-as-in "person" "Individuum (fiktional oder nicht-fiktional)" "de")
-(descr-as-in "person" "being, e.g. a human, that has certain capacities or attributes constituting personhood (use with Property:P107 "main type (GND)")" "en")
+(descr-as-in "person" "being, e.g. a human, that has certain capacities or attributes constituting personhood (use with Property:P107 main type (GND))" "en")
 
 
 (refer-to ["properties.main_type_gnd"])

@@ -22,6 +22,6 @@
 (descr-as-in "viaf-identifier" "Identifiant VIAF" "fr")
 (descr-as-in "viaf-identifier" "Virtual International Authority File identifier" "es")
 (descr-as-in "viaf-identifier" "バーチャル国際典拠ファイル識別子" "ja")
-(descr-as-in "viaf-identifier" "virtuelle internationale Normdatei für Personendaten (Bitte nur individualisierte VIAFs eintragen, d.h. Nummern ohne den Vermerk "undifferentiated")" "de")
+(descr-as-in "viaf-identifier" "virtuelle internationale Normdatei für Personendaten (Bitte nur individualisierte VIAFs eintragen, d.h. Nummern ohne den Vermerk undifferentiated)" "de")
 (descr-as-in "viaf-identifier" "Virtual International Authority File identifier" "en")
 
