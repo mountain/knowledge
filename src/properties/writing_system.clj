@@ -1,4 +1,4 @@
-(ns properties.writing-system
+(ns properties.writing_system
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

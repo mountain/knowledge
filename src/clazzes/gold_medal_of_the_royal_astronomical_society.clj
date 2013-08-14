@@ -1,4 +1,4 @@
-(ns clazzes.gold-medal-of-the-royal-astronomical-society
+(ns clazzes.gold_medal_of_the_royal_astronomical_society
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

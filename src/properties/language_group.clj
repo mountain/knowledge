@@ -1,4 +1,4 @@
-(ns properties.language-group
+(ns properties.language_group
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

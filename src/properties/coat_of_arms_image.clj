@@ -1,4 +1,4 @@
-(ns properties.coat-of-arms-image
+(ns properties.coat_of_arms_image
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

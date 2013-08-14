@@ -1,4 +1,4 @@
-(ns properties.coordinate-location
+(ns properties.coordinate_location
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns properties.pcp-reference-number
+(ns properties.pcp_reference_number
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

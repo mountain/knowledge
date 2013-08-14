@@ -1,4 +1,4 @@
-(ns properties.head-of-government
+(ns properties.head_of_government
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

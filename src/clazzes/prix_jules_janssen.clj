@@ -1,4 +1,4 @@
-(ns clazzes.prix-jules-janssen
+(ns clazzes.prix_jules_janssen
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
@@ -25,5 +25,7 @@
 (descr-as-in "Prix Jules Janssen" "" "de")
 (descr-as-in "Prix Jules Janssen" "" "en")
 
-(fact claim "Prix Jules Janssen" "named-after" "Pierre Janssen")
 
+(refer-to ["properties.named_after"])
+(refer-to ["entities.pierre_janssen"])
+(fact claim "Prix Jules Janssen" "named-after" "Pierre Janssen")

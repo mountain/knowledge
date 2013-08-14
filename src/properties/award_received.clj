@@ -1,4 +1,4 @@
-(ns properties.award-received
+(ns properties.award_received
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns properties.mathematics-genealogy-project-identifier
+(ns properties.mathematics_genealogy_project_identifier
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

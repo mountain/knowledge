@@ -1,4 +1,4 @@
-(ns properties.named-after
+(ns properties.named_after
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

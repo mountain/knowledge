@@ -1,4 +1,4 @@
-(ns clazzes.franklin-medal
+(ns clazzes.franklin_medal
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
@@ -25,7 +25,11 @@
 (descr-as-in "Franklin Medal" "Wissenschaftspreis des Franklin Instituts in Philadelphia, USA" "de")
 (descr-as-in "Franklin Medal" "science award by the Franklin Institute, Philadelphia" "en")
 
+
+(refer-to ["properties.subclass_of"])
+(refer-to ["clazzes.award"])
 (fact claim "Franklin Medal" "subclass-of" "award")
 
+(refer-to ["properties.named_after"])
+(refer-to ["entities.benjamin_franklin"])
 (fact claim "Franklin Medal" "named-after" "Benjamin Franklin")
-

@@ -1,4 +1,4 @@
-(ns properties.ndl-identifier
+(ns properties.ndl_identifier
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

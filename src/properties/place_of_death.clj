@@ -1,4 +1,4 @@
-(ns properties.place-of-death
+(ns properties.place_of_death
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

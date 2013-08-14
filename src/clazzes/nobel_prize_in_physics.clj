@@ -1,4 +1,4 @@
-(ns clazzes.nobel-prize-in-physics
+(ns clazzes.nobel_prize_in_physics
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
@@ -25,17 +25,24 @@
 (descr-as-in "Nobel Prize in Physics" "" "de")
 (descr-as-in "Nobel Prize in Physics" "Awarded once a year by the Royal Swedish Academy of Sciences" "en")
 
+
+(refer-to ["properties.part_of"])
+(refer-to ["clazzes.nobel_prize"])
 (fact claim "Nobel Prize in Physics" "part-of" "Nobel prize")
 
+(refer-to ["properties.commons_category"])
+(refer-to ["clazzes.nobel_prize_in_physics"])
 (fact claim "Nobel Prize in Physics" "commons-category" "Nobel Prize in Physics")
 
+(refer-to ["properties.image"])
 (fact claim "Nobel Prize in Physics" "image" "David Wineland 2008.jpg")
-
 (fact claim "Nobel Prize in Physics" "image" "Nobel Prize diplom Wilhelm Conrad Röntgen.jpg")
-
 (fact claim "Nobel Prize in Physics" "image" "Portrait of Albert Einstein and Others (1879-1955), Physicist.jpg")
 
+(refer-to ["properties.main_type_gnd"])
+(refer-to ["clazzes.term"])
 (fact claim "Nobel Prize in Physics" "main-type-gnd" "term")
 
+(refer-to ["properties.subclass_of"])
+(refer-to ["clazzes.nobel_prize"])
 (fact claim "Nobel Prize in Physics" "subclass-of" "Nobel prize")
-

@@ -1,4 +1,4 @@
-(ns properties.instance-of
+(ns properties.instance_of
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

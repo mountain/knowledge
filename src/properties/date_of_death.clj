@@ -1,4 +1,4 @@
-(ns properties.date-of-death
+(ns properties.date_of_death
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns properties.bnf-identifier
+(ns properties.bnf_identifier
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

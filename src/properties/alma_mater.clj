@@ -1,4 +1,4 @@
-(ns properties.alma-mater
+(ns properties.alma_mater
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

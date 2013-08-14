@@ -1,4 +1,4 @@
-(ns properties.commons-category
+(ns properties.commons_category
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

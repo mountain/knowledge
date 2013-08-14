@@ -1,4 +1,4 @@
-(ns properties.legislative-body
+(ns properties.legislative_body
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

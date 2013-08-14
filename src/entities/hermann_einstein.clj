@@ -1,4 +1,4 @@
-(ns entities.hermann-einstein
+(ns entities.hermann_einstein
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
@@ -25,15 +25,27 @@
 (descr-as-in "Hermann Einstein" "deutscher Elektrotechniker und Unternehmer, Vater Albert Einsteins" "de")
 (descr-as-in "Hermann Einstein" "" "en")
 
+
+(refer-to ["properties.place_of_birth"])
+(refer-to ["entities.bad_buchau"])
 (fact claim "Hermann Einstein" "place-of-birth" "Bad Buchau")
 
+(refer-to ["properties.place_of_death"])
+(refer-to ["entities.milan"])
 (fact claim "Hermann Einstein" "place-of-death" "Milan")
 
+(refer-to ["properties.main_type_gnd"])
+(refer-to ["clazzes.person"])
 (fact claim "Hermann Einstein" "main-type-gnd" "person")
 
+(refer-to ["properties.sex"])
+(refer-to ["clazzes.male"])
 (fact claim "Hermann Einstein" "sex" "male")
 
+(refer-to ["properties.child"])
+(refer-to ["entities.albert_einstein"])
 (fact claim "Hermann Einstein" "child" "Albert Einstein")
 
+(refer-to ["properties.country_of_citizenship"])
+(refer-to ["entities.germany"])
 (fact claim "Hermann Einstein" "country-of-citizenship" "Germany")
-

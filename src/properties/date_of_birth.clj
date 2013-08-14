@@ -1,4 +1,4 @@
-(ns properties.date-of-birth
+(ns properties.date_of_birth
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

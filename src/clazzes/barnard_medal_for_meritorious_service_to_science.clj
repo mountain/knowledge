@@ -1,4 +1,4 @@
-(ns clazzes.barnard-medal-for-meritorious-service-to-science
+(ns clazzes.barnard_medal_for_meritorious_service_to_science
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
@@ -25,5 +25,7 @@
 (descr-as-in "Barnard Medal for Meritorious Service to Science" "" "de")
 (descr-as-in "Barnard Medal for Meritorious Service to Science" "" "en")
 
-(fact claim "Barnard Medal for Meritorious Service to Science" "main-type-gnd" "term")
 
+(refer-to ["properties.main_type_gnd"])
+(refer-to ["clazzes.term"])
+(fact claim "Barnard Medal for Meritorious Service to Science" "main-type-gnd" "term")

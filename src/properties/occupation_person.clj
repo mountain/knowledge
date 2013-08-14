@@ -1,4 +1,4 @@
-(ns properties.occupation-person
+(ns properties.occupation_person
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

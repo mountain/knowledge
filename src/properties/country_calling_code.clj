@@ -1,4 +1,4 @@
-(ns properties.country-calling-code
+(ns properties.country_calling_code
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

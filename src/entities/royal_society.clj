@@ -1,4 +1,4 @@
-(ns entities.royal-society
+(ns entities.royal_society
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
@@ -25,13 +25,18 @@
 (descr-as-in "Royal Society" "" "de")
 (descr-as-in "Royal Society" "an English learned society for science" "en")
 
+
+(refer-to ["properties.commons_category"])
+(refer-to ["entities.royal_society"])
 (fact claim "Royal Society" "commons-category" "Royal Society")
 
+(refer-to ["properties.main_type_gnd"])
+(refer-to ["clazzes.organization"])
 (fact claim "Royal Society" "main-type-gnd" "organization")
 
+(refer-to ["properties.foundation_creation_date"])
 (fact claim "Royal Society" "foundation_creation-date" "+00000001660-11-01T00:00:00Z")
 
+(refer-to ["properties.image"])
 (fact claim "Royal Society" "image" "RoyalSociety20040420CopyrightKaihsuTai.jpg")
-
 (fact claim "Royal Society" "image" "Royal Society Edinburgh.jpg")
-

@@ -1,4 +1,4 @@
-(ns properties.nuts-code
+(ns properties.nuts_code
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns clazzes.copley-medal
+(ns clazzes.copley_medal
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
@@ -25,5 +25,7 @@
 (descr-as-in "Copley Medal" "" "de")
 (descr-as-in "Copley Medal" "award given by the Royal Society of London" "en")
 
-(fact claim "Copley Medal" "named-after" "Sir Godfrey Copley, 2nd Baronet")
 
+(refer-to ["properties.named_after"])
+(refer-to ["entities.sir_godfrey_copley_2nd_baronet"])
+(fact claim "Copley Medal" "named-after" "Sir Godfrey Copley, 2nd Baronet")

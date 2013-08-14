@@ -1,4 +1,4 @@
-(ns properties.archives-at
+(ns properties.archives_at
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

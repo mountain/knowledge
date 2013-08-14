@@ -1,4 +1,4 @@
-(ns clazzes.matteucci-medal
+(ns clazzes.matteucci_medal
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

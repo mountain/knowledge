@@ -1,4 +1,4 @@
-(ns clazzes.max-planck-medal
+(ns clazzes.max_planck_medal
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
@@ -25,5 +25,7 @@
 (descr-as-in "Max Planck Medal" "Wissenschaftspreis" "de")
 (descr-as-in "Max Planck Medal" "science award" "en")
 
-(fact claim "Max Planck Medal" "named-after" "Max Planck")
 
+(refer-to ["properties.named_after"])
+(refer-to ["entities.max_planck"])
+(fact claim "Max Planck Medal" "named-after" "Max Planck")

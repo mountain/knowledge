@@ -1,4 +1,4 @@
-(ns properties.language-family
+(ns properties.language_family
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

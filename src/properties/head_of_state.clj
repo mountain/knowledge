@@ -1,4 +1,4 @@
-(ns properties.head-of-state
+(ns properties.head_of_state
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

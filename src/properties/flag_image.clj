@@ -1,4 +1,4 @@
-(ns properties.flag-image
+(ns properties.flag_image
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

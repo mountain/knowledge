@@ -1,4 +1,4 @@
-(ns properties.is-in-the-administrative-unit
+(ns properties.is_in_the_administrative_unit
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

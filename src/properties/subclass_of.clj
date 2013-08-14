@@ -1,4 +1,4 @@
-(ns properties.subclass-of
+(ns properties.subclass_of
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

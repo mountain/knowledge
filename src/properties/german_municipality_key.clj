@@ -1,4 +1,4 @@
-(ns properties.german-municipality-key
+(ns properties.german_municipality_key
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

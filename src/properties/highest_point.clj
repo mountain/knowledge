@@ -1,4 +1,4 @@
-(ns properties.highest-point
+(ns properties.highest_point
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

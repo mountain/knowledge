@@ -1,4 +1,4 @@
-(ns properties.time-zone
+(ns properties.time_zone
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns properties.main-type-gnd
+(ns properties.main_type_gnd
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

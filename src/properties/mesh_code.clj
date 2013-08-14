@@ -1,4 +1,4 @@
-(ns properties.mesh-code
+(ns properties.mesh_code
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns properties.lccn-identifier
+(ns properties.lccn_identifier
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

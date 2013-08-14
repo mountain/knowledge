@@ -1,4 +1,4 @@
-(ns properties.top-level-domain
+(ns properties.top_level_domain
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

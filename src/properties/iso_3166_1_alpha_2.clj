@@ -1,4 +1,4 @@
-(ns properties.iso-3166-1-alpha-2
+(ns properties.iso_3166_1_alpha_2
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

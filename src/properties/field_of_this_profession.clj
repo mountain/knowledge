@@ -1,4 +1,4 @@
-(ns properties.field-of-this-profession
+(ns properties.field_of_this_profession
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

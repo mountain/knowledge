@@ -1,4 +1,4 @@
-(ns properties.place-of-birth
+(ns properties.place_of_birth
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns properties.isni-iso-27729
+(ns properties.isni_iso_27729
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

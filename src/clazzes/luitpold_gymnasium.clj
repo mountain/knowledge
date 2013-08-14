@@ -1,4 +1,4 @@
-(ns clazzes.luitpold-gymnasium
+(ns clazzes.luitpold_gymnasium
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

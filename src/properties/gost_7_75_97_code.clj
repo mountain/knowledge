@@ -1,4 +1,4 @@
-(ns properties.gost-7_75-97-code
+(ns properties.gost_7_75_97_code
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

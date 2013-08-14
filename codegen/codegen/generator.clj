@@ -43,6 +43,16 @@
     ":" "_")
   "^class$" "clazz"))
 
+(defn rm-punct [text]
+  (if-not (nil? text)
+    (.replaceAll text "\"" "")))
+
+(def pkgtable (atom {}))
+
+(defn package-of [name] (if-let [result (find @pkgtable name)] (second result)))
+
+(defn set-package [name pkg] (swap! pkgtable assoc name pkg))
+
 (defn tname [label]
   (string/capitalize (dname label)))
 
@@ -54,7 +64,7 @@
 (defn write-properties [depth name names descrs]
   (if-not (or (> depth 4) (nil? name))
     (with-open [w (clojure.java.io/writer  (str "src/properties/" (fname name) ".clj") :append false)]
-      (.write w (str "(ns properties." (dname name) "\n"))
+      (.write w (str "(ns properties." (fname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
       (.write w "   (:use clojure.core.logic)\n")
       (.write w "   (:use meta.meta)")
@@ -64,40 +74,35 @@
         (.write w (str "(name-as-in \"" (dname name) "\" \"" lname "\" \"" lang "\")\n")))
       (.write w "\n")
       (doseq [[lang descr] descrs]
-        (.write w (str "(descr-as-in \"" (dname name) "\" \"" descr "\" \"" lang "\")\n")))
+        (.write w (str "(descr-as-in \"" (dname name) "\" \"" (rm-punct descr) "\" \"" lang "\")\n")))
       (.write w "\n"))))
 
 (defn write-clazz [depth name names descrs kind parents statements]
   (if-not (or (> depth 2) (nil? name) (nil? kind))
     (with-open [w (clojure.java.io/writer (str "src/clazzes/" (fname name) ".clj") :append false)]
-      (.write w (str "(ns clazzes." (dname name) "\n"))
+      (.write w (str "(ns clazzes." (fname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
       (.write w "   (:use clojure.core.logic)\n")
       (.write w "   (:use meta.meta)")
-      (if-not (or (nil? parents) (empty parents))
-        (do
-          (.write w "\n")
-          (.write w "   (:use [" (string/join " " (map #(str "clazzes." %) parents)) "])")))
-      (if-not (or (nil? statements) (empty statements))
-        (doseq [stat statements]
-          (.write w "\n")
-          (.write w (str "   (:use properties." (dname (first stat)) ")"))))
       (.write w ")\n\n")
       (.write w (str "(fact " (tname kind) " \"" name "\")\n\n"))
       (doseq [[lang lname] names]
         (.write w (str "(name-as-in \"" name "\" \"" lname "\" \"" lang "\")\n")))
       (.write w "\n")
       (doseq [[lang descr] descrs]
-        (.write w (str "(descr-as-in \"" name "\" \"" descr "\" \"" lang "\")\n")))
+        (.write w (str "(descr-as-in \"" name "\" \"" (rm-punct descr) "\" \"" lang "\")\n")))
       (.write w "\n")
       (doseq [stat statements]
+        (.write w (str "\n(refer-to [\"properties." (fname (first stat)) "\"])\n"))
         (doseq [fact (second stat)]
-          (.write w (str "(fact claim \"" name "\" \"" (dname (first stat)) "\" \"" fact "\")\n\n")))))))
+          (if-not (nil? (package-of fact))
+            (.write w (str "(refer-to [\"" (package-of fact) "." (fname fact) "\"])\n")))
+          (.write w (str "(fact claim \"" name "\" \"" (dname (first stat)) "\" \"" fact "\")\n")))))))
 
 (defn write-entity [depth name names descrs kind clazzes statements]
   (if-not (or (> depth 2) (nil? name) (nil? kind))
     (with-open [w (clojure.java.io/writer  (str "src/entities/" (fname name) ".clj") :append false)]
-      (.write w (str "(ns entities." (dname name) "\n"))
+      (.write w (str "(ns entities." (fname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
       (.write w "   (:use clojure.core.logic)\n")
       (.write w "   (:use meta.meta)")
@@ -108,18 +113,21 @@
       (if-not (or (nil? statements) (empty statements))
         (doseq [stat statements]
           (.write w "\n")
-          (.write w (str "   (:use properties." (dname (first stat)) ")"))))
+          (.write w (str "   (:use properties." (fname (first stat)) ")"))))
       (.write w ")\n\n")
       (.write w (str "(fact " (tname kind) " \"" name "\")\n\n"))
       (doseq [[lang lname] names]
         (.write w (str "(name-as-in \"" name "\" \"" lname "\" \"" lang "\")\n")))
       (.write w "\n")
       (doseq [[lang descr] descrs]
-        (.write w (str "(descr-as-in \"" name "\" \"" descr "\" \"" lang "\")\n")))
+        (.write w (str "(descr-as-in \"" name "\" \"" (rm-punct descr) "\" \"" lang "\")\n")))
       (.write w "\n")
       (doseq [stat statements]
+        (.write w (str "\n(refer-to [\"properties." (fname (first stat)) "\"])\n"))
         (doseq [fact (second stat)]
-          (.write w (str "(fact claim \"" name "\" \"" (dname (first stat)) "\" \"" fact "\")\n\n")))))))
+          (if-not (nil? (package-of fact))
+            (.write w (str "(refer-to [\"" (package-of fact) "." (fname fact) "\"])\n")))
+          (.write w (str "(fact claim \"" name "\" \"" (dname (first stat)) "\" \"" fact "\")\n")))))))
 
 (defn get-title [lang data]
   (get-in data ["sitelinks" (str lang "wiki") "title"]))
@@ -211,6 +219,7 @@
             names   (get-names languages data)
             descrs  (get-descrs languages data)]
         (swap! namecache assoc id name)
+        (set-package name "properties")
         (write-properties depth name names descrs)
         name))))
 
@@ -241,8 +250,12 @@
           (do
             (swap! namecache assoc id name)
             (if-not (or (= kind "term") (not (empty parents)))
-              (write-entity depth name names descrs kind clazzes claims)
-              (write-clazz depth name names descrs kind parents claims))
+              (do
+                (set-package name "entities")
+                (write-entity depth name names descrs kind clazzes claims))
+              (do
+                (set-package name "clazzes")
+                (write-clazz depth name names descrs kind parents claims)))
             name)
           id)))))
 

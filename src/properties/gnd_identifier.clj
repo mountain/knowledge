@@ -1,4 +1,4 @@
-(ns properties.gnd-identifier
+(ns properties.gnd_identifier
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

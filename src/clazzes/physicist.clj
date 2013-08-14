@@ -25,15 +25,25 @@
 (descr-as-in "physicist" "Naturwissenschaftler der Physik" "de")
 (descr-as-in "physicist" "scientist who does research in physics" "en")
 
+
+(refer-to ["properties.main_type_gnd"])
+(refer-to ["clazzes.term"])
 (fact claim "physicist" "main-type-gnd" "term")
 
+(refer-to ["properties.subclass_of"])
+(refer-to ["clazzes.scientist"])
 (fact claim "physicist" "subclass-of" "scientist")
 
+(refer-to ["properties.instance_of"])
+(refer-to ["clazzes.profession"])
 (fact claim "physicist" "instance-of" "profession")
 
+(refer-to ["properties.field_of_this_profession"])
+(refer-to ["clazzes.physics"])
 (fact claim "physicist" "field-of-this-profession" "physics")
 
+(refer-to ["properties.commons_category"])
 (fact claim "physicist" "commons-category" "Physicists")
 
+(refer-to ["properties.bncf_thesaurus"])
 (fact claim "physicist" "bncf-thesaurus" "28902")
-

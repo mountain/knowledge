@@ -1,4 +1,4 @@
-(ns properties.postal-code
+(ns properties.postal_code
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

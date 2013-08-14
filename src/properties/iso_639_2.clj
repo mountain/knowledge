@@ -1,4 +1,4 @@
-(ns properties.iso-639-2
+(ns properties.iso_639_2
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns properties.wikimedia-language-code
+(ns properties.wikimedia_language_code
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

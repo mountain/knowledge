@@ -25,7 +25,10 @@
 (descr-as-in "person" "Individuum (fiktional oder nicht-fiktional)" "de")
 (descr-as-in "person" "being, e.g. a human, that has certain capacities or attributes constituting personhood (use with Property:P107 "main type (GND)")" "en")
 
+
+(refer-to ["properties.main_type_gnd"])
+(refer-to ["clazzes.term"])
 (fact claim "person" "main-type-gnd" "term")
 
+(refer-to ["properties.mesh_code"])
 (fact claim "person" "mesh-code" "M")
-

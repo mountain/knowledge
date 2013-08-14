@@ -1,4 +1,4 @@
-(ns properties.licence-plate-code
+(ns properties.licence_plate_code
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

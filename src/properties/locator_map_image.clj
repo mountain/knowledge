@@ -1,4 +1,4 @@
-(ns properties.locator-map-image
+(ns properties.locator_map_image
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns properties.shares-border-with
+(ns properties.shares_border_with
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns properties.bncf-thesaurus
+(ns properties.bncf_thesaurus
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

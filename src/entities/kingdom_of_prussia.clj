@@ -1,4 +1,4 @@
-(ns entities.kingdom-of-prussia
+(ns entities.kingdom_of_prussia
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
@@ -25,7 +25,10 @@
 (descr-as-in "Kingdom of Prussia" "" "de")
 (descr-as-in "Kingdom of Prussia" "German kingdom from 1701 to 1918" "en")
 
+
+(refer-to ["properties.commons_category"])
 (fact claim "Kingdom of Prussia" "commons-category" "Prussia")
 
+(refer-to ["properties.main_type_gnd"])
+(refer-to ["clazzes.geographical_feature"])
 (fact claim "Kingdom of Prussia" "main-type-gnd" "geographical feature")
-

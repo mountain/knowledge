@@ -1,4 +1,4 @@
-(ns properties.foundation_creation-date
+(ns properties.foundation_creation_date
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

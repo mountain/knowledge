@@ -23,9 +23,13 @@
 (descr-as-in "term" "palabra o combinación de palabras" "es")
 (descr-as-in "term" "特定の文脈で特定の意味を持つ単語・表現" "ja")
 (descr-as-in "term" "Bedeutungsinhalt eines sprachlichen Ausdrucks" "de")
-(descr-as-in "term" "word or expression that has a specific meaning in specific contexts (use with Property:P107 "main type (GND)")" "en")
+(descr-as-in "term" "word or expression that has a specific meaning in specific contexts (use with Property:P107 main type (GND))" "en")
 
+
+(refer-to ["properties.main_type_gnd"])
+(refer-to ["clazzes.term"])
 (fact claim "term" "main-type-gnd" "term")
 
+(refer-to ["properties.subclass_of"])
+(refer-to ["clazzes.entity"])
 (fact claim "term" "subclass-of" "entity")
-

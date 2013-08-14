@@ -1,4 +1,4 @@
-(ns entities.swiss-literary-archives
+(ns entities.swiss_literary_archives
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
@@ -25,15 +25,24 @@
 (descr-as-in "Swiss Literary Archives" "" "de")
 (descr-as-in "Swiss Literary Archives" "" "en")
 
+
+(refer-to ["properties.main_type_gnd"])
+(refer-to ["clazzes.geographical_feature"])
 (fact claim "Swiss Literary Archives" "main-type-gnd" "geographical feature")
 
+(refer-to ["properties.country"])
+(refer-to ["entities.switzerland"])
 (fact claim "Swiss Literary Archives" "country" "Switzerland")
 
+(refer-to ["properties.is_in_the_administrative_unit"])
+(refer-to ["entities.bern"])
 (fact claim "Swiss Literary Archives" "is-in-the-administrative-unit" "Bern")
-
+(refer-to ["entities.canton_of_bern"])
 (fact claim "Swiss Literary Archives" "is-in-the-administrative-unit" "Canton of Bern")
 
+(refer-to ["properties.pcp_reference_number"])
 (fact claim "Swiss Literary Archives" "pcp-reference-number" "8835")
 
+(refer-to ["properties.instance_of"])
+(refer-to ["clazzes.cultural_property"])
 (fact claim "Swiss Literary Archives" "instance-of" "cultural property")
-

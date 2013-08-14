@@ -1,4 +1,4 @@
-(ns properties.sudoc-identifier
+(ns properties.sudoc_identifier
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

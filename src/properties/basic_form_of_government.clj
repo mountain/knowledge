@@ -1,4 +1,4 @@
-(ns properties.basic-form-of-government
+(ns properties.basic_form_of_government
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

@@ -1,4 +1,4 @@
-(ns properties.local-dialing-code
+(ns properties.local_dialing_code
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))

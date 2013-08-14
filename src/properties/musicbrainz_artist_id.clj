@@ -1,4 +1,4 @@
-(ns properties.musicbrainz-artist-id
+(ns properties.musicbrainz_artist_id
    (:refer-clojure :exclude [==])
    (:use clojure.core.logic)
    (:use meta.meta))
