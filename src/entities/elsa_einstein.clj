@@ -1,28 +1,47 @@
 (ns entities.elsa-einstein
    (:refer-clojure :exclude [==])
-   (:use clojure.core.logic
-         meta.types
-         meta.properties))
+   (:use clojure.core.logic)
+   (:use meta.meta))
 
 (fact Person "Elsa Einstein")
 
-(fact lccn-identifier "Elsa Einstein" "no97035877")
+(name-as-in "Elsa Einstein" "" "zh-hant")
+(name-as-in "Elsa Einstein" "" "zh-hans")
+(name-as-in "Elsa Einstein" "Эльза Эйнштейн" "ru")
+(name-as-in "Elsa Einstein" "Elsa Einstein" "pt")
+(name-as-in "Elsa Einstein" "Elsa Einstein" "fr")
+(name-as-in "Elsa Einstein" "Elsa Einstein" "es")
+(name-as-in "Elsa Einstein" "" "ja")
+(name-as-in "Elsa Einstein" "Elsa Einstein" "de")
+(name-as-in "Elsa Einstein" "Elsa Einstein" "en")
 
-(fact viaf-identifier "Elsa Einstein" "31600989")
+(descr-as-in "Elsa Einstein" "" "zh-hant")
+(descr-as-in "Elsa Einstein" "" "zh-hans")
+(descr-as-in "Elsa Einstein" "" "ru")
+(descr-as-in "Elsa Einstein" "" "pt")
+(descr-as-in "Elsa Einstein" "" "fr")
+(descr-as-in "Elsa Einstein" "" "es")
+(descr-as-in "Elsa Einstein" "" "ja")
+(descr-as-in "Elsa Einstein" "zweite Frau von Albert Einstein" "de")
+(descr-as-in "Elsa Einstein" "" "en")
 
-(fact gnd-identifier "Elsa Einstein" "116425741")
+(fact claim "Elsa Einstein" "lccn-identifier" "no97035877")
 
-(fact main-type-gnd "Elsa Einstein" "person")
+(fact claim "Elsa Einstein" "viaf-identifier" "31600989")
 
-(fact place-of-death "Elsa Einstein" "Princeton")
+(fact claim "Elsa Einstein" "gnd-identifier" "116425741")
 
-(fact sex "Elsa Einstein" "female")
+(fact claim "Elsa Einstein" "main-type-gnd" "person")
 
-(fact spouse "Elsa Einstein" "Albert Einstein")
+(fact claim "Elsa Einstein" "place-of-death" "Princeton")
 
-(fact country-of-citizenship "Elsa Einstein" "Germany")
+(fact claim "Elsa Einstein" "sex" "female")
 
-(fact image "Elsa Einstein" "Bundesarchiv Bild 102-00486A, Elsa Einstein.jpg")
+(fact claim "Elsa Einstein" "spouse" "Albert Einstein")
 
-(fact place-of-birth "Elsa Einstein" "Hechingen")
+(fact claim "Elsa Einstein" "country-of-citizenship" "Germany")
+
+(fact claim "Elsa Einstein" "image" "Bundesarchiv Bild 102-00486A, Elsa Einstein.jpg")
+
+(fact claim "Elsa Einstein" "place-of-birth" "Hechingen")
 

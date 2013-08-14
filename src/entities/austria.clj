@@ -1,110 +1,129 @@
 (ns entities.austria
    (:refer-clojure :exclude [==])
-   (:use clojure.core.logic
-         meta.types
-         meta.properties))
+   (:use clojure.core.logic)
+   (:use meta.meta))
 
 (fact Geographical-feature "Austria")
 
-(fact iso-3166-1-alpha-2 "Austria" "AT")
+(name-as-in "Austria" "奧地利" "zh-hant")
+(name-as-in "Austria" "奥地利" "zh-hans")
+(name-as-in "Austria" "Австрия" "ru")
+(name-as-in "Austria" "Áustria" "pt")
+(name-as-in "Austria" "Autriche" "fr")
+(name-as-in "Austria" "Austria" "es")
+(name-as-in "Austria" "オーストリア" "ja")
+(name-as-in "Austria" "Österreich" "de")
+(name-as-in "Austria" "Austria" "en")
 
-(fact locator-map-image "Austria" "EU-Austria.svg")
+(descr-as-in "Austria" "中歐國家" "zh-hant")
+(descr-as-in "Austria" "中欧国家" "zh-hans")
+(descr-as-in "Austria" "государство в Западной Европе" "ru")
+(descr-as-in "Austria" "" "pt")
+(descr-as-in "Austria" "pays d'Europe" "fr")
+(descr-as-in "Austria" "país de Europa" "es")
+(descr-as-in "Austria" "" "ja")
+(descr-as-in "Austria" "Staat in Mitteleuropa" "de")
+(descr-as-in "Austria" "federal republic in Central Europe" "en")
 
-(fact iso-3166-1-alpha-3 "Austria" "AUT")
+(fact claim "Austria" "iso-3166-1-alpha-2" "AT")
 
-(fact member-of "Austria" "United Nations")
+(fact claim "Austria" "locator-map-image" "EU-Austria.svg")
 
-(fact member-of "Austria" "Organisation for Economic Co-operation and Development")
+(fact claim "Austria" "iso-3166-1-alpha-3" "AUT")
 
-(fact member-of "Austria" "Organization for Security and Co-operation in Europe")
+(fact claim "Austria" "member-of" "United Nations")
 
-(fact country-calling-code "Austria" "+43")
+(fact claim "Austria" "member-of" "Organisation for Economic Co-operation and Development")
 
-(fact basic-form-of-government "Austria" "republic")
+(fact claim "Austria" "member-of" "Organization for Security and Co-operation in Europe")
 
-(fact iso-3166-1-numeric "Austria" "040")
+(fact claim "Austria" "country-calling-code" "+43")
 
-(fact highest-point "Austria" "Grossglockner")
+(fact claim "Austria" "basic-form-of-government" "republic")
 
-(fact head-of-government "Austria" "Werner Faymann")
+(fact claim "Austria" "iso-3166-1-numeric" "040")
 
-(fact openstreetmap-relation-id "Austria" "16239")
+(fact claim "Austria" "highest-point" "Grossglockner")
 
-(fact main-type-gnd "Austria" "geographical feature")
+(fact claim "Austria" "head-of-government" "Werner Faymann")
 
-(fact coordinate-location "Austria" "lng 14 lat 48 alt ")
+(fact claim "Austria" "openstreetmap-relation-id" "16239")
 
-(fact nuts-code "Austria" "AT")
+(fact claim "Austria" "main-type-gnd" "geographical feature")
 
-(fact coat-of-arms-image "Austria" "Austria Bundesadler 2.svg")
+(fact claim "Austria" "coordinate-location" "lng 14 lat 48 alt ")
 
-(fact bncf-thesaurus "Austria" "37765")
+(fact claim "Austria" "nuts-code" "AT")
 
-(fact continent "Austria" "Europe")
+(fact claim "Austria" "coat-of-arms-image" "Austria Bundesadler 2.svg")
 
-(fact flag-image "Austria" "Flag of Austria.svg")
+(fact claim "Austria" "bncf-thesaurus" "37765")
 
-(fact anthem "Austria" "Land der Berge, Land am Strome")
+(fact claim "Austria" "continent" "Europe")
 
-(fact instance-of "Austria" "sovereign state")
+(fact claim "Austria" "flag-image" "Flag of Austria.svg")
 
-(fact instance-of "Austria" "republic")
+(fact claim "Austria" "anthem" "Land der Berge, Land am Strome")
 
-(fact instance-of "Austria" "country")
+(fact claim "Austria" "instance-of" "sovereign state")
 
-(fact instance-of "Austria" "member state of the European Union")
+(fact claim "Austria" "instance-of" "republic")
 
-(fact top-level-domain "Austria" ".at")
+(fact claim "Austria" "instance-of" "country")
 
-(fact head-of-state "Austria" "Heinz Fischer")
+(fact claim "Austria" "instance-of" "member state of the European Union")
 
-(fact capital "Austria" "Vienna")
+(fact claim "Austria" "top-level-domain" ".at")
 
-(fact shares-border-with "Austria" "Germany")
+(fact claim "Austria" "head-of-state" "Heinz Fischer")
 
-(fact shares-border-with "Austria" "Italy")
+(fact claim "Austria" "capital" "Vienna")
 
-(fact shares-border-with "Austria" "Liechtenstein")
+(fact claim "Austria" "shares-border-with" "Germany")
 
-(fact shares-border-with "Austria" "Switzerland")
+(fact claim "Austria" "shares-border-with" "Italy")
 
-(fact shares-border-with "Austria" "Czech Republic")
+(fact claim "Austria" "shares-border-with" "Liechtenstein")
 
-(fact shares-border-with "Austria" "Hungary")
+(fact claim "Austria" "shares-border-with" "Switzerland")
 
-(fact shares-border-with "Austria" "Slovakia")
+(fact claim "Austria" "shares-border-with" "Czech Republic")
 
-(fact shares-border-with "Austria" "Slovenia")
+(fact claim "Austria" "shares-border-with" "Hungary")
 
-(fact official-language "Austria" "German")
+(fact claim "Austria" "shares-border-with" "Slovakia")
 
-(fact currency "Austria" "euro")
+(fact claim "Austria" "shares-border-with" "Slovenia")
 
-(fact contains-administrative-division "Austria" "Burgenland")
+(fact claim "Austria" "official-language" "German")
 
-(fact contains-administrative-division "Austria" "Carinthia")
+(fact claim "Austria" "currency" "euro")
 
-(fact contains-administrative-division "Austria" "Lower Austria")
+(fact claim "Austria" "contains-administrative-division" "Burgenland")
 
-(fact contains-administrative-division "Austria" "Upper Austria")
+(fact claim "Austria" "contains-administrative-division" "Carinthia")
 
-(fact contains-administrative-division "Austria" "Salzburg")
+(fact claim "Austria" "contains-administrative-division" "Lower Austria")
 
-(fact contains-administrative-division "Austria" "Styria")
+(fact claim "Austria" "contains-administrative-division" "Upper Austria")
 
-(fact contains-administrative-division "Austria" "Tyrol")
+(fact claim "Austria" "contains-administrative-division" "Salzburg")
 
-(fact contains-administrative-division "Austria" "Vorarlberg")
+(fact claim "Austria" "contains-administrative-division" "Styria")
 
-(fact contains-administrative-division "Austria" "Vienna")
+(fact claim "Austria" "contains-administrative-division" "Tyrol")
 
-(fact legislative-body "Austria" "National Council of Austria")
+(fact claim "Austria" "contains-administrative-division" "Vorarlberg")
 
-(fact legislative-body "Austria" "Federal Council of Austria")
+(fact claim "Austria" "contains-administrative-division" "Vienna")
 
-(fact flag "Austria" "Flag of Austria")
+(fact claim "Austria" "legislative-body" "National Council of Austria")
 
-(fact licence-plate-code "Austria" "A")
+(fact claim "Austria" "legislative-body" "Federal Council of Austria")
 
-(fact commons-category "Austria" "Austria")
+(fact claim "Austria" "flag" "Flag of Austria")
+
+(fact claim "Austria" "licence-plate-code" "A")
+
+(fact claim "Austria" "commons-category" "Austria")
 

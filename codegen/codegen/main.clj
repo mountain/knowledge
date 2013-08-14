@@ -3,4 +3,4 @@
   (:gen-class))
 
 (defn -main []
-  (genq 0 "en" "q937"))
+  (genq 0 "Q937"))
