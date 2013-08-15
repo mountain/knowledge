@@ -115,7 +115,7 @@
 (fact claim "Albert Einstein" "father" "Hermann Einstein")
 
 (refer-to ["properties.alma_mater"])
-(refer-to ["clazzes.luitpold_gymnasium"])
+(refer-to ["entities.luitpold_gymnasium"])
 (fact claim "Albert Einstein" "alma-mater" "Luitpold Gymnasium")
 (refer-to ["entities.eth_zurich"])
 (fact claim "Albert Einstein" "alma-mater" "ETH Zurich")

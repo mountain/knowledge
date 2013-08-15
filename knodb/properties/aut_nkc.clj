@@ -8,7 +8,7 @@
 (name-as-in "aut-nkc" "" "zh-hant")
 (name-as-in "aut-nkc" "AUT NKC" "zh-hans")
 (name-as-in "aut-nkc" "идентификатор NKC" "ru")
-(name-as-in "aut-nkc" "" "pt")
+(name-as-in "aut-nkc" "AUT NKC" "pt")
 (name-as-in "aut-nkc" "identifiant bibliothèque nationale tchèque" "fr")
 (name-as-in "aut-nkc" "AUT NKC" "es")
 (name-as-in "aut-nkc" "" "ja")

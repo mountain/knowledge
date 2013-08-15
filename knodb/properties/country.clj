@@ -19,7 +19,7 @@
 (descr-as-in "country" "项目所属的主权国" "zh-hans")
 (descr-as-in "country" "суверенное государство этого элемента" "ru")
 (descr-as-in "country" "país ao qual o item pertence" "pt")
-(descr-as-in "country" "État souverain de cet élément" "fr")
+(descr-as-in "country" "État souverain de  cet élément" "fr")
 (descr-as-in "country" "Estado soberano de este elemento" "es")
 (descr-as-in "country" "" "ja")
 (descr-as-in "country" "souveräner Staat, in dem sich das Objekt befindet" "de")

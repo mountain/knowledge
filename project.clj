@@ -8,9 +8,10 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/core.logic "0.8.3"]
                  [http.async.client "0.5.2"]
-                 [cheshire "5.2.0"]]
+                 [cheshire "5.2.0"]
+                 [pldb "0.1.5"]]
 
-  :source-paths ["src" "codegen"]
+  :source-paths ["src" "codegen" "knodb"]
   :test-paths ["test"]
   :resource-paths ["resource"]
 

@@ -8,7 +8,7 @@
 (name-as-in "country-of-citizenship" "國籍" "zh-hant")
 (name-as-in "country-of-citizenship" "国籍" "zh-hans")
 (name-as-in "country-of-citizenship" "гражданство" "ru")
-(name-as-in "country-of-citizenship" "nacionalidade" "pt")
+(name-as-in "country-of-citizenship" "país de cidadania" "pt")
 (name-as-in "country-of-citizenship" "pays de nationalité" "fr")
 (name-as-in "country-of-citizenship" "país de nacionalidad" "es")
 (name-as-in "country-of-citizenship" "国籍" "ja")

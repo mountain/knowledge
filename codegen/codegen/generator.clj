@@ -58,12 +58,12 @@
 
 (defn write-kinds [depth kind]
   (if-not (or (> depth 6) (nil? kind))
-    (with-open [w (clojure.java.io/writer  "src/meta/meta.clj" :append true)]
+    (with-open [w (clojure.java.io/writer  "knodb/meta/meta.clj" :append true)]
       (.write w (str "\n(defrel " (tname kind) " name)\n")))))
 
 (defn write-properties [depth name names descrs]
   (if-not (or (> depth 6) (nil? name))
-    (with-open [w (clojure.java.io/writer  (str "src/properties/" (fname name) ".clj") :append false)]
+    (with-open [w (clojure.java.io/writer  (str "knodb/properties/" (fname name) ".clj") :append false)]
       (.write w (str "(ns properties." (fname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
       (.write w "   (:use clojure.core.logic)\n")
@@ -79,7 +79,7 @@
 
 (defn write-clazz [depth name names descrs kind parents statements]
   (if-not (or (> depth 4) (nil? name) (nil? kind))
-    (with-open [w (clojure.java.io/writer (str "src/clazzes/" (fname name) ".clj") :append false)]
+    (with-open [w (clojure.java.io/writer (str "knodb/clazzes/" (fname name) ".clj") :append false)]
       (.write w (str "(ns clazzes." (fname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
       (.write w "   (:use clojure.core.logic)\n")
@@ -101,7 +101,7 @@
 
 (defn write-entity [depth name names descrs kind clazzes statements]
   (if-not (or (> depth 4) (nil? name) (nil? kind))
-    (with-open [w (clojure.java.io/writer  (str "src/entities/" (fname name) ".clj") :append false)]
+    (with-open [w (clojure.java.io/writer  (str "knodb/entities/" (fname name) ".clj") :append false)]
       (.write w (str "(ns entities." (fname name) "\n"))
       (.write w "   (:refer-clojure :exclude [==])\n")
       (.write w "   (:use clojure.core.logic)\n")
