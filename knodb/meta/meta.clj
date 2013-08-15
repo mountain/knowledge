@@ -25,35 +25,3 @@
 (defrel Organization name)
 
 (defrel Geographical-feature name)
-
-(defrel Term name)
-
-(defrel Term name)
-
-(defrel Term name)
-
-(defrel Term name)
-
-(defrel Term name)
-
-(defrel Person name)
-
-(defrel Geographical-feature name)
-
-(defrel Organization name)
-
-(defrel Term name)
-
-(defrel Term name)
-
-(defrel Term name)
-
-(defrel Term name)
-
-(defrel Term name)
-
-(defrel Person name)
-
-(defrel Geographical-feature name)
-
-(defrel Organization name)
