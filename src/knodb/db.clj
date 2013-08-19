@@ -2,11 +2,14 @@
   (:use pldb))
 
 ; dictionaries for names and descriptions in different languages
-(def ^{:private true} langs [:en :de :ja :es :fr :pt :ru :zh-hans :zh-hant])
+(def ^{:private true} langs [:en :de :ja :es :fr :pt :ru :zh-hans :zh-hant :zh-cn :zh-sg :zh-tw :zh-hk])
 (def ^{:private true} names (zipmap langs (map #(atom {}) langs)))
 (def ^{:private true} aliases (zipmap langs (map #(atom {}) langs)))
 (def ^{:private true} descrs (zipmap langs (map #(atom {}) langs)))
 (def ^{:private true} kinds #(atom {}))
+
+; Default DB
+(def ^{:private true} db pldb/empty-db)
 
 ; Follow OWL's terminology
 ; http://www.w3.org/TR/owl-guide/
@@ -55,13 +58,16 @@
   (doseq [[lang ldescr] (apply array-map descrs)]
     (swap! (get descrs lang) assoc id ldescr)))
 
-(def ^{:private true} db pldb/empty-db)
+; Default depth
+(def ^{:private true} depth 0)
 
 ; loading with different plocies for properties, individuals and classes
-(defn- load [limits depth entry])
+(defn- load [limits depth entry]
+  (if-not (> depth limits)
+    (use entry)))
 
 ; claim statements with auto-loading
 (defn claim [subj pred obj]
-  (load pred)
-  (load obj)
+  (load 6 (inc depth) pred)
+  (load 6 (inc (inc depth)) obj)
   (statement subj pred obj))
