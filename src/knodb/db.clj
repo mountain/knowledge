@@ -26,7 +26,7 @@
 ; An empty db
 (def ^{:private true} db pldb/empty-db)
 
-; primitives to define different entities
+; Primitives to define different entities
 ; following OWL's terminology
 (defn Individual [id names aliases descrs & more]
   ((pldb/db-fact individual id) db)
@@ -61,12 +61,13 @@
 ; Default depth
 (def ^{:private true} depth 0)
 
-; loading with different plocies for properties, individuals and classes
+; Primitives for loading
 (defn- load [limits depth entry]
   (if-not (> depth limits)
     (use entry)))
 
 ; claim statements with auto-loading
+; loading with different plocies for properties, individuals and classes
 (defn claim [subj pred obj]
   (load 6 (inc depth) pred)
   (load 6 (inc (inc depth)) obj)
