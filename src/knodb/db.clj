@@ -66,7 +66,7 @@
   (if-not (> depth limits)
     (use entry)))
 
-; claim statements with auto-loading
+; Claim statements with auto-loading
 ; loading with different plocies for properties, individuals and classes
 (defn claim [subj pred obj]
   (load 6 (inc depth) pred)
