@@ -1,0 +1,47 @@
+(ns clazzes.großstadt
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Term "Großstadt")
+
+(name-as-in "Großstadt" "Großstadt" "de")
+(name-as-in "Großstadt" "" "zh-hk")
+(name-as-in "Großstadt" "" "zh-tw")
+(name-as-in "Großstadt" "город с населением более 100 000 человек" "ru")
+(name-as-in "Großstadt" "" "pt")
+(name-as-in "Großstadt" "Großstadt" "en")
+(name-as-in "Großstadt" "" "zh-cn")
+(name-as-in "Großstadt" "Großstadt" "fr")
+(name-as-in "Großstadt" "" "es")
+(name-as-in "Großstadt" "" "zh-sg")
+(name-as-in "Großstadt" "10万都市" "ja")
+(name-as-in "Großstadt" "大城市" "zh-hans")
+(name-as-in "Großstadt" "大城市" "zh-hant")
+
+(descr-as-in "Großstadt" "Stadt mit mindestens 100.000 Einwohnern" "de")
+(descr-as-in "Großstadt" "" "zh-hk")
+(descr-as-in "Großstadt" "" "zh-tw")
+(descr-as-in "Großstadt" "" "ru")
+(descr-as-in "Großstadt" "" "pt")
+(descr-as-in "Großstadt" "city with a population of over 100.000" "en")
+(descr-as-in "Großstadt" "" "zh-cn")
+(descr-as-in "Großstadt" "ville de plus de 100 000 habitants" "fr")
+(descr-as-in "Großstadt" "" "es")
+(descr-as-in "Großstadt" "" "zh-sg")
+(descr-as-in "Großstadt" "10万人以上の人口をもつ都市" "ja")
+(descr-as-in "Großstadt" "" "zh-hans")
+(descr-as-in "Großstadt" "" "zh-hant")
+
+
+(refer-to ["properties.subclass_of"])
+(refer-to ["clazzes.city"])
+(fact claim "Großstadt" "subclass-of" "city")
+
+(refer-to ["properties.image"])
+(fact claim "Großstadt" "image" "NYC-Skyline-1.jpg")
+(fact claim "Großstadt" "image" "Vienna 20021024.JPG")
+
+(refer-to ["properties.main_type_gnd"])
+(refer-to ["clazzes.term"])
+(fact claim "Großstadt" "main-type-gnd" "term")
