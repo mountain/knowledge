@@ -5,33 +5,25 @@
 
 (fact Geographical-feature "Milan")
 
-(name-as-in "Milan" "Mailand" "de")
-(name-as-in "Milan" "" "zh-hk")
-(name-as-in "Milan" "" "zh-tw")
+(name-as-in "Milan" "米蘭" "zh-hant")
+(name-as-in "Milan" "米兰" "zh-hans")
 (name-as-in "Milan" "Милан" "ru")
 (name-as-in "Milan" "Milão" "pt")
-(name-as-in "Milan" "Milan" "en")
-(name-as-in "Milan" "" "zh-cn")
 (name-as-in "Milan" "Milan" "fr")
 (name-as-in "Milan" "Milán" "es")
-(name-as-in "Milan" "" "zh-sg")
 (name-as-in "Milan" "ミラノ" "ja")
-(name-as-in "Milan" "米兰" "zh-hans")
-(name-as-in "Milan" "米蘭" "zh-hant")
+(name-as-in "Milan" "Mailand" "de")
+(name-as-in "Milan" "Milan" "en")
 
-(descr-as-in "Milan" "italienische Großstadt, Hauptstadt der Provinz Mailand" "de")
-(descr-as-in "Milan" "" "zh-hk")
-(descr-as-in "Milan" "" "zh-tw")
+(descr-as-in "Milan" "" "zh-hant")
+(descr-as-in "Milan" "" "zh-hans")
 (descr-as-in "Milan" "коммуна Италии" "ru")
 (descr-as-in "Milan" "comuna italiana" "pt")
-(descr-as-in "Milan" "second-largest city in Italy" "en")
-(descr-as-in "Milan" "" "zh-cn")
 (descr-as-in "Milan" "ville d'Italie" "fr")
 (descr-as-in "Milan" "ciudad de Italia" "es")
-(descr-as-in "Milan" "" "zh-sg")
 (descr-as-in "Milan" "コムーネ" "ja")
-(descr-as-in "Milan" "" "zh-hans")
-(descr-as-in "Milan" "" "zh-hant")
+(descr-as-in "Milan" "italienische Großstadt, Hauptstadt der Provinz Mailand" "de")
+(descr-as-in "Milan" "second-largest city in Italy" "en")
 
 
 (refer-to ["properties.local_dialing_code"])
@@ -41,8 +33,8 @@
 (fact claim "Milan" "locator-map-image" "Map of comune of Milan (province of Milan, region Lombardy, Italy).svg")
 
 (refer-to ["properties.type_of_administrative_division"])
-(refer-to ["clazzes.comune_of_italy"])
-(fact claim "Milan" "type-of-administrative-division" "comune of Italy")
+(refer-to ["clazzes.comune"])
+(fact claim "Milan" "type-of-administrative-division" "comune")
 
 (refer-to ["properties.iso_3166_2"])
 (fact claim "Milan" "iso-3166-2" "IT-MI")
@@ -74,7 +66,7 @@
 (fact claim "Milan" "main-type-gnd" "geographical feature")
 
 (refer-to ["properties.coordinate_location"])
-(fact claim "Milan" "coordinate-location" "lng 9.1903361111111 lat 45.464161111111 alt ")
+(fact claim "Milan" "coordinate-location" "lng 9.1666666666667 lat 45.466666666667 alt ")
 
 (refer-to ["properties.patron_saint"])
 (refer-to ["entities.ambrose"])
@@ -85,9 +77,6 @@
 
 (refer-to ["properties.flag_image"])
 (fact claim "Milan" "flag-image" "Flag of Milan.svg")
-
-(refer-to ["properties.italian_cadastre_code"])
-(fact claim "Milan" "italian-cadastre-code" "F205")
 
 (refer-to ["properties.instance_of"])
 (refer-to ["clazzes.city_with_millions_of_inhabitants"])
@@ -142,9 +131,6 @@
 (refer-to ["properties.country"])
 (refer-to ["entities.italy"])
 (fact claim "Milan" "country" "Italy")
-
-(refer-to ["properties.image"])
-(fact claim "Milan" "image" "Grande Milano (SRN 7A).jpg")
 
 (refer-to ["properties.twin_city"])
 (refer-to ["entities.são_paulo_city"])

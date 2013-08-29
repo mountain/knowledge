@@ -1,6 +1,6 @@
 (ns codegen.main
-  (:use codegen.crawler)
+  (:use codegen.generator)
   (:gen-class))
 
 (defn -main []
-  (visit-entity 0 "Q937"))
+  (genq 0 "Q937"))
