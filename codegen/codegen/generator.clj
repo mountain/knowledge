@@ -1,5 +1,4 @@
 (ns codegen.generator
-  (:require [http.async.client :as http])
   (:require [cheshire.core :refer :all])
   (:require [clojure.string :as string]))
 
@@ -13,7 +12,9 @@
               (.replaceAll
                 (.replaceAll
                   (.replaceAll
-                    (.replaceAll (.toLowerCase label) " " "_")
+                    (.replaceAll
+                      (.replaceAll (.toLowerCase label) " " "_")
+                      "'" "")
                   "-" "_")
                 "\\(" "")
               "\\)" "")

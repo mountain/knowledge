@@ -1,9 +1,12 @@
 (ns codegen.crawler
-  (:require [http.async.client :as http])
+  (:require [clj-http.client :as http])
+  (:require [clj-http.cookies :as cookies])
   (:require [cheshire.core :refer :all])
   (:require [clojure.string :as string])
   (:require [codegen.parser :as parser])
   (:require [codegen.generator :as gen]))
+
+(def cs (cookies/cookie-store))
 
 (def ftable (atom {}))
 
@@ -19,16 +22,13 @@
 
 (def namecache (atom {}))
 
-(def languages ["en" "de" "ja" "es" "fr" "pt" "ru" "zh" "zh-hans" "zh-hant" "zh-cn" "zh-sg" "zh-tw" "zh-hk"])
+(def languages ["en" "de" "ja" "es" "fr" "pt" "ru" "zh-cn" "zh-sg" "zh-tw" "zh-hk"])
 
 (defn fetch [id]
   (if-not (nil? id)
-    (with-open [client (http/create-client)]
-      (let [response (http/GET client
-        (str "https://www.wikidata.org/wiki/Special:EntityData/" (string/capitalize id) ".json"))]
-        (parse-string (-> response
-          http/await
-          http/string))))))
+    (let [{:keys [status headers body error] :as resp}
+          (http/get (str "https://www.wikidata.org/wiki/Special:EntityData/" (string/capitalize id) ".json") {:cookie-store cs})]
+      (if-not error (do (println "get" id) (get-in (parse-string body) ["entities" id]))))))
 
 (defn resolve-entity [generator writer default depth id]
   (if-let [entry (find @namecache id)]
@@ -66,7 +66,7 @@
 (defn visit-entity [depth id]
   (if-let [entry (find @namecache id)]
     (val entry)
-    (if (> depth 6)
+    (if (> depth 3)
       id
       (let [data    (fetch id)
             name    (parser/get-name "en" data)
@@ -79,6 +79,7 @@
             pids    (parser/parents-of data)
             parents (map #(resolve-entity visit-entity gen/write-clazz %1 (inc depth) %1) pids)
             claims  (expand-claims (inc (inc depth)) name (get data "claims"))]
+        (println name)
         (if-not (nil? name)
           (do
             (swap! namecache assoc id name)

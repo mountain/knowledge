@@ -35,7 +35,7 @@
     (str "Q" id)))
 
 (defn kind-of [data]
-  (get-entity-id (first (get-in data ["claims" "p107"]))))
+  (get-entity-id (first (get-in data ["claims" "p31"]))))
 
 (defn clazzes-of [data]
   (map get-entity-id (get-in data ["claims" "p31"])))
