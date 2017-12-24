@@ -79,11 +79,10 @@
             pids    (parser/parents-of data)
             parents (map #(resolve-entity visit-entity gen/write-clazz %1 (inc depth) %1) pids)
             claims  (expand-claims (inc (inc depth)) name (get data "claims"))]
-        (println name)
         (if-not (nil? name)
           (do
             (swap! namecache assoc id name)
-            (if-not (or (= kind "term") (not (empty parents)))
+            (if-not (or (= kind "Term") (not (empty parents)))
               (do
                 (gen/set-package name "entities")
                 (gen/write-entity depth name names descrs kind clazzes claims))
@@ -91,7 +90,7 @@
                 (gen/set-package name "clazzes")
                 (gen/write-clazz depth name names descrs kind parents claims)))
             name)
-          id)))))
+          name)))))
 
 (register "time" #(parser/get-time %2))
 (register "globecoordinate"  #(parser/get-geo-pos %2))

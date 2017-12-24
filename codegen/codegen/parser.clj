@@ -35,10 +35,10 @@
     (str "Q" id)))
 
 (defn kind-of [data]
-  (get-entity-id (first (get-in data ["claims" "p31"]))))
+  (get-entity-id (first (get-in data ["claims" "P31"]))))
 
 (defn clazzes-of [data]
-  (map get-entity-id (get-in data ["claims" "p31"])))
+  (map get-entity-id (get-in data ["claims" "P31"])))
 
 (defn parents-of [data]
-  (map get-entity-id (get-in data ["claims" "p279"])))
+  (map get-entity-id (get-in data ["claims" "P279"])))
