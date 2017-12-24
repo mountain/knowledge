@@ -13,3 +13,7 @@ pom.xml
 *.iml
 
 .nrepl-port
+
+knodb/entities/
+knodb/properties/
+knodb/clazzes/
