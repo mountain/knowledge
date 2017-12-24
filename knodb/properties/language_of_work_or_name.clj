@@ -1,0 +1,31 @@
+(ns properties.language_of_work_or_name
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "language-of-work-or-name")
+
+(name-as-in "language-of-work-or-name" "作品或名字的語言" "zh-hk")
+(name-as-in "language-of-work-or-name" "língua da obra ou do nome" "pt")
+(name-as-in "language-of-work-or-name" "language of work or name" "en")
+(name-as-in "language-of-work-or-name" "langue de l'œuvre (ou du nom)" "fr")
+(name-as-in "language-of-work-or-name" "作品或名字的語言" "zh-tw")
+(name-as-in "language-of-work-or-name" "Sprache des Werks, des Namens oder des Begriffes" "de")
+(name-as-in "language-of-work-or-name" "язык произведения или названия" "ru")
+(name-as-in "language-of-work-or-name" "idioma de la obra o del nombre" "es")
+(name-as-in "language-of-work-or-name" "作品の言語" "ja")
+(name-as-in "language-of-work-or-name" "作品或名字的语言" "zh-cn")
+(name-as-in "language-of-work-or-name" "作品或名字的语言" "zh-sg")
+
+(descr-as-in "language-of-work-or-name" "與此作品或名字有關的語言（人物請使用P103與P1412）" "zh-hk")
+(descr-as-in "language-of-work-or-name" "língua de uma obra (para língua original, usar P364) ou de um nome" "pt")
+(descr-as-in "language-of-work-or-name" "language associated with this work or name (for persons use P103 and P1412)" "en")
+(descr-as-in "language-of-work-or-name" "pour personnes utiliser P103 et P1412" "fr")
+(descr-as-in "language-of-work-or-name" "與此作品或名字有關的語言（人物請使用P103與P1412）" "zh-tw")
+(descr-as-in "language-of-work-or-name" "für Personen benutze P103 und P1412" "de")
+(descr-as-in "language-of-work-or-name" "для работ (P103 и P1412 для персоналий)" "ru")
+(descr-as-in "language-of-work-or-name" "idioma de la obra, edición o traducción (para personas úsese P103 y P1412)" "es")
+(descr-as-in "language-of-work-or-name" "作品の使用言語（原語である必要はない。原語はP364で示すことができる。また人についてはP103やP1412を使用する）" "ja")
+(descr-as-in "language-of-work-or-name" "与此作品或名字有关的语言（人物请使用P103和P1412）" "zh-cn")
+(descr-as-in "language-of-work-or-name" "与此作品或名字有关的语言（人物请使用P103和P1412）" "zh-sg")
+

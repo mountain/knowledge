@@ -1,0 +1,31 @@
+(ns properties.collage_image
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "collage-image")
+
+(name-as-in "collage-image" "" "zh-hk")
+(name-as-in "collage-image" "imagem de colagem" "pt")
+(name-as-in "collage-image" "collage image" "en")
+(name-as-in "collage-image" "collage d'images" "fr")
+(name-as-in "collage-image" "" "zh-tw")
+(name-as-in "collage-image" "Fotocollage" "de")
+(name-as-in "collage-image" "коллаж" "ru")
+(name-as-in "collage-image" "fotomontaje" "es")
+(name-as-in "collage-image" "コラージュ画像" "ja")
+(name-as-in "collage-image" "" "zh-cn")
+(name-as-in "collage-image" "" "zh-sg")
+
+(descr-as-in "collage-image" "" "zh-hk")
+(descr-as-in "collage-image" "" "pt")
+(descr-as-in "collage-image" "image file that assembles two or more other images of item" "en")
+(descr-as-in "collage-image" "" "fr")
+(descr-as-in "collage-image" "" "zh-tw")
+(descr-as-in "collage-image" "Bild, das aus zwei oder mehr Bildern zusammengesetzt wurde" "de")
+(descr-as-in "collage-image" "" "ru")
+(descr-as-in "collage-image" "imagen que combina dos o más imágenes del elemento" "es")
+(descr-as-in "collage-image" "項目についての2つ以上の画像を貼り合わせたもの" "ja")
+(descr-as-in "collage-image" "" "zh-cn")
+(descr-as-in "collage-image" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.mountain_range
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "mountain-range")
+
+(name-as-in "mountain-range" "" "zh-hk")
+(name-as-in "mountain-range" "cordilheira" "pt")
+(name-as-in "mountain-range" "mountain range" "en")
+(name-as-in "mountain-range" "chaîne ou massif de montagnes" "fr")
+(name-as-in "mountain-range" "" "zh-tw")
+(name-as-in "mountain-range" "Gebirgszug" "de")
+(name-as-in "mountain-range" "горный хребет" "ru")
+(name-as-in "mountain-range" "cordillera" "es")
+(name-as-in "mountain-range" "山脈" "ja")
+(name-as-in "mountain-range" "" "zh-cn")
+(name-as-in "mountain-range" "" "zh-sg")
+
+(descr-as-in "mountain-range" "" "zh-hk")
+(descr-as-in "mountain-range" "" "pt")
+(descr-as-in "mountain-range" "range or subrange to which the geographical item belongs" "en")
+(descr-as-in "mountain-range" "chaînon, chaîne ou massif duquel relève l'élément géographique" "fr")
+(descr-as-in "mountain-range" "" "zh-tw")
+(descr-as-in "mountain-range" "Folge hoher Berggipfel oder eine zusammenhängende Bergkette innerhalb eines größeren Gebirges" "de")
+(descr-as-in "mountain-range" "" "ru")
+(descr-as-in "mountain-range" "cordillera o cadena montañosa a la cual pertenece el elemento geográfico" "es")
+(descr-as-in "mountain-range" "項目が属する山脈・連山" "ja")
+(descr-as-in "mountain-range" "" "zh-cn")
+(descr-as-in "mountain-range" "" "zh-sg")
+

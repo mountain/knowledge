@@ -1,0 +1,31 @@
+(ns properties.catholic_encyclopedia_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "catholic-encyclopedia-id")
+
+(name-as-in "catholic-encyclopedia-id" "" "zh-hk")
+(name-as-in "catholic-encyclopedia-id" "" "pt")
+(name-as-in "catholic-encyclopedia-id" "Catholic Encyclopedia ID" "en")
+(name-as-in "catholic-encyclopedia-id" "identifiant Catholic Encyclopedia" "fr")
+(name-as-in "catholic-encyclopedia-id" "" "zh-tw")
+(name-as-in "catholic-encyclopedia-id" "" "de")
+(name-as-in "catholic-encyclopedia-id" "код Католической энциклопедии" "ru")
+(name-as-in "catholic-encyclopedia-id" "identificador Catholic Encyclopedia" "es")
+(name-as-in "catholic-encyclopedia-id" "" "ja")
+(name-as-in "catholic-encyclopedia-id" "" "zh-cn")
+(name-as-in "catholic-encyclopedia-id" "" "zh-sg")
+
+(descr-as-in "catholic-encyclopedia-id" "" "zh-hk")
+(descr-as-in "catholic-encyclopedia-id" "" "pt")
+(descr-as-in "catholic-encyclopedia-id" "page of an article on newadvent.org" "en")
+(descr-as-in "catholic-encyclopedia-id" "page d'un article sur newadvent.org" "fr")
+(descr-as-in "catholic-encyclopedia-id" "" "zh-tw")
+(descr-as-in "catholic-encyclopedia-id" "" "de")
+(descr-as-in "catholic-encyclopedia-id" "" "ru")
+(descr-as-in "catholic-encyclopedia-id" "página de un artículo en newadvent.org" "es")
+(descr-as-in "catholic-encyclopedia-id" "" "ja")
+(descr-as-in "catholic-encyclopedia-id" "" "zh-cn")
+(descr-as-in "catholic-encyclopedia-id" "" "zh-sg")
+

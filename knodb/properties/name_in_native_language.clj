@@ -1,0 +1,31 @@
+(ns properties.name_in_native_language
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "name-in-native-language")
+
+(name-as-in "name-in-native-language" "母語人名" "zh-hk")
+(name-as-in "name-in-native-language" "nome no idioma nativo" "pt")
+(name-as-in "name-in-native-language" "name in native language" "en")
+(name-as-in "name-in-native-language" "nom dans la langue maternelle de la personne" "fr")
+(name-as-in "name-in-native-language" "母語人名" "zh-tw")
+(name-as-in "name-in-native-language" "Name in Muttersprache" "de")
+(name-as-in "name-in-native-language" "имя на родном языке" "ru")
+(name-as-in "name-in-native-language" "nombre en el idioma nativo" "es")
+(name-as-in "name-in-native-language" "母語表記" "ja")
+(name-as-in "name-in-native-language" "母语人名" "zh-cn")
+(name-as-in "name-in-native-language" "母语人名" "zh-sg")
+
+(descr-as-in "name-in-native-language" "某人在母語中的名稱" "zh-hk")
+(descr-as-in "name-in-native-language" "" "pt")
+(descr-as-in "name-in-native-language" "name of a person in their native language. Could be displayed in addition to the label, if language has a different script." "en")
+(descr-as-in "name-in-native-language" "nom d'une personne dans sa langue maternelle" "fr")
+(descr-as-in "name-in-native-language" "某人在母語中的名稱" "zh-tw")
+(descr-as-in "name-in-native-language" "Name einer Person in ihrer Muttersprache" "de")
+(descr-as-in "name-in-native-language" "текущее имя персоны на её родном языке" "ru")
+(descr-as-in "name-in-native-language" "nombre de una persona en su idioma nativo, para otro tipo de elementos úsese nombre nativo (P1705)" "es")
+(descr-as-in "name-in-native-language" "人物の母語 (native language) による名前" "ja")
+(descr-as-in "name-in-native-language" "某人在母语中的名称" "zh-cn")
+(descr-as-in "name-in-native-language" "某人在母语中的名称" "zh-sg")
+

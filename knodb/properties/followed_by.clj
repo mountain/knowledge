@@ -1,0 +1,31 @@
+(ns properties.followed_by
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "followed-by")
+
+(name-as-in "followed-by" "下一項" "zh-hk")
+(name-as-in "followed-by" "sucedido por" "pt")
+(name-as-in "followed-by" "followed by" "en")
+(name-as-in "followed-by" "suivi par" "fr")
+(name-as-in "followed-by" "下一項" "zh-tw")
+(name-as-in "followed-by" "Nachfolger" "de")
+(name-as-in "followed-by" "следующее по порядку" "ru")
+(name-as-in "followed-by" "sucedido por" "es")
+(name-as-in "followed-by" "次" "ja")
+(name-as-in "followed-by" "下一项" "zh-cn")
+(name-as-in "followed-by" "下一项" "zh-sg")
+
+(descr-as-in "followed-by" "某主題中的下一個項目" "zh-hk")
+(descr-as-in "followed-by" "Item seguinte numa série (ex.: filmes, livros, etc.). Use P1366 (substituído por) quando o item é substituído (p./ex: cargos políticos, estados, etc.). Use P167 (estrutura substituída por) para estruturas." "pt")
+(descr-as-in "followed-by" "immediately following item in some series of which the subject is part. Use P1366 (replaced by) if the item is replaced, e.g. political offices, states" "en")
+(descr-as-in "followed-by" "successeur immédiat dans la série dont fait partie l'élément ; utiliser P1366 (remplacé par) si l'élément est remplacé (élu, etc.)" "fr")
+(descr-as-in "followed-by" "某主題中的下一個項目" "zh-tw")
+(descr-as-in "followed-by" "unmittelbarer Nachfolger eines Datenobjekts in einer Serie. Verwende P1366 (ersetzt durch), wenn das Nachfolgeobjekt diese ersetzt, z.B. Ämter, geographische Einheiten und keine Identität zwischen geografischem Vorgänger- und Nachfolgeobjekt besteht" "de")
+(descr-as-in "followed-by" "элемент, непосредственно идущий после данного в некоторой череде элементов. Используйте P1366 для политических должностей, государств и организаций" "ru")
+(descr-as-in "followed-by" "inmediato sucesor en alguna serie de la cual forma parte el elemento" "es")
+(descr-as-in "followed-by" "この項目が含まれる一連でこの次の順序にある項目。置き換わるもの（役職等）の次代はP1366を使用。" "ja")
+(descr-as-in "followed-by" "某主题中的下一个项目" "zh-cn")
+(descr-as-in "followed-by" "某主题中的下一个项目" "zh-sg")
+

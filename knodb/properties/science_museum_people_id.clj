@@ -1,0 +1,31 @@
+(ns properties.science_museum_people_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "science-museum-people-id")
+
+(name-as-in "science-museum-people-id" "" "zh-hk")
+(name-as-in "science-museum-people-id" "" "pt")
+(name-as-in "science-museum-people-id" "Science Museum people ID" "en")
+(name-as-in "science-museum-people-id" "identifiant Science Museum d'une personne" "fr")
+(name-as-in "science-museum-people-id" "" "zh-tw")
+(name-as-in "science-museum-people-id" "Science-Museum-Personenkennung" "de")
+(name-as-in "science-museum-people-id" "" "ru")
+(name-as-in "science-museum-people-id" "identificador Science Museum" "es")
+(name-as-in "science-museum-people-id" "" "ja")
+(name-as-in "science-museum-people-id" "" "zh-cn")
+(name-as-in "science-museum-people-id" "" "zh-sg")
+
+(descr-as-in "science-museum-people-id" "" "zh-hk")
+(descr-as-in "science-museum-people-id" "" "pt")
+(descr-as-in "science-museum-people-id" "identifier of a person or organisation on the website of the Science Museum Group" "en")
+(descr-as-in "science-museum-people-id" "identifiant d'une personne ou d'une organisation sur le site web du Science Museum Group" "fr")
+(descr-as-in "science-museum-people-id" "" "zh-tw")
+(descr-as-in "science-museum-people-id" "Identifikator einer Person oder Organisation auf der Website des Londoner Science Museum" "de")
+(descr-as-in "science-museum-people-id" "" "ru")
+(descr-as-in "science-museum-people-id" "" "es")
+(descr-as-in "science-museum-people-id" "" "ja")
+(descr-as-in "science-museum-people-id" "" "zh-cn")
+(descr-as-in "science-museum-people-id" "" "zh-sg")
+

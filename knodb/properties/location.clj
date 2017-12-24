@@ -1,0 +1,31 @@
+(ns properties.location
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "location")
+
+(name-as-in "location" "位置" "zh-hk")
+(name-as-in "location" "localização" "pt")
+(name-as-in "location" "location" "en")
+(name-as-in "location" "lieu" "fr")
+(name-as-in "location" "位置" "zh-tw")
+(name-as-in "location" "Ort" "de")
+(name-as-in "location" "местонахождение" "ru")
+(name-as-in "location" "ubicación" "es")
+(name-as-in "location" "場所" "ja")
+(name-as-in "location" "位置" "zh-cn")
+(name-as-in "location" "位置" "zh-sg")
+
+(descr-as-in "location" "" "zh-hk")
+(descr-as-in "location" "local onde se situa um objeto móvel ou onde ocorre um evento" "pt")
+(descr-as-in "location" "location of the item, physical object or event is within. In case of an administrative entity use P131. In case of a distinct terrain feature use P706." "en")
+(descr-as-in "location" "endroit où se situe l'objet, la structure ou l'événement. Dans le cas d'une entité administrative utiliser P131. Dans le cas d'une entité géographique utiliser P706." "fr")
+(descr-as-in "location" "" "zh-tw")
+(descr-as-in "location" "Stand- oder Aufbewahrungsort eines Objekts; Ort eines Ereignisses. Für administrative Einheiten benutze P131, für topographische Zwecke benutze P706" "de")
+(descr-as-in "location" "географическое положение объекта или место события. Используйте P131 в случае административной единицы, P706 — в случае элемента ландшафта, водоёма." "ru")
+(descr-as-in "location" "ubicación donde el elemento, objeto físico o evento se encuentra. En caso de una entidad administrativa úsese P131. En caso de una entidad de carácter geográfico-físico úsese P706." "es")
+(descr-as-in "location" "移動可能な物の所在地、出来事の発生地。（行政区画はP131、地形はP706を使用）" "ja")
+(descr-as-in "location" "" "zh-cn")
+(descr-as-in "location" "" "zh-sg")
+

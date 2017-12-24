@@ -1,0 +1,31 @@
+(ns properties.office_held_by_head_of_government
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "office-held-by-head-of-government")
+
+(name-as-in "office-held-by-head-of-government" "政府首腦職位" "zh-hk")
+(name-as-in "office-held-by-head-of-government" "" "pt")
+(name-as-in "office-held-by-head-of-government" "office held by head of government" "en")
+(name-as-in "office-held-by-head-of-government" "poste occupé par le chef de l'exécutif" "fr")
+(name-as-in "office-held-by-head-of-government" "政府首腦職位" "zh-tw")
+(name-as-in "office-held-by-head-of-government" "oberstes Regierungsamt" "de")
+(name-as-in "office-held-by-head-of-government" "должность главы правительства" "ru")
+(name-as-in "office-held-by-head-of-government" "cargo ocupado por el jefe de gobierno" "es")
+(name-as-in "office-held-by-head-of-government" "政府の長の職" "ja")
+(name-as-in "office-held-by-head-of-government" "政府首脑职位" "zh-cn")
+(name-as-in "office-held-by-head-of-government" "政府首脑职位" "zh-sg")
+
+(descr-as-in "office-held-by-head-of-government" "" "zh-hk")
+(descr-as-in "office-held-by-head-of-government" "" "pt")
+(descr-as-in "office-held-by-head-of-government" "political office that is fulfilled by the head of the government of this item" "en")
+(descr-as-in "office-held-by-head-of-government" "fonction politique remplie par le chef du gouvernement de cet item" "fr")
+(descr-as-in "office-held-by-head-of-government" "" "zh-tw")
+(descr-as-in "office-held-by-head-of-government" "das Amt des Leiters einer Regierung" "de")
+(descr-as-in "office-held-by-head-of-government" "" "ru")
+(descr-as-in "office-held-by-head-of-government" "función política cubierta por el jefe de gobierno de este elemento" "es")
+(descr-as-in "office-held-by-head-of-government" "" "ja")
+(descr-as-in "office-held-by-head-of-government" "" "zh-cn")
+(descr-as-in "office-held-by-head-of-government" "" "zh-sg")
+

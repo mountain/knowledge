@@ -1,0 +1,31 @@
+(ns properties.dialnet_author_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "dialnet-author-id")
+
+(name-as-in "dialnet-author-id" "" "zh-hk")
+(name-as-in "dialnet-author-id" "" "pt")
+(name-as-in "dialnet-author-id" "Dialnet author ID" "en")
+(name-as-in "dialnet-author-id" "identifiant Dialnet d'un auteur" "fr")
+(name-as-in "dialnet-author-id" "" "zh-tw")
+(name-as-in "dialnet-author-id" "Dialnet-Autor-ID" "de")
+(name-as-in "dialnet-author-id" "автор Dialnet" "ru")
+(name-as-in "dialnet-author-id" "identificador Dialnet de autor" "es")
+(name-as-in "dialnet-author-id" "" "ja")
+(name-as-in "dialnet-author-id" "" "zh-cn")
+(name-as-in "dialnet-author-id" "" "zh-sg")
+
+(descr-as-in "dialnet-author-id" "" "zh-hk")
+(descr-as-in "dialnet-author-id" "" "pt")
+(descr-as-in "dialnet-author-id" "identifier for an author in Dialnet" "en")
+(descr-as-in "dialnet-author-id" "" "fr")
+(descr-as-in "dialnet-author-id" "" "zh-tw")
+(descr-as-in "dialnet-author-id" "" "de")
+(descr-as-in "dialnet-author-id" "" "ru")
+(descr-as-in "dialnet-author-id" "identificador de autor en Dialnet" "es")
+(descr-as-in "dialnet-author-id" "" "ja")
+(descr-as-in "dialnet-author-id" "" "zh-cn")
+(descr-as-in "dialnet-author-id" "" "zh-sg")
+

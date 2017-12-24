@@ -1,0 +1,31 @@
+(ns properties.structurae_id_structure
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "structurae-id-structure")
+
+(name-as-in "structurae-id-structure" "Structurae 編碼" "zh-hk")
+(name-as-in "structurae-id-structure" "identificador Structurae" "pt")
+(name-as-in "structurae-id-structure" "Structurae ID (structure)" "en")
+(name-as-in "structurae-id-structure" "identifiant Structurae de la structure" "fr")
+(name-as-in "structurae-id-structure" "" "zh-tw")
+(name-as-in "structurae-id-structure" "Structurae (Gebäude)" "de")
+(name-as-in "structurae-id-structure" "идентификатор Structurae" "ru")
+(name-as-in "structurae-id-structure" "identificador Structurae" "es")
+(name-as-in "structurae-id-structure" "Structurae" "ja")
+(name-as-in "structurae-id-structure" "" "zh-cn")
+(name-as-in "structurae-id-structure" "" "zh-sg")
+
+(descr-as-in "structurae-id-structure" "" "zh-hk")
+(descr-as-in "structurae-id-structure" "" "pt")
+(descr-as-in "structurae-id-structure" "identifier for a building in the Structurae database" "en")
+(descr-as-in "structurae-id-structure" "identifiant d'un bâtiment dans la base de données Structurae" "fr")
+(descr-as-in "structurae-id-structure" "" "zh-tw")
+(descr-as-in "structurae-id-structure" "ID in der internationalen Datenbank für Ingenieurbauwerke Structurae" "de")
+(descr-as-in "structurae-id-structure" "идентификатор строения в базе данных Structurae" "ru")
+(descr-as-in "structurae-id-structure" "identificador de un edificio en la base de datos de Structurae (s + 7 dígitos)" "es")
+(descr-as-in "structurae-id-structure" "Structuraeデータベースにおけるこの建築物のID（s+7桁の数字）" "ja")
+(descr-as-in "structurae-id-structure" "" "zh-cn")
+(descr-as-in "structurae-id-structure" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.encyclopedia_of_australian_science_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "encyclopedia-of-australian-science-id")
+
+(name-as-in "encyclopedia-of-australian-science-id" "" "zh-hk")
+(name-as-in "encyclopedia-of-australian-science-id" "" "pt")
+(name-as-in "encyclopedia-of-australian-science-id" "Encyclopedia of Australian Science ID" "en")
+(name-as-in "encyclopedia-of-australian-science-id" "identifiant Encyclopedia of Australian Science" "fr")
+(name-as-in "encyclopedia-of-australian-science-id" "" "zh-tw")
+(name-as-in "encyclopedia-of-australian-science-id" "" "de")
+(name-as-in "encyclopedia-of-australian-science-id" "" "ru")
+(name-as-in "encyclopedia-of-australian-science-id" "" "es")
+(name-as-in "encyclopedia-of-australian-science-id" "" "ja")
+(name-as-in "encyclopedia-of-australian-science-id" "" "zh-cn")
+(name-as-in "encyclopedia-of-australian-science-id" "" "zh-sg")
+
+(descr-as-in "encyclopedia-of-australian-science-id" "" "zh-hk")
+(descr-as-in "encyclopedia-of-australian-science-id" "" "pt")
+(descr-as-in "encyclopedia-of-australian-science-id" "identifier for a person or organisation in the Encyclopedia of Australian Science, an online compilation of biographical data about Australian scientists and their organisations" "en")
+(descr-as-in "encyclopedia-of-australian-science-id" "identifiant pour une personne ou une organisation dans Encyclopedia of Australian Science, une compilation en ligne de données biographiques sur des scientifiques australiens et leurs organisations" "fr")
+(descr-as-in "encyclopedia-of-australian-science-id" "" "zh-tw")
+(descr-as-in "encyclopedia-of-australian-science-id" "" "de")
+(descr-as-in "encyclopedia-of-australian-science-id" "" "ru")
+(descr-as-in "encyclopedia-of-australian-science-id" "" "es")
+(descr-as-in "encyclopedia-of-australian-science-id" "" "ja")
+(descr-as-in "encyclopedia-of-australian-science-id" "" "zh-cn")
+(descr-as-in "encyclopedia-of-australian-science-id" "" "zh-sg")
+

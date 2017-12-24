@@ -1,0 +1,31 @@
+(ns properties.dblp_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "dblp-id")
+
+(name-as-in "dblp-id" "" "zh-hk")
+(name-as-in "dblp-id" "" "pt")
+(name-as-in "dblp-id" "DBLP ID" "en")
+(name-as-in "dblp-id" "identifiant dblp" "fr")
+(name-as-in "dblp-id" "" "zh-tw")
+(name-as-in "dblp-id" "dblp-Identifikator" "de")
+(name-as-in "dblp-id" "код dblp" "ru")
+(name-as-in "dblp-id" "identificador DBLP de persona" "es")
+(name-as-in "dblp-id" "" "ja")
+(name-as-in "dblp-id" "" "zh-cn")
+(name-as-in "dblp-id" "" "zh-sg")
+
+(descr-as-in "dblp-id" "" "zh-hk")
+(descr-as-in "dblp-id" "" "pt")
+(descr-as-in "dblp-id" "identifier for person entries in the DBLP computer science bibliography (use portion of DBLP person key after homepages/)" "en")
+(descr-as-in "dblp-id" "" "fr")
+(descr-as-in "dblp-id" "" "zh-tw")
+(descr-as-in "dblp-id" "Identifikator der DBLP-Datenbank" "de")
+(descr-as-in "dblp-id" "" "ru")
+(descr-as-in "dblp-id" "" "es")
+(descr-as-in "dblp-id" "" "ja")
+(descr-as-in "dblp-id" "" "zh-cn")
+(descr-as-in "dblp-id" "" "zh-sg")
+

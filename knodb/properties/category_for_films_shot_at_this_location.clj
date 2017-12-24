@@ -1,0 +1,31 @@
+(ns properties.category_for_films_shot_at_this_location
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "category-for-films-shot-at-this-location")
+
+(name-as-in "category-for-films-shot-at-this-location" "取景地分類" "zh-hk")
+(name-as-in "category-for-films-shot-at-this-location" "categoria para filmes gravados neste local" "pt")
+(name-as-in "category-for-films-shot-at-this-location" "category for films shot at this location" "en")
+(name-as-in "category-for-films-shot-at-this-location" "catégorie pour les films tournés à cet endroit" "fr")
+(name-as-in "category-for-films-shot-at-this-location" "取景地分類" "zh-tw")
+(name-as-in "category-for-films-shot-at-this-location" "Kategorie für an diesem Ort gedrehte Filme" "de")
+(name-as-in "category-for-films-shot-at-this-location" "категория фильмов, снятых в этом месте" "ru")
+(name-as-in "category-for-films-shot-at-this-location" "categoría para las películas rodadas aquí" "es")
+(name-as-in "category-for-films-shot-at-this-location" "当地で撮影された映画のカテゴリ" "ja")
+(name-as-in "category-for-films-shot-at-this-location" "取景地分类" "zh-cn")
+(name-as-in "category-for-films-shot-at-this-location" "取景地分类" "zh-sg")
+
+(descr-as-in "category-for-films-shot-at-this-location" "" "zh-hk")
+(descr-as-in "category-for-films-shot-at-this-location" "" "pt")
+(descr-as-in "category-for-films-shot-at-this-location" "the object is a category for films shot at/in the subject" "en")
+(descr-as-in "category-for-films-shot-at-this-location" "catégorie des films qui ont été tournés dans cette localité" "fr")
+(descr-as-in "category-for-films-shot-at-this-location" "" "zh-tw")
+(descr-as-in "category-for-films-shot-at-this-location" "Kategorie für Filme, die an/in diesem Ort gedreht wurden" "de")
+(descr-as-in "category-for-films-shot-at-this-location" "элемент с категорией" "ru")
+(descr-as-in "category-for-films-shot-at-this-location" "" "es")
+(descr-as-in "category-for-films-shot-at-this-location" "目的語は主語の場所で撮影された映画のカテゴリ" "ja")
+(descr-as-in "category-for-films-shot-at-this-location" "" "zh-cn")
+(descr-as-in "category-for-films-shot-at-this-location" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.library_of_congress_authority_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "library-of-congress-authority-id")
+
+(name-as-in "library-of-congress-authority-id" "LCNAF編號" "zh-hk")
+(name-as-in "library-of-congress-authority-id" "número de controlo da Biblioteca do Congresso" "pt")
+(name-as-in "library-of-congress-authority-id" "Library of Congress authority ID" "en")
+(name-as-in "library-of-congress-authority-id" "identifiant bibliothèque du Congrès" "fr")
+(name-as-in "library-of-congress-authority-id" "LCNAF編號" "zh-tw")
+(name-as-in "library-of-congress-authority-id" "LCAuth" "de")
+(name-as-in "library-of-congress-authority-id" "код LCNAF" "ru")
+(name-as-in "library-of-congress-authority-id" "identificador autoridades de la Biblioteca del Congreso de EEUU" "es")
+(name-as-in "library-of-congress-authority-id" "LCNAF識別子" "ja")
+(name-as-in "library-of-congress-authority-id" "LCNAF编号" "zh-cn")
+(name-as-in "library-of-congress-authority-id" "" "zh-sg")
+
+(descr-as-in "library-of-congress-authority-id" "美國國會圖書館控制號" "zh-hk")
+(descr-as-in "library-of-congress-authority-id" "número identificativo proporcionado pela Biblioteca do Congresso dos Estados Unidos (usado apenas para controlo de autoridade)" "pt")
+(descr-as-in "library-of-congress-authority-id" "Library of Congress ID for authority control for persons, works, organizations and subject headings (for book editions use P1144).  Format: 1-2 specific letters followed by 8-10 digits (see regex)." "en")
+(descr-as-in "library-of-congress-authority-id" "identifiant attribué aux données d'autorité par la Bibliothèque du Congrès (voir aussi P1144)" "fr")
+(descr-as-in "library-of-congress-authority-id" "美國國會圖書館書號" "zh-tw")
+(descr-as-in "library-of-congress-authority-id" "Normdatensatz der Library of Congress (für einzelne Bücher siehe P1144)" "de")
+(descr-as-in "library-of-congress-authority-id" "библиотечный номер в Национальной библиотеке США (Библиотека Конгресса США)" "ru")
+(descr-as-in "library-of-congress-authority-id" "número identificativo proporcionado por la Biblioteca del Congreso de los Estados Unidos (para libros ver P1144)" "es")
+(descr-as-in "library-of-congress-authority-id" "米国議会図書館名称典拠ファイル（典拠管理用途のみ、単一の書籍についてはP1144を参照）" "ja")
+(descr-as-in "library-of-congress-authority-id" "美国国会图书馆的名称权威文件（只用于规范控制级；一般图书请参见P1144）" "zh-cn")
+(descr-as-in "library-of-congress-authority-id" "" "zh-sg")
+

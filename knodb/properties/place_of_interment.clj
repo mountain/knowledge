@@ -1,0 +1,31 @@
+(ns properties.place_of_interment
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "place-of-interment")
+
+(name-as-in "place-of-interment" "墓地" "zh-hk")
+(name-as-in "place-of-interment" "local de enterro" "pt")
+(name-as-in "place-of-interment" "place of interment" "en")
+(name-as-in "place-of-interment" "lieu de sépulture" "fr")
+(name-as-in "place-of-interment" "墓地" "zh-tw")
+(name-as-in "place-of-interment" "Begräbnisort" "de")
+(name-as-in "place-of-interment" "место погребения" "ru")
+(name-as-in "place-of-interment" "lugar de sepultura" "es")
+(name-as-in "place-of-interment" "埋葬地" "ja")
+(name-as-in "place-of-interment" "墓地" "zh-cn")
+(name-as-in "place-of-interment" "墓地" "zh-sg")
+
+(descr-as-in "place-of-interment" "一個人的墳墓、埋葬地、骨灰撒放地點，等 (例：城市或墳場)" "zh-hk")
+(descr-as-in "place-of-interment" "local onde o sujeito está enterrado" "pt")
+(descr-as-in "place-of-interment" "location of grave, resting place, place of ash-scattering, etc, (e.g. town/city or cemetery) for a person or animal. There may be several places: e.g. re-burials, cenotaphs, parts of body buried separately." "en")
+(descr-as-in "place-of-interment" "lieu où le corps du sujet est conservé" "fr")
+(descr-as-in "place-of-interment" "一個人的墳墓、埋葬地、骨灰撒放地點，等 (例：城市或墳場)。" "zh-tw")
+(descr-as-in "place-of-interment" "Ort des Grabes" "de")
+(descr-as-in "place-of-interment" "элемент, описывающий местность гробницы, упокоения и т.п." "ru")
+(descr-as-in "place-of-interment" "lugar donde el sujeto se encuentra sepultado" "es")
+(descr-as-in "place-of-interment" "この人の埋葬された場所（例：墓地、市など）。複数ある場合がある（例：改葬、再葬、記念碑、分骨など）。" "ja")
+(descr-as-in "place-of-interment" "一个人的坟墓、埋葬地、骨灰撒放地点，等 (例：城市或坟场)。" "zh-cn")
+(descr-as-in "place-of-interment" "" "zh-sg")
+

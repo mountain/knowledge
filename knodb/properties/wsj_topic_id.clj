@@ -1,0 +1,31 @@
+(ns properties.wsj_topic_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "wsj-topic-id")
+
+(name-as-in "wsj-topic-id" "" "zh-hk")
+(name-as-in "wsj-topic-id" "" "pt")
+(name-as-in "wsj-topic-id" "WSJ topic ID" "en")
+(name-as-in "wsj-topic-id" "identifiant Wall Street Journal du sujet" "fr")
+(name-as-in "wsj-topic-id" "" "zh-tw")
+(name-as-in "wsj-topic-id" "WSJ Themen-ID" "de")
+(name-as-in "wsj-topic-id" "" "ru")
+(name-as-in "wsj-topic-id" "identificador WSJ de tema" "es")
+(name-as-in "wsj-topic-id" "" "ja")
+(name-as-in "wsj-topic-id" "" "zh-cn")
+(name-as-in "wsj-topic-id" "" "zh-sg")
+
+(descr-as-in "wsj-topic-id" "" "zh-hk")
+(descr-as-in "wsj-topic-id" "" "pt")
+(descr-as-in "wsj-topic-id" "identifier for a topic, at the Wall Street Journal website" "en")
+(descr-as-in "wsj-topic-id" "" "fr")
+(descr-as-in "wsj-topic-id" "" "zh-tw")
+(descr-as-in "wsj-topic-id" "Identifikator für ein Thema auf der Website des Wall Street Journals" "de")
+(descr-as-in "wsj-topic-id" "" "ru")
+(descr-as-in "wsj-topic-id" "" "es")
+(descr-as-in "wsj-topic-id" "" "ja")
+(descr-as-in "wsj-topic-id" "" "zh-cn")
+(descr-as-in "wsj-topic-id" "" "zh-sg")
+

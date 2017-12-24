@@ -1,0 +1,31 @@
+(ns properties.capital_of
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "capital-of")
+
+(name-as-in "capital-of" "以此為首都的行政區劃" "zh-hk")
+(name-as-in "capital-of" "capital de" "pt")
+(name-as-in "capital-of" "capital of" "en")
+(name-as-in "capital-of" "capitale de" "fr")
+(name-as-in "capital-of" "以此為首都的行政區劃" "zh-tw")
+(name-as-in "capital-of" "Hauptstadt von" "de")
+(name-as-in "capital-of" "является столицей" "ru")
+(name-as-in "capital-of" "capital de" "es")
+(name-as-in "capital-of" "以下の首都" "ja")
+(name-as-in "capital-of" "以此为首都的行政区划" "zh-cn")
+(name-as-in "capital-of" "以此为首都的行政区划" "zh-sg")
+
+(descr-as-in "capital-of" "" "zh-hk")
+(descr-as-in "capital-of" "" "pt")
+(descr-as-in "capital-of" "country, state, department, canton or other administrative division of which the municipality is the governmental seat" "en")
+(descr-as-in "capital-of" "Entité dont la commune est chef-lieu" "fr")
+(descr-as-in "capital-of" "" "zh-tw")
+(descr-as-in "capital-of" "Land, Staat, Kanton oder andere adminstrative Einheit, deren Regierungssitz die Gemeinde ist" "de")
+(descr-as-in "capital-of" "страна, штат, регион или другая административно-территориальная единица, столицей которой является данный город (муниципалитет)" "ru")
+(descr-as-in "capital-of" "país, estado, provincia, u otra división administrativa, del cual el municipio es sede de gobierno" "es")
+(descr-as-in "capital-of" "" "ja")
+(descr-as-in "capital-of" "" "zh-cn")
+(descr-as-in "capital-of" "" "zh-sg")
+

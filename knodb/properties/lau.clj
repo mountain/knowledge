@@ -1,0 +1,31 @@
+(ns properties.lau
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "lau")
+
+(name-as-in "lau" "" "zh-hk")
+(name-as-in "lau" "" "pt")
+(name-as-in "lau" "LAU" "en")
+(name-as-in "lau" "UAL" "fr")
+(name-as-in "lau" "" "zh-tw")
+(name-as-in "lau" "LAU" "de")
+(name-as-in "lau" "LAU" "ru")
+(name-as-in "lau" "LAU" "es")
+(name-as-in "lau" "" "ja")
+(name-as-in "lau" "" "zh-cn")
+(name-as-in "lau" "" "zh-sg")
+
+(descr-as-in "lau" "" "zh-hk")
+(descr-as-in "lau" "" "pt")
+(descr-as-in "lau" "identifier for a local administrative unit, renamed from NUTS 4 and NUTS 5" "en")
+(descr-as-in "lau" "unité administrative locale de l'Union Européenne" "fr")
+(descr-as-in "lau" "" "zh-tw")
+(descr-as-in "lau" "staatliche administrative Hierarchieebene, EU (ehemals NUTS-4 und NUTS-5)" "de")
+(descr-as-in "lau" "local administrative unit, ранее NUTS 4 и NUTS 5" "ru")
+(descr-as-in "lau" "unidad administrativa local aplicable a los estados miembros de la Unión Europea, anteriormente denominadas NUTS-4 y NUTS-5" "es")
+(descr-as-in "lau" "" "ja")
+(descr-as-in "lau" "" "zh-cn")
+(descr-as-in "lau" "" "zh-sg")
+

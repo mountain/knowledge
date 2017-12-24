@@ -1,0 +1,31 @@
+(ns properties.us_national_archives_identifier
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "us-national-archives-identifier")
+
+(name-as-in "us-national-archives-identifier" "" "zh-hk")
+(name-as-in "us-national-archives-identifier" "" "pt")
+(name-as-in "us-national-archives-identifier" "US National Archives Identifier" "en")
+(name-as-in "us-national-archives-identifier" "identifiant National Archives and Records Administration" "fr")
+(name-as-in "us-national-archives-identifier" "" "zh-tw")
+(name-as-in "us-national-archives-identifier" "NARA-ID" "de")
+(name-as-in "us-national-archives-identifier" "" "ru")
+(name-as-in "us-national-archives-identifier" "identificador NARA" "es")
+(name-as-in "us-national-archives-identifier" "" "ja")
+(name-as-in "us-national-archives-identifier" "" "zh-cn")
+(name-as-in "us-national-archives-identifier" "" "zh-sg")
+
+(descr-as-in "us-national-archives-identifier" "" "zh-hk")
+(descr-as-in "us-national-archives-identifier" "" "pt")
+(descr-as-in "us-national-archives-identifier" "identifier for the United States National Archives and Records Administration's online catalog" "en")
+(descr-as-in "us-national-archives-identifier" "Identifiant de la National Archives and Records Administration" "fr")
+(descr-as-in "us-national-archives-identifier" "" "zh-tw")
+(descr-as-in "us-national-archives-identifier" "" "de")
+(descr-as-in "us-national-archives-identifier" "" "ru")
+(descr-as-in "us-national-archives-identifier" "" "es")
+(descr-as-in "us-national-archives-identifier" "" "ja")
+(descr-as-in "us-national-archives-identifier" "" "zh-cn")
+(descr-as-in "us-national-archives-identifier" "" "zh-sg")
+

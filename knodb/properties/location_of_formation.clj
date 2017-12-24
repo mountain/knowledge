@@ -1,0 +1,31 @@
+(ns properties.location_of_formation
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "location-of-formation")
+
+(name-as-in "location-of-formation" "成立地點" "zh-hk")
+(name-as-in "location-of-formation" "local de formação" "pt")
+(name-as-in "location-of-formation" "location of formation" "en")
+(name-as-in "location-of-formation" "lieu de fondation" "fr")
+(name-as-in "location-of-formation" "成立地點" "zh-tw")
+(name-as-in "location-of-formation" "Gründungsort" "de")
+(name-as-in "location-of-formation" "место создания" "ru")
+(name-as-in "location-of-formation" "lugar de formación" "es")
+(name-as-in "location-of-formation" "結成場所" "ja")
+(name-as-in "location-of-formation" "成立地点" "zh-cn")
+(name-as-in "location-of-formation" "成立地点" "zh-sg")
+
+(descr-as-in "location-of-formation" "組織成立的地點" "zh-hk")
+(descr-as-in "location-of-formation" "local onde um grupo ou organização foi formado" "pt")
+(descr-as-in "location-of-formation" "location where a group or organization was formed" "en")
+(descr-as-in "location-of-formation" "endroit où le groupe ou l'organisation s'est constitué" "fr")
+(descr-as-in "location-of-formation" "組織成立的地點" "zh-tw")
+(descr-as-in "location-of-formation" "Ort, an dem eine Gruppe oder Organisation gegründet wurde" "de")
+(descr-as-in "location-of-formation" "" "ru")
+(descr-as-in "location-of-formation" "lugar en el que se formó un grupo u organización" "es")
+(descr-as-in "location-of-formation" "団体や組織がつくられた場所" "ja")
+(descr-as-in "location-of-formation" "组织成立的地点" "zh-cn")
+(descr-as-in "location-of-formation" "组织成立的地点" "zh-sg")
+

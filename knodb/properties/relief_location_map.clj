@@ -1,0 +1,31 @@
+(ns properties.relief_location_map
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "relief-location-map")
+
+(name-as-in "relief-location-map" "" "zh-hk")
+(name-as-in "relief-location-map" "mapa do relevo" "pt")
+(name-as-in "relief-location-map" "relief location map" "en")
+(name-as-in "relief-location-map" "carte géographique du relief" "fr")
+(name-as-in "relief-location-map" "等高線位置地圖" "zh-tw")
+(name-as-in "relief-location-map" "Relief-Positionskarte" "de")
+(name-as-in "relief-location-map" "рельефная позиционная карта" "ru")
+(name-as-in "relief-location-map" "mapa en relieve de situación" "es")
+(name-as-in "relief-location-map" "" "ja")
+(name-as-in "relief-location-map" "" "zh-cn")
+(name-as-in "relief-location-map" "" "zh-sg")
+
+(descr-as-in "relief-location-map" "" "zh-hk")
+(descr-as-in "relief-location-map" "" "pt")
+(descr-as-in "relief-location-map" "relief location map of place" "en")
+(descr-as-in "relief-location-map" "" "fr")
+(descr-as-in "relief-location-map" "" "zh-tw")
+(descr-as-in "relief-location-map" "" "de")
+(descr-as-in "relief-location-map" "" "ru")
+(descr-as-in "relief-location-map" "" "es")
+(descr-as-in "relief-location-map" "" "ja")
+(descr-as-in "relief-location-map" "" "zh-cn")
+(descr-as-in "relief-location-map" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.nominal_gdp
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "nominal-gdp")
+
+(name-as-in "nominal-gdp" "" "zh-hk")
+(name-as-in "nominal-gdp" "PIB nominal" "pt")
+(name-as-in "nominal-gdp" "nominal GDP" "en")
+(name-as-in "nominal-gdp" "produit intérieur brut nominal" "fr")
+(name-as-in "nominal-gdp" "" "zh-tw")
+(name-as-in "nominal-gdp" "Bruttoinlandsprodukt" "de")
+(name-as-in "nominal-gdp" "номинальный валовой внутренний продукт" "ru")
+(name-as-in "nominal-gdp" "PBI nominal" "es")
+(name-as-in "nominal-gdp" "名目GDP" "ja")
+(name-as-in "nominal-gdp" "" "zh-cn")
+(name-as-in "nominal-gdp" "" "zh-sg")
+
+(descr-as-in "nominal-gdp" "" "zh-hk")
+(descr-as-in "nominal-gdp" "" "pt")
+(descr-as-in "nominal-gdp" "market value of all officially recognized final goods and services produced within a country in a given period of time" "en")
+(descr-as-in "nominal-gdp" "" "fr")
+(descr-as-in "nominal-gdp" "" "zh-tw")
+(descr-as-in "nominal-gdp" "Gesamtwert aller Güter, die innerhalb eines Jahres innerhalb der Landesgrenzen einer Volkswirtschaft hergestellt wurden" "de")
+(descr-as-in "nominal-gdp" "в текущих ценах" "ru")
+(descr-as-in "nominal-gdp" "" "es")
+(descr-as-in "nominal-gdp" "" "ja")
+(descr-as-in "nominal-gdp" "" "zh-cn")
+(descr-as-in "nominal-gdp" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.omegawiki_defined_meaning
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "omegawiki-defined-meaning")
+
+(name-as-in "omegawiki-defined-meaning" "OmegaWiki定義" "zh-hk")
+(name-as-in "omegawiki-defined-meaning" "sentido definido no OmegaWiki" "pt")
+(name-as-in "omegawiki-defined-meaning" "OmegaWiki Defined Meaning" "en")
+(name-as-in "omegawiki-defined-meaning" "sens défini OmegaWiki" "fr")
+(name-as-in "omegawiki-defined-meaning" "OmegaWiki定義" "zh-tw")
+(name-as-in "omegawiki-defined-meaning" "Definition in OmegaWiki" "de")
+(name-as-in "omegawiki-defined-meaning" "значение в OmegaWiki" "ru")
+(name-as-in "omegawiki-defined-meaning" "definición de significado de OmegaWiki" "es")
+(name-as-in "omegawiki-defined-meaning" "" "ja")
+(name-as-in "omegawiki-defined-meaning" "OmegaWiki定义" "zh-cn")
+(name-as-in "omegawiki-defined-meaning" "" "zh-sg")
+
+(descr-as-in "omegawiki-defined-meaning" "在OmegaWiki網站上所呈現的「定義值（Defined Meaning）」" "zh-hk")
+(descr-as-in "omegawiki-defined-meaning" "" "pt")
+(descr-as-in "omegawiki-defined-meaning" "Defined Meaning on the site OmegaWiki" "en")
+(descr-as-in "omegawiki-defined-meaning" "" "fr")
+(descr-as-in "omegawiki-defined-meaning" "在OmegaWiki網站上所呈現的「定義值（Defined Meaning）」" "zh-tw")
+(descr-as-in "omegawiki-defined-meaning" "DefinedMeaning-Kennzeichnungsnummer in OmegaWiki" "de")
+(descr-as-in "omegawiki-defined-meaning" "одно из определений" "ru")
+(descr-as-in "omegawiki-defined-meaning" "" "es")
+(descr-as-in "omegawiki-defined-meaning" "" "ja")
+(descr-as-in "omegawiki-defined-meaning" "在OmegaWiki網站上所呈現的「定義值（Defined Meaning）」" "zh-cn")
+(descr-as-in "omegawiki-defined-meaning" "" "zh-sg")
+

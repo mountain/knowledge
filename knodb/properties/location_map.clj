@@ -1,0 +1,31 @@
+(ns properties.location_map
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "location-map")
+
+(name-as-in "location-map" "" "zh-hk")
+(name-as-in "location-map" "mapa de localização" "pt")
+(name-as-in "location-map" "location map" "en")
+(name-as-in "location-map" "carte géographique" "fr")
+(name-as-in "location-map" "方位地圖" "zh-tw")
+(name-as-in "location-map" "Positionskarte" "de")
+(name-as-in "location-map" "позиционная карта" "ru")
+(name-as-in "location-map" "mapa de situación" "es")
+(name-as-in "location-map" "" "ja")
+(name-as-in "location-map" "" "zh-cn")
+(name-as-in "location-map" "" "zh-sg")
+
+(descr-as-in "location-map" "" "zh-hk")
+(descr-as-in "location-map" "" "pt")
+(descr-as-in "location-map" "location map of place" "en")
+(descr-as-in "location-map" "carte géographique du lieu" "fr")
+(descr-as-in "location-map" "" "zh-tw")
+(descr-as-in "location-map" "" "de")
+(descr-as-in "location-map" "" "ru")
+(descr-as-in "location-map" "mapa de localización del lugar" "es")
+(descr-as-in "location-map" "" "ja")
+(descr-as-in "location-map" "" "zh-cn")
+(descr-as-in "location-map" "" "zh-sg")
+

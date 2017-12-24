@@ -1,0 +1,31 @@
+(ns properties.ipa_transcription
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "ipa-transcription")
+
+(name-as-in "ipa-transcription" "" "zh-hk")
+(name-as-in "ipa-transcription" "IPA" "pt")
+(name-as-in "ipa-transcription" "IPA transcription" "en")
+(name-as-in "ipa-transcription" "transcription API" "fr")
+(name-as-in "ipa-transcription" "" "zh-tw")
+(name-as-in "ipa-transcription" "IPA" "de")
+(name-as-in "ipa-transcription" "транскрипция в МФА" "ru")
+(name-as-in "ipa-transcription" "AFI" "es")
+(name-as-in "ipa-transcription" "IPAによる発音表記" "ja")
+(name-as-in "ipa-transcription" "" "zh-cn")
+(name-as-in "ipa-transcription" "" "zh-sg")
+
+(descr-as-in "ipa-transcription" "" "zh-hk")
+(descr-as-in "ipa-transcription" "" "pt")
+(descr-as-in "ipa-transcription" "transcription in the International Phonetic Alphabet" "en")
+(descr-as-in "ipa-transcription" "écriture dans l'alphabet phonétique international (API)" "fr")
+(descr-as-in "ipa-transcription" "" "zh-tw")
+(descr-as-in "ipa-transcription" "Schreibweise im Internationalen Phonetischen Alphabet" "de")
+(descr-as-in "ipa-transcription" "транскрипция в международном фонетическом алфавите" "ru")
+(descr-as-in "ipa-transcription" "Código del fonema en el Alfabeto Fonético Internacional" "es")
+(descr-as-in "ipa-transcription" "国際音声記号による発音の表記" "ja")
+(descr-as-in "ipa-transcription" "" "zh-cn")
+(descr-as-in "ipa-transcription" "" "zh-sg")
+

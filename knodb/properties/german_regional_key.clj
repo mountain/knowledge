@@ -1,0 +1,31 @@
+(ns properties.german_regional_key
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "german-regional-key")
+
+(name-as-in "german-regional-key" "" "zh-hk")
+(name-as-in "german-regional-key" "" "pt")
+(name-as-in "german-regional-key" "German regional key" "en")
+(name-as-in "german-regional-key" "Clé des régions allemandes" "fr")
+(name-as-in "german-regional-key" "" "zh-tw")
+(name-as-in "german-regional-key" "Regionalschlüssel" "de")
+(name-as-in "german-regional-key" "код региона Германии" "ru")
+(name-as-in "german-regional-key" "" "es")
+(name-as-in "german-regional-key" "" "ja")
+(name-as-in "german-regional-key" "" "zh-cn")
+(name-as-in "german-regional-key" "" "zh-sg")
+
+(descr-as-in "german-regional-key" "" "zh-hk")
+(descr-as-in "german-regional-key" "" "pt")
+(descr-as-in "german-regional-key" "identifier for municipalities and other areas in Germany" "en")
+(descr-as-in "german-regional-key" "Séquence de chiffre pour l'identification des communes en Allemagne" "fr")
+(descr-as-in "german-regional-key" "" "zh-tw")
+(descr-as-in "german-regional-key" "Ziffernfolge zur Identifizierung von Gemeinden und anderen Gebieten in Deutschland" "de")
+(descr-as-in "german-regional-key" "последовательность цифр для идентификации области" "ru")
+(descr-as-in "german-regional-key" "" "es")
+(descr-as-in "german-regional-key" "" "ja")
+(descr-as-in "german-regional-key" "" "zh-cn")
+(descr-as-in "german-regional-key" "" "zh-sg")
+

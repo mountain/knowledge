@@ -1,0 +1,31 @@
+(ns properties.insee_countries_and_foreign_territories_code
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "insee-countries-and-foreign-territories-code")
+
+(name-as-in "insee-countries-and-foreign-territories-code" "INSEE國家及海外領土編號" "zh-hk")
+(name-as-in "insee-countries-and-foreign-territories-code" "" "pt")
+(name-as-in "insee-countries-and-foreign-territories-code" "INSEE countries and foreign territories code" "en")
+(name-as-in "insee-countries-and-foreign-territories-code" "code INSEE d'un pays ou territoire étranger" "fr")
+(name-as-in "insee-countries-and-foreign-territories-code" "INSEE國家及海外領土編號" "zh-tw")
+(name-as-in "insee-countries-and-foreign-territories-code" "" "de")
+(name-as-in "insee-countries-and-foreign-territories-code" "код INSEE для стран и зарубежных территорий" "ru")
+(name-as-in "insee-countries-and-foreign-territories-code" "" "es")
+(name-as-in "insee-countries-and-foreign-territories-code" "" "ja")
+(name-as-in "insee-countries-and-foreign-territories-code" "INSEE国家及海外领土编号" "zh-cn")
+(name-as-in "insee-countries-and-foreign-territories-code" "INSEE国家及海外领土编号" "zh-sg")
+
+(descr-as-in "insee-countries-and-foreign-territories-code" "" "zh-hk")
+(descr-as-in "insee-countries-and-foreign-territories-code" "" "pt")
+(descr-as-in "insee-countries-and-foreign-territories-code" "French identifier for countries and foreign territories" "en")
+(descr-as-in "insee-countries-and-foreign-territories-code" "numéro pour l'identification des pays et territoires étrangers en France" "fr")
+(descr-as-in "insee-countries-and-foreign-territories-code" "" "zh-tw")
+(descr-as-in "insee-countries-and-foreign-territories-code" "" "de")
+(descr-as-in "insee-countries-and-foreign-territories-code" "" "ru")
+(descr-as-in "insee-countries-and-foreign-territories-code" "" "es")
+(descr-as-in "insee-countries-and-foreign-territories-code" "" "ja")
+(descr-as-in "insee-countries-and-foreign-territories-code" "" "zh-cn")
+(descr-as-in "insee-countries-and-foreign-territories-code" "" "zh-sg")
+

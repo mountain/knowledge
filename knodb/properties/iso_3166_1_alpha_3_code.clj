@@ -1,0 +1,31 @@
+(ns properties.iso_3166_1_alpha_3_code
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "iso-3166-1-alpha-3-code")
+
+(name-as-in "iso-3166-1-alpha-3-code" "ISO 3166-1 三位字母" "zh-hk")
+(name-as-in "iso-3166-1-alpha-3-code" "ISO 3166-1 alfa-3" "pt")
+(name-as-in "iso-3166-1-alpha-3-code" "ISO 3166-1 alpha-3 code" "en")
+(name-as-in "iso-3166-1-alpha-3-code" "code ISO 3166-1 alpha-3" "fr")
+(name-as-in "iso-3166-1-alpha-3-code" "ISO 3166-1 三位字母" "zh-tw")
+(name-as-in "iso-3166-1-alpha-3-code" "Ländercode (ISO 3166-1 alpha-3)" "de")
+(name-as-in "iso-3166-1-alpha-3-code" "ISO 3166-1 alpha-3" "ru")
+(name-as-in "iso-3166-1-alpha-3-code" "código ISO 3166-1 de tres letras" "es")
+(name-as-in "iso-3166-1-alpha-3-code" "国名コード (ISO 3166-1 alpha-3)" "ja")
+(name-as-in "iso-3166-1-alpha-3-code" "国家代码 (ISO 3166-1 alpha-3)" "zh-cn")
+(name-as-in "iso-3166-1-alpha-3-code" "" "zh-sg")
+
+(descr-as-in "iso-3166-1-alpha-3-code" "" "zh-hk")
+(descr-as-in "iso-3166-1-alpha-3-code" "código do país (ISO 3166-1 de três letras)" "pt")
+(descr-as-in "iso-3166-1-alpha-3-code" "identifier for a country in three-letter format per ISO 3166-1" "en")
+(descr-as-in "iso-3166-1-alpha-3-code" "code à 3 lettres du pays" "fr")
+(descr-as-in "iso-3166-1-alpha-3-code" "" "zh-tw")
+(descr-as-in "iso-3166-1-alpha-3-code" "dreibuchstabiger ISO-3166-1-Ländercode" "de")
+(descr-as-in "iso-3166-1-alpha-3-code" "трёхбуквенный код страны или подчинённой территории согласно международному стандарту ISO 3166-1" "ru")
+(descr-as-in "iso-3166-1-alpha-3-code" "" "es")
+(descr-as-in "iso-3166-1-alpha-3-code" "ISO 3166-1 3文字コード" "ja")
+(descr-as-in "iso-3166-1-alpha-3-code" "" "zh-cn")
+(descr-as-in "iso-3166-1-alpha-3-code" "" "zh-sg")
+

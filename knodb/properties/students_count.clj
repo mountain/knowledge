@@ -1,0 +1,31 @@
+(ns properties.students_count
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "students-count")
+
+(name-as-in "students-count" "" "zh-hk")
+(name-as-in "students-count" "quantidade de alunos" "pt")
+(name-as-in "students-count" "students count" "en")
+(name-as-in "students-count" "nombre d'étudiants" "fr")
+(name-as-in "students-count" "" "zh-tw")
+(name-as-in "students-count" "Anzahl der Lernenden" "de")
+(name-as-in "students-count" "число учащихся" "ru")
+(name-as-in "students-count" "número de estudiantes" "es")
+(name-as-in "students-count" "学生数" "ja")
+(name-as-in "students-count" "学生数量" "zh-cn")
+(name-as-in "students-count" "" "zh-sg")
+
+(descr-as-in "students-count" "" "zh-hk")
+(descr-as-in "students-count" "" "pt")
+(descr-as-in "students-count" "number of students of any type in an educational organization" "en")
+(descr-as-in "students-count" "nombre d'étudiants dans une organisation à but éducatif" "fr")
+(descr-as-in "students-count" "" "zh-tw")
+(descr-as-in "students-count" "Anzahl von Schülern oder Studenten an einer Bildungseinrichtung" "de")
+(descr-as-in "students-count" "количество учащихся любого типа в образовательном учреждении" "ru")
+(descr-as-in "students-count" "cantidad de alumnos en una organización educativa" "es")
+(descr-as-in "students-count" "あらゆる教育組織の学生数" "ja")
+(descr-as-in "students-count" "教育机构的学生总数" "zh-cn")
+(descr-as-in "students-count" "" "zh-sg")
+

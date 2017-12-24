@@ -1,0 +1,31 @@
+(ns properties.filmportal_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "filmportal-id")
+
+(name-as-in "filmportal-id" "" "zh-hk")
+(name-as-in "filmportal-id" "ID Filmportal" "pt")
+(name-as-in "filmportal-id" "Filmportal ID" "en")
+(name-as-in "filmportal-id" "identifiant Filmportal.de" "fr")
+(name-as-in "filmportal-id" "" "zh-tw")
+(name-as-in "filmportal-id" "Filmportal-ID" "de")
+(name-as-in "filmportal-id" "код Filmportal" "ru")
+(name-as-in "filmportal-id" "identificador Filmportal" "es")
+(name-as-in "filmportal-id" "Filmportal識別子" "ja")
+(name-as-in "filmportal-id" "" "zh-cn")
+(name-as-in "filmportal-id" "" "zh-sg")
+
+(descr-as-in "filmportal-id" "" "zh-hk")
+(descr-as-in "filmportal-id" "Número de identificação do portal alemão de filme  (filmportal.de)" "pt")
+(descr-as-in "filmportal-id" "identifier of the German Filmportal.de" "en")
+(descr-as-in "filmportal-id" "" "fr")
+(descr-as-in "filmportal-id" "" "zh-tw")
+(descr-as-in "filmportal-id" "Identifikationsnummer des deutschen Filmportals (filmportal.de)" "de")
+(descr-as-in "filmportal-id" "идентификатор на немецком сайте Filmportal.de" "ru")
+(descr-as-in "filmportal-id" "" "es")
+(descr-as-in "filmportal-id" "ドイツのFilmportal.deで使われる識別子" "ja")
+(descr-as-in "filmportal-id" "" "zh-cn")
+(descr-as-in "filmportal-id" "" "zh-sg")
+

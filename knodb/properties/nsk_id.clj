@@ -1,0 +1,31 @@
+(ns properties.nsk_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "nsk-id")
+
+(name-as-in "nsk-id" "" "zh-hk")
+(name-as-in "nsk-id" "" "pt")
+(name-as-in "nsk-id" "NSK ID" "en")
+(name-as-in "nsk-id" "identifiant de la NSK" "fr")
+(name-as-in "nsk-id" "" "zh-tw")
+(name-as-in "nsk-id" "NSK" "de")
+(name-as-in "nsk-id" "код NSK" "ru")
+(name-as-in "nsk-id" "identificador NSK" "es")
+(name-as-in "nsk-id" "NSK識別子" "ja")
+(name-as-in "nsk-id" "" "zh-cn")
+(name-as-in "nsk-id" "" "zh-sg")
+
+(descr-as-in "nsk-id" "" "zh-hk")
+(descr-as-in "nsk-id" "" "pt")
+(descr-as-in "nsk-id" "identifier for an item in the National and University Library in Zagreb (including leading zeroes)" "en")
+(descr-as-in "nsk-id" "identifiant de la bibliothèque universitaire de Zagreb" "fr")
+(descr-as-in "nsk-id" "" "zh-tw")
+(descr-as-in "nsk-id" "Normdateneintrag der National- und Universitätsbibliothek Zagreb (mit führenden Nullen)" "de")
+(descr-as-in "nsk-id" "идентификатор Национальной и университетской библиотеки Загреба" "ru")
+(descr-as-in "nsk-id" "identificador de un elemento de la Biblioteca y Universidad Nacional de Zagreb (incluyendo ceros a la izquierda)" "es")
+(descr-as-in "nsk-id" "" "ja")
+(descr-as-in "nsk-id" "" "zh-cn")
+(descr-as-in "nsk-id" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.nlr_romania_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "nlr-romania-id")
+
+(name-as-in "nlr-romania-id" "" "zh-hk")
+(name-as-in "nlr-romania-id" "identificador NLR" "pt")
+(name-as-in "nlr-romania-id" "NLR (Romania) ID" "en")
+(name-as-in "nlr-romania-id" "identifiant BNR/NLR" "fr")
+(name-as-in "nlr-romania-id" "" "zh-tw")
+(name-as-in "nlr-romania-id" "NLR (Rumänien)" "de")
+(name-as-in "nlr-romania-id" "код NLR (НБР)" "ru")
+(name-as-in "nlr-romania-id" "identificador BNR" "es")
+(name-as-in "nlr-romania-id" "NLR (ルーマニア) 識別子" "ja")
+(name-as-in "nlr-romania-id" "" "zh-cn")
+(name-as-in "nlr-romania-id" "" "zh-sg")
+
+(descr-as-in "nlr-romania-id" "" "zh-hk")
+(descr-as-in "nlr-romania-id" "" "pt")
+(descr-as-in "nlr-romania-id" "identifier for authority control used at the National Library of Romania" "en")
+(descr-as-in "nlr-romania-id" "identifiant de la Bibliothèque Nationale de Roumanie (BNR, en anglais : NLR)" "fr")
+(descr-as-in "nlr-romania-id" "" "zh-tw")
+(descr-as-in "nlr-romania-id" "Normdatei der Rumänischen Nationalbibliothek (Biblioteca Națională a României)" "de")
+(descr-as-in "nlr-romania-id" "библиотечный номер в Национальной библиотеке Румынии" "ru")
+(descr-as-in "nlr-romania-id" "identificador para control de autoría usado en la Biblioteca Nacional de Rumania" "es")
+(descr-as-in "nlr-romania-id" "ルーマニア国立図書館で使われる典拠管理識別子" "ja")
+(descr-as-in "nlr-romania-id" "" "zh-cn")
+(descr-as-in "nlr-romania-id" "" "zh-sg")
+

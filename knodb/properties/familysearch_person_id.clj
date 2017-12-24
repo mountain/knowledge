@@ -1,0 +1,31 @@
+(ns properties.familysearch_person_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "familysearch-person-id")
+
+(name-as-in "familysearch-person-id" "" "zh-hk")
+(name-as-in "familysearch-person-id" "" "pt")
+(name-as-in "familysearch-person-id" "FamilySearch person ID" "en")
+(name-as-in "familysearch-person-id" "identifiant FamilySearch" "fr")
+(name-as-in "familysearch-person-id" "" "zh-tw")
+(name-as-in "familysearch-person-id" "FamilySearch-ID" "de")
+(name-as-in "familysearch-person-id" "код FamilySearch" "ru")
+(name-as-in "familysearch-person-id" "identificador FamilySearch" "es")
+(name-as-in "familysearch-person-id" "" "ja")
+(name-as-in "familysearch-person-id" "" "zh-cn")
+(name-as-in "familysearch-person-id" "" "zh-sg")
+
+(descr-as-in "familysearch-person-id" "" "zh-hk")
+(descr-as-in "familysearch-person-id" "" "pt")
+(descr-as-in "familysearch-person-id" "ID of a person in familysearch.org" "en")
+(descr-as-in "familysearch-person-id" "identifiant d'une personne sur familysearch.org" "fr")
+(descr-as-in "familysearch-person-id" "" "zh-tw")
+(descr-as-in "familysearch-person-id" "Identifikator für Personen auf familysearch.org" "de")
+(descr-as-in "familysearch-person-id" "" "ru")
+(descr-as-in "familysearch-person-id" "identificador de una persona en familysearch.org" "es")
+(descr-as-in "familysearch-person-id" "" "ja")
+(descr-as-in "familysearch-person-id" "" "zh-cn")
+(descr-as-in "familysearch-person-id" "" "zh-sg")
+

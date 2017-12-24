@@ -1,0 +1,31 @@
+(ns properties.given_name
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "given-name")
+
+(name-as-in "given-name" "名字" "zh-hk")
+(name-as-in "given-name" "primeiro nome" "pt")
+(name-as-in "given-name" "given name" "en")
+(name-as-in "given-name" "prénom" "fr")
+(name-as-in "given-name" "名字" "zh-tw")
+(name-as-in "given-name" "Vorname" "de")
+(name-as-in "given-name" "личное имя" "ru")
+(name-as-in "given-name" "nombre de pila" "es")
+(name-as-in "given-name" "名" "ja")
+(name-as-in "given-name" "名字" "zh-cn")
+(name-as-in "given-name" "名字" "zh-sg")
+
+(descr-as-in "given-name" "" "zh-hk")
+(descr-as-in "given-name" "" "pt")
+(descr-as-in "given-name" "first name or another given name of this person; values used with the property shouldn't link disambiguations nor family names" "en")
+(descr-as-in "given-name" "nom individuel d'une personne" "fr")
+(descr-as-in "given-name" "" "zh-tw")
+(descr-as-in "given-name" "Vornamen der Person" "de")
+(descr-as-in "given-name" "первое имя персоны" "ru")
+(descr-as-in "given-name" "nombre de pila de una persona" "es")
+(descr-as-in "given-name" "個人につけられる名前（姓の対義語として）。このデータを入力することにより、人物項目のデータの機械での利用が容易になる。例「ジョージ・ワシントン」はQ1985538（ジョージ）" "ja")
+(descr-as-in "given-name" "" "zh-cn")
+(descr-as-in "given-name" "" "zh-sg")
+

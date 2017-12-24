@@ -1,0 +1,31 @@
+(ns properties.studied_by
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "studied-by")
+
+(name-as-in "studied-by" "" "zh-hk")
+(name-as-in "studied-by" "estudado por" "pt")
+(name-as-in "studied-by" "studied by" "en")
+(name-as-in "studied-by" "discipline d'étude" "fr")
+(name-as-in "studied-by" "" "zh-tw")
+(name-as-in "studied-by" "Forschungsthema in" "de")
+(name-as-in "studied-by" "изучается в" "ru")
+(name-as-in "studied-by" "estudiado por" "es")
+(name-as-in "studied-by" "研究する分野" "ja")
+(name-as-in "studied-by" "" "zh-cn")
+(name-as-in "studied-by" "" "zh-sg")
+
+(descr-as-in "studied-by" "" "zh-hk")
+(descr-as-in "studied-by" "" "pt")
+(descr-as-in "studied-by" "subject is studied by this science or domain" "en")
+(descr-as-in "studied-by" "le sujet est étudié par cette science ou ce domaine" "fr")
+(descr-as-in "studied-by" "" "zh-tw")
+(descr-as-in "studied-by" "Wissenschaft oder Forschungsbereich, in der der Gegenstand untersucht wird" "de")
+(descr-as-in "studied-by" "какой наукой или дисциплиной изучается или исследуется предмет" "ru")
+(descr-as-in "studied-by" "el sujeto es estudiado por esta ciencia o dominio" "es")
+(descr-as-in "studied-by" "主題について研究する学問分野" "ja")
+(descr-as-in "studied-by" "" "zh-cn")
+(descr-as-in "studied-by" "" "zh-sg")
+

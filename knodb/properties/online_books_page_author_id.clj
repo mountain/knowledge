@@ -1,0 +1,31 @@
+(ns properties.online_books_page_author_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "online-books-page-author-id")
+
+(name-as-in "online-books-page-author-id" "" "zh-hk")
+(name-as-in "online-books-page-author-id" "" "pt")
+(name-as-in "online-books-page-author-id" "Online Books Page author ID" "en")
+(name-as-in "online-books-page-author-id" "identifiant d’auteur Online Books Page" "fr")
+(name-as-in "online-books-page-author-id" "" "zh-tw")
+(name-as-in "online-books-page-author-id" "" "de")
+(name-as-in "online-books-page-author-id" "" "ru")
+(name-as-in "online-books-page-author-id" "" "es")
+(name-as-in "online-books-page-author-id" "" "ja")
+(name-as-in "online-books-page-author-id" "" "zh-cn")
+(name-as-in "online-books-page-author-id" "" "zh-sg")
+
+(descr-as-in "online-books-page-author-id" "" "zh-hk")
+(descr-as-in "online-books-page-author-id" "" "pt")
+(descr-as-in "online-books-page-author-id" "identifier for an author, at the Online Books Page website" "en")
+(descr-as-in "online-books-page-author-id" "identifiant pour un auteur sur le site Online Books Page" "fr")
+(descr-as-in "online-books-page-author-id" "" "zh-tw")
+(descr-as-in "online-books-page-author-id" "" "de")
+(descr-as-in "online-books-page-author-id" "" "ru")
+(descr-as-in "online-books-page-author-id" "" "es")
+(descr-as-in "online-books-page-author-id" "" "ja")
+(descr-as-in "online-books-page-author-id" "" "zh-cn")
+(descr-as-in "online-books-page-author-id" "" "zh-sg")
+

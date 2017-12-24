@@ -1,0 +1,31 @@
+(ns properties.encyclopædia_britannica_online_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "encyclopædia-britannica-online-id")
+
+(name-as-in "encyclopædia-britannica-online-id" "" "zh-hk")
+(name-as-in "encyclopædia-britannica-online-id" "identificador Encyclopædia Britannica Online" "pt")
+(name-as-in "encyclopædia-britannica-online-id" "Encyclopædia Britannica Online ID" "en")
+(name-as-in "encyclopædia-britannica-online-id" "identifiant Encyclopædia Britannica en ligne" "fr")
+(name-as-in "encyclopædia-britannica-online-id" "" "zh-tw")
+(name-as-in "encyclopædia-britannica-online-id" "Encyclopædia Britannica Online-ID" "de")
+(name-as-in "encyclopædia-britannica-online-id" "код в энциклопедии «Британника онлайн»" "ru")
+(name-as-in "encyclopædia-britannica-online-id" "identificador Encyclopædia Britannica Online" "es")
+(name-as-in "encyclopædia-britannica-online-id" "" "ja")
+(name-as-in "encyclopædia-britannica-online-id" "" "zh-cn")
+(name-as-in "encyclopædia-britannica-online-id" "" "zh-sg")
+
+(descr-as-in "encyclopædia-britannica-online-id" "" "zh-hk")
+(descr-as-in "encyclopædia-britannica-online-id" "" "pt")
+(descr-as-in "encyclopædia-britannica-online-id" "identifer for an article in the online version of Encyclopædia Britannica" "en")
+(descr-as-in "encyclopædia-britannica-online-id" "identifiant d'un article de la version en ligne de  l'Encyclopædia Britannica" "fr")
+(descr-as-in "encyclopædia-britannica-online-id" "" "zh-tw")
+(descr-as-in "encyclopædia-britannica-online-id" "Identifizierungsnummer eines Themas in der Onlineausgabe der Encyclopædia Britannica" "de")
+(descr-as-in "encyclopædia-britannica-online-id" "идентификатор статьи в энциклопедии «Британника онлайн»" "ru")
+(descr-as-in "encyclopædia-britannica-online-id" "identificador de un artículo en la versión en línea de la Enciclopedia Británica" "es")
+(descr-as-in "encyclopædia-britannica-online-id" "" "ja")
+(descr-as-in "encyclopædia-britannica-online-id" "" "zh-cn")
+(descr-as-in "encyclopædia-britannica-online-id" "" "zh-sg")
+

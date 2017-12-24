@@ -1,0 +1,31 @@
+(ns properties.linguasphere_code
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "linguasphere-code")
+
+(name-as-in "linguasphere-code" "" "zh-hk")
+(name-as-in "linguasphere-code" "código Linguasphere" "pt")
+(name-as-in "linguasphere-code" "Linguasphere code" "en")
+(name-as-in "linguasphere-code" "code linguasphère" "fr")
+(name-as-in "linguasphere-code" "Linguasphere 編號" "zh-tw")
+(name-as-in "linguasphere-code" "Linguasphere-Code" "de")
+(name-as-in "linguasphere-code" "код Linguasphere" "ru")
+(name-as-in "linguasphere-code" "Linguasphere" "es")
+(name-as-in "linguasphere-code" "" "ja")
+(name-as-in "linguasphere-code" "" "zh-cn")
+(name-as-in "linguasphere-code" "" "zh-sg")
+
+(descr-as-in "linguasphere-code" "" "zh-hk")
+(descr-as-in "linguasphere-code" "" "pt")
+(descr-as-in "linguasphere-code" "identifier for a language from Linguasphere Observatory" "en")
+(descr-as-in "linguasphere-code" "code de langues et dialectes utilisé sur l'observatoire de langues linguasphère" "fr")
+(descr-as-in "linguasphere-code" "世界語言資料庫 Linguasphere Observatory 中的語言編號" "zh-tw")
+(descr-as-in "linguasphere-code" "" "de")
+(descr-as-in "linguasphere-code" "идентификатор языка из Linguasphere Observatory" "ru")
+(descr-as-in "linguasphere-code" "código de idioma en Linguasphere" "es")
+(descr-as-in "linguasphere-code" "" "ja")
+(descr-as-in "linguasphere-code" "" "zh-cn")
+(descr-as-in "linguasphere-code" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.seal_description
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "seal-description")
+
+(name-as-in "seal-description" "印章描述" "zh-hk")
+(name-as-in "seal-description" "descrição do selo" "pt")
+(name-as-in "seal-description" "seal description" "en")
+(name-as-in "seal-description" "description du sceau" "fr")
+(name-as-in "seal-description" "印章描述" "zh-tw")
+(name-as-in "seal-description" "Siegel (Beschreibung)" "de")
+(name-as-in "seal-description" "описание печати/эмблемы" "ru")
+(name-as-in "seal-description" "descripción del sello" "es")
+(name-as-in "seal-description" "印章の解説" "ja")
+(name-as-in "seal-description" "印章描述" "zh-cn")
+(name-as-in "seal-description" "印章描述" "zh-sg")
+
+(descr-as-in "seal-description" "" "zh-hk")
+(descr-as-in "seal-description" "" "pt")
+(descr-as-in "seal-description" "description of a subject's seal" "en")
+(descr-as-in "seal-description" "description du sceau du sujet" "fr")
+(descr-as-in "seal-description" "" "zh-tw")
+(descr-as-in "seal-description" "Beschreibung und Geschichte eines Siegels" "de")
+(descr-as-in "seal-description" "статья Википедии с описанием печати/эмблемы" "ru")
+(descr-as-in "seal-description" "descripción del sello del elemento" "es")
+(descr-as-in "seal-description" "この項目の印章の解説" "ja")
+(descr-as-in "seal-description" "" "zh-cn")
+(descr-as-in "seal-description" "" "zh-sg")
+

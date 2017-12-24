@@ -1,0 +1,31 @@
+(ns properties.national_portrait_gallery_london_person_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "national-portrait-gallery-london-person-id")
+
+(name-as-in "national-portrait-gallery-london-person-id" "" "zh-hk")
+(name-as-in "national-portrait-gallery-london-person-id" "" "pt")
+(name-as-in "national-portrait-gallery-london-person-id" "National Portrait Gallery (London) person ID" "en")
+(name-as-in "national-portrait-gallery-london-person-id" "identifiant National Portrait Gallery" "fr")
+(name-as-in "national-portrait-gallery-london-person-id" "" "zh-tw")
+(name-as-in "national-portrait-gallery-london-person-id" "Personennummer der Nationalen Porträtgalerie (London)" "de")
+(name-as-in "national-portrait-gallery-london-person-id" "Национальная портретная галерея в Лондоне" "ru")
+(name-as-in "national-portrait-gallery-london-person-id" "identificador de persona de la National Portrait Gallery de Londres" "es")
+(name-as-in "national-portrait-gallery-london-person-id" "" "ja")
+(name-as-in "national-portrait-gallery-london-person-id" "" "zh-cn")
+(name-as-in "national-portrait-gallery-london-person-id" "" "zh-sg")
+
+(descr-as-in "national-portrait-gallery-london-person-id" "" "zh-hk")
+(descr-as-in "national-portrait-gallery-london-person-id" "" "pt")
+(descr-as-in "national-portrait-gallery-london-person-id" "identifier for sitters and artists represented in the National Portrait Gallery, London" "en")
+(descr-as-in "national-portrait-gallery-london-person-id" "" "fr")
+(descr-as-in "national-portrait-gallery-london-person-id" "" "zh-tw")
+(descr-as-in "national-portrait-gallery-london-person-id" "" "de")
+(descr-as-in "national-portrait-gallery-london-person-id" "" "ru")
+(descr-as-in "national-portrait-gallery-london-person-id" "" "es")
+(descr-as-in "national-portrait-gallery-london-person-id" "" "ja")
+(descr-as-in "national-portrait-gallery-london-person-id" "" "zh-cn")
+(descr-as-in "national-portrait-gallery-london-person-id" "" "zh-sg")
+

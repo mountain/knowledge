@@ -1,0 +1,31 @@
+(ns properties.label_in_sign_language
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "label-in-sign-language")
+
+(name-as-in "label-in-sign-language" "" "zh-hk")
+(name-as-in "label-in-sign-language" "rótulo em língua de sinais" "pt")
+(name-as-in "label-in-sign-language" "label in sign language" "en")
+(name-as-in "label-in-sign-language" "libellé en langue des signes" "fr")
+(name-as-in "label-in-sign-language" "" "zh-tw")
+(name-as-in "label-in-sign-language" "Bezeichner in Gebärdensprache" "de")
+(name-as-in "label-in-sign-language" "обозначение на жестовом языке" "ru")
+(name-as-in "label-in-sign-language" "etiqueta en lengua de señas" "es")
+(name-as-in "label-in-sign-language" "" "ja")
+(name-as-in "label-in-sign-language" "" "zh-cn")
+(name-as-in "label-in-sign-language" "" "zh-sg")
+
+(descr-as-in "label-in-sign-language" "" "zh-hk")
+(descr-as-in "label-in-sign-language" "" "pt")
+(descr-as-in "label-in-sign-language" "media file showing label of this item in sign language. Use language of work or name (P407) as qualifier to indicate which language" "en")
+(descr-as-in "label-in-sign-language" "média montrant le libellé de cet élément en langue des signes. Utilisez « langue de l'œuvre (ou du nom) » (P407) comme qualificatif pour indiquer de quelle langue il s'agit" "fr")
+(descr-as-in "label-in-sign-language" "" "zh-tw")
+(descr-as-in "label-in-sign-language" "Mediendatei, die den Bezeichner (Label) dieses Items in Gebärdensprache darstellt" "de")
+(descr-as-in "label-in-sign-language" "" "ru")
+(descr-as-in "label-in-sign-language" "archivo multimedia con la etiqueta de este elemento en lengua de señas. Usar idioma de la obra o del nombre (P407) como calificador para indicar el idioma" "es")
+(descr-as-in "label-in-sign-language" "" "ja")
+(descr-as-in "label-in-sign-language" "" "zh-cn")
+(descr-as-in "label-in-sign-language" "" "zh-sg")
+

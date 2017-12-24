@@ -1,0 +1,31 @@
+(ns properties.editor
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "editor")
+
+(name-as-in "editor" "編輯" "zh-hk")
+(name-as-in "editor" "editor" "pt")
+(name-as-in "editor" "editor" "en")
+(name-as-in "editor" "éditeur scientifique" "fr")
+(name-as-in "editor" "" "zh-tw")
+(name-as-in "editor" "Herausgeber" "de")
+(name-as-in "editor" "редактор" "ru")
+(name-as-in "editor" "editor" "es")
+(name-as-in "editor" "編者" "ja")
+(name-as-in "editor" "" "zh-cn")
+(name-as-in "editor" "" "zh-sg")
+
+(descr-as-in "editor" "" "zh-hk")
+(descr-as-in "editor" "editor(es) de uma obra de compilação, como um livro ou publicação científica" "pt")
+(descr-as-in "editor" "editor of a compiled work such as a book or academic journal" "en")
+(descr-as-in "editor" "rédacteur d'une œuvre comme un livre ou un journal académique" "fr")
+(descr-as-in "editor" "" "zh-tw")
+(descr-as-in "editor" "Herausgeber eines zusammengestellten Werks" "de")
+(descr-as-in "editor" "редактор сборной работы" "ru")
+(descr-as-in "editor" "editor de una obra literaria" "es")
+(descr-as-in "editor" "編纂された作品（本や学術雑誌など）を編纂した人" "ja")
+(descr-as-in "editor" "" "zh-cn")
+(descr-as-in "editor" "" "zh-sg")
+

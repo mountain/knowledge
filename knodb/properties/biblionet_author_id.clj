@@ -1,0 +1,31 @@
+(ns properties.biblionet_author_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "biblionet-author-id")
+
+(name-as-in "biblionet-author-id" "" "zh-hk")
+(name-as-in "biblionet-author-id" "" "pt")
+(name-as-in "biblionet-author-id" "BiblioNet author ID" "en")
+(name-as-in "biblionet-author-id" "identifiant BiblioNet d'un auteur" "fr")
+(name-as-in "biblionet-author-id" "" "zh-tw")
+(name-as-in "biblionet-author-id" "BiblioNet Autoren Identifikator" "de")
+(name-as-in "biblionet-author-id" "код автора в BiblioNet" "ru")
+(name-as-in "biblionet-author-id" "identificador BiblioNet de autor" "es")
+(name-as-in "biblionet-author-id" "" "ja")
+(name-as-in "biblionet-author-id" "" "zh-cn")
+(name-as-in "biblionet-author-id" "" "zh-sg")
+
+(descr-as-in "biblionet-author-id" "" "zh-hk")
+(descr-as-in "biblionet-author-id" "" "pt")
+(descr-as-in "biblionet-author-id" "Identifier in the BiblioNet database of authors, created by the National Book Centre of Greece, many Greek individual publishers and their professional associations" "en")
+(descr-as-in "biblionet-author-id" "" "fr")
+(descr-as-in "biblionet-author-id" "" "zh-tw")
+(descr-as-in "biblionet-author-id" "Identifikator der BiblioNet Datenbank der Autoren des National Book Centre of Greece" "de")
+(descr-as-in "biblionet-author-id" "" "ru")
+(descr-as-in "biblionet-author-id" "" "es")
+(descr-as-in "biblionet-author-id" "" "ja")
+(descr-as-in "biblionet-author-id" "" "zh-cn")
+(descr-as-in "biblionet-author-id" "" "zh-sg")
+

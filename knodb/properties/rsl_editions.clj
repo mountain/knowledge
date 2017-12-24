@@ -1,0 +1,31 @@
+(ns properties.rsl_editions
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "rsl-editions")
+
+(name-as-in "rsl-editions" "" "zh-hk")
+(name-as-in "rsl-editions" "" "pt")
+(name-as-in "rsl-editions" "RSL editions" "en")
+(name-as-in "rsl-editions" "édition BER" "fr")
+(name-as-in "rsl-editions" "" "zh-tw")
+(name-as-in "rsl-editions" "RSL-Editionen" "de")
+(name-as-in "rsl-editions" "код издания РГБ" "ru")
+(name-as-in "rsl-editions" "" "es")
+(name-as-in "rsl-editions" "" "ja")
+(name-as-in "rsl-editions" "" "zh-cn")
+(name-as-in "rsl-editions" "" "zh-sg")
+
+(descr-as-in "rsl-editions" "" "zh-hk")
+(descr-as-in "rsl-editions" "" "pt")
+(descr-as-in "rsl-editions" "catalogue number of the Russian State Library of Moscow (see also P1815 and P947)" "en")
+(descr-as-in "rsl-editions" "numéro dans le catalogue de la bibliothèque d'état russe, Moscou (voir également P1815, P947" "fr")
+(descr-as-in "rsl-editions" "" "zh-tw")
+(descr-as-in "rsl-editions" "Eintrag im Katalog der Russischen Staatsbibliothek, Moskau (für Digitalisate: P1815; für Normdaten: P947)" "de")
+(descr-as-in "rsl-editions" "номер в каталоге Российской государственной библиотеки для книг, журналов, карт, нотных изданий и т. п. (см. также P1815 и P947)" "ru")
+(descr-as-in "rsl-editions" "" "es")
+(descr-as-in "rsl-editions" "" "ja")
+(descr-as-in "rsl-editions" "" "zh-cn")
+(descr-as-in "rsl-editions" "" "zh-sg")
+

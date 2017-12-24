@@ -1,0 +1,31 @@
+(ns properties.has_list
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "has-list")
+
+(name-as-in "has-list" "" "zh-hk")
+(name-as-in "has-list" "lista do tópico" "pt")
+(name-as-in "has-list" "has list" "en")
+(name-as-in "has-list" "liste d'éléments" "fr")
+(name-as-in "has-list" "" "zh-tw")
+(name-as-in "has-list" "entsprechende Liste" "de")
+(name-as-in "has-list" "соответствующий список" "ru")
+(name-as-in "has-list" "lista del elemento" "es")
+(name-as-in "has-list" "一覧" "ja")
+(name-as-in "has-list" "" "zh-cn")
+(name-as-in "has-list" "" "zh-sg")
+
+(descr-as-in "has-list" "" "zh-hk")
+(descr-as-in "has-list" "" "pt")
+(descr-as-in "has-list" "Wikimedia list related to this subject" "en")
+(descr-as-in "has-list" "liste Wikimédia relative à ce sujet" "fr")
+(descr-as-in "has-list" "" "zh-tw")
+(descr-as-in "has-list" "Wikimedia-Liste zu diesem Objekt" "de")
+(descr-as-in "has-list" "список Викимедиа, соответствующий данному понятию" "ru")
+(descr-as-in "has-list" "lista de Wikimedia para el elemento" "es")
+(descr-as-in "has-list" "この主題に関連するウィキメディアの一覧" "ja")
+(descr-as-in "has-list" "" "zh-cn")
+(descr-as-in "has-list" "" "zh-sg")
+

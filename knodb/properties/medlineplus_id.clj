@@ -1,0 +1,31 @@
+(ns properties.medlineplus_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "medlineplus-id")
+
+(name-as-in "medlineplus-id" "" "zh-hk")
+(name-as-in "medlineplus-id" "identificador MedlinePlus" "pt")
+(name-as-in "medlineplus-id" "MedlinePlus ID" "en")
+(name-as-in "medlineplus-id" "identifiant Medline Plus" "fr")
+(name-as-in "medlineplus-id" "" "zh-tw")
+(name-as-in "medlineplus-id" "MedlinePlus-ID" "de")
+(name-as-in "medlineplus-id" "идентификатор MedlinePlus" "ru")
+(name-as-in "medlineplus-id" "identificador MedlinePlus" "es")
+(name-as-in "medlineplus-id" "MedlinePlus ID" "ja")
+(name-as-in "medlineplus-id" "" "zh-cn")
+(name-as-in "medlineplus-id" "" "zh-sg")
+
+(descr-as-in "medlineplus-id" "" "zh-hk")
+(descr-as-in "medlineplus-id" "" "pt")
+(descr-as-in "medlineplus-id" "health information from U.S. government agencies, and health-related organizations" "en")
+(descr-as-in "medlineplus-id" "" "fr")
+(descr-as-in "medlineplus-id" "" "zh-tw")
+(descr-as-in "medlineplus-id" "frei zugängliche Datenbank von Krankheitsbeschreibungen" "de")
+(descr-as-in "medlineplus-id" "" "ru")
+(descr-as-in "medlineplus-id" "" "es")
+(descr-as-in "medlineplus-id" "" "ja")
+(descr-as-in "medlineplus-id" "" "zh-cn")
+(descr-as-in "medlineplus-id" "" "zh-sg")
+

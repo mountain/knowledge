@@ -1,0 +1,31 @@
+(ns properties.seal_image
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "seal-image")
+
+(name-as-in "seal-image" "印章圖片" "zh-hk")
+(name-as-in "seal-image" "imagem do emblema" "pt")
+(name-as-in "seal-image" "seal image" "en")
+(name-as-in "seal-image" "image du sceau" "fr")
+(name-as-in "seal-image" "印章圖像" "zh-tw")
+(name-as-in "seal-image" "Siegel (Abbildung)" "de")
+(name-as-in "seal-image" "изображение печати/эмблемы" "ru")
+(name-as-in "seal-image" "imagen del sello" "es")
+(name-as-in "seal-image" "印章の画像" "ja")
+(name-as-in "seal-image" "印章图像" "zh-cn")
+(name-as-in "seal-image" "印章图像" "zh-sg")
+
+(descr-as-in "seal-image" "" "zh-hk")
+(descr-as-in "seal-image" "imagem do emblema ou selo do sujeito" "pt")
+(descr-as-in "seal-image" "image of subject's seal (emblem)" "en")
+(descr-as-in "seal-image" "image du sceau du sujet (emblème)" "fr")
+(descr-as-in "seal-image" "" "zh-tw")
+(descr-as-in "seal-image" "Abbildung des Siegels (Emblems)" "de")
+(descr-as-in "seal-image" "изображение эмблемы или печати данного элемента" "ru")
+(descr-as-in "seal-image" "imagen del emblema del objeto" "es")
+(descr-as-in "seal-image" "この項目の印章の画像" "ja")
+(descr-as-in "seal-image" "" "zh-cn")
+(descr-as-in "seal-image" "" "zh-sg")
+

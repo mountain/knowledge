@@ -1,0 +1,31 @@
+(ns properties.tripadvisor_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "tripadvisor-id")
+
+(name-as-in "tripadvisor-id" "" "zh-hk")
+(name-as-in "tripadvisor-id" "" "pt")
+(name-as-in "tripadvisor-id" "TripAdvisor ID" "en")
+(name-as-in "tripadvisor-id" "identifiant TripAdvisor" "fr")
+(name-as-in "tripadvisor-id" "" "zh-tw")
+(name-as-in "tripadvisor-id" "TripAdvisor-ID" "de")
+(name-as-in "tripadvisor-id" "код TripAdvisor" "ru")
+(name-as-in "tripadvisor-id" "identificador TripAdvisor" "es")
+(name-as-in "tripadvisor-id" "" "ja")
+(name-as-in "tripadvisor-id" "" "zh-cn")
+(name-as-in "tripadvisor-id" "" "zh-sg")
+
+(descr-as-in "tripadvisor-id" "" "zh-hk")
+(descr-as-in "tripadvisor-id" "" "pt")
+(descr-as-in "tripadvisor-id" "identifier of a place (region, hotel, restaurant, attraction), in TripAdvisor" "en")
+(descr-as-in "tripadvisor-id" "identifiant pour un lieu (hôtel, restaurant, attraction) sur TripAdvisor" "fr")
+(descr-as-in "tripadvisor-id" "" "zh-tw")
+(descr-as-in "tripadvisor-id" "Identifikator eines Ortes (Region, Hotel, Restaurant, Attraktion) auf TripAdvisor" "de")
+(descr-as-in "tripadvisor-id" "" "ru")
+(descr-as-in "tripadvisor-id" "" "es")
+(descr-as-in "tripadvisor-id" "" "ja")
+(descr-as-in "tripadvisor-id" "" "zh-cn")
+(descr-as-in "tripadvisor-id" "" "zh-sg")
+

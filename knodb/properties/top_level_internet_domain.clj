@@ -1,0 +1,31 @@
+(ns properties.top_level_internet_domain
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "top-level-internet-domain")
+
+(name-as-in "top-level-internet-domain" "頂級域名" "zh-hk")
+(name-as-in "top-level-internet-domain" "domínio de topo" "pt")
+(name-as-in "top-level-internet-domain" "top-level internet domain" "en")
+(name-as-in "top-level-internet-domain" "domaine internet" "fr")
+(name-as-in "top-level-internet-domain" "頂級域名" "zh-tw")
+(name-as-in "top-level-internet-domain" "Top-Level-Domain" "de")
+(name-as-in "top-level-internet-domain" "интернет-домен верхнего уровня" "ru")
+(name-as-in "top-level-internet-domain" "dominio de Internet de nivel superior" "es")
+(name-as-in "top-level-internet-domain" "トップレベルドメイン" "ja")
+(name-as-in "top-level-internet-domain" "顶级域名" "zh-cn")
+(name-as-in "top-level-internet-domain" "顶级域名" "zh-sg")
+
+(descr-as-in "top-level-internet-domain" "" "zh-hk")
+(descr-as-in "top-level-internet-domain" "código do domínio de internet" "pt")
+(descr-as-in "top-level-internet-domain" "Internet domain name system top-level code" "en")
+(descr-as-in "top-level-internet-domain" "domaine de premier niveau pour une adresse internet" "fr")
+(descr-as-in "top-level-internet-domain" "" "zh-tw")
+(descr-as-in "top-level-internet-domain" "oberste Ebene der Namensauflösung bei Internetadressen für ein Land, Territorium oder eine Organisation" "de")
+(descr-as-in "top-level-internet-domain" "" "ru")
+(descr-as-in "top-level-internet-domain" "código de nivel superior del sistema de nombres de dominio de Internet" "es")
+(descr-as-in "top-level-internet-domain" "その国・地域・組織に割り当てられたトップレベルドメイン" "ja")
+(descr-as-in "top-level-internet-domain" "" "zh-cn")
+(descr-as-in "top-level-internet-domain" "" "zh-sg")
+

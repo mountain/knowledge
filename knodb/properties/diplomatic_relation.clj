@@ -1,0 +1,31 @@
+(ns properties.diplomatic_relation
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "diplomatic-relation")
+
+(name-as-in "diplomatic-relation" "邦交國" "zh-hk")
+(name-as-in "diplomatic-relation" "relação diplomática" "pt")
+(name-as-in "diplomatic-relation" "diplomatic relation" "en")
+(name-as-in "diplomatic-relation" "relation diplomatique" "fr")
+(name-as-in "diplomatic-relation" "邦交國" "zh-tw")
+(name-as-in "diplomatic-relation" "diplomatische Beziehung" "de")
+(name-as-in "diplomatic-relation" "дипломатические отношения" "ru")
+(name-as-in "diplomatic-relation" "relación diplomática" "es")
+(name-as-in "diplomatic-relation" "国交のある国" "ja")
+(name-as-in "diplomatic-relation" "邦交国" "zh-cn")
+(name-as-in "diplomatic-relation" "邦交国" "zh-sg")
+
+(descr-as-in "diplomatic-relation" "" "zh-hk")
+(descr-as-in "diplomatic-relation" "relações diplomáticas do país" "pt")
+(descr-as-in "diplomatic-relation" "diplomatic relations of the country" "en")
+(descr-as-in "diplomatic-relation" "relations diplomatiques entre les États" "fr")
+(descr-as-in "diplomatic-relation" "" "zh-tw")
+(descr-as-in "diplomatic-relation" "diplomatische Beziehungen des Landes" "de")
+(descr-as-in "diplomatic-relation" "" "ru")
+(descr-as-in "diplomatic-relation" "relaciones diplomáticas de un país" "es")
+(descr-as-in "diplomatic-relation" "国家間の外交関係を有する国" "ja")
+(descr-as-in "diplomatic-relation" "" "zh-cn")
+(descr-as-in "diplomatic-relation" "" "zh-sg")
+

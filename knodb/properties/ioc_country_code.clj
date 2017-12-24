@@ -1,0 +1,31 @@
+(ns properties.ioc_country_code
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "ioc-country-code")
+
+(name-as-in "ioc-country-code" "國際奧委會國家代碼" "zh-hk")
+(name-as-in "ioc-country-code" "código de país do COI" "pt")
+(name-as-in "ioc-country-code" "IOC country code" "en")
+(name-as-in "ioc-country-code" "code pays du CIO" "fr")
+(name-as-in "ioc-country-code" "IOC國家代碼" "zh-tw")
+(name-as-in "ioc-country-code" "IOC-Ländercode" "de")
+(name-as-in "ioc-country-code" "код страны МОК" "ru")
+(name-as-in "ioc-country-code" "código de país COI" "es")
+(name-as-in "ioc-country-code" "IOC国名コード" "ja")
+(name-as-in "ioc-country-code" "" "zh-cn")
+(name-as-in "ioc-country-code" "" "zh-sg")
+
+(descr-as-in "ioc-country-code" "國際奧林匹克委員會訂立的三個字母的國家代碼" "zh-hk")
+(descr-as-in "ioc-country-code" "código de três letras do Comitê Olímpico Internacional" "pt")
+(descr-as-in "ioc-country-code" "three-letter abbreviation country code by the International Olympic Committee" "en")
+(descr-as-in "ioc-country-code" "code pays sur 3 positions selon le Comité international olympique (CIO)" "fr")
+(descr-as-in "ioc-country-code" "" "zh-tw")
+(descr-as-in "ioc-country-code" "Dreibuchstabencode als Länder-Abkürzung des Internationalen Olympischen Komitees" "de")
+(descr-as-in "ioc-country-code" "трёхбуквенная аббревиатура страны, определённая Международным олимпийским комитетом" "ru")
+(descr-as-in "ioc-country-code" "código de 3 letras asignado por el Comité Olímpico Internacional" "es")
+(descr-as-in "ioc-country-code" "国債オリンピック委員会による3文字の国名略記コード" "ja")
+(descr-as-in "ioc-country-code" "" "zh-cn")
+(descr-as-in "ioc-country-code" "" "zh-sg")
+

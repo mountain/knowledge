@@ -1,0 +1,31 @@
+(ns properties.atomic_heritage_foundation_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "atomic-heritage-foundation-id")
+
+(name-as-in "atomic-heritage-foundation-id" "" "zh-hk")
+(name-as-in "atomic-heritage-foundation-id" "" "pt")
+(name-as-in "atomic-heritage-foundation-id" "Atomic Heritage Foundation ID" "en")
+(name-as-in "atomic-heritage-foundation-id" "identifiant Atomic Heritage Foundation" "fr")
+(name-as-in "atomic-heritage-foundation-id" "" "zh-tw")
+(name-as-in "atomic-heritage-foundation-id" "" "de")
+(name-as-in "atomic-heritage-foundation-id" "" "ru")
+(name-as-in "atomic-heritage-foundation-id" "" "es")
+(name-as-in "atomic-heritage-foundation-id" "" "ja")
+(name-as-in "atomic-heritage-foundation-id" "" "zh-cn")
+(name-as-in "atomic-heritage-foundation-id" "" "zh-sg")
+
+(descr-as-in "atomic-heritage-foundation-id" "" "zh-hk")
+(descr-as-in "atomic-heritage-foundation-id" "" "pt")
+(descr-as-in "atomic-heritage-foundation-id" "Profile of a person on the website of the Atomic Heritage Foundation" "en")
+(descr-as-in "atomic-heritage-foundation-id" "fiche d'une personne sur le site web de la « Atomic Heritage Foundation »" "fr")
+(descr-as-in "atomic-heritage-foundation-id" "" "zh-tw")
+(descr-as-in "atomic-heritage-foundation-id" "" "de")
+(descr-as-in "atomic-heritage-foundation-id" "" "ru")
+(descr-as-in "atomic-heritage-foundation-id" "" "es")
+(descr-as-in "atomic-heritage-foundation-id" "" "ja")
+(descr-as-in "atomic-heritage-foundation-id" "" "zh-cn")
+(descr-as-in "atomic-heritage-foundation-id" "" "zh-sg")
+

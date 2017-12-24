@@ -1,0 +1,31 @@
+(ns properties.ptbnp_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "ptbnp-id")
+
+(name-as-in "ptbnp-id" "PTBNP識別碼" "zh-hk")
+(name-as-in "ptbnp-id" "identificador PTBNP" "pt")
+(name-as-in "ptbnp-id" "PTBNP ID" "en")
+(name-as-in "ptbnp-id" "identifiant Bibliothèque nationale du Portugal" "fr")
+(name-as-in "ptbnp-id" "" "zh-tw")
+(name-as-in "ptbnp-id" "PTBNP" "de")
+(name-as-in "ptbnp-id" "код PTBNP" "ru")
+(name-as-in "ptbnp-id" "identificador PTBNP" "es")
+(name-as-in "ptbnp-id" "PTBNP識別子" "ja")
+(name-as-in "ptbnp-id" "" "zh-cn")
+(name-as-in "ptbnp-id" "" "zh-sg")
+
+(descr-as-in "ptbnp-id" "" "zh-hk")
+(descr-as-in "ptbnp-id" "" "pt")
+(descr-as-in "ptbnp-id" "identifier for the Portuguese National Library" "en")
+(descr-as-in "ptbnp-id" "identifiant de la Bibliothèque nationale du Portugal" "fr")
+(descr-as-in "ptbnp-id" "" "zh-tw")
+(descr-as-in "ptbnp-id" "Normdatei der Portugiesischen Nationalbibliothek (Biblioteca Nacional de Portugal)" "de")
+(descr-as-in "ptbnp-id" "номер в каталоге Национальной библиотеки Португалии" "ru")
+(descr-as-in "ptbnp-id" "identificador de la Biblioteca Nacional de Portugal" "es")
+(descr-as-in "ptbnp-id" "ポルトガル国立図書館の識別子" "ja")
+(descr-as-in "ptbnp-id" "" "zh-cn")
+(descr-as-in "ptbnp-id" "" "zh-sg")
+

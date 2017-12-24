@@ -1,0 +1,31 @@
+(ns properties.relative
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "relative")
+
+(name-as-in "relative" "親屬" "zh-hk")
+(name-as-in "relative" "parente" "pt")
+(name-as-in "relative" "relative" "en")
+(name-as-in "relative" "parentèle" "fr")
+(name-as-in "relative" "親屬" "zh-tw")
+(name-as-in "relative" "Verwandte" "de")
+(name-as-in "relative" "родственник" "ru")
+(name-as-in "relative" "pariente" "es")
+(name-as-in "relative" "親族" "ja")
+(name-as-in "relative" "亲属" "zh-cn")
+(name-as-in "relative" "亲属" "zh-sg")
+
+(descr-as-in "relative" "" "zh-hk")
+(descr-as-in "relative" "" "pt")
+(descr-as-in "relative" "family member (qualify with type of kinship, P1039; for direct family member please use specific property)" "en")
+(descr-as-in "relative" "personne ayant un lien familial avec le sujet (qualifier avec type de parenté, P1039 ; utiliser une propriété plus précise lorsque c'est possible)" "fr")
+(descr-as-in "relative" "" "zh-tw")
+(descr-as-in "relative" "Familienmitglieder (mit Qualifikator P1039, Verwandtschaftsverhältnis, verwenden)" "de")
+(descr-as-in "relative" "родственник персоны (для указания степени родства использовать P1039, также есть отдельные свойства для отцов, матерей, детей, братьев-сестер и.т.д.)" "ru")
+(descr-as-in "relative" "miembro de la familia no directo (usar calificador tipo de parentesco, P1039)" "es")
+(descr-as-in "relative" "直系関係で表現できない親族。修飾子「関係」(P1039) とともに使用する" "ja")
+(descr-as-in "relative" "" "zh-cn")
+(descr-as-in "relative" "" "zh-sg")
+

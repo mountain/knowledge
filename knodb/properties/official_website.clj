@@ -1,0 +1,31 @@
+(ns properties.official_website
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "official-website")
+
+(name-as-in "official-website" "官方網站" "zh-hk")
+(name-as-in "official-website" "sítio oficial" "pt")
+(name-as-in "official-website" "official website" "en")
+(name-as-in "official-website" "site officiel" "fr")
+(name-as-in "official-website" "官方網站" "zh-tw")
+(name-as-in "official-website" "offizielle Website" "de")
+(name-as-in "official-website" "официальный сайт" "ru")
+(name-as-in "official-website" "sitio web oficial" "es")
+(name-as-in "official-website" "公式ウェブサイト" "ja")
+(name-as-in "official-website" "官方网站" "zh-cn")
+(name-as-in "official-website" "官方网站" "zh-sg")
+
+(descr-as-in "official-website" "項官方網站的網址" "zh-hk")
+(descr-as-in "official-website" "URL do website oficial desse item" "pt")
+(descr-as-in "official-website" "URL to the website of this item (current or former). If the website changes, add an additional statement with preferred rank. Do not remove the former URL." "en")
+(descr-as-in "official-website" "URL du site internet officiel de l'élément" "fr")
+(descr-as-in "official-website" "組織或個人的正式網站" "zh-tw")
+(descr-as-in "official-website" "URL für die Website des Objektes" "de")
+(descr-as-in "official-website" "URL веб-сайта этого элемента" "ru")
+(descr-as-in "official-website" "URL al sitio web de este elemento" "es")
+(descr-as-in "official-website" "主題のウェブサイトのURL" "ja")
+(descr-as-in "official-website" "一条项目对应的官方网站" "zh-cn")
+(descr-as-in "official-website" "" "zh-sg")
+

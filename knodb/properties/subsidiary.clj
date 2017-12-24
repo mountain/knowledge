@@ -1,0 +1,31 @@
+(ns properties.subsidiary
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "subsidiary")
+
+(name-as-in "subsidiary" "子公司" "zh-hk")
+(name-as-in "subsidiary" "subsidiária(s)" "pt")
+(name-as-in "subsidiary" "subsidiary" "en")
+(name-as-in "subsidiary" "filiale" "fr")
+(name-as-in "subsidiary" "子公司" "zh-tw")
+(name-as-in "subsidiary" "Tochtergesellschaft" "de")
+(name-as-in "subsidiary" "дочерние компании" "ru")
+(name-as-in "subsidiary" "filial" "es")
+(name-as-in "subsidiary" "子会社" "ja")
+(name-as-in "subsidiary" "子公司" "zh-cn")
+(name-as-in "subsidiary" "子公司" "zh-sg")
+
+(descr-as-in "subsidiary" "" "zh-hk")
+(descr-as-in "subsidiary" "empresas subsidiárias de uma empresa" "pt")
+(descr-as-in "subsidiary" "subsidiary of a company or organization, opposite of parent company (P749)" "en")
+(descr-as-in "subsidiary" "filiales d'une entreprise" "fr")
+(descr-as-in "subsidiary" "" "zh-tw")
+(descr-as-in "subsidiary" "unselbstständiges Unternehmen, das von der Muttergesellschaft kontrolliert wird" "de")
+(descr-as-in "subsidiary" "" "ru")
+(descr-as-in "subsidiary" "filiales de una empresa" "es")
+(descr-as-in "subsidiary" "この項目（企業）の子会社" "ja")
+(descr-as-in "subsidiary" "" "zh-cn")
+(descr-as-in "subsidiary" "" "zh-sg")
+

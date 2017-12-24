@@ -1,0 +1,31 @@
+(ns properties.lac_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "lac-id")
+
+(name-as-in "lac-id" "" "zh-hk")
+(name-as-in "lac-id" "identificador LAC" "pt")
+(name-as-in "lac-id" "LAC ID" "en")
+(name-as-in "lac-id" "identifiant Canadiana" "fr")
+(name-as-in "lac-id" "" "zh-tw")
+(name-as-in "lac-id" "LAC-ID" "de")
+(name-as-in "lac-id" "код LAC" "ru")
+(name-as-in "lac-id" "identificador LAC" "es")
+(name-as-in "lac-id" "LAC識別子" "ja")
+(name-as-in "lac-id" "" "zh-cn")
+(name-as-in "lac-id" "" "zh-sg")
+
+(descr-as-in "lac-id" "" "zh-hk")
+(descr-as-in "lac-id" "" "pt")
+(descr-as-in "lac-id" "identifier for authority control per the Library and Archives Canada. Format: 4 digits + 1 letter + 4 digits" "en")
+(descr-as-in "lac-id" "identifiant de la notice d'autorité Canadiana dans Bibliothèque et Archives Canada" "fr")
+(descr-as-in "lac-id" "" "zh-tw")
+(descr-as-in "lac-id" "Nummer bei der Library and Archives Canada" "de")
+(descr-as-in "lac-id" "номер в каталоге Библиотеки и Архива Канады" "ru")
+(descr-as-in "lac-id" "" "es")
+(descr-as-in "lac-id" "カナダ国立図書館・文書館の典拠管理番号" "ja")
+(descr-as-in "lac-id" "" "zh-cn")
+(descr-as-in "lac-id" "" "zh-sg")
+

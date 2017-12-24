@@ -1,0 +1,31 @@
+(ns properties.genealogical_gazetteer_gov_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "genealogical-gazetteer-gov-id")
+
+(name-as-in "genealogical-gazetteer-gov-id" "" "zh-hk")
+(name-as-in "genealogical-gazetteer-gov-id" "" "pt")
+(name-as-in "genealogical-gazetteer-gov-id" "Genealogical Gazetteer (GOV) ID" "en")
+(name-as-in "genealogical-gazetteer-gov-id" "identifiant GOV" "fr")
+(name-as-in "genealogical-gazetteer-gov-id" "" "zh-tw")
+(name-as-in "genealogical-gazetteer-gov-id" "GOV-Kennung" "de")
+(name-as-in "genealogical-gazetteer-gov-id" "код Genealogical Gazetteer" "ru")
+(name-as-in "genealogical-gazetteer-gov-id" "" "es")
+(name-as-in "genealogical-gazetteer-gov-id" "" "ja")
+(name-as-in "genealogical-gazetteer-gov-id" "" "zh-cn")
+(name-as-in "genealogical-gazetteer-gov-id" "" "zh-sg")
+
+(descr-as-in "genealogical-gazetteer-gov-id" "" "zh-hk")
+(descr-as-in "genealogical-gazetteer-gov-id" "" "pt")
+(descr-as-in "genealogical-gazetteer-gov-id" "" "en")
+(descr-as-in "genealogical-gazetteer-gov-id" "identifiant dans la publication généalogique Genealogische Ortsverzeichnis" "fr")
+(descr-as-in "genealogical-gazetteer-gov-id" "" "zh-tw")
+(descr-as-in "genealogical-gazetteer-gov-id" "Geschichtliches Ortsverzeichnis" "de")
+(descr-as-in "genealogical-gazetteer-gov-id" "" "ru")
+(descr-as-in "genealogical-gazetteer-gov-id" "" "es")
+(descr-as-in "genealogical-gazetteer-gov-id" "" "ja")
+(descr-as-in "genealogical-gazetteer-gov-id" "" "zh-cn")
+(descr-as-in "genealogical-gazetteer-gov-id" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.owned_by
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "owned-by")
+
+(name-as-in "owned-by" "擁有者" "zh-hk")
+(name-as-in "owned-by" "proprietário" "pt")
+(name-as-in "owned-by" "owned by" "en")
+(name-as-in "owned-by" "propriétaire" "fr")
+(name-as-in "owned-by" "擁有者" "zh-tw")
+(name-as-in "owned-by" "Eigentümer" "de")
+(name-as-in "owned-by" "владельцем является" "ru")
+(name-as-in "owned-by" "propietario" "es")
+(name-as-in "owned-by" "所有者" "ja")
+(name-as-in "owned-by" "拥有者" "zh-cn")
+(name-as-in "owned-by" "拥有者" "zh-sg")
+
+(descr-as-in "owned-by" "對此項持有擁有權的人或機構" "zh-hk")
+(descr-as-in "owned-by" "" "pt")
+(descr-as-in "owned-by" "owner of the subject" "en")
+(descr-as-in "owned-by" "propriétaire du sujet" "fr")
+(descr-as-in "owned-by" "對此項持有擁有權的人或機構" "zh-tw")
+(descr-as-in "owned-by" "Person (auch Personengruppe, Unternehmen o.ä.), der eine Sache gehört" "de")
+(descr-as-in "owned-by" "владелец этой сущности" "ru")
+(descr-as-in "owned-by" "poseedor del elemento" "es")
+(descr-as-in "owned-by" "この項目の所有者（人、組織、自治体、国家）" "ja")
+(descr-as-in "owned-by" "对此项持有拥有权的人或机构" "zh-cn")
+(descr-as-in "owned-by" "对此项持有拥有权的人或机构" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.coordinate_of_easternmost_point
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "coordinate-of-easternmost-point")
+
+(name-as-in "coordinate-of-easternmost-point" "最東點" "zh-hk")
+(name-as-in "coordinate-of-easternmost-point" "ponto oriental" "pt")
+(name-as-in "coordinate-of-easternmost-point" "coordinate of easternmost point" "en")
+(name-as-in "coordinate-of-easternmost-point" "coordonnées du point le plus à l'est" "fr")
+(name-as-in "coordinate-of-easternmost-point" "最東點" "zh-tw")
+(name-as-in "coordinate-of-easternmost-point" "östlichster Punkt" "de")
+(name-as-in "coordinate-of-easternmost-point" "самая восточная точка" "ru")
+(name-as-in "coordinate-of-easternmost-point" "punto más oriental" "es")
+(name-as-in "coordinate-of-easternmost-point" "最東端" "ja")
+(name-as-in "coordinate-of-easternmost-point" "最东点" "zh-cn")
+(name-as-in "coordinate-of-easternmost-point" "" "zh-sg")
+
+(descr-as-in "coordinate-of-easternmost-point" "" "zh-hk")
+(descr-as-in "coordinate-of-easternmost-point" "" "pt")
+(descr-as-in "coordinate-of-easternmost-point" "easternmost point of a location" "en")
+(descr-as-in "coordinate-of-easternmost-point" "point le plus à l'est d'un lieu" "fr")
+(descr-as-in "coordinate-of-easternmost-point" "" "zh-tw")
+(descr-as-in "coordinate-of-easternmost-point" "östlichster Punkt eines Orts" "de")
+(descr-as-in "coordinate-of-easternmost-point" "" "ru")
+(descr-as-in "coordinate-of-easternmost-point" "" "es")
+(descr-as-in "coordinate-of-easternmost-point" "場所の最東端" "ja")
+(descr-as-in "coordinate-of-easternmost-point" "" "zh-cn")
+(descr-as-in "coordinate-of-easternmost-point" "" "zh-sg")
+

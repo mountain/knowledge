@@ -1,0 +1,31 @@
+(ns properties.mathematics_subject_classification_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "mathematics-subject-classification-id")
+
+(name-as-in "mathematics-subject-classification-id" "" "zh-hk")
+(name-as-in "mathematics-subject-classification-id" "ID MSC" "pt")
+(name-as-in "mathematics-subject-classification-id" "Mathematics Subject Classification ID" "en")
+(name-as-in "mathematics-subject-classification-id" "identifiant MSC" "fr")
+(name-as-in "mathematics-subject-classification-id" "" "zh-tw")
+(name-as-in "mathematics-subject-classification-id" "" "de")
+(name-as-in "mathematics-subject-classification-id" "код MSC" "ru")
+(name-as-in "mathematics-subject-classification-id" "identificador MSC" "es")
+(name-as-in "mathematics-subject-classification-id" "" "ja")
+(name-as-in "mathematics-subject-classification-id" "" "zh-cn")
+(name-as-in "mathematics-subject-classification-id" "" "zh-sg")
+
+(descr-as-in "mathematics-subject-classification-id" "" "zh-hk")
+(descr-as-in "mathematics-subject-classification-id" "identificador do mesmo tópico na classificação de assuntos de matemática" "pt")
+(descr-as-in "mathematics-subject-classification-id" "identifier of the same topic in the Mathematics Subject Classification" "en")
+(descr-as-in "mathematics-subject-classification-id" "identifiant du même sujet dans la classification MSC (Mathematics Subject Classification)" "fr")
+(descr-as-in "mathematics-subject-classification-id" "" "zh-tw")
+(descr-as-in "mathematics-subject-classification-id" "" "de")
+(descr-as-in "mathematics-subject-classification-id" "Mathematics Subject Classification" "ru")
+(descr-as-in "mathematics-subject-classification-id" "" "es")
+(descr-as-in "mathematics-subject-classification-id" "" "ja")
+(descr-as-in "mathematics-subject-classification-id" "" "zh-cn")
+(descr-as-in "mathematics-subject-classification-id" "" "zh-sg")
+

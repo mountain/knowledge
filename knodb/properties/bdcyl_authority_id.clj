@@ -1,0 +1,31 @@
+(ns properties.bdcyl_authority_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "bdcyl-authority-id")
+
+(name-as-in "bdcyl-authority-id" "" "zh-hk")
+(name-as-in "bdcyl-authority-id" "" "pt")
+(name-as-in "bdcyl-authority-id" "BDCYL authority ID" "en")
+(name-as-in "bdcyl-authority-id" "identifiant BDCYL d'autorité" "fr")
+(name-as-in "bdcyl-authority-id" "" "zh-tw")
+(name-as-in "bdcyl-authority-id" "" "de")
+(name-as-in "bdcyl-authority-id" "" "ru")
+(name-as-in "bdcyl-authority-id" "identificador BDCYL de autoridad" "es")
+(name-as-in "bdcyl-authority-id" "" "ja")
+(name-as-in "bdcyl-authority-id" "" "zh-cn")
+(name-as-in "bdcyl-authority-id" "" "zh-sg")
+
+(descr-as-in "bdcyl-authority-id" "" "zh-hk")
+(descr-as-in "bdcyl-authority-id" "" "pt")
+(descr-as-in "bdcyl-authority-id" "identifier of an author, topic or place in Biblioteca Digital de Castilla y León" "en")
+(descr-as-in "bdcyl-authority-id" "identifiant pour un auteur, un sujet ou un lieu dans la Biblioteca Digital de Castilla y León" "fr")
+(descr-as-in "bdcyl-authority-id" "" "zh-tw")
+(descr-as-in "bdcyl-authority-id" "" "de")
+(descr-as-in "bdcyl-authority-id" "" "ru")
+(descr-as-in "bdcyl-authority-id" "identificador de un autor, tema o lugar en la Biblioteca Digital de Castilla y León" "es")
+(descr-as-in "bdcyl-authority-id" "" "ja")
+(descr-as-in "bdcyl-authority-id" "" "zh-cn")
+(descr-as-in "bdcyl-authority-id" "" "zh-sg")
+

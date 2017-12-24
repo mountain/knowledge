@@ -1,0 +1,31 @@
+(ns properties.sex_or_gender
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "sex-or-gender")
+
+(name-as-in "sex-or-gender" "性別" "zh-hk")
+(name-as-in "sex-or-gender" "sexo ou género" "pt")
+(name-as-in "sex-or-gender" "sex or gender" "en")
+(name-as-in "sex-or-gender" "sexe ou genre" "fr")
+(name-as-in "sex-or-gender" "性別" "zh-tw")
+(name-as-in "sex-or-gender" "Geschlecht" "de")
+(name-as-in "sex-or-gender" "пол" "ru")
+(name-as-in "sex-or-gender" "sexo o género" "es")
+(name-as-in "sex-or-gender" "性別" "ja")
+(name-as-in "sex-or-gender" "性别" "zh-cn")
+(name-as-in "sex-or-gender" "性別" "zh-sg")
+
+(descr-as-in "sex-or-gender" "應由下面擇一：人: 男性 (Q6581097）、女性（Q6581072）、或雙性人（Q1097630) ；動物: 雄性（Q44148）、或雌性（Q43445）" "zh-hk")
+(descr-as-in "sex-or-gender" "masculino (Q6581097), feminino (Q6581072), intersexual (Q1097630), mulher transexual (Q1052281), homem transexual (Q2449503) ou genderqueer (Q48270); para animais, usar: macho (Q44148) or fêmea (Q43445). Inclua qualificadores conforme a necessidade" "pt")
+(descr-as-in "sex-or-gender" "sexual identity of subject: male (Q6581097), female (Q6581072), intersex (Q1097630), transgender female (Q1052281), transgender male (Q2449503). Animals: male animal (Q44148), female animal (Q43445). Groups of same gender use subclass of (P279)" "en")
+(descr-as-in "sex-or-gender" "pour les humains, soit masculin (Q6581097), féminin (Q6581072), intersexué (Q1097630), femme transgenre (Q1052281), homme transgenre (Q2449503), genderqueer (Q48270) ; pour les animaux, mâle (Q44148) ou femelle (Q43445)" "fr")
+(descr-as-in "sex-or-gender" "應由下面擇一：人: 男性 (Q6581097）、女性（Q6581072）、或雙性人（Q1097630); 動物: 雄性（Q44148）、或雌性（Q43445）" "zh-tw")
+(descr-as-in "sex-or-gender" "bitte nur verwenden: männlich (Q6581097), weiblich (Q6581072), Intersexualität (Q1097630), Transfrau (Q1052281), Transmann (Q2449503) oder Genderqueer (Q48270); für Tiere männliches Tier (Q44148) oder weibliches Tier (Q43445)" "de")
+(descr-as-in "sex-or-gender" "должно быть одним из: мужской (Q6581097), женский (Q6581072), интерсексуальность (Q1097630) (полный список на странице обсуждения)" "ru")
+(descr-as-in "sex-or-gender" "para humanos: masculino (Q6581097), femenino (Q6581072), intersexual (Q1097630), mujer transgénero (Q1052281), hombre transgénero (Q2449503); para otras especies: macho (Q44148), hembra (Q43445) o hermafrodita (Q303479)" "es")
+(descr-as-in "sex-or-gender" "人間に対しては次の内の一つ: 男性 (Q6581097)、女性 (Q6581072)、半陰陽 (Q1097630); 他の生物に対しては: オス (Q44148) またはメス (Q43445)" "ja")
+(descr-as-in "sex-or-gender" "" "zh-cn")
+(descr-as-in "sex-or-gender" "" "zh-sg")
+

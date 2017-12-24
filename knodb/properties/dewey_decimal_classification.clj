@@ -1,0 +1,31 @@
+(ns properties.dewey_decimal_classification
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "dewey-decimal-classification")
+
+(name-as-in "dewey-decimal-classification" "杜威十進制圖書分類法" "zh-hk")
+(name-as-in "dewey-decimal-classification" "Classificação Decimal de Dewey" "pt")
+(name-as-in "dewey-decimal-classification" "Dewey Decimal Classification" "en")
+(name-as-in "dewey-decimal-classification" "classification décimale de Dewey" "fr")
+(name-as-in "dewey-decimal-classification" "杜威十進位圖書分類法" "zh-tw")
+(name-as-in "dewey-decimal-classification" "Dewey-Dezimalklassifikation" "de")
+(name-as-in "dewey-decimal-classification" "десятичная классификация Дьюи" "ru")
+(name-as-in "dewey-decimal-classification" "Clasificación Decimal de Dewey" "es")
+(name-as-in "dewey-decimal-classification" "デューイ十進分類法" "ja")
+(name-as-in "dewey-decimal-classification" "杜威十进制图书分类法" "zh-cn")
+(name-as-in "dewey-decimal-classification" "" "zh-sg")
+
+(descr-as-in "dewey-decimal-classification" "" "zh-hk")
+(descr-as-in "dewey-decimal-classification" "use com o qualificador edição (p747) com o valor do item CDD 23 ou crie um novo item para" "pt")
+(descr-as-in "dewey-decimal-classification" "use with qualifier edition (p747) with item value DDC 23 or create new item to represent the corresponding DDC edition" "en")
+(descr-as-in "dewey-decimal-classification" "" "fr")
+(descr-as-in "dewey-decimal-classification" "" "zh-tw")
+(descr-as-in "dewey-decimal-classification" "Klassifikation für die inhaltliche Erschließung (Verwendung mit dem Qualifikator P747: Ausgabe)" "de")
+(descr-as-in "dewey-decimal-classification" "" "ru")
+(descr-as-in "dewey-decimal-classification" "añadir un calificativo edición (P747) con el valor correspondiente a la edición del sistema CDD correspondiente" "es")
+(descr-as-in "dewey-decimal-classification" "図書分類法の一つ" "ja")
+(descr-as-in "dewey-decimal-classification" "" "zh-cn")
+(descr-as-in "dewey-decimal-classification" "" "zh-sg")
+

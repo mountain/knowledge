@@ -1,0 +1,31 @@
+(ns properties.bibsys_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "bibsys-id")
+
+(name-as-in "bibsys-id" "" "zh-hk")
+(name-as-in "bibsys-id" "identificador BIBSYS" "pt")
+(name-as-in "bibsys-id" "BIBSYS ID" "en")
+(name-as-in "bibsys-id" "identifiant BIBSYS" "fr")
+(name-as-in "bibsys-id" "" "zh-tw")
+(name-as-in "bibsys-id" "BIBSYS-ID" "de")
+(name-as-in "bibsys-id" "код BIBSYS" "ru")
+(name-as-in "bibsys-id" "identificador BIBSYS" "es")
+(name-as-in "bibsys-id" "BIBSYS識別子" "ja")
+(name-as-in "bibsys-id" "" "zh-cn")
+(name-as-in "bibsys-id" "" "zh-sg")
+
+(descr-as-in "bibsys-id" "" "zh-hk")
+(descr-as-in "bibsys-id" "" "pt")
+(descr-as-in "bibsys-id" "identifier in the Norwegian information system BIBSYS" "en")
+(descr-as-in "bibsys-id" "identifiant de la base bibliothécaire norvégienne BIBSYS" "fr")
+(descr-as-in "bibsys-id" "" "zh-tw")
+(descr-as-in "bibsys-id" "Identifikator in Normdatei des norwegischen Bibliotheksdienstes" "de")
+(descr-as-in "bibsys-id" "Код норвежского каталога BIBSYS" "ru")
+(descr-as-in "bibsys-id" "identificador del sistema de información noruego BIBSYS" "es")
+(descr-as-in "bibsys-id" "" "ja")
+(descr-as-in "bibsys-id" "" "zh-cn")
+(descr-as-in "bibsys-id" "" "zh-sg")
+

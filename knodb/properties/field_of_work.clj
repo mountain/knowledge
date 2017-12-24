@@ -1,0 +1,31 @@
+(ns properties.field_of_work
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "field-of-work")
+
+(name-as-in "field-of-work" "研究領域" "zh-hk")
+(name-as-in "field-of-work" "área de trabalho" "pt")
+(name-as-in "field-of-work" "field of work" "en")
+(name-as-in "field-of-work" "domaine d'activité" "fr")
+(name-as-in "field-of-work" "研究領域" "zh-tw")
+(name-as-in "field-of-work" "Arbeitsgebiet" "de")
+(name-as-in "field-of-work" "область деятельности" "ru")
+(name-as-in "field-of-work" "campo de trabajo" "es")
+(name-as-in "field-of-work" "専門分野" "ja")
+(name-as-in "field-of-work" "工作领域" "zh-cn")
+(name-as-in "field-of-work" "工作领域" "zh-sg")
+
+(descr-as-in "field-of-work" "" "zh-hk")
+(descr-as-in "field-of-work" "áreas ou campos principais de trabalho (física, história), não ocupação (físico, historiador)" "pt")
+(descr-as-in "field-of-work" "specialization of a person or organization, see P106 for the occupation" "en")
+(descr-as-in "field-of-work" "spécialité d'une personne ou d'une organisation (ex. physique des particules, histoire médiévale). PAS la profession (physicien, historien: P106)." "fr")
+(descr-as-in "field-of-work" "" "zh-tw")
+(descr-as-in "field-of-work" "Themenkreis, auf dem eine Person oder Institution ihre Haupttätigkeit (Property:P106) entfaltet" "de")
+(descr-as-in "field-of-work" "у организации или персоны: основное поле деятельности, связанное с элементом (например, физика для физического явления, астрономия для персоны); не путать с профессией (физик) — свойством P106" "ru")
+(descr-as-in "field-of-work" "especialización de una persona u organización  (por ejemplo, radiactividad). Para la ocupación/trabajo ver la propiedad P106 (por ejemplo físico)." "es")
+(descr-as-in "field-of-work" "人物または組織の専門分野。職業に関してはP106を参照" "ja")
+(descr-as-in "field-of-work" "" "zh-cn")
+(descr-as-in "field-of-work" "" "zh-sg")
+

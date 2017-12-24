@@ -1,0 +1,31 @@
+(ns properties.history_of_topic
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "history-of-topic")
+
+(name-as-in "history-of-topic" "主題的歷史" "zh-hk")
+(name-as-in "history-of-topic" "história do tópico" "pt")
+(name-as-in "history-of-topic" "history of topic" "en")
+(name-as-in "history-of-topic" "histoire" "fr")
+(name-as-in "history-of-topic" "主題的歷史" "zh-tw")
+(name-as-in "history-of-topic" "Geschichte" "de")
+(name-as-in "history-of-topic" "история темы" "ru")
+(name-as-in "history-of-topic" "historia" "es")
+(name-as-in "history-of-topic" "主題の歴史" "ja")
+(name-as-in "history-of-topic" "主题的历史" "zh-cn")
+(name-as-in "history-of-topic" "主题的历史" "zh-sg")
+
+(descr-as-in "history-of-topic" "" "zh-hk")
+(descr-as-in "history-of-topic" "abordagem histórica do tópico retratado no item" "pt")
+(descr-as-in "history-of-topic" "historical development of an item's topic" "en")
+(descr-as-in "history-of-topic" "histoire de l'élément" "fr")
+(descr-as-in "history-of-topic" "" "zh-tw")
+(descr-as-in "history-of-topic" "historische Entwicklung des Artikelthemas" "de")
+(descr-as-in "history-of-topic" "элемент, в котором описана история объекта" "ru")
+(descr-as-in "history-of-topic" "historia del elemento" "es")
+(descr-as-in "history-of-topic" "" "ja")
+(descr-as-in "history-of-topic" "" "zh-cn")
+(descr-as-in "history-of-topic" "" "zh-sg")
+

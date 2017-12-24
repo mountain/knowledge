@@ -1,0 +1,31 @@
+(ns properties.wikidata_project
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "wikidata-project")
+
+(name-as-in "wikidata-project" "" "zh-hk")
+(name-as-in "wikidata-project" "" "pt")
+(name-as-in "wikidata-project" "Wikidata project" "en")
+(name-as-in "wikidata-project" "projet Wikidata" "fr")
+(name-as-in "wikidata-project" "" "zh-tw")
+(name-as-in "wikidata-project" "Wikidata project" "de")
+(name-as-in "wikidata-project" "проект Викиданных" "ru")
+(name-as-in "wikidata-project" "" "es")
+(name-as-in "wikidata-project" "ウィキデータ・プロジェクト" "ja")
+(name-as-in "wikidata-project" "" "zh-cn")
+(name-as-in "wikidata-project" "" "zh-sg")
+
+(descr-as-in "wikidata-project" "" "zh-hk")
+(descr-as-in "wikidata-project" "" "pt")
+(descr-as-in "wikidata-project" "Wikidata project page that's related to this entity; the Wikiproject is an additional place where discussions can be held and that can be pinged when there are open questions about the usage of this entity" "en")
+(descr-as-in "wikidata-project" "page du projet Wikidata qui est lié à cet élément ; le projet est un endroit où des discussions peuvent avoir lieu et dont les participants peuvent être notifié lorsqu'il y a des questions concernant l'utilisation de cet élément" "fr")
+(descr-as-in "wikidata-project" "" "zh-tw")
+(descr-as-in "wikidata-project" "" "de")
+(descr-as-in "wikidata-project" "служебная страница Викиданных, в которой обсуждают и занимаются данной темой" "ru")
+(descr-as-in "wikidata-project" "" "es")
+(descr-as-in "wikidata-project" "このエンティティに関連するウィキデータのプロジェクトページ" "ja")
+(descr-as-in "wikidata-project" "" "zh-cn")
+(descr-as-in "wikidata-project" "" "zh-sg")
+

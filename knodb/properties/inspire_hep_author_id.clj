@@ -1,0 +1,31 @@
+(ns properties.inspire_hep_author_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "inspire-hep-author-id")
+
+(name-as-in "inspire-hep-author-id" "" "zh-hk")
+(name-as-in "inspire-hep-author-id" "" "pt")
+(name-as-in "inspire-hep-author-id" "INSPIRE-HEP author ID" "en")
+(name-as-in "inspire-hep-author-id" "identifiant d'auteur INSPIRE-HEP" "fr")
+(name-as-in "inspire-hep-author-id" "" "zh-tw")
+(name-as-in "inspire-hep-author-id" "" "de")
+(name-as-in "inspire-hep-author-id" "Идентификатор автора в базе данных INSPIRE-HEP" "ru")
+(name-as-in "inspire-hep-author-id" "identificador INSPIRE-HEP de autor" "es")
+(name-as-in "inspire-hep-author-id" "" "ja")
+(name-as-in "inspire-hep-author-id" "" "zh-cn")
+(name-as-in "inspire-hep-author-id" "" "zh-sg")
+
+(descr-as-in "inspire-hep-author-id" "" "zh-hk")
+(descr-as-in "inspire-hep-author-id" "" "pt")
+(descr-as-in "inspire-hep-author-id" "identifier for authors in INSPIRE-HEP, a major database for high energy physics" "en")
+(descr-as-in "inspire-hep-author-id" "identifiant pour des auteurs dans INSPIRE-HEP, une base de données en physique des hautes énergies" "fr")
+(descr-as-in "inspire-hep-author-id" "" "zh-tw")
+(descr-as-in "inspire-hep-author-id" "" "de")
+(descr-as-in "inspire-hep-author-id" "" "ru")
+(descr-as-in "inspire-hep-author-id" "" "es")
+(descr-as-in "inspire-hep-author-id" "" "ja")
+(descr-as-in "inspire-hep-author-id" "" "zh-cn")
+(descr-as-in "inspire-hep-author-id" "" "zh-sg")
+

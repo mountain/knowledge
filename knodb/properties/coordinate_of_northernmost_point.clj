@@ -1,0 +1,31 @@
+(ns properties.coordinate_of_northernmost_point
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "coordinate-of-northernmost-point")
+
+(name-as-in "coordinate-of-northernmost-point" "最北點" "zh-hk")
+(name-as-in "coordinate-of-northernmost-point" "ponto setentrional" "pt")
+(name-as-in "coordinate-of-northernmost-point" "coordinate of northernmost point" "en")
+(name-as-in "coordinate-of-northernmost-point" "coordonnées du point le plus au nord" "fr")
+(name-as-in "coordinate-of-northernmost-point" "最北點" "zh-tw")
+(name-as-in "coordinate-of-northernmost-point" "nördlichster Punkt" "de")
+(name-as-in "coordinate-of-northernmost-point" "самая северная точка" "ru")
+(name-as-in "coordinate-of-northernmost-point" "punto más septentrional" "es")
+(name-as-in "coordinate-of-northernmost-point" "最北端" "ja")
+(name-as-in "coordinate-of-northernmost-point" "最北点" "zh-cn")
+(name-as-in "coordinate-of-northernmost-point" "" "zh-sg")
+
+(descr-as-in "coordinate-of-northernmost-point" "" "zh-hk")
+(descr-as-in "coordinate-of-northernmost-point" "" "pt")
+(descr-as-in "coordinate-of-northernmost-point" "northernmost point of a location. For an administrative entity this includes offshore islands" "en")
+(descr-as-in "coordinate-of-northernmost-point" "point le plus au nord d'un lieu" "fr")
+(descr-as-in "coordinate-of-northernmost-point" "" "zh-tw")
+(descr-as-in "coordinate-of-northernmost-point" "nördlichster Punkt eines Orts" "de")
+(descr-as-in "coordinate-of-northernmost-point" "" "ru")
+(descr-as-in "coordinate-of-northernmost-point" "" "es")
+(descr-as-in "coordinate-of-northernmost-point" "場所の最北端。行政単位に関しては離島を含む" "ja")
+(descr-as-in "coordinate-of-northernmost-point" "" "zh-cn")
+(descr-as-in "coordinate-of-northernmost-point" "" "zh-sg")
+

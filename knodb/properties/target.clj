@@ -1,0 +1,31 @@
+(ns properties.target
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "target")
+
+(name-as-in "target" "" "zh-hk")
+(name-as-in "target" "alvo" "pt")
+(name-as-in "target" "target" "en")
+(name-as-in "target" "cible" "fr")
+(name-as-in "target" "" "zh-tw")
+(name-as-in "target" "Angriffsziel" "de")
+(name-as-in "target" "цель" "ru")
+(name-as-in "target" "objetivo" "es")
+(name-as-in "target" "標的" "ja")
+(name-as-in "target" "" "zh-cn")
+(name-as-in "target" "" "zh-sg")
+
+(descr-as-in "target" "" "zh-hk")
+(descr-as-in "target" "alvo de uma operação militar ou ataque terrorista" "pt")
+(descr-as-in "target" "target of a terrorist attack or military operation" "en")
+(descr-as-in "target" "objectif d'un attentat ou d'une opération militaire" "fr")
+(descr-as-in "target" "" "zh-tw")
+(descr-as-in "target" "Ziel eines Terroranschlags oder einer militärische Operation" "de")
+(descr-as-in "target" "цель террористической атаки или военной операции" "ru")
+(descr-as-in "target" "objetivo de un atentado o de una operación militar" "es")
+(descr-as-in "target" "テロ攻撃や軍事作戦の標的" "ja")
+(descr-as-in "target" "" "zh-cn")
+(descr-as-in "target" "" "zh-sg")
+

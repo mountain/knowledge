@@ -1,0 +1,31 @@
+(ns properties.jewish_encyclopedia_id_russian
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "jewish-encyclopedia-id-russian")
+
+(name-as-in "jewish-encyclopedia-id-russian" "" "zh-hk")
+(name-as-in "jewish-encyclopedia-id-russian" "" "pt")
+(name-as-in "jewish-encyclopedia-id-russian" "Jewish Encyclopedia ID (Russian)" "en")
+(name-as-in "jewish-encyclopedia-id-russian" "identifiant de la Jewish Encyclopedia" "fr")
+(name-as-in "jewish-encyclopedia-id-russian" "" "zh-tw")
+(name-as-in "jewish-encyclopedia-id-russian" "Jewish Encyclopedia ID (russisch)" "de")
+(name-as-in "jewish-encyclopedia-id-russian" "код Еврейской энциклопедии" "ru")
+(name-as-in "jewish-encyclopedia-id-russian" "" "es")
+(name-as-in "jewish-encyclopedia-id-russian" "" "ja")
+(name-as-in "jewish-encyclopedia-id-russian" "" "zh-cn")
+(name-as-in "jewish-encyclopedia-id-russian" "" "zh-sg")
+
+(descr-as-in "jewish-encyclopedia-id-russian" "" "zh-hk")
+(descr-as-in "jewish-encyclopedia-id-russian" "" "pt")
+(descr-as-in "jewish-encyclopedia-id-russian" "identifier on the Electronic Jewish Encyclopedia (Elektronnaja Evrejskaja Entsiklopedia)" "en")
+(descr-as-in "jewish-encyclopedia-id-russian" "Identifiant de la Jewish Encyclopedia" "fr")
+(descr-as-in "jewish-encyclopedia-id-russian" "" "zh-tw")
+(descr-as-in "jewish-encyclopedia-id-russian" "" "de")
+(descr-as-in "jewish-encyclopedia-id-russian" "" "ru")
+(descr-as-in "jewish-encyclopedia-id-russian" "" "es")
+(descr-as-in "jewish-encyclopedia-id-russian" "" "ja")
+(descr-as-in "jewish-encyclopedia-id-russian" "" "zh-cn")
+(descr-as-in "jewish-encyclopedia-id-russian" "" "zh-sg")
+

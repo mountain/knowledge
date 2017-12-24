@@ -1,0 +1,31 @@
+(ns properties.has_quality
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "has-quality")
+
+(name-as-in "has-quality" "" "zh-hk")
+(name-as-in "has-quality" "característica" "pt")
+(name-as-in "has-quality" "has quality" "en")
+(name-as-in "has-quality" "caractérisé par" "fr")
+(name-as-in "has-quality" "擁有特性" "zh-tw")
+(name-as-in "has-quality" "charakterisiert durch" "de")
+(name-as-in "has-quality" "обладает свойством" "ru")
+(name-as-in "has-quality" "caracterizado por" "es")
+(name-as-in "has-quality" "特性" "ja")
+(name-as-in "has-quality" "" "zh-cn")
+(name-as-in "has-quality" "" "zh-sg")
+
+(descr-as-in "has-quality" "" "zh-hk")
+(descr-as-in "has-quality" "" "pt")
+(descr-as-in "has-quality" "the entity has an inherent or distinguishing non-material characteristic" "en")
+(descr-as-in "has-quality" "l'entité a une caractéristique non-matérielle inhérente ou distincte" "fr")
+(descr-as-in "has-quality" "一個實體無法被轉移所具有的本質或是可辨別的非物質特徵。" "zh-tw")
+(descr-as-in "has-quality" "die Entität besitzt eine innewohnende immaterielle Eigenschaft, die nicht weggelassen werden kann" "de")
+(descr-as-in "has-quality" "неотделимое свойство, которое нельзя передать" "ru")
+(descr-as-in "has-quality" "una o varias características no materiales inherentes y/o distintivas del elemento" "es")
+(descr-as-in "has-quality" "" "ja")
+(descr-as-in "has-quality" "" "zh-cn")
+(descr-as-in "has-quality" "" "zh-sg")
+

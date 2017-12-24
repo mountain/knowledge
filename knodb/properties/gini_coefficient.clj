@@ -1,0 +1,31 @@
+(ns properties.gini_coefficient
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "gini-coefficient")
+
+(name-as-in "gini-coefficient" "堅尼系數" "zh-hk")
+(name-as-in "gini-coefficient" "coeficiente de Gini" "pt")
+(name-as-in "gini-coefficient" "Gini coefficient" "en")
+(name-as-in "gini-coefficient" "coefficient de Gini" "fr")
+(name-as-in "gini-coefficient" "吉尼係數" "zh-tw")
+(name-as-in "gini-coefficient" "Gini-Koeffizient" "de")
+(name-as-in "gini-coefficient" "коэффициент Джини" "ru")
+(name-as-in "gini-coefficient" "coeficiente de Gini" "es")
+(name-as-in "gini-coefficient" "ジニ係数" "ja")
+(name-as-in "gini-coefficient" "基尼系数" "zh-cn")
+(name-as-in "gini-coefficient" "基尼系数" "zh-sg")
+
+(descr-as-in "gini-coefficient" "" "zh-hk")
+(descr-as-in "gini-coefficient" "" "pt")
+(descr-as-in "gini-coefficient" "measure of statistical dispersion intended to represent the income distribution of a nation's residents" "en")
+(descr-as-in "gini-coefficient" "" "fr")
+(descr-as-in "gini-coefficient" "" "zh-tw")
+(descr-as-in "gini-coefficient" "statistisches Maß zur Darstellung der  Ungleichverteilung von Einkommen" "de")
+(descr-as-in "gini-coefficient" "статистический показатель степени расслоения общества" "ru")
+(descr-as-in "gini-coefficient" "medida de dispersión estadística que representa la distribución de ingresos de un país" "es")
+(descr-as-in "gini-coefficient" "" "ja")
+(descr-as-in "gini-coefficient" "" "zh-cn")
+(descr-as-in "gini-coefficient" "" "zh-sg")
+

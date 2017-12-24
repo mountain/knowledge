@@ -1,0 +1,31 @@
+(ns properties.inflation_rate
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "inflation-rate")
+
+(name-as-in "inflation-rate" "" "zh-hk")
+(name-as-in "inflation-rate" "taxa de inflação" "pt")
+(name-as-in "inflation-rate" "inflation rate" "en")
+(name-as-in "inflation-rate" "taux d'inflation" "fr")
+(name-as-in "inflation-rate" "" "zh-tw")
+(name-as-in "inflation-rate" "Inflationsrate" "de")
+(name-as-in "inflation-rate" "уровень инфляции" "ru")
+(name-as-in "inflation-rate" "tasa de inflación" "es")
+(name-as-in "inflation-rate" "インフレ率" "ja")
+(name-as-in "inflation-rate" "" "zh-cn")
+(name-as-in "inflation-rate" "" "zh-sg")
+
+(descr-as-in "inflation-rate" "" "zh-hk")
+(descr-as-in "inflation-rate" "" "pt")
+(descr-as-in "inflation-rate" "percent change in the consumber price index (CPI)" "en")
+(descr-as-in "inflation-rate" "" "fr")
+(descr-as-in "inflation-rate" "" "zh-tw")
+(descr-as-in "inflation-rate" "prozentuale Änderung des Preisindex in einem Jahr" "de")
+(descr-as-in "inflation-rate" "" "ru")
+(descr-as-in "inflation-rate" "" "es")
+(descr-as-in "inflation-rate" "" "ja")
+(descr-as-in "inflation-rate" "" "zh-cn")
+(descr-as-in "inflation-rate" "" "zh-sg")
+

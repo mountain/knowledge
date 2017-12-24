@@ -1,0 +1,31 @@
+(ns properties.world_heritage_criteria
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "world-heritage-criteria")
+
+(name-as-in "world-heritage-criteria" "" "zh-hk")
+(name-as-in "world-heritage-criteria" "critérios do Patrimônio da Humanidade (2005)" "pt")
+(name-as-in "world-heritage-criteria" "World Heritage criteria" "en")
+(name-as-in "world-heritage-criteria" "critère du patrimoine mondial (2005)" "fr")
+(name-as-in "world-heritage-criteria" "" "zh-tw")
+(name-as-in "world-heritage-criteria" "Kriterien für Welterbe (2005)" "de")
+(name-as-in "world-heritage-criteria" "критерий Всемирного наследия" "ru")
+(name-as-in "world-heritage-criteria" "criterios de Patrimonio de la Humanidad (2005)" "es")
+(name-as-in "world-heritage-criteria" "世界遺産の登録基準" "ja")
+(name-as-in "world-heritage-criteria" "" "zh-cn")
+(name-as-in "world-heritage-criteria" "" "zh-sg")
+
+(descr-as-in "world-heritage-criteria" "" "zh-hk")
+(descr-as-in "world-heritage-criteria" "" "pt")
+(descr-as-in "world-heritage-criteria" "selection criteria for UNESCO's cultural and natural 'World Heritage' designation since 2005" "en")
+(descr-as-in "world-heritage-criteria" "critère de sélection pour la désignation d'un « Patrimoine Mondial » par l'UNESCO" "fr")
+(descr-as-in "world-heritage-criteria" "" "zh-tw")
+(descr-as-in "world-heritage-criteria" "Kriterien der Unterschutzstellung für UNESCO-Welterbe" "de")
+(descr-as-in "world-heritage-criteria" "с 2005 года" "ru")
+(descr-as-in "world-heritage-criteria" "criterios de selección culturales o naturales de la UNESCO" "es")
+(descr-as-in "world-heritage-criteria" "" "ja")
+(descr-as-in "world-heritage-criteria" "" "zh-cn")
+(descr-as-in "world-heritage-criteria" "" "zh-sg")
+

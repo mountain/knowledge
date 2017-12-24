@@ -1,0 +1,31 @@
+(ns properties.isbn_identifier_group
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "isbn-identifier-group")
+
+(name-as-in "isbn-identifier-group" "" "zh-hk")
+(name-as-in "isbn-identifier-group" "" "pt")
+(name-as-in "isbn-identifier-group" "ISBN identifier group" "en")
+(name-as-in "isbn-identifier-group" "groupe d'identifiant ISBN" "fr")
+(name-as-in "isbn-identifier-group" "" "zh-tw")
+(name-as-in "isbn-identifier-group" "ISBN-Gruppennummer" "de")
+(name-as-in "isbn-identifier-group" "код группы ISBN" "ru")
+(name-as-in "isbn-identifier-group" "grupo identificador ISBN" "es")
+(name-as-in "isbn-identifier-group" "" "ja")
+(name-as-in "isbn-identifier-group" "" "zh-cn")
+(name-as-in "isbn-identifier-group" "" "zh-sg")
+
+(descr-as-in "isbn-identifier-group" "" "zh-hk")
+(descr-as-in "isbn-identifier-group" "" "pt")
+(descr-as-in "isbn-identifier-group" "ISBN prefix for countries or languages" "en")
+(descr-as-in "isbn-identifier-group" "préfixe ISBN pour les pays ou les langues" "fr")
+(descr-as-in "isbn-identifier-group" "" "zh-tw")
+(descr-as-in "isbn-identifier-group" "ISBN-Präfix für Länder oder Sprachen" "de")
+(descr-as-in "isbn-identifier-group" "" "ru")
+(descr-as-in "isbn-identifier-group" "" "es")
+(descr-as-in "isbn-identifier-group" "" "ja")
+(descr-as-in "isbn-identifier-group" "" "zh-cn")
+(descr-as-in "isbn-identifier-group" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.title
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "title")
+
+(name-as-in "title" "標題" "zh-hk")
+(name-as-in "title" "título" "pt")
+(name-as-in "title" "title" "en")
+(name-as-in "title" "titre" "fr")
+(name-as-in "title" "標題" "zh-tw")
+(name-as-in "title" "Titel" "de")
+(name-as-in "title" "название" "ru")
+(name-as-in "title" "título" "es")
+(name-as-in "title" "題名" "ja")
+(name-as-in "title" "标题" "zh-cn")
+(name-as-in "title" "标题" "zh-sg")
+
+(descr-as-in "title" "作品（例如書、電影或網站）的名稱" "zh-hk")
+(descr-as-in "title" "título da obra" "pt")
+(descr-as-in "title" "published title of a work, such as a newspaper article or a book" "en")
+(descr-as-in "title" "titre d'une œuvre, par exemple d'un livre, d'un film, d'un magazine" "fr")
+(descr-as-in "title" "作品（例如書、電影或網站）的名稱" "zh-tw")
+(descr-as-in "title" "Titel eines Werkes, beispielsweise der Originalausgabe eines Buches, eines Films oder einer Webseite" "de")
+(descr-as-in "title" "название произведения на языке оригинала" "ru")
+(descr-as-in "title" "título de una obra incluyendo el idioma" "es")
+(descr-as-in "title" "作品の題名（書籍または映像作品、ウェブサイト）" "ja")
+(descr-as-in "title" "" "zh-cn")
+(descr-as-in "title" "" "zh-sg")
+

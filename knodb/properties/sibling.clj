@@ -1,0 +1,31 @@
+(ns properties.sibling
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "sibling")
+
+(name-as-in "sibling" "兄弟姊妹" "zh-hk")
+(name-as-in "sibling" "irmão ou irmã" "pt")
+(name-as-in "sibling" "sibling" "en")
+(name-as-in "sibling" "frère ou sœur" "fr")
+(name-as-in "sibling" "兄弟姊妹" "zh-tw")
+(name-as-in "sibling" "Geschwister" "de")
+(name-as-in "sibling" "брат/сестра" "ru")
+(name-as-in "sibling" "hermano o hermana" "es")
+(name-as-in "sibling" "兄弟姉妹" "ja")
+(name-as-in "sibling" "兄弟姊妹" "zh-cn")
+(name-as-in "sibling" "兄弟姊妹" "zh-sg")
+
+(descr-as-in "sibling" "" "zh-hk")
+(descr-as-in "sibling" "" "pt")
+(descr-as-in "sibling" "the subject has the object as their sibling (brother, sister, etc.). Use relative (P1038) for siblings-in-law (brother-in-law, sister-in-law, etc.) and step-siblings (step-brothers, step-sisters, etc.)" "en")
+(descr-as-in "sibling" "frère ou soeur de l'élément. Pour beaux-frères/soeurs, utiliser parenté (P1038)." "fr")
+(descr-as-in "sibling" "" "zh-tw")
+(descr-as-in "sibling" "Person mit mindestens einem gemeinsamen Elternteil" "de")
+(descr-as-in "sibling" "брат или сестра данной персоны" "ru")
+(descr-as-in "sibling" "" "es")
+(descr-as-in "sibling" "" "ja")
+(descr-as-in "sibling" "" "zh-cn")
+(descr-as-in "sibling" "" "zh-sg")
+

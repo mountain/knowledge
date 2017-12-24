@@ -1,0 +1,31 @@
+(ns properties.sudoc_authorities
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "sudoc-authorities")
+
+(name-as-in "sudoc-authorities" "SUDOC編號" "zh-hk")
+(name-as-in "sudoc-authorities" "identificador SUDOC" "pt")
+(name-as-in "sudoc-authorities" "SUDOC authorities" "en")
+(name-as-in "sudoc-authorities" "identifiant IdRef" "fr")
+(name-as-in "sudoc-authorities" "SUDOC" "zh-tw")
+(name-as-in "sudoc-authorities" "SUDOC-Normdaten" "de")
+(name-as-in "sudoc-authorities" "код SUDOC" "ru")
+(name-as-in "sudoc-authorities" "SUDOC" "es")
+(name-as-in "sudoc-authorities" "SUDOC" "ja")
+(name-as-in "sudoc-authorities" "" "zh-cn")
+(name-as-in "sudoc-authorities" "" "zh-sg")
+
+(descr-as-in "sudoc-authorities" "" "zh-hk")
+(descr-as-in "sudoc-authorities" "Documentação do sistema de universidade francesa" "pt")
+(descr-as-in "sudoc-authorities" "identifier for authority control in the French collaborative library catalog (see also P1025). Format: 8 digits followed by a digit or X" "en")
+(descr-as-in "sudoc-authorities" "numéro d'autorité dans la base du SUDOC (Système universitaire de documentation)" "fr")
+(descr-as-in "sudoc-authorities" "" "zh-tw")
+(descr-as-in "sudoc-authorities" "Normdateneintrag im gleichnamigen französischen Bibliotheksverbund (s. auch P1025)" "de")
+(descr-as-in "sudoc-authorities" "номер в библиотечном каталоге французских вузов" "ru")
+(descr-as-in "sudoc-authorities" "número de control de autoría de SUDOC (véase también P1025)" "es")
+(descr-as-in "sudoc-authorities" "SUDOC（フランス大学図書館総合目録）の典拠管理番号" "ja")
+(descr-as-in "sudoc-authorities" "" "zh-cn")
+(descr-as-in "sudoc-authorities" "" "zh-sg")
+

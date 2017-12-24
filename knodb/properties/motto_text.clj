@@ -1,0 +1,31 @@
+(ns properties.motto_text
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "motto-text")
+
+(name-as-in "motto-text" "" "zh-hk")
+(name-as-in "motto-text" "texto de lema" "pt")
+(name-as-in "motto-text" "motto text" "en")
+(name-as-in "motto-text" "énoncé de la devise" "fr")
+(name-as-in "motto-text" "" "zh-tw")
+(name-as-in "motto-text" "Mottotext" "de")
+(name-as-in "motto-text" "текст девиза" "ru")
+(name-as-in "motto-text" "texto del lema" "es")
+(name-as-in "motto-text" "モットー" "ja")
+(name-as-in "motto-text" "" "zh-cn")
+(name-as-in "motto-text" "" "zh-sg")
+
+(descr-as-in "motto-text" "" "zh-hk")
+(descr-as-in "motto-text" "frase associada ao item (e.g. a frase de um escudo de armas)" "pt")
+(descr-as-in "motto-text" "short motivation sentence associated to item" "en")
+(descr-as-in "motto-text" "courte phrase, en général à la base d'un blason" "fr")
+(descr-as-in "motto-text" "" "zh-tw")
+(descr-as-in "motto-text" "kurzer Leitgedanke dem Datenobjekt verbunden" "de")
+(descr-as-in "motto-text" "" "ru")
+(descr-as-in "motto-text" "frase asociada al elemento (por ejemplo la frase que aparece en el escudo de armas)" "es")
+(descr-as-in "motto-text" "団体の公式の標語、紋章の銘文" "ja")
+(descr-as-in "motto-text" "" "zh-cn")
+(descr-as-in "motto-text" "" "zh-sg")
+

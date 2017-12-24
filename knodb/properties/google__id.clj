@@ -1,0 +1,31 @@
+(ns properties.google__id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "google_-id")
+
+(name-as-in "google_-id" "" "zh-hk")
+(name-as-in "google_-id" "Google+" "pt")
+(name-as-in "google_-id" "Google+ ID" "en")
+(name-as-in "google_-id" "identifiant Google+" "fr")
+(name-as-in "google_-id" "" "zh-tw")
+(name-as-in "google_-id" "Google+-Kennung" "de")
+(name-as-in "google_-id" "Google+" "ru")
+(name-as-in "google_-id" "Google+" "es")
+(name-as-in "google_-id" "Google+ ID" "ja")
+(name-as-in "google_-id" "" "zh-cn")
+(name-as-in "google_-id" "" "zh-sg")
+
+(descr-as-in "google_-id" "" "zh-hk")
+(descr-as-in "google_-id" "" "pt")
+(descr-as-in "google_-id" "Google+ account identifier of this person or organization: either starting with a + or consisting of 21 digits" "en")
+(descr-as-in "google_-id" "compte Google+" "fr")
+(descr-as-in "google_-id" "" "zh-tw")
+(descr-as-in "google_-id" "Google+-Benutzername einer Person, einer Organisation oder einer Unternehmung" "de")
+(descr-as-in "google_-id" "имя учётной записи в Google+" "ru")
+(descr-as-in "google_-id" "nombre de la cuenta Google+ para la persona u organización" "es")
+(descr-as-in "google_-id" "個人または組織のGoogle+アカウントID。「+」で始まるか、21桁からなる数字を指定すること。" "ja")
+(descr-as-in "google_-id" "" "zh-cn")
+(descr-as-in "google_-id" "" "zh-sg")
+

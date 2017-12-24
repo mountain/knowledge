@@ -1,0 +1,31 @@
+(ns properties.coat_of_arms
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "coat-of-arms")
+
+(name-as-in "coat-of-arms" "紋章" "zh-hk")
+(name-as-in "coat-of-arms" "descrição do brasão de armas" "pt")
+(name-as-in "coat-of-arms" "coat of arms" "en")
+(name-as-in "coat-of-arms" "blasonnement" "fr")
+(name-as-in "coat-of-arms" "紋章" "zh-tw")
+(name-as-in "coat-of-arms" "Wappen (Beschreibung)" "de")
+(name-as-in "coat-of-arms" "описание герба" "ru")
+(name-as-in "coat-of-arms" "escudo de armas" "es")
+(name-as-in "coat-of-arms" "紋章の解説" "ja")
+(name-as-in "coat-of-arms" "纹章" "zh-cn")
+(name-as-in "coat-of-arms" "纹章" "zh-sg")
+
+(descr-as-in "coat-of-arms" "" "zh-hk")
+(descr-as-in "coat-of-arms" "artigo da Wikipédia que descreve o brasão de armas" "pt")
+(descr-as-in "coat-of-arms" "subject's coat of arms" "en")
+(descr-as-in "coat-of-arms" "Article qui décrit les armoiries" "fr")
+(descr-as-in "coat-of-arms" "" "zh-tw")
+(descr-as-in "coat-of-arms" "Artikel, der das Wappen beschreibt" "de")
+(descr-as-in "coat-of-arms" "статья Википедии с описанием герба" "ru")
+(descr-as-in "coat-of-arms" "página en Wikipedia que describe el escudo de armas" "es")
+(descr-as-in "coat-of-arms" "その人物の紋章について解説したウィキペディアの記事" "ja")
+(descr-as-in "coat-of-arms" "" "zh-cn")
+(descr-as-in "coat-of-arms" "" "zh-sg")
+

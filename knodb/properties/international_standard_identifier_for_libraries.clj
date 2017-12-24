@@ -1,0 +1,31 @@
+(ns properties.international_standard_identifier_for_libraries
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "international-standard-identifier-for-libraries")
+
+(name-as-in "international-standard-identifier-for-libraries" "" "zh-hk")
+(name-as-in "international-standard-identifier-for-libraries" "identificador ISIL" "pt")
+(name-as-in "international-standard-identifier-for-libraries" "International Standard Identifier for Libraries" "en")
+(name-as-in "international-standard-identifier-for-libraries" "ISIL" "fr")
+(name-as-in "international-standard-identifier-for-libraries" "" "zh-tw")
+(name-as-in "international-standard-identifier-for-libraries" "ISIL" "de")
+(name-as-in "international-standard-identifier-for-libraries" "код ISIL" "ru")
+(name-as-in "international-standard-identifier-for-libraries" "identificador ISIL" "es")
+(name-as-in "international-standard-identifier-for-libraries" "ISIL識別子" "ja")
+(name-as-in "international-standard-identifier-for-libraries" "" "zh-cn")
+(name-as-in "international-standard-identifier-for-libraries" "" "zh-sg")
+
+(descr-as-in "international-standard-identifier-for-libraries" "" "zh-hk")
+(descr-as-in "international-standard-identifier-for-libraries" "" "pt")
+(descr-as-in "international-standard-identifier-for-libraries" "identifier for a library or related organization" "en")
+(descr-as-in "international-standard-identifier-for-libraries" "identificateur international normalisé pour les bibliothèques et organisations liées" "fr")
+(descr-as-in "international-standard-identifier-for-libraries" "" "zh-tw")
+(descr-as-in "international-standard-identifier-for-libraries" "Internationale Kennung für Bibliotheken und verwandte Organisationen" "de")
+(descr-as-in "international-standard-identifier-for-libraries" "Международный стандартный идентификатор библиотек и связанных с ними учреждений" "ru")
+(descr-as-in "international-standard-identifier-for-libraries" "identificador para una biblioteca u organización relacionada" "es")
+(descr-as-in "international-standard-identifier-for-libraries" "図書館や関連機関に付与される識別子" "ja")
+(descr-as-in "international-standard-identifier-for-libraries" "" "zh-cn")
+(descr-as-in "international-standard-identifier-for-libraries" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.exact_match
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "exact-match")
+
+(name-as-in "exact-match" "" "zh-hk")
+(name-as-in "exact-match" "correspondência exata" "pt")
+(name-as-in "exact-match" "exact match" "en")
+(name-as-in "exact-match" "correspondance exacte" "fr")
+(name-as-in "exact-match" "" "zh-tw")
+(name-as-in "exact-match" "exakte Übereinstimmung" "de")
+(name-as-in "exact-match" "в точности соответствует" "ru")
+(name-as-in "exact-match" "correspondencia exacta" "es")
+(name-as-in "exact-match" "同一の概念" "ja")
+(name-as-in "exact-match" "" "zh-cn")
+(name-as-in "exact-match" "" "zh-sg")
+
+(descr-as-in "exact-match" "" "zh-hk")
+(descr-as-in "exact-match" "" "pt")
+(descr-as-in "exact-match" "used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably" "en")
+(descr-as-in "exact-match" "utilisé pour lier deux concepts, indiquant un grand niveau de confiance que les concepts  peuvent être utilisés interchangeablement" "fr")
+(descr-as-in "exact-match" "" "zh-tw")
+(descr-as-in "exact-match" "verwendet um zwei Konzepte zu verbinden, wobei mit großer Sicherheit gilt, dass beide untereinander auswechselbar sind" "de")
+(descr-as-in "exact-match" "ссылка на страницу в другой онлайн базе данных" "ru")
+(descr-as-in "exact-match" "usado para conectar dos conceptos, indica un alto grado de confianza de que el concepto puede ser usado de forma intercambiable" "es")
+(descr-as-in "exact-match" "" "ja")
+(descr-as-in "exact-match" "" "zh-cn")
+(descr-as-in "exact-match" "" "zh-sg")
+

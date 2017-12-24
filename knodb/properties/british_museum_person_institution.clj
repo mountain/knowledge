@@ -1,0 +1,31 @@
+(ns properties.british_museum_person_institution
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "british-museum-person-institution")
+
+(name-as-in "british-museum-person-institution" "" "zh-hk")
+(name-as-in "british-museum-person-institution" "" "pt")
+(name-as-in "british-museum-person-institution" "British Museum person-institution" "en")
+(name-as-in "british-museum-person-institution" "identifiant British Museum" "fr")
+(name-as-in "british-museum-person-institution" "" "zh-tw")
+(name-as-in "british-museum-person-institution" "Personen-/Institutions-ID des Britischen Museum" "de")
+(name-as-in "british-museum-person-institution" "код персоны/учреждения в Британском музее" "ru")
+(name-as-in "british-museum-person-institution" "identificador del Museo Británico para persona-institución" "es")
+(name-as-in "british-museum-person-institution" "" "ja")
+(name-as-in "british-museum-person-institution" "" "zh-cn")
+(name-as-in "british-museum-person-institution" "" "zh-sg")
+
+(descr-as-in "british-museum-person-institution" "" "zh-hk")
+(descr-as-in "british-museum-person-institution" "" "pt")
+(descr-as-in "british-museum-person-institution" "identifier in the British Museum person-institution thesaurus" "en")
+(descr-as-in "british-museum-person-institution" "" "fr")
+(descr-as-in "british-museum-person-institution" "" "zh-tw")
+(descr-as-in "british-museum-person-institution" "Identifikator des Britischen Museum" "de")
+(descr-as-in "british-museum-person-institution" "" "ru")
+(descr-as-in "british-museum-person-institution" "" "es")
+(descr-as-in "british-museum-person-institution" "" "ja")
+(descr-as-in "british-museum-person-institution" "" "zh-cn")
+(descr-as-in "british-museum-person-institution" "" "zh-sg")
+

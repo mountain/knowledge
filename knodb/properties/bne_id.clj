@@ -1,0 +1,31 @@
+(ns properties.bne_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "bne-id")
+
+(name-as-in "bne-id" "BNE編號" "zh-hk")
+(name-as-in "bne-id" "identificador BNE" "pt")
+(name-as-in "bne-id" "BNE ID" "en")
+(name-as-in "bne-id" "identifiant Bibliothèque nationale d'Espagne" "fr")
+(name-as-in "bne-id" "" "zh-tw")
+(name-as-in "bne-id" "BNE-ID" "de")
+(name-as-in "bne-id" "код BNE" "ru")
+(name-as-in "bne-id" "identificador BNE" "es")
+(name-as-in "bne-id" "BNE識別子" "ja")
+(name-as-in "bne-id" "" "zh-cn")
+(name-as-in "bne-id" "" "zh-sg")
+
+(descr-as-in "bne-id" "" "zh-hk")
+(descr-as-in "bne-id" "" "pt")
+(descr-as-in "bne-id" "identifier from the authority file of the Biblioteca Nacional de España. Format for persons: XX followed by 4 to 7 digits" "en")
+(descr-as-in "bne-id" "identifiant de la Biblioteca Nacional de España" "fr")
+(descr-as-in "bne-id" "" "zh-tw")
+(descr-as-in "bne-id" "Normdatei der Spanischen Nationalbibliothek (Biblioteca Nacional de España)" "de")
+(descr-as-in "bne-id" "библиотечный номер в Национальной библиотеке Испании" "ru")
+(descr-as-in "bne-id" "identificador de la Biblioteca Nacional de España" "es")
+(descr-as-in "bne-id" "スペイン国立図書館 Biblioteca Nacional de España  の典拠ファイル" "ja")
+(descr-as-in "bne-id" "" "zh-cn")
+(descr-as-in "bne-id" "" "zh-sg")
+

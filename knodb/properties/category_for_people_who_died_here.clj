@@ -1,0 +1,31 @@
+(ns properties.category_for_people_who_died_here
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "category-for-people-who-died-here")
+
+(name-as-in "category-for-people-who-died-here" "死亡地分類" "zh-hk")
+(name-as-in "category-for-people-who-died-here" "categoria para pessoas mortas aqui" "pt")
+(name-as-in "category-for-people-who-died-here" "category for people who died here" "en")
+(name-as-in "category-for-people-who-died-here" "catégorie pour les personnes mortes à cet endroit" "fr")
+(name-as-in "category-for-people-who-died-here" "死亡地分類" "zh-tw")
+(name-as-in "category-for-people-who-died-here" "Kategorie für hier gestorbene Personen" "de")
+(name-as-in "category-for-people-who-died-here" "категория для людей, умерших здесь" "ru")
+(name-as-in "category-for-people-who-died-here" "categoría para las personas que fallecieron aquí" "es")
+(name-as-in "category-for-people-who-died-here" "当地で死んだ人のカテゴリ" "ja")
+(name-as-in "category-for-people-who-died-here" "死亡地分类" "zh-cn")
+(name-as-in "category-for-people-who-died-here" "死亡地分类" "zh-sg")
+
+(descr-as-in "category-for-people-who-died-here" "" "zh-hk")
+(descr-as-in "category-for-people-who-died-here" "" "pt")
+(descr-as-in "category-for-people-who-died-here" "category item for people who died in this location" "en")
+(descr-as-in "category-for-people-who-died-here" "catégorie des gens qui sont morts dans cet emplacement" "fr")
+(descr-as-in "category-for-people-who-died-here" "" "zh-tw")
+(descr-as-in "category-for-people-who-died-here" "Kategorie für Personen, die an diesem Ort gestorben sind" "de")
+(descr-as-in "category-for-people-who-died-here" "элемент категории, которая включает людей, умерших в этом месте" "ru")
+(descr-as-in "category-for-people-who-died-here" "" "es")
+(descr-as-in "category-for-people-who-died-here" "" "ja")
+(descr-as-in "category-for-people-who-died-here" "" "zh-cn")
+(descr-as-in "category-for-people-who-died-here" "" "zh-sg")
+

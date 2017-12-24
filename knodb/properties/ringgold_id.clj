@@ -1,0 +1,31 @@
+(ns properties.ringgold_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "ringgold-id")
+
+(name-as-in "ringgold-id" "" "zh-hk")
+(name-as-in "ringgold-id" "identificador Ringgold" "pt")
+(name-as-in "ringgold-id" "Ringgold ID" "en")
+(name-as-in "ringgold-id" "identifiant Ringgold" "fr")
+(name-as-in "ringgold-id" "" "zh-tw")
+(name-as-in "ringgold-id" "Ringgold-Identifikator" "de")
+(name-as-in "ringgold-id" "идентификатор Ringgold" "ru")
+(name-as-in "ringgold-id" "identificador Ringgold" "es")
+(name-as-in "ringgold-id" "" "ja")
+(name-as-in "ringgold-id" "" "zh-cn")
+(name-as-in "ringgold-id" "" "zh-sg")
+
+(descr-as-in "ringgold-id" "" "zh-hk")
+(descr-as-in "ringgold-id" "código identificador para organizações da cadeia de fornecimento à indústria editorial" "pt")
+(descr-as-in "ringgold-id" "identifier for organisations in the publishing industry supply chain" "en")
+(descr-as-in "ringgold-id" "identifiant d'institutions clientes de maisons d'édition" "fr")
+(descr-as-in "ringgold-id" "" "zh-tw")
+(descr-as-in "ringgold-id" "Identifikator für Organisationen der Druckzulieferindustrie" "de")
+(descr-as-in "ringgold-id" "" "ru")
+(descr-as-in "ringgold-id" "" "es")
+(descr-as-in "ringgold-id" "" "ja")
+(descr-as-in "ringgold-id" "" "zh-cn")
+(descr-as-in "ringgold-id" "" "zh-sg")
+

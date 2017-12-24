@@ -1,0 +1,31 @@
+(ns properties.name_day
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "name-day")
+
+(name-as-in "name-day" "" "zh-hk")
+(name-as-in "name-day" "" "pt")
+(name-as-in "name-day" "name day" "en")
+(name-as-in "name-day" "fête du prénom" "fr")
+(name-as-in "name-day" "" "zh-tw")
+(name-as-in "name-day" "Namenstag" "de")
+(name-as-in "name-day" "именины" "ru")
+(name-as-in "name-day" "onomástico" "es")
+(name-as-in "name-day" "聖名祝日" "ja")
+(name-as-in "name-day" "" "zh-cn")
+(name-as-in "name-day" "" "zh-sg")
+
+(descr-as-in "name-day" "" "zh-hk")
+(descr-as-in "name-day" "" "pt")
+(descr-as-in "name-day" "day of the year associated with a first/given name. A qualifier should be used to identify the calendar that is being used. Distinguish from feast day (P:P841)" "en")
+(descr-as-in "name-day" "jour de l'année associé à un prénom. À distinguer de « fête » (P:841)" "fr")
+(descr-as-in "name-day" "" "zh-tw")
+(descr-as-in "name-day" "Mit einem Vornamen assoziierter Tag. Mit einem Qualifizierer sollte der verwendete Kalender angegeben werden. Verschieden von P:P841" "de")
+(descr-as-in "name-day" "дата, ассоциируемая с данным личным именем. Квалификаторы уточняют календарь, страну или культуру" "ru")
+(descr-as-in "name-day" "" "es")
+(descr-as-in "name-day" "" "ja")
+(descr-as-in "name-day" "" "zh-cn")
+(descr-as-in "name-day" "" "zh-sg")
+

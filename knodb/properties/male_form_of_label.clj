@@ -1,0 +1,31 @@
+(ns properties.male_form_of_label
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "male-form-of-label")
+
+(name-as-in "male-form-of-label" "" "zh-hk")
+(name-as-in "male-form-of-label" "forma masculina do rótulo" "pt")
+(name-as-in "male-form-of-label" "male form of label" "en")
+(name-as-in "male-form-of-label" "forme masculine du libellé" "fr")
+(name-as-in "male-form-of-label" "" "zh-tw")
+(name-as-in "male-form-of-label" "männliche Form des Bezeichners" "de")
+(name-as-in "male-form-of-label" "мужская форма наименования" "ru")
+(name-as-in "male-form-of-label" "forma masculina de la etiqueta" "es")
+(name-as-in "male-form-of-label" "男性形" "ja")
+(name-as-in "male-form-of-label" "" "zh-cn")
+(name-as-in "male-form-of-label" "" "zh-sg")
+
+(descr-as-in "male-form-of-label" "" "zh-hk")
+(descr-as-in "male-form-of-label" "" "pt")
+(descr-as-in "male-form-of-label" "male form of name of an element" "en")
+(descr-as-in "male-form-of-label" "forme masculine du nom d'un élément" "fr")
+(descr-as-in "male-form-of-label" "" "zh-tw")
+(descr-as-in "male-form-of-label" "" "de")
+(descr-as-in "male-form-of-label" "" "ru")
+(descr-as-in "male-form-of-label" "" "es")
+(descr-as-in "male-form-of-label" "" "ja")
+(descr-as-in "male-form-of-label" "" "zh-cn")
+(descr-as-in "male-form-of-label" "" "zh-sg")
+

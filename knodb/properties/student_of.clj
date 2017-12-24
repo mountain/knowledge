@@ -1,0 +1,31 @@
+(ns properties.student_of
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "student-of")
+
+(name-as-in "student-of" "老師" "zh-hk")
+(name-as-in "student-of" "estudante de" "pt")
+(name-as-in "student-of" "student of" "en")
+(name-as-in "student-of" "élève de" "fr")
+(name-as-in "student-of" "老師" "zh-tw")
+(name-as-in "student-of" "Schüler von" "de")
+(name-as-in "student-of" "обучался у" "ru")
+(name-as-in "student-of" "alumno de" "es")
+(name-as-in "student-of" "師匠" "ja")
+(name-as-in "student-of" "老师" "zh-cn")
+(name-as-in "student-of" "老師" "zh-sg")
+
+(descr-as-in "student-of" "" "zh-hk")
+(descr-as-in "student-of" "pessoa que ensinou essa pessoa" "pt")
+(descr-as-in "student-of" "person who has taught this person" "en")
+(descr-as-in "student-of" "personne dont le sujet fut l’élève" "fr")
+(descr-as-in "student-of" "" "zh-tw")
+(descr-as-in "student-of" "Person, die das Subjekt unterrichtete (s. auch P802 Studenten)" "de")
+(descr-as-in "student-of" "человек, который научил предмету" "ru")
+(descr-as-in "student-of" "persona que ha enseñado esta persona" "es")
+(descr-as-in "student-of" "主題人物が就いた師匠・教師。博士課程の指導教授はP184を使用" "ja")
+(descr-as-in "student-of" "" "zh-cn")
+(descr-as-in "student-of" "" "zh-sg")
+

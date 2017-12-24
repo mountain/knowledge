@@ -1,0 +1,31 @@
+(ns properties.gtaa_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "gtaa-id")
+
+(name-as-in "gtaa-id" "" "zh-hk")
+(name-as-in "gtaa-id" "" "pt")
+(name-as-in "gtaa-id" "GTAA ID" "en")
+(name-as-in "gtaa-id" "identifiant Gemeenschappelijke Thesaurus Audiovisuele Archieven" "fr")
+(name-as-in "gtaa-id" "" "zh-tw")
+(name-as-in "gtaa-id" "GTAA-ID" "de")
+(name-as-in "gtaa-id" "GTAA" "ru")
+(name-as-in "gtaa-id" "identificador GTAA" "es")
+(name-as-in "gtaa-id" "" "ja")
+(name-as-in "gtaa-id" "" "zh-cn")
+(name-as-in "gtaa-id" "" "zh-sg")
+
+(descr-as-in "gtaa-id" "" "zh-hk")
+(descr-as-in "gtaa-id" "" "pt")
+(descr-as-in "gtaa-id" "identifier for GTAA, a thesaurus used in audiovisual archives (NISV, EYE)" "en")
+(descr-as-in "gtaa-id" "identifiant du Common Thesaurus of Audiovisual Archives néerlandais" "fr")
+(descr-as-in "gtaa-id" "" "zh-tw")
+(descr-as-in "gtaa-id" "Gemeinsamer Thesaurus für audiovisuelle Archive" "de")
+(descr-as-in "gtaa-id" "" "ru")
+(descr-as-in "gtaa-id" "" "es")
+(descr-as-in "gtaa-id" "" "ja")
+(descr-as-in "gtaa-id" "" "zh-cn")
+(descr-as-in "gtaa-id" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.bridgeman_artist_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "bridgeman-artist-id")
+
+(name-as-in "bridgeman-artist-id" "" "zh-hk")
+(name-as-in "bridgeman-artist-id" "" "pt")
+(name-as-in "bridgeman-artist-id" "Bridgeman artist ID" "en")
+(name-as-in "bridgeman-artist-id" "identifiant Bridgeman Art Library" "fr")
+(name-as-in "bridgeman-artist-id" "" "zh-tw")
+(name-as-in "bridgeman-artist-id" "" "de")
+(name-as-in "bridgeman-artist-id" "" "ru")
+(name-as-in "bridgeman-artist-id" "identificador Bridgeman de artista" "es")
+(name-as-in "bridgeman-artist-id" "" "ja")
+(name-as-in "bridgeman-artist-id" "" "zh-cn")
+(name-as-in "bridgeman-artist-id" "" "zh-sg")
+
+(descr-as-in "bridgeman-artist-id" "" "zh-hk")
+(descr-as-in "bridgeman-artist-id" "" "pt")
+(descr-as-in "bridgeman-artist-id" "Artist identification in Bridgeman images" "en")
+(descr-as-in "bridgeman-artist-id" "identfiant d'artiste dans les images Bridgeman" "fr")
+(descr-as-in "bridgeman-artist-id" "" "zh-tw")
+(descr-as-in "bridgeman-artist-id" "" "de")
+(descr-as-in "bridgeman-artist-id" "" "ru")
+(descr-as-in "bridgeman-artist-id" "" "es")
+(descr-as-in "bridgeman-artist-id" "" "ja")
+(descr-as-in "bridgeman-artist-id" "" "zh-cn")
+(descr-as-in "bridgeman-artist-id" "" "zh-sg")
+

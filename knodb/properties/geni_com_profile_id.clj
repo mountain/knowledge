@@ -1,0 +1,31 @@
+(ns properties.geni_com_profile_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "geni_com-profile-id")
+
+(name-as-in "geni_com-profile-id" "" "zh-hk")
+(name-as-in "geni_com-profile-id" "" "pt")
+(name-as-in "geni_com-profile-id" "Geni.com profile ID" "en")
+(name-as-in "geni_com-profile-id" "identifiant de profil Geni.com" "fr")
+(name-as-in "geni_com-profile-id" "" "zh-tw")
+(name-as-in "geni_com-profile-id" "Profil-ID bei Geni.com" "de")
+(name-as-in "geni_com-profile-id" "код профайла Geni.com" "ru")
+(name-as-in "geni_com-profile-id" "perfil en Geni.com" "es")
+(name-as-in "geni_com-profile-id" "" "ja")
+(name-as-in "geni_com-profile-id" "" "zh-cn")
+(name-as-in "geni_com-profile-id" "" "zh-sg")
+
+(descr-as-in "geni_com-profile-id" "" "zh-hk")
+(descr-as-in "geni_com-profile-id" "" "pt")
+(descr-as-in "geni_com-profile-id" "profile on the Geni.com genealogy website" "en")
+(descr-as-in "geni_com-profile-id" "profil sur le site Web de généalogie Geni.com" "fr")
+(descr-as-in "geni_com-profile-id" "" "zh-tw")
+(descr-as-in "geni_com-profile-id" "" "de")
+(descr-as-in "geni_com-profile-id" "" "ru")
+(descr-as-in "geni_com-profile-id" "perfil en la web de genealogía Geni.com" "es")
+(descr-as-in "geni_com-profile-id" "" "ja")
+(descr-as-in "geni_com-profile-id" "" "zh-cn")
+(descr-as-in "geni_com-profile-id" "" "zh-sg")
+

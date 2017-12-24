@@ -1,0 +1,31 @@
+(ns properties.category_for_recipients_of_this_award
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "category-for-recipients-of-this-award")
+
+(name-as-in "category-for-recipients-of-this-award" "" "zh-hk")
+(name-as-in "category-for-recipients-of-this-award" "categoria para laureados por este prêmio" "pt")
+(name-as-in "category-for-recipients-of-this-award" "category for recipients of this award" "en")
+(name-as-in "category-for-recipients-of-this-award" "catégorie pour les lauréats de cette récompense" "fr")
+(name-as-in "category-for-recipients-of-this-award" "" "zh-tw")
+(name-as-in "category-for-recipients-of-this-award" "Kategorie für Preisträger" "de")
+(name-as-in "category-for-recipients-of-this-award" "категория лауреатов награды" "ru")
+(name-as-in "category-for-recipients-of-this-award" "categoría para los galardonados con este premio" "es")
+(name-as-in "category-for-recipients-of-this-award" "" "ja")
+(name-as-in "category-for-recipients-of-this-award" "" "zh-cn")
+(name-as-in "category-for-recipients-of-this-award" "" "zh-sg")
+
+(descr-as-in "category-for-recipients-of-this-award" "" "zh-hk")
+(descr-as-in "category-for-recipients-of-this-award" "" "pt")
+(descr-as-in "category-for-recipients-of-this-award" "link to Wikimedia category for receipients of this award" "en")
+(descr-as-in "category-for-recipients-of-this-award" "catégorie pour les lauréats de cette récompense" "fr")
+(descr-as-in "category-for-recipients-of-this-award" "" "zh-tw")
+(descr-as-in "category-for-recipients-of-this-award" "Wikimedia-Kategorie, in der Träger dieser Auszeichnung erfasst werden" "de")
+(descr-as-in "category-for-recipients-of-this-award" "категория в проекте Викимедиа, в которой собраны лауреаты награды" "ru")
+(descr-as-in "category-for-recipients-of-this-award" "categoría para los galardonados con este premio" "es")
+(descr-as-in "category-for-recipients-of-this-award" "" "ja")
+(descr-as-in "category-for-recipients-of-this-award" "" "zh-cn")
+(descr-as-in "category-for-recipients-of-this-award" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.leopoldina_member_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "leopoldina-member-id")
+
+(name-as-in "leopoldina-member-id" "" "zh-hk")
+(name-as-in "leopoldina-member-id" "" "pt")
+(name-as-in "leopoldina-member-id" "Leopoldina member ID" "en")
+(name-as-in "leopoldina-member-id" "identifiant de membre de la Leopoldina" "fr")
+(name-as-in "leopoldina-member-id" "" "zh-tw")
+(name-as-in "leopoldina-member-id" "Identifikator in der Mitgliederliste der Leopoldina" "de")
+(name-as-in "leopoldina-member-id" "" "ru")
+(name-as-in "leopoldina-member-id" "identificador de miembro de la Leopoldina" "es")
+(name-as-in "leopoldina-member-id" "" "ja")
+(name-as-in "leopoldina-member-id" "" "zh-cn")
+(name-as-in "leopoldina-member-id" "" "zh-sg")
+
+(descr-as-in "leopoldina-member-id" "" "zh-hk")
+(descr-as-in "leopoldina-member-id" "" "pt")
+(descr-as-in "leopoldina-member-id" "identifier in the members' database of the Leopoldina – German Academy of Sciences" "en")
+(descr-as-in "leopoldina-member-id" "identifiant dans la base de données des membres de la Leopoldina (académie allemande des sciences)" "fr")
+(descr-as-in "leopoldina-member-id" "" "zh-tw")
+(descr-as-in "leopoldina-member-id" "Personeneintrag im Mitgliederverzeichnis der Deutschen Akademie der Naturforscher Leopoldina" "de")
+(descr-as-in "leopoldina-member-id" "" "ru")
+(descr-as-in "leopoldina-member-id" "identificador en la base de datos de miembros de la Academia Alemana de las Ciencias Naturales Leopoldina" "es")
+(descr-as-in "leopoldina-member-id" "" "ja")
+(descr-as-in "leopoldina-member-id" "" "zh-cn")
+(descr-as-in "leopoldina-member-id" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.distribution_map
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "distribution-map")
+
+(name-as-in "distribution-map" "" "zh-hk")
+(name-as-in "distribution-map" "mapa de distribuição" "pt")
+(name-as-in "distribution-map" "distribution map" "en")
+(name-as-in "distribution-map" "carte de distribution" "fr")
+(name-as-in "distribution-map" "" "zh-tw")
+(name-as-in "distribution-map" "Verteilungskarte" "de")
+(name-as-in "distribution-map" "карта распространения" "ru")
+(name-as-in "distribution-map" "mapa de distribución" "es")
+(name-as-in "distribution-map" "" "ja")
+(name-as-in "distribution-map" "" "zh-cn")
+(name-as-in "distribution-map" "" "zh-sg")
+
+(descr-as-in "distribution-map" "" "zh-hk")
+(descr-as-in "distribution-map" "distribuição do item numa área mapeada (para táxons, prefira a P181.)" "pt")
+(descr-as-in "distribution-map" "distribution of item on a mapped area (for  range map of taxa, use (P181).)" "en")
+(descr-as-in "distribution-map" "distribution d'un élément sur une zone (pour les taxons, utiliser P181)" "fr")
+(descr-as-in "distribution-map" "" "zh-tw")
+(descr-as-in "distribution-map" "" "de")
+(descr-as-in "distribution-map" "распространение чего-либо на карте (для биологических видов см. (P181).)" "ru")
+(descr-as-in "distribution-map" "distribución de un elemento en un área" "es")
+(descr-as-in "distribution-map" "" "ja")
+(descr-as-in "distribution-map" "" "zh-cn")
+(descr-as-in "distribution-map" "" "zh-sg")
+

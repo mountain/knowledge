@@ -1,0 +1,31 @@
+(ns properties.located_on_terrain_feature
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "located-on-terrain-feature")
+
+(name-as-in "located-on-terrain-feature" "所在的地理環境" "zh-hk")
+(name-as-in "located-on-terrain-feature" "situado na unidade geográfica" "pt")
+(name-as-in "located-on-terrain-feature" "located on terrain feature" "en")
+(name-as-in "located-on-terrain-feature" "localisation géographique" "fr")
+(name-as-in "located-on-terrain-feature" "所在的地理環境" "zh-tw")
+(name-as-in "located-on-terrain-feature" "liegt geografisch im Gebiet oder Gewässer" "de")
+(name-as-in "located-on-terrain-feature" "находится в пределах природно-географического объекта" "ru")
+(name-as-in "located-on-terrain-feature" "situado en la entidad geográfica" "es")
+(name-as-in "located-on-terrain-feature" "位置する地形" "ja")
+(name-as-in "located-on-terrain-feature" "所处地理环境" "zh-cn")
+(name-as-in "located-on-terrain-feature" "" "zh-sg")
+
+(descr-as-in "located-on-terrain-feature" "" "zh-hk")
+(descr-as-in "located-on-terrain-feature" "" "pt")
+(descr-as-in "located-on-terrain-feature" "located on the specified landform. Should not be used when the value is only political/administrative (provinces, states, countries, etc.). Use P131 for administrative entity." "en")
+(descr-as-in "located-on-terrain-feature" "lieu géographique où le sujet est situé. Ne s’applique pas aux valeurs qui correspondent à des zones territoriales officiels (régions, départements, villes, communes, etc. Voir localisation administrative P131 dans ce cas.)." "fr")
+(descr-as-in "located-on-terrain-feature" "" "zh-tw")
+(descr-as-in "located-on-terrain-feature" "Gebiet oder Gewässer, in dem sich das Objekt befindet/das Ereignis stattfindet. Für politische/administrative Einheiten P131 verwenden." "de")
+(descr-as-in "located-on-terrain-feature" "место расположено на территории некого водоёма или элемента ландшафта (значения свойства не должны быть единицами административно-территориального деления)" "ru")
+(descr-as-in "located-on-terrain-feature" "entidad geográfica donde se sitúa el elemento. No debería utilizarse cuando el valor es sólo político/administrativo (pueblo, ciudad, provincia, estado, país, etc...)" "es")
+(descr-as-in "located-on-terrain-feature" "主題が位置する地形（主題の島が属する海域、主題の都市が位置する盆地など）" "ja")
+(descr-as-in "located-on-terrain-feature" "" "zh-cn")
+(descr-as-in "located-on-terrain-feature" "" "zh-sg")
+

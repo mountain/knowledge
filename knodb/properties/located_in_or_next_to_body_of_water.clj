@@ -1,0 +1,31 @@
+(ns properties.located_in_or_next_to_body_of_water
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "located-in-or-next-to-body-of-water")
+
+(name-as-in "located-in-or-next-to-body-of-water" "相接水體" "zh-hk")
+(name-as-in "located-in-or-next-to-body-of-water" "banhado por" "pt")
+(name-as-in "located-in-or-next-to-body-of-water" "located in or next to body of water" "en")
+(name-as-in "located-in-or-next-to-body-of-water" "baigné par" "fr")
+(name-as-in "located-in-or-next-to-body-of-water" "相接水體" "zh-tw")
+(name-as-in "located-in-or-next-to-body-of-water" "liegt am Gewässer" "de")
+(name-as-in "located-in-or-next-to-body-of-water" "находится на берегу водоёма" "ru")
+(name-as-in "located-in-or-next-to-body-of-water" "situado cerca del cuerpo de agua" "es")
+(name-as-in "located-in-or-next-to-body-of-water" "以下の岸にある" "ja")
+(name-as-in "located-in-or-next-to-body-of-water" "相接水体" "zh-cn")
+(name-as-in "located-in-or-next-to-body-of-water" "" "zh-sg")
+
+(descr-as-in "located-in-or-next-to-body-of-water" "" "zh-hk")
+(descr-as-in "located-in-or-next-to-body-of-water" "mar, lago ou rio adjacente" "pt")
+(descr-as-in "located-in-or-next-to-body-of-water" "sea, lake or river" "en")
+(descr-as-in "located-in-or-next-to-body-of-water" "plan d'eau bordant ou cours d'eau traversant l'élément" "fr")
+(descr-as-in "located-in-or-next-to-body-of-water" "" "zh-tw")
+(descr-as-in "located-in-or-next-to-body-of-water" "Meer, Fluss oder See" "de")
+(descr-as-in "located-in-or-next-to-body-of-water" "водоём (озеро или река), на берегу которого находится НП" "ru")
+(descr-as-in "located-in-or-next-to-body-of-water" "mar, lago o río sobre el cual o en cuyas proximidades se encuentra el elemento" "es")
+(descr-as-in "located-in-or-next-to-body-of-water" "この場所は以下の海、湖、河川の岸にある" "ja")
+(descr-as-in "located-in-or-next-to-body-of-water" "" "zh-cn")
+(descr-as-in "located-in-or-next-to-body-of-water" "" "zh-sg")
+

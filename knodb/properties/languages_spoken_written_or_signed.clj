@@ -1,0 +1,31 @@
+(ns properties.languages_spoken_written_or_signed
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "languages-spoken-written-or-signed")
+
+(name-as-in "languages-spoken-written-or-signed" "口頭、書面或簽名語言" "zh-hk")
+(name-as-in "languages-spoken-written-or-signed" "línguas faladas" "pt")
+(name-as-in "languages-spoken-written-or-signed" "languages spoken, written or signed" "en")
+(name-as-in "languages-spoken-written-or-signed" "langues parlées, écrites ou signées" "fr")
+(name-as-in "languages-spoken-written-or-signed" "口頭、書面或簽名語言" "zh-tw")
+(name-as-in "languages-spoken-written-or-signed" "gesprochene oder publizierte Sprachen" "de")
+(name-as-in "languages-spoken-written-or-signed" "языки, на которых говорит или пишет персона" "ru")
+(name-as-in "languages-spoken-written-or-signed" "lenguas habladas" "es")
+(name-as-in "languages-spoken-written-or-signed" "使用可能言語" "ja")
+(name-as-in "languages-spoken-written-or-signed" "口头、书面或签名语言" "zh-cn")
+(name-as-in "languages-spoken-written-or-signed" "口头、书面或签名语言" "zh-sg")
+
+(descr-as-in "languages-spoken-written-or-signed" "" "zh-hk")
+(descr-as-in "languages-spoken-written-or-signed" "" "pt")
+(descr-as-in "languages-spoken-written-or-signed" "language(s) that a person speaks or writes, including the native language(s)" "en")
+(descr-as-in "languages-spoken-written-or-signed" "langue(s) parlée(s) écrite(s) ou signée(s) par une personne, y compris  la langue maternelle" "fr")
+(descr-as-in "languages-spoken-written-or-signed" "" "zh-tw")
+(descr-as-in "languages-spoken-written-or-signed" "Sprachen, in denen sich eine Person äußert, insbesondere Fremdsprachen, darf Muttersprachen (P103) enthalten" "de")
+(descr-as-in "languages-spoken-written-or-signed" "язык или языки, на которых говорит или пишет персона. Может включать родной язык" "ru")
+(descr-as-in "languages-spoken-written-or-signed" "idioma que habla una persona (no materno o materno)" "es")
+(descr-as-in "languages-spoken-written-or-signed" "主題人物が話したり書いたりすることができる言語。母語 (P103) を含み得る。" "ja")
+(descr-as-in "languages-spoken-written-or-signed" "" "zh-cn")
+(descr-as-in "languages-spoken-written-or-signed" "" "zh-sg")
+

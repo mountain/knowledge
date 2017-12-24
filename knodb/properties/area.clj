@@ -1,0 +1,31 @@
+(ns properties.area
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "area")
+
+(name-as-in "area" "面積" "zh-hk")
+(name-as-in "area" "área" "pt")
+(name-as-in "area" "area" "en")
+(name-as-in "area" "superficie" "fr")
+(name-as-in "area" "面積" "zh-tw")
+(name-as-in "area" "Fläche" "de")
+(name-as-in "area" "площадь" "ru")
+(name-as-in "area" "superficie" "es")
+(name-as-in "area" "面積" "ja")
+(name-as-in "area" "面积" "zh-cn")
+(name-as-in "area" "面积" "zh-sg")
+
+(descr-as-in "area" "" "zh-hk")
+(descr-as-in "area" "área ocupada por um objeto" "pt")
+(descr-as-in "area" "area occupied by an object" "en")
+(descr-as-in "area" "surface totale occupée par l'élément" "fr")
+(descr-as-in "area" "" "zh-tw")
+(descr-as-in "area" "Fläche, die von einem Objekt eingenommen wird" "de")
+(descr-as-in "area" "численная характеристика двумерной геометрической фигуры" "ru")
+(descr-as-in "area" "superficie total ocupada por el elemento" "es")
+(descr-as-in "area" "" "ja")
+(descr-as-in "area" "" "zh-cn")
+(descr-as-in "area" "" "zh-sg")
+

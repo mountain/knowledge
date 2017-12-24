@@ -1,0 +1,31 @@
+(ns properties.isfdb_author_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "isfdb-author-id")
+
+(name-as-in "isfdb-author-id" "" "zh-hk")
+(name-as-in "isfdb-author-id" "" "pt")
+(name-as-in "isfdb-author-id" "ISFDB author ID" "en")
+(name-as-in "isfdb-author-id" "identifiant ISFDB d'un auteur" "fr")
+(name-as-in "isfdb-author-id" "" "zh-tw")
+(name-as-in "isfdb-author-id" "ISFDB-Autor-ID" "de")
+(name-as-in "isfdb-author-id" "код автора в ISFDB" "ru")
+(name-as-in "isfdb-author-id" "identificador ISFDB de autor" "es")
+(name-as-in "isfdb-author-id" "ISFDB著者識別子" "ja")
+(name-as-in "isfdb-author-id" "" "zh-cn")
+(name-as-in "isfdb-author-id" "" "zh-sg")
+
+(descr-as-in "isfdb-author-id" "" "zh-hk")
+(descr-as-in "isfdb-author-id" "" "pt")
+(descr-as-in "isfdb-author-id" "identifier for a person in the Internet Speculative Fiction Database" "en")
+(descr-as-in "isfdb-author-id" "" "fr")
+(descr-as-in "isfdb-author-id" "" "zh-tw")
+(descr-as-in "isfdb-author-id" "" "de")
+(descr-as-in "isfdb-author-id" "" "ru")
+(descr-as-in "isfdb-author-id" "identificador de una persona en Internet Speculative Fiction Database" "es")
+(descr-as-in "isfdb-author-id" "" "ja")
+(descr-as-in "isfdb-author-id" "" "zh-cn")
+(descr-as-in "isfdb-author-id" "" "zh-sg")
+

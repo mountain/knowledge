@@ -1,0 +1,31 @@
+(ns properties.dharma_drum_buddhist_college_place_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "dharma-drum-buddhist-college-place-id")
+
+(name-as-in "dharma-drum-buddhist-college-place-id" "" "zh-hk")
+(name-as-in "dharma-drum-buddhist-college-place-id" "" "pt")
+(name-as-in "dharma-drum-buddhist-college-place-id" "Dharma Drum Buddhist College place ID" "en")
+(name-as-in "dharma-drum-buddhist-college-place-id" "identifiant de lieu Dharma Drum Buddhist College" "fr")
+(name-as-in "dharma-drum-buddhist-college-place-id" "" "zh-tw")
+(name-as-in "dharma-drum-buddhist-college-place-id" "DDBC-Orts-ID" "de")
+(name-as-in "dharma-drum-buddhist-college-place-id" "код места по системе Dharma Drum Buddhist College" "ru")
+(name-as-in "dharma-drum-buddhist-college-place-id" "identificador de lugar Dharma Drum Buddhist College" "es")
+(name-as-in "dharma-drum-buddhist-college-place-id" "法鼓仏教学院地方コード" "ja")
+(name-as-in "dharma-drum-buddhist-college-place-id" "" "zh-cn")
+(name-as-in "dharma-drum-buddhist-college-place-id" "" "zh-sg")
+
+(descr-as-in "dharma-drum-buddhist-college-place-id" "" "zh-hk")
+(descr-as-in "dharma-drum-buddhist-college-place-id" "" "pt")
+(descr-as-in "dharma-drum-buddhist-college-place-id" "identifier for a place in DDBC" "en")
+(descr-as-in "dharma-drum-buddhist-college-place-id" "" "fr")
+(descr-as-in "dharma-drum-buddhist-college-place-id" "" "zh-tw")
+(descr-as-in "dharma-drum-buddhist-college-place-id" "Buddhist Authority Database Project" "de")
+(descr-as-in "dharma-drum-buddhist-college-place-id" "" "ru")
+(descr-as-in "dharma-drum-buddhist-college-place-id" "" "es")
+(descr-as-in "dharma-drum-buddhist-college-place-id" "" "ja")
+(descr-as-in "dharma-drum-buddhist-college-place-id" "" "zh-cn")
+(descr-as-in "dharma-drum-buddhist-college-place-id" "" "zh-sg")
+

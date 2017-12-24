@@ -1,0 +1,31 @@
+(ns properties.ppp_gdp_per_capita
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "ppp-gdp-per-capita")
+
+(name-as-in "ppp-gdp-per-capita" "" "zh-hk")
+(name-as-in "ppp-gdp-per-capita" "PIB (PPP) per capita" "pt")
+(name-as-in "ppp-gdp-per-capita" "PPP GDP per capita" "en")
+(name-as-in "ppp-gdp-per-capita" "PIB (PPA) par habitant" "fr")
+(name-as-in "ppp-gdp-per-capita" "" "zh-tw")
+(name-as-in "ppp-gdp-per-capita" "BIP/Kopf in KKP" "de")
+(name-as-in "ppp-gdp-per-capita" "ППС ВВП на душу населения" "ru")
+(name-as-in "ppp-gdp-per-capita" "PBI (PPA) per cápita" "es")
+(name-as-in "ppp-gdp-per-capita" "" "ja")
+(name-as-in "ppp-gdp-per-capita" "" "zh-cn")
+(name-as-in "ppp-gdp-per-capita" "" "zh-sg")
+
+(descr-as-in "ppp-gdp-per-capita" "" "zh-hk")
+(descr-as-in "ppp-gdp-per-capita" "" "pt")
+(descr-as-in "ppp-gdp-per-capita" "GDP divided by the population total and adjusted for CPI" "en")
+(descr-as-in "ppp-gdp-per-capita" "produit intérieur brut en parité de pouvoir d'achat, rapporté à la population" "fr")
+(descr-as-in "ppp-gdp-per-capita" "" "zh-tw")
+(descr-as-in "ppp-gdp-per-capita" "" "de")
+(descr-as-in "ppp-gdp-per-capita" "величина валового внутреннего продукт в пересчёте по паритету покупательной способности на душу населения" "ru")
+(descr-as-in "ppp-gdp-per-capita" "Producto Bruto Interno dividido por la población total y ajustado al índice de precios al consumidor" "es")
+(descr-as-in "ppp-gdp-per-capita" "" "ja")
+(descr-as-in "ppp-gdp-per-capita" "" "zh-cn")
+(descr-as-in "ppp-gdp-per-capita" "" "zh-sg")
+

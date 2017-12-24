@@ -1,0 +1,31 @@
+(ns properties.ethnic_group
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "ethnic-group")
+
+(name-as-in "ethnic-group" "種族" "zh-hk")
+(name-as-in "ethnic-group" "grupo étnico" "pt")
+(name-as-in "ethnic-group" "ethnic group" "en")
+(name-as-in "ethnic-group" "groupe ethnique" "fr")
+(name-as-in "ethnic-group" "種族" "zh-tw")
+(name-as-in "ethnic-group" "Bevölkerungsgruppe" "de")
+(name-as-in "ethnic-group" "этническая группа" "ru")
+(name-as-in "ethnic-group" "etnia" "es")
+(name-as-in "ethnic-group" "民族" "ja")
+(name-as-in "ethnic-group" "种族" "zh-cn")
+(name-as-in "ethnic-group" "种族" "zh-sg")
+
+(descr-as-in "ethnic-group" "" "zh-hk")
+(descr-as-in "ethnic-group" "" "pt")
+(descr-as-in "ethnic-group" "subject's ethnicity (consensus is that a VERY high standard of proof is needed for this field to be used. In general this means 1) the subject claims it him/herself, or 2) it is widely agreed on by scholars, or 3) is fictional and portrayed as such)." "en")
+(descr-as-in "ethnic-group" "ethnie du sujet (nécessite un TRÈS haut niveau de preuve. Cela signifie en général que 1) le sujet se définit lui-même comme tel, ou 2) cela est largement accepté par les chercheurs, ou 3) le sujet est fictionnel et dépeint comme tel)" "fr")
+(descr-as-in "ethnic-group" "" "zh-tw")
+(descr-as-in "ethnic-group" "*Umstritten*! siehe Diskussionsseite" "de")
+(descr-as-in "ethnic-group" "ДОЛЖНО быть утверждено самим субъектом или подтверждено консенсусом учёных (либо, для вымышленных персонажей, текстом произведения)" "ru")
+(descr-as-in "ethnic-group" "etnia de la persona" "es")
+(descr-as-in "ethnic-group" "主題人物のエスニシティ（属する民族集団）" "ja")
+(descr-as-in "ethnic-group" "" "zh-cn")
+(descr-as-in "ethnic-group" "" "zh-sg")
+

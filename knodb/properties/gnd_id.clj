@@ -1,0 +1,31 @@
+(ns properties.gnd_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "gnd-id")
+
+(name-as-in "gnd-id" "GND編號" "zh-hk")
+(name-as-in "gnd-id" "identificador GND" "pt")
+(name-as-in "gnd-id" "GND ID" "en")
+(name-as-in "gnd-id" "identifiant Gemeinsame Normdatei" "fr")
+(name-as-in "gnd-id" "GND編號" "zh-tw")
+(name-as-in "gnd-id" "GND" "de")
+(name-as-in "gnd-id" "код GND" "ru")
+(name-as-in "gnd-id" "identificador GND" "es")
+(name-as-in "gnd-id" "GND識別子" "ja")
+(name-as-in "gnd-id" "GND编号" "zh-cn")
+(name-as-in "gnd-id" "GND编号" "zh-sg")
+
+(descr-as-in "gnd-id" "" "zh-hk")
+(descr-as-in "gnd-id" "ficheiro de autoridade sobre o assunto" "pt")
+(descr-as-in "gnd-id" "identifier from an international authority file of names, subjects, and organizations (please don't use type n = name, disambiguation) - Deutsche Nationalbibliothek" "en")
+(descr-as-in "gnd-id" "numéro de la notice d'autorité dans le Gemeinsame Normdatei (GND)" "fr")
+(descr-as-in "gnd-id" "德國國家圖書館聯合權威檔" "zh-tw")
+(descr-as-in "gnd-id" "internationale Normdatei für Personennamen, Körperschaften und Schlagworte (bitte nicht Typ n eintragen = Name, mehrdeutig)" "de")
+(descr-as-in "gnd-id" "международная система классификации и систематизации (пожалуйста, не используйте записи типа n = name, disambiguation)" "ru")
+(descr-as-in "gnd-id" "número de registro de autoridad en el Gemeinsame Normdatei (GND)" "es")
+(descr-as-in "gnd-id" "名前、主題、組織に関する国際典拠ファイル" "ja")
+(descr-as-in "gnd-id" "" "zh-cn")
+(descr-as-in "gnd-id" "" "zh-sg")
+

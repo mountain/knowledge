@@ -1,0 +1,31 @@
+(ns properties.youtube_channel_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "youtube-channel-id")
+
+(name-as-in "youtube-channel-id" "YouTube頻道ID" "zh-hk")
+(name-as-in "youtube-channel-id" "identificador de canal do YouTube" "pt")
+(name-as-in "youtube-channel-id" "YouTube channel ID" "en")
+(name-as-in "youtube-channel-id" "identifiant de chaîne YouTube" "fr")
+(name-as-in "youtube-channel-id" "YouTube頻道ID" "zh-tw")
+(name-as-in "youtube-channel-id" "YouTube-Kanal-Kennung" "de")
+(name-as-in "youtube-channel-id" "код канала YouTube" "ru")
+(name-as-in "youtube-channel-id" "canal de YouTube" "es")
+(name-as-in "youtube-channel-id" "YouTube channel ID" "ja")
+(name-as-in "youtube-channel-id" "YouTube频道ID" "zh-cn")
+(name-as-in "youtube-channel-id" "YouTube频道ID" "zh-sg")
+
+(descr-as-in "youtube-channel-id" "" "zh-hk")
+(descr-as-in "youtube-channel-id" "ID do canal do YouTube de uma pessoa ou organização (não é para ser misturado com o nome do canal)" "pt")
+(descr-as-in "youtube-channel-id" "ID of the YouTube channel of a person or organisation (not to be confused with the name of the channel)" "en")
+(descr-as-in "youtube-channel-id" "identifiant de la chaine Youtube d'une personne ou d'une organisation (à ne pas confondre avec le nom d'une chaine)" "fr")
+(descr-as-in "youtube-channel-id" "" "zh-tw")
+(descr-as-in "youtube-channel-id" "Kennung eines YouTube-Kanals einer Person oder Organisation (nicht zu verwechseln mit Name eines Kanals)" "de")
+(descr-as-in "youtube-channel-id" "идентификатор канала YouTube частного лица или организации (часть длинного адреса, начинающегося с youtube.com/channel/; не сто́ит путать с коротким именем канала - website account on YouTube)" "ru")
+(descr-as-in "youtube-channel-id" "ID del canal de YouTube de una persona u organización" "es")
+(descr-as-in "youtube-channel-id" "団体・個人のYotubeチャンネルのID（channel/の後のURLを指定する" "ja")
+(descr-as-in "youtube-channel-id" "" "zh-cn")
+(descr-as-in "youtube-channel-id" "" "zh-sg")
+

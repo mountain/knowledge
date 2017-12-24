@@ -1,0 +1,31 @@
+(ns properties.cths_society_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "cths-society-id")
+
+(name-as-in "cths-society-id" "" "zh-hk")
+(name-as-in "cths-society-id" "" "pt")
+(name-as-in "cths-society-id" "CTHS society ID" "en")
+(name-as-in "cths-society-id" "identifiant Annuaire des sociétés savantes de France" "fr")
+(name-as-in "cths-society-id" "" "zh-tw")
+(name-as-in "cths-society-id" "CTHS-ID" "de")
+(name-as-in "cths-society-id" "идентификатор Комитета исторических и научных работ" "ru")
+(name-as-in "cths-society-id" "" "es")
+(name-as-in "cths-society-id" "" "ja")
+(name-as-in "cths-society-id" "" "zh-cn")
+(name-as-in "cths-society-id" "" "zh-sg")
+
+(descr-as-in "cths-society-id" "" "zh-hk")
+(descr-as-in "cths-society-id" "" "pt")
+(descr-as-in "cths-society-id" "identifier of Comité des travaux historiques et scientifiques" "en")
+(descr-as-in "cths-society-id" "" "fr")
+(descr-as-in "cths-society-id" "" "zh-tw")
+(descr-as-in "cths-society-id" "ID des Comité des travaux historiques et scientifiques, Frankreich" "de")
+(descr-as-in "cths-society-id" "" "ru")
+(descr-as-in "cths-society-id" "" "es")
+(descr-as-in "cths-society-id" "" "ja")
+(descr-as-in "cths-society-id" "" "zh-cn")
+(descr-as-in "cths-society-id" "" "zh-sg")
+

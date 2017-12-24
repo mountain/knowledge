@@ -1,0 +1,31 @@
+(ns properties.time_of_discovery
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "time-of-discovery")
+
+(name-as-in "time-of-discovery" "發現日期" "zh-hk")
+(name-as-in "time-of-discovery" "data de descoberta" "pt")
+(name-as-in "time-of-discovery" "time of discovery" "en")
+(name-as-in "time-of-discovery" "date de découverte" "fr")
+(name-as-in "time-of-discovery" "" "zh-tw")
+(name-as-in "time-of-discovery" "Entdeckungsdatum" "de")
+(name-as-in "time-of-discovery" "дата открытия" "ru")
+(name-as-in "time-of-discovery" "fecha de descubrimiento" "es")
+(name-as-in "time-of-discovery" "発見日" "ja")
+(name-as-in "time-of-discovery" "" "zh-cn")
+(name-as-in "time-of-discovery" "" "zh-sg")
+
+(descr-as-in "time-of-discovery" "" "zh-hk")
+(descr-as-in "time-of-discovery" "" "pt")
+(descr-as-in "time-of-discovery" "date or point in time when the item was discovered" "en")
+(descr-as-in "time-of-discovery" "date de découverte de l'élément" "fr")
+(descr-as-in "time-of-discovery" "" "zh-tw")
+(descr-as-in "time-of-discovery" "Datum, an dem das Objekt entdeckt wurde" "de")
+(descr-as-in "time-of-discovery" "дата, когда объект был открыт (обнаружен)" "ru")
+(descr-as-in "time-of-discovery" "fecha en la cual el elemento fue descubierto" "es")
+(descr-as-in "time-of-discovery" "主題が発見された日付" "ja")
+(descr-as-in "time-of-discovery" "" "zh-cn")
+(descr-as-in "time-of-discovery" "" "zh-sg")
+

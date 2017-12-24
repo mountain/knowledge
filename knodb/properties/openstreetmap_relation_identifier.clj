@@ -1,0 +1,31 @@
+(ns properties.openstreetmap_relation_identifier
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "openstreetmap-relation-identifier")
+
+(name-as-in "openstreetmap-relation-identifier" "OpenStreetMap關係標識符" "zh-hk")
+(name-as-in "openstreetmap-relation-identifier" "ID de relação OpenStreetMap" "pt")
+(name-as-in "openstreetmap-relation-identifier" "OpenStreetMap Relation identifier" "en")
+(name-as-in "openstreetmap-relation-identifier" "identifiant de relation OpenStreetMap" "fr")
+(name-as-in "openstreetmap-relation-identifier" "開放街圖關係標識符" "zh-tw")
+(name-as-in "openstreetmap-relation-identifier" "OpenStreetMap-Relations-ID" "de")
+(name-as-in "openstreetmap-relation-identifier" "ID отношения в OpenStreetMap" "ru")
+(name-as-in "openstreetmap-relation-identifier" "identificador de relación OpenStreetMap" "es")
+(name-as-in "openstreetmap-relation-identifier" "オープンストリートマップのリレーションID" "ja")
+(name-as-in "openstreetmap-relation-identifier" "OpenStreetMap关系标识符" "zh-cn")
+(name-as-in "openstreetmap-relation-identifier" "OpenStreetMap关系标识符" "zh-sg")
+
+(descr-as-in "openstreetmap-relation-identifier" "" "zh-hk")
+(descr-as-in "openstreetmap-relation-identifier" "Identificador para um objeto do tipo relação no OpenStreetMap" "pt")
+(descr-as-in "openstreetmap-relation-identifier" "identifier for a relation in OpenStreetMap" "en")
+(descr-as-in "openstreetmap-relation-identifier" "identifiant de la relation OpenStreetMap" "fr")
+(descr-as-in "openstreetmap-relation-identifier" "地方或物件在開放街圖上的關係ID編號" "zh-tw")
+(descr-as-in "openstreetmap-relation-identifier" "ID des geographischen Objekts in OpenStreetMap" "de")
+(descr-as-in "openstreetmap-relation-identifier" "" "ru")
+(descr-as-in "openstreetmap-relation-identifier" "identificador del objeto geográfico con una relación de OpenStreetMap" "es")
+(descr-as-in "openstreetmap-relation-identifier" "この場所・建造物のオープンストリートマップにおけるリレーションのID" "ja")
+(descr-as-in "openstreetmap-relation-identifier" "" "zh-cn")
+(descr-as-in "openstreetmap-relation-identifier" "" "zh-sg")
+

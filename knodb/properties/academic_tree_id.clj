@@ -1,0 +1,31 @@
+(ns properties.academic_tree_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "academic-tree-id")
+
+(name-as-in "academic-tree-id" "" "zh-hk")
+(name-as-in "academic-tree-id" "" "pt")
+(name-as-in "academic-tree-id" "Academic Tree ID" "en")
+(name-as-in "academic-tree-id" "identifiant The Academic Family Tree" "fr")
+(name-as-in "academic-tree-id" "" "zh-tw")
+(name-as-in "academic-tree-id" "Academic Tree ID" "de")
+(name-as-in "academic-tree-id" "код Academic Tree" "ru")
+(name-as-in "academic-tree-id" "identificador Academic Tree" "es")
+(name-as-in "academic-tree-id" "" "ja")
+(name-as-in "academic-tree-id" "" "zh-cn")
+(name-as-in "academic-tree-id" "" "zh-sg")
+
+(descr-as-in "academic-tree-id" "" "zh-hk")
+(descr-as-in "academic-tree-id" "" "pt")
+(descr-as-in "academic-tree-id" "identifer on academictree.org" "en")
+(descr-as-in "academic-tree-id" "identifiant sur academictree.org" "fr")
+(descr-as-in "academic-tree-id" "" "zh-tw")
+(descr-as-in "academic-tree-id" "Eintrag in der fächerübergreifenden Datenbank für akademische Genealogie" "de")
+(descr-as-in "academic-tree-id" "" "ru")
+(descr-as-in "academic-tree-id" "" "es")
+(descr-as-in "academic-tree-id" "" "ja")
+(descr-as-in "academic-tree-id" "" "zh-cn")
+(descr-as-in "academic-tree-id" "" "zh-sg")
+

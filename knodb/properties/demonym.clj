@@ -1,0 +1,31 @@
+(ns properties.demonym
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "demonym")
+
+(name-as-in "demonym" "居民稱謂詞" "zh-hk")
+(name-as-in "demonym" "gentílico" "pt")
+(name-as-in "demonym" "demonym" "en")
+(name-as-in "demonym" "gentilé" "fr")
+(name-as-in "demonym" "居民稱謂詞" "zh-tw")
+(name-as-in "demonym" "Demonym" "de")
+(name-as-in "demonym" "этнохороним" "ru")
+(name-as-in "demonym" "gentilicio" "es")
+(name-as-in "demonym" "住人の呼称" "ja")
+(name-as-in "demonym" "居民称谓词" "zh-cn")
+(name-as-in "demonym" "居民称谓词" "zh-sg")
+
+(descr-as-in "demonym" "居住於特定區域之居民的稱呼用語" "zh-hk")
+(descr-as-in "demonym" "" "pt")
+(descr-as-in "demonym" "demonym for people or things associated with a given place. In English, this should start with a capital letter. Singular masculine adjective form is preferred. Add a qualifier if another form is added." "en")
+(descr-as-in "demonym" "nom des habitants d'un lieu. En français, la forme du masculin singulier, commençant par une majuscule." "fr")
+(descr-as-in "demonym" "居住於特定區域之居民的稱呼用語" "zh-tw")
+(descr-as-in "demonym" "Menschen oder Dinge, die mit einem Ort assoziiert werden" "de")
+(descr-as-in "demonym" "название жителя (жителей) определённой местности, образованнное от названия этой местности (от топонима)" "ru")
+(descr-as-in "demonym" "nombre de los habitantes de un lugar" "es")
+(descr-as-in "demonym" "その土地（都市･地方・国）の居住者あるいは出身者であることを示す語" "ja")
+(descr-as-in "demonym" "居住于特定区域之居民的称呼用语" "zh-cn")
+(descr-as-in "demonym" "居住于特定区域之居民的称呼用语" "zh-sg")
+

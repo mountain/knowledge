@@ -1,0 +1,31 @@
+(ns properties.native_label
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "native-label")
+
+(name-as-in "native-label" "母語標籤" "zh-hk")
+(name-as-in "native-label" "nome nativo" "pt")
+(name-as-in "native-label" "native label" "en")
+(name-as-in "native-label" "nom dans la langue originale" "fr")
+(name-as-in "native-label" "母語標籤" "zh-tw")
+(name-as-in "native-label" "Name in Amts- oder Originalsprache" "de")
+(name-as-in "native-label" "название на языке оригинала" "ru")
+(name-as-in "native-label" "nombre nativo" "es")
+(name-as-in "native-label" "原語ラベル" "ja")
+(name-as-in "native-label" "母语标签" "zh-cn")
+(name-as-in "native-label" "母语标签" "zh-sg")
+
+(descr-as-in "native-label" "" "zh-hk")
+(descr-as-in "native-label" "" "pt")
+(descr-as-in "native-label" "label for the items in their official language (P37) or their original language (P364)" "en")
+(descr-as-in "native-label" "dans la langue originale, la chaîne de caractère nommant l'item" "fr")
+(descr-as-in "native-label" "" "zh-tw")
+(descr-as-in "native-label" "Name der Entität in Amtssprache (P37) oder Originalsprache (P364)" "de")
+(descr-as-in "native-label" "наименование на официальном языке (P37) или на языке оригинала (P364)" "ru")
+(descr-as-in "native-label" "nombre del elemento en su lengua oficial (P37) u original (P364), para personas úsese P1559" "es")
+(descr-as-in "native-label" "この項目の公用語 (P37) もしくは原語 (P364) におけるラベル" "ja")
+(descr-as-in "native-label" "" "zh-cn")
+(descr-as-in "native-label" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.bav_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "bav-id")
+
+(name-as-in "bav-id" "BAV編號" "zh-hk")
+(name-as-in "bav-id" "identificador BAV" "pt")
+(name-as-in "bav-id" "BAV ID" "en")
+(name-as-in "bav-id" "identifiant Bibliothèque apostolique vaticane" "fr")
+(name-as-in "bav-id" "" "zh-tw")
+(name-as-in "bav-id" "BAV (Vatikan) ID" "de")
+(name-as-in "bav-id" "код BAV" "ru")
+(name-as-in "bav-id" "identificador BAV" "es")
+(name-as-in "bav-id" "BAV識別子" "ja")
+(name-as-in "bav-id" "" "zh-cn")
+(name-as-in "bav-id" "" "zh-sg")
+
+(descr-as-in "bav-id" "梵蒂岡宗座圖書館使用的編號" "zh-hk")
+(descr-as-in "bav-id" "" "pt")
+(descr-as-in "bav-id" "identifier for authority control used at the Vatican Library" "en")
+(descr-as-in "bav-id" "identifiant de l'élément dans la Bibliothèque apostolique vaticane" "fr")
+(descr-as-in "bav-id" "" "zh-tw")
+(descr-as-in "bav-id" "Identifikator in Normdatei der Vatikanischen Apostolischen Bibliothek" "de")
+(descr-as-in "bav-id" "идентификатор Ватиканской библиотеки" "ru")
+(descr-as-in "bav-id" "identificador de control de autoría utilizado en la Biblioteca del Vaticano" "es")
+(descr-as-in "bav-id" "ヴァチカン図書館の典拠コントロール識別子" "ja")
+(descr-as-in "bav-id" "" "zh-cn")
+(descr-as-in "bav-id" "" "zh-sg")
+

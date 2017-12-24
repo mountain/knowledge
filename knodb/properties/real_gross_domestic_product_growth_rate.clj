@@ -1,0 +1,31 @@
+(ns properties.real_gross_domestic_product_growth_rate
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "real-gross-domestic-product-growth-rate")
+
+(name-as-in "real-gross-domestic-product-growth-rate" "" "zh-hk")
+(name-as-in "real-gross-domestic-product-growth-rate" "" "pt")
+(name-as-in "real-gross-domestic-product-growth-rate" "real gross domestic product growth rate" "en")
+(name-as-in "real-gross-domestic-product-growth-rate" "taux de croissance" "fr")
+(name-as-in "real-gross-domestic-product-growth-rate" "" "zh-tw")
+(name-as-in "real-gross-domestic-product-growth-rate" "Wachstumsrate" "de")
+(name-as-in "real-gross-domestic-product-growth-rate" "темп роста реального ВВП" "ru")
+(name-as-in "real-gross-domestic-product-growth-rate" "tasa de crecimiento real" "es")
+(name-as-in "real-gross-domestic-product-growth-rate" "" "ja")
+(name-as-in "real-gross-domestic-product-growth-rate" "" "zh-cn")
+(name-as-in "real-gross-domestic-product-growth-rate" "" "zh-sg")
+
+(descr-as-in "real-gross-domestic-product-growth-rate" "" "zh-hk")
+(descr-as-in "real-gross-domestic-product-growth-rate" "" "pt")
+(descr-as-in "real-gross-domestic-product-growth-rate" "percentage change in nominal GDP from one year to the next minus the inflation rate" "en")
+(descr-as-in "real-gross-domestic-product-growth-rate" "taux de croissance réel du produit intérieur brut" "fr")
+(descr-as-in "real-gross-domestic-product-growth-rate" "" "zh-tw")
+(descr-as-in "real-gross-domestic-product-growth-rate" "" "de")
+(descr-as-in "real-gross-domestic-product-growth-rate" "темп роста валового внутреннего продукта" "ru")
+(descr-as-in "real-gross-domestic-product-growth-rate" "cambio porcentual en el PBI nominal de un año a otro menos la tasa de inflación" "es")
+(descr-as-in "real-gross-domestic-product-growth-rate" "" "ja")
+(descr-as-in "real-gross-domestic-product-growth-rate" "" "zh-cn")
+(descr-as-in "real-gross-domestic-product-growth-rate" "" "zh-sg")
+

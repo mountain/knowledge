@@ -1,0 +1,31 @@
+(ns properties.icd_10
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "icd-10")
+
+(name-as-in "icd-10" "" "zh-hk")
+(name-as-in "icd-10" "identificador CID-10" "pt")
+(name-as-in "icd-10" "ICD-10" "en")
+(name-as-in "icd-10" "code CIM-10" "fr")
+(name-as-in "icd-10" "" "zh-tw")
+(name-as-in "icd-10" "ICD-10" "de")
+(name-as-in "icd-10" "МКБ-10" "ru")
+(name-as-in "icd-10" "CIE-10" "es")
+(name-as-in "icd-10" "ICD-10" "ja")
+(name-as-in "icd-10" "" "zh-cn")
+(name-as-in "icd-10" "" "zh-sg")
+
+(descr-as-in "icd-10" "" "zh-hk")
+(descr-as-in "icd-10" "código da classificação internacional de doenças - versão 10" "pt")
+(descr-as-in "icd-10" "identifier in the ICD catalogue codes for diseases - Version 10" "en")
+(descr-as-in "icd-10" "Classification internationale des maladies de l'OMS" "fr")
+(descr-as-in "icd-10" "" "zh-tw")
+(descr-as-in "icd-10" "Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision" "de")
+(descr-as-in "icd-10" "" "ru")
+(descr-as-in "icd-10" "décima edición de la Clasificación internacional de enfermedades" "es")
+(descr-as-in "icd-10" "国際疾病分類第10版" "ja")
+(descr-as-in "icd-10" "" "zh-cn")
+(descr-as-in "icd-10" "" "zh-sg")
+

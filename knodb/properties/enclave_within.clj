@@ -1,0 +1,31 @@
+(ns properties.enclave_within
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "enclave-within")
+
+(name-as-in "enclave-within" "" "zh-hk")
+(name-as-in "enclave-within" "enclave em" "pt")
+(name-as-in "enclave-within" "enclave within" "en")
+(name-as-in "enclave-within" "enclavé dans" "fr")
+(name-as-in "enclave-within" "內飛於" "zh-tw")
+(name-as-in "enclave-within" "Enklave in" "de")
+(name-as-in "enclave-within" "анклав в" "ru")
+(name-as-in "enclave-within" "enclave en" "es")
+(name-as-in "enclave-within" "飛地の周囲" "ja")
+(name-as-in "enclave-within" "" "zh-cn")
+(name-as-in "enclave-within" "" "zh-sg")
+
+(descr-as-in "enclave-within" "" "zh-hk")
+(descr-as-in "enclave-within" "" "pt")
+(descr-as-in "enclave-within" "territory is entirely surrounded by the other (enclaved)" "en")
+(descr-as-in "enclave-within" "le territoire est entièrement entouré par" "fr")
+(descr-as-in "enclave-within" "" "zh-tw")
+(descr-as-in "enclave-within" "Staatsgebiet, das vollständig vom Gebiet eines anderen Staates umschlossen ist" "de")
+(descr-as-in "enclave-within" "территория, полностью полностью окружённая другой территорией" "ru")
+(descr-as-in "enclave-within" "el territorio se encuentra totalmente rodeado por otro" "es")
+(descr-as-in "enclave-within" "主題である飛地を取り囲んでいる地域" "ja")
+(descr-as-in "enclave-within" "" "zh-cn")
+(descr-as-in "enclave-within" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.legal_entity_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "legal-entity-id")
+
+(name-as-in "legal-entity-id" "" "zh-hk")
+(name-as-in "legal-entity-id" "" "pt")
+(name-as-in "legal-entity-id" "Legal Entity ID" "en")
+(name-as-in "legal-entity-id" "LEI" "fr")
+(name-as-in "legal-entity-id" "" "zh-tw")
+(name-as-in "legal-entity-id" "Rechtsträger-Kennung" "de")
+(name-as-in "legal-entity-id" "код LEI" "ru")
+(name-as-in "legal-entity-id" "identificador legal de una entidad" "es")
+(name-as-in "legal-entity-id" "取引主体識別子" "ja")
+(name-as-in "legal-entity-id" "" "zh-cn")
+(name-as-in "legal-entity-id" "" "zh-sg")
+
+(descr-as-in "legal-entity-id" "" "zh-hk")
+(descr-as-in "legal-entity-id" "" "pt")
+(descr-as-in "legal-entity-id" "identifier for a legally distinct entity per ISO 17442" "en")
+(descr-as-in "legal-entity-id" "chaîne de charactères identifiant une entitée légale par son ISO 17442" "fr")
+(descr-as-in "legal-entity-id" "" "zh-tw")
+(descr-as-in "legal-entity-id" "Zeichenkette zur Identifizierung eines Rechtsträgers nach ISO 17442" "de")
+(descr-as-in "legal-entity-id" "Legal Entity Identifier" "ru")
+(descr-as-in "legal-entity-id" "identificador para una entidad legal por su ISO 17442" "es")
+(descr-as-in "legal-entity-id" "ISO 17442による" "ja")
+(descr-as-in "legal-entity-id" "" "zh-cn")
+(descr-as-in "legal-entity-id" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.inpho_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "inpho-id")
+
+(name-as-in "inpho-id" "" "zh-hk")
+(name-as-in "inpho-id" "identificador InPhO" "pt")
+(name-as-in "inpho-id" "InPhO ID" "en")
+(name-as-in "inpho-id" "identifiant InPhO" "fr")
+(name-as-in "inpho-id" "" "zh-tw")
+(name-as-in "inpho-id" "InPhO ID" "de")
+(name-as-in "inpho-id" "код InPhO" "ru")
+(name-as-in "inpho-id" "identificador InPhO" "es")
+(name-as-in "inpho-id" "" "ja")
+(name-as-in "inpho-id" "" "zh-cn")
+(name-as-in "inpho-id" "" "zh-sg")
+
+(descr-as-in "inpho-id" "" "zh-hk")
+(descr-as-in "inpho-id" "" "pt")
+(descr-as-in "inpho-id" "identifier in the Indiana Philosophy Ontology project" "en")
+(descr-as-in "inpho-id" "" "fr")
+(descr-as-in "inpho-id" "" "zh-tw")
+(descr-as-in "inpho-id" "" "de")
+(descr-as-in "inpho-id" "" "ru")
+(descr-as-in "inpho-id" "identificador del proyecto Indiana Philosophy Ontology" "es")
+(descr-as-in "inpho-id" "" "ja")
+(descr-as-in "inpho-id" "" "zh-cn")
+(descr-as-in "inpho-id" "" "zh-sg")
+

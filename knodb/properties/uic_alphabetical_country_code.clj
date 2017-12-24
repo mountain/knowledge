@@ -1,0 +1,31 @@
+(ns properties.uic_alphabetical_country_code
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "uic-alphabetical-country-code")
+
+(name-as-in "uic-alphabetical-country-code" "" "zh-hk")
+(name-as-in "uic-alphabetical-country-code" "" "pt")
+(name-as-in "uic-alphabetical-country-code" "UIC alphabetical country code" "en")
+(name-as-in "uic-alphabetical-country-code" "code alphabétique UIC de pays" "fr")
+(name-as-in "uic-alphabetical-country-code" "" "zh-tw")
+(name-as-in "uic-alphabetical-country-code" "" "de")
+(name-as-in "uic-alphabetical-country-code" "" "ru")
+(name-as-in "uic-alphabetical-country-code" "código alfabético de país UIC" "es")
+(name-as-in "uic-alphabetical-country-code" "" "ja")
+(name-as-in "uic-alphabetical-country-code" "" "zh-cn")
+(name-as-in "uic-alphabetical-country-code" "" "zh-sg")
+
+(descr-as-in "uic-alphabetical-country-code" "" "zh-hk")
+(descr-as-in "uic-alphabetical-country-code" "" "pt")
+(descr-as-in "uic-alphabetical-country-code" "alphebetical country code issued by the International Union of Railways" "en")
+(descr-as-in "uic-alphabetical-country-code" "code alphabétique de pays utilisé par l'Union internationale des chemins de fer" "fr")
+(descr-as-in "uic-alphabetical-country-code" "" "zh-tw")
+(descr-as-in "uic-alphabetical-country-code" "" "de")
+(descr-as-in "uic-alphabetical-country-code" "" "ru")
+(descr-as-in "uic-alphabetical-country-code" "" "es")
+(descr-as-in "uic-alphabetical-country-code" "" "ja")
+(descr-as-in "uic-alphabetical-country-code" "" "zh-cn")
+(descr-as-in "uic-alphabetical-country-code" "" "zh-sg")
+

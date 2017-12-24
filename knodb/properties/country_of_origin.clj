@@ -1,0 +1,31 @@
+(ns properties.country_of_origin
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "country-of-origin")
+
+(name-as-in "country-of-origin" "產地" "zh-hk")
+(name-as-in "country-of-origin" "país de origem" "pt")
+(name-as-in "country-of-origin" "country of origin" "en")
+(name-as-in "country-of-origin" "pays d'origine" "fr")
+(name-as-in "country-of-origin" "產地" "zh-tw")
+(name-as-in "country-of-origin" "Ursprungsland" "de")
+(name-as-in "country-of-origin" "страна происхождения" "ru")
+(name-as-in "country-of-origin" "país de origen" "es")
+(name-as-in "country-of-origin" "本国" "ja")
+(name-as-in "country-of-origin" "产地" "zh-cn")
+(name-as-in "country-of-origin" "产地" "zh-sg")
+
+(descr-as-in "country-of-origin" "作品的出產地" "zh-hk")
+(descr-as-in "country-of-origin" "país de origem do sujeito ou obra" "pt")
+(descr-as-in "country-of-origin" "country of origin of the creative work or subject item" "en")
+(descr-as-in "country-of-origin" "pays d'origine de l'œuvre ou de l'objet" "fr")
+(descr-as-in "country-of-origin" "作品的出產地" "zh-tw")
+(descr-as-in "country-of-origin" "Ursprungsland der gestalterischen Arbeit (Werk)" "de")
+(descr-as-in "country-of-origin" "страна происхождения творческого произведения или другого продукта" "ru")
+(descr-as-in "country-of-origin" "país de origen de la obra creativa" "es")
+(descr-as-in "country-of-origin" "著作物の本国" "ja")
+(descr-as-in "country-of-origin" "作品的出产地" "zh-cn")
+(descr-as-in "country-of-origin" "作品的出产地" "zh-sg")
+

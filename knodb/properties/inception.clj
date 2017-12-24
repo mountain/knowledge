@@ -1,0 +1,31 @@
+(ns properties.inception
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "inception")
+
+(name-as-in "inception" "成立或創建時間" "zh-hk")
+(name-as-in "inception" "data de fundação ou criação" "pt")
+(name-as-in "inception" "inception" "en")
+(name-as-in "inception" "date de fondation/création" "fr")
+(name-as-in "inception" "成立或創建時間" "zh-tw")
+(name-as-in "inception" "Gründung/Erstellung" "de")
+(name-as-in "inception" "дата основания/создания" "ru")
+(name-as-in "inception" "fecha de fundación o creación" "es")
+(name-as-in "inception" "作成日" "ja")
+(name-as-in "inception" "成立或创建时间" "zh-cn")
+(name-as-in "inception" "成立或创建时间" "zh-sg")
+
+(descr-as-in "inception" "" "zh-hk")
+(descr-as-in "inception" "quando a organização foi fundada ou um objeto foi criado" "pt")
+(descr-as-in "inception" "date or point in time when the organization/subject was founded/created" "en")
+(descr-as-in "inception" "quand une organisation/un objet a été fondé/créé" "fr")
+(descr-as-in "inception" "" "zh-tw")
+(descr-as-in "inception" "Datum, an dem eine Organisation/ein Objekt gegründet/erstellt wurde" "de")
+(descr-as-in "inception" "дата, когда организация или объект были основаны/созданы" "ru")
+(descr-as-in "inception" "fecha en la cual fue fundada/creada la organización u objeto" "es")
+(descr-as-in "inception" "組織・事物が設立・作成された年月日" "ja")
+(descr-as-in "inception" "" "zh-cn")
+(descr-as-in "inception" "" "zh-sg")
+

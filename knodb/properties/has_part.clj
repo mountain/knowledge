@@ -1,0 +1,31 @@
+(ns properties.has_part
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "has-part")
+
+(name-as-in "has-part" "可分為" "zh-hk")
+(name-as-in "has-part" "composto de" "pt")
+(name-as-in "has-part" "has part" "en")
+(name-as-in "has-part" "comprend" "fr")
+(name-as-in "has-part" "可分為" "zh-tw")
+(name-as-in "has-part" "besteht aus" "de")
+(name-as-in "has-part" "состоит из" "ru")
+(name-as-in "has-part" "compuesto de" "es")
+(name-as-in "has-part" "以下を含む" "ja")
+(name-as-in "has-part" "可分为" "zh-cn")
+(name-as-in "has-part" "可分为" "zh-sg")
+
+(descr-as-in "has-part" "構成此項的部分" "zh-hk")
+(descr-as-in "has-part" "o objeto é uma parte deste sujeito" "pt")
+(descr-as-in "has-part" "part of this subject. Inverse property of part of (P361)." "en")
+(descr-as-in "has-part" "entité faisant partie de l'entité courante ; également sous-classe notable ou exemplaire. Propriété inverse de partie de (P361)." "fr")
+(descr-as-in "has-part" "構成此項的部分" "zh-tw")
+(descr-as-in "has-part" "Einheit, die Teil der aktuellen Einheit ist (nicht im administrativen Sinn)" "de")
+(descr-as-in "has-part" "объект, являющийся частью данного субъекта" "ru")
+(descr-as-in "has-part" "entidad que forma parte de este elemento" "es")
+(descr-as-in "has-part" "この項目は以下の項目を一部として含んでいる" "ja")
+(descr-as-in "has-part" "构成此项的部分" "zh-cn")
+(descr-as-in "has-part" "构成此项的部分" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.executive_body
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "executive-body")
+
+(name-as-in "executive-body" "行政機構" "zh-hk")
+(name-as-in "executive-body" "executivo" "pt")
+(name-as-in "executive-body" "executive body" "en")
+(name-as-in "executive-body" "exécutif" "fr")
+(name-as-in "executive-body" "行政機構" "zh-tw")
+(name-as-in "executive-body" "Exekutivorgan" "de")
+(name-as-in "executive-body" "исполнительная власть" "ru")
+(name-as-in "executive-body" "órgano ejecutivo" "es")
+(name-as-in "executive-body" "行政府" "ja")
+(name-as-in "executive-body" "行政机构" "zh-cn")
+(name-as-in "executive-body" "行政机构" "zh-sg")
+
+(descr-as-in "executive-body" "" "zh-hk")
+(descr-as-in "executive-body" "ramo do governo responsável pela administração cotidiana do Estado" "pt")
+(descr-as-in "executive-body" "branch of government for the daily administration of the state" "en")
+(descr-as-in "executive-body" "partie du sujet qui administre l'entité" "fr")
+(descr-as-in "executive-body" "" "zh-tw")
+(descr-as-in "executive-body" "Teil der Regierung für die alltägliche Verwaltung" "de")
+(descr-as-in "executive-body" "часть правительства, ответственная за ежедневное управление государством" "ru")
+(descr-as-in "executive-body" "órgano de gobierno responsable de la administración diaria del Estado" "es")
+(descr-as-in "executive-body" "行政権の行使にたずさわる、国や地方公共団体の機関" "ja")
+(descr-as-in "executive-body" "" "zh-cn")
+(descr-as-in "executive-body" "" "zh-sg")
+

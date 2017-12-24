@@ -1,0 +1,31 @@
+(ns properties.unemployment_rate
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "unemployment-rate")
+
+(name-as-in "unemployment-rate" "失業率" "zh-hk")
+(name-as-in "unemployment-rate" "taxa de desemprego" "pt")
+(name-as-in "unemployment-rate" "unemployment rate" "en")
+(name-as-in "unemployment-rate" "taux de chômage" "fr")
+(name-as-in "unemployment-rate" "失業率" "zh-tw")
+(name-as-in "unemployment-rate" "Arbeitslosenquote" "de")
+(name-as-in "unemployment-rate" "уровень безработицы" "ru")
+(name-as-in "unemployment-rate" "tasa de desempleo" "es")
+(name-as-in "unemployment-rate" "失業率" "ja")
+(name-as-in "unemployment-rate" "失业率" "zh-cn")
+(name-as-in "unemployment-rate" "失业率" "zh-sg")
+
+(descr-as-in "unemployment-rate" "" "zh-hk")
+(descr-as-in "unemployment-rate" "" "pt")
+(descr-as-in "unemployment-rate" "portion of a workforce population that is not employed" "en")
+(descr-as-in "unemployment-rate" "fraction de la population active qui est sans emploi" "fr")
+(descr-as-in "unemployment-rate" "" "zh-tw")
+(descr-as-in "unemployment-rate" "Anteil der Arbeitslosen an Gesamtzahl der zivilen Erwerbspersonen" "de")
+(descr-as-in "unemployment-rate" "" "ru")
+(descr-as-in "unemployment-rate" "porción de una población que no tiene empleo" "es")
+(descr-as-in "unemployment-rate" "0から1までの小数で表す失業率" "ja")
+(descr-as-in "unemployment-rate" "" "zh-cn")
+(descr-as-in "unemployment-rate" "" "zh-sg")
+

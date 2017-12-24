@@ -1,0 +1,31 @@
+(ns properties.nominated_for
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "nominated-for")
+
+(name-as-in "nominated-for" "提名或入圍獎項" "zh-hk")
+(name-as-in "nominated-for" "nominado a" "pt")
+(name-as-in "nominated-for" "nominated for" "en")
+(name-as-in "nominated-for" "nommé pour" "fr")
+(name-as-in "nominated-for" "提名或入圍獎項" "zh-tw")
+(name-as-in "nominated-for" "nominiert für" "de")
+(name-as-in "nominated-for" "номинирован на" "ru")
+(name-as-in "nominated-for" "nominado a" "es")
+(name-as-in "nominated-for" "ノミネート" "ja")
+(name-as-in "nominated-for" "提名或入围奖项" "zh-cn")
+(name-as-in "nominated-for" "提名或入围奖项" "zh-sg")
+
+(descr-as-in "nominated-for" "" "zh-hk")
+(descr-as-in "nominated-for" "" "pt")
+(descr-as-in "nominated-for" "award nomination received by a person, organisation or creative work (inspired from award received (Property:P166))" "en")
+(descr-as-in "nominated-for" "personne, organisation ou œuvre nommée ou sélectionnée comme candidate à un prix, à une récompense ou à un autre honneur. (inspiré de distinction (Property:P166))" "fr")
+(descr-as-in "nominated-for" "" "zh-tw")
+(descr-as-in "nominated-for" "Nominierung einer Person, einer Organisation oder eines schöpferischen Werks für eine Auszeichnung" "de")
+(descr-as-in "nominated-for" "" "ru")
+(descr-as-in "nominated-for" "" "es")
+(descr-as-in "nominated-for" "人物・組織・作品がノミネートされた賞（「受賞」(Property:P166) から着想）" "ja")
+(descr-as-in "nominated-for" "" "zh-cn")
+(descr-as-in "nominated-for" "" "zh-sg")
+

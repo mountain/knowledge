@@ -1,0 +1,31 @@
+(ns properties.unesco_thesaurus_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "unesco-thesaurus-id")
+
+(name-as-in "unesco-thesaurus-id" "" "zh-hk")
+(name-as-in "unesco-thesaurus-id" "" "pt")
+(name-as-in "unesco-thesaurus-id" "UNESCO Thesaurus ID" "en")
+(name-as-in "unesco-thesaurus-id" "identifiant du thésaurus de l'UNESCO" "fr")
+(name-as-in "unesco-thesaurus-id" "" "zh-tw")
+(name-as-in "unesco-thesaurus-id" "UNESCO-Thesaurus-ID" "de")
+(name-as-in "unesco-thesaurus-id" "код Тезауруса ЮНЕСКО" "ru")
+(name-as-in "unesco-thesaurus-id" "identificador Tesauro de la UNESCO" "es")
+(name-as-in "unesco-thesaurus-id" "" "ja")
+(name-as-in "unesco-thesaurus-id" "" "zh-cn")
+(name-as-in "unesco-thesaurus-id" "" "zh-sg")
+
+(descr-as-in "unesco-thesaurus-id" "" "zh-hk")
+(descr-as-in "unesco-thesaurus-id" "" "pt")
+(descr-as-in "unesco-thesaurus-id" "identifier for a concept in the UNESCO Thesaurus" "en")
+(descr-as-in "unesco-thesaurus-id" "identifiant d'un concept dans le thésaurus de l'UNESCO" "fr")
+(descr-as-in "unesco-thesaurus-id" "" "zh-tw")
+(descr-as-in "unesco-thesaurus-id" "" "de")
+(descr-as-in "unesco-thesaurus-id" "" "ru")
+(descr-as-in "unesco-thesaurus-id" "identificador de un concepto en el Tesauro de la UNESCO" "es")
+(descr-as-in "unesco-thesaurus-id" "" "ja")
+(descr-as-in "unesco-thesaurus-id" "" "zh-cn")
+(descr-as-in "unesco-thesaurus-id" "" "zh-sg")
+

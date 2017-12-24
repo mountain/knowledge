@@ -1,0 +1,31 @@
+(ns properties.office_held_by_head_of_state
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "office-held-by-head-of-state")
+
+(name-as-in "office-held-by-head-of-state" "國家元首職位" "zh-hk")
+(name-as-in "office-held-by-head-of-state" "cargo ocupado pelo Chefe de Estado" "pt")
+(name-as-in "office-held-by-head-of-state" "office held by head of state" "en")
+(name-as-in "office-held-by-head-of-state" "fonction occupée par le chef d'État" "fr")
+(name-as-in "office-held-by-head-of-state" "國家元首職位" "zh-tw")
+(name-as-in "office-held-by-head-of-state" "Amtsbezeichnung des Staatsoberhaupts" "de")
+(name-as-in "office-held-by-head-of-state" "должность главы государства" "ru")
+(name-as-in "office-held-by-head-of-state" "cargo ocupado por el jefe de Estado" "es")
+(name-as-in "office-held-by-head-of-state" "" "ja")
+(name-as-in "office-held-by-head-of-state" "国家元首职位" "zh-cn")
+(name-as-in "office-held-by-head-of-state" "国家元首职位" "zh-sg")
+
+(descr-as-in "office-held-by-head-of-state" "" "zh-hk")
+(descr-as-in "office-held-by-head-of-state" "" "pt")
+(descr-as-in "office-held-by-head-of-state" "political office that is fulfilled by the head of state of this item" "en")
+(descr-as-in "office-held-by-head-of-state" "" "fr")
+(descr-as-in "office-held-by-head-of-state" "" "zh-tw")
+(descr-as-in "office-held-by-head-of-state" "politisches Amt, das das Staatsoberhaupt des Datenobjekts innehat" "de")
+(descr-as-in "office-held-by-head-of-state" "" "ru")
+(descr-as-in "office-held-by-head-of-state" "" "es")
+(descr-as-in "office-held-by-head-of-state" "" "ja")
+(descr-as-in "office-held-by-head-of-state" "" "zh-cn")
+(descr-as-in "office-held-by-head-of-state" "" "zh-sg")
+

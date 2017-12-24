@@ -1,0 +1,31 @@
+(ns properties.located_in_the_administrative_territorial_entity
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "located-in-the-administrative-territorial-entity")
+
+(name-as-in "located-in-the-administrative-territorial-entity" "所在行政區" "zh-hk")
+(name-as-in "located-in-the-administrative-territorial-entity" "localizado na unidade administrativa" "pt")
+(name-as-in "located-in-the-administrative-territorial-entity" "located in the administrative territorial entity" "en")
+(name-as-in "located-in-the-administrative-territorial-entity" "localisation administrative" "fr")
+(name-as-in "located-in-the-administrative-territorial-entity" "所在行政區" "zh-tw")
+(name-as-in "located-in-the-administrative-territorial-entity" "liegt in der Verwaltungseinheit" "de")
+(name-as-in "located-in-the-administrative-territorial-entity" "административно-территориальная единица" "ru")
+(name-as-in "located-in-the-administrative-territorial-entity" "situado en la entidad territorial administrativa" "es")
+(name-as-in "located-in-the-administrative-territorial-entity" "位置する行政区画" "ja")
+(name-as-in "located-in-the-administrative-territorial-entity" "所在行政区" "zh-cn")
+(name-as-in "located-in-the-administrative-territorial-entity" "所在行政区" "zh-sg")
+
+(descr-as-in "located-in-the-administrative-territorial-entity" "該事物所在的行政區" "zh-hk")
+(descr-as-in "located-in-the-administrative-territorial-entity" "o item situa-se no território da seguinte unidade administrativa" "pt")
+(descr-as-in "located-in-the-administrative-territorial-entity" "the item is located on the territory of the following administrative entity. Use P276 (location) for specifying the location of non-administrative places and for items about events" "en")
+(descr-as-in "located-in-the-administrative-territorial-entity" "unité administrative où se situe l'élément" "fr")
+(descr-as-in "located-in-the-administrative-territorial-entity" "該事物所在的行政區" "zh-tw")
+(descr-as-in "located-in-the-administrative-territorial-entity" "administratives Gebiet, auf dem sich das Objekt befindet" "de")
+(descr-as-in "located-in-the-administrative-territorial-entity" "вышестоящая единица, на территории которой расположен данный элемент. Используйте P276 (местонахождение) для указания места событий и неадминистративных мест." "ru")
+(descr-as-in "located-in-the-administrative-territorial-entity" "el objeto está ubicado en el territorio de la siguiente entidad administrativa (nacional o subnacional). Use P276 (ubicación) para especificar la ubicación de lugares no administrativos y para artículos sobre eventos" "es")
+(descr-as-in "located-in-the-administrative-territorial-entity" "この項目が位置している行政区画" "ja")
+(descr-as-in "located-in-the-administrative-territorial-entity" "该事物所在的行政区" "zh-cn")
+(descr-as-in "located-in-the-administrative-territorial-entity" "该事物所在的行政区" "zh-sg")
+

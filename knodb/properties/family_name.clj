@@ -1,0 +1,31 @@
+(ns properties.family_name
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "family-name")
+
+(name-as-in "family-name" "姓氏" "zh-hk")
+(name-as-in "family-name" "sobrenome" "pt")
+(name-as-in "family-name" "family name" "en")
+(name-as-in "family-name" "nom de famille" "fr")
+(name-as-in "family-name" "姓氏" "zh-tw")
+(name-as-in "family-name" "Familienname" "de")
+(name-as-in "family-name" "фамилия" "ru")
+(name-as-in "family-name" "apellido" "es")
+(name-as-in "family-name" "姓" "ja")
+(name-as-in "family-name" "姓氏" "zh-cn")
+(name-as-in "family-name" "姓氏" "zh-sg")
+
+(descr-as-in "family-name" "" "zh-hk")
+(descr-as-in "family-name" "nome de família" "pt")
+(descr-as-in "family-name" "surname or last name of a person" "en")
+(descr-as-in "family-name" "nom de famille d'une personne" "fr")
+(descr-as-in "family-name" "" "zh-tw")
+(descr-as-in "family-name" "Ergänzung zum Vornamen" "de")
+(descr-as-in "family-name" "фамилия или последнее имя персоны" "ru")
+(descr-as-in "family-name" "apellido de una persona" "es")
+(descr-as-in "family-name" "主題人物の姓（surname, familyname）" "ja")
+(descr-as-in "family-name" "" "zh-cn")
+(descr-as-in "family-name" "" "zh-sg")
+

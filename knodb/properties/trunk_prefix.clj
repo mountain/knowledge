@@ -1,0 +1,31 @@
+(ns properties.trunk_prefix
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "trunk-prefix")
+
+(name-as-in "trunk-prefix" "" "zh-hk")
+(name-as-in "trunk-prefix" "prefixo interurbano" "pt")
+(name-as-in "trunk-prefix" "trunk prefix" "en")
+(name-as-in "trunk-prefix" "préfixe interurbain" "fr")
+(name-as-in "trunk-prefix" "" "zh-tw")
+(name-as-in "trunk-prefix" "Verkehrsausscheidungsziffer" "de")
+(name-as-in "trunk-prefix" "междугородный префикс" "ru")
+(name-as-in "trunk-prefix" "prefijo interurbano" "es")
+(name-as-in "trunk-prefix" "市外識別番号" "ja")
+(name-as-in "trunk-prefix" "" "zh-cn")
+(name-as-in "trunk-prefix" "" "zh-sg")
+
+(descr-as-in "trunk-prefix" "" "zh-hk")
+(descr-as-in "trunk-prefix" "" "pt")
+(descr-as-in "trunk-prefix" "a digit or digits to be dialled before a telephone number to initiate a telephone call for the purpose of selecting an appropriate telecommunications circuit by which the call is to be routed" "en")
+(descr-as-in "trunk-prefix" "un ou plusieurs chiffres devant être composés avant un numéro de téléphone pour lancer un appel téléphonique dans le but de sélectionner un circuit de télécommunication approprié par lequel l'appel doit être acheminé" "fr")
+(descr-as-in "trunk-prefix" "" "zh-tw")
+(descr-as-in "trunk-prefix" "" "de")
+(descr-as-in "trunk-prefix" "" "ru")
+(descr-as-in "trunk-prefix" "" "es")
+(descr-as-in "trunk-prefix" "電話交換機が市外通話を自動識別するために先頭に指定するダイヤルの番号" "ja")
+(descr-as-in "trunk-prefix" "" "zh-cn")
+(descr-as-in "trunk-prefix" "" "zh-sg")
+

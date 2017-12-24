@@ -1,0 +1,31 @@
+(ns properties.legal_form
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "legal-form")
+
+(name-as-in "legal-form" "" "zh-hk")
+(name-as-in "legal-form" "natureza jurídica" "pt")
+(name-as-in "legal-form" "legal form" "en")
+(name-as-in "legal-form" "forme juridique" "fr")
+(name-as-in "legal-form" "法定類型" "zh-tw")
+(name-as-in "legal-form" "Rechtsform" "de")
+(name-as-in "legal-form" "организационно-правовая форма" "ru")
+(name-as-in "legal-form" "forma jurídica" "es")
+(name-as-in "legal-form" "組織形態" "ja")
+(name-as-in "legal-form" "" "zh-cn")
+(name-as-in "legal-form" "" "zh-sg")
+
+(descr-as-in "legal-form" "" "zh-hk")
+(descr-as-in "legal-form" "" "pt")
+(descr-as-in "legal-form" "legal form of an organization" "en")
+(descr-as-in "legal-form" "forme juridique d'une organisation" "fr")
+(descr-as-in "legal-form" "組織所屬的法定類型" "zh-tw")
+(descr-as-in "legal-form" "Rechtsform einer Organisation an ihrem Sitz" "de")
+(descr-as-in "legal-form" "" "ru")
+(descr-as-in "legal-form" "forma legal de una organización" "es")
+(descr-as-in "legal-form" "組織、法人の種類 (株式会社、一般社団法人、組合など)" "ja")
+(descr-as-in "legal-form" "" "zh-cn")
+(descr-as-in "legal-form" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.bhl_creator_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "bhl-creator-id")
+
+(name-as-in "bhl-creator-id" "" "zh-hk")
+(name-as-in "bhl-creator-id" "" "pt")
+(name-as-in "bhl-creator-id" "BHL creator ID" "en")
+(name-as-in "bhl-creator-id" "identifiant BHL d'un auteur" "fr")
+(name-as-in "bhl-creator-id" "" "zh-tw")
+(name-as-in "bhl-creator-id" "BHL-Autor-ID" "de")
+(name-as-in "bhl-creator-id" "" "ru")
+(name-as-in "bhl-creator-id" "" "es")
+(name-as-in "bhl-creator-id" "" "ja")
+(name-as-in "bhl-creator-id" "" "zh-cn")
+(name-as-in "bhl-creator-id" "" "zh-sg")
+
+(descr-as-in "bhl-creator-id" "" "zh-hk")
+(descr-as-in "bhl-creator-id" "" "pt")
+(descr-as-in "bhl-creator-id" "identifier for an author (creator) in the Biodiversity Heritage Library database" "en")
+(descr-as-in "bhl-creator-id" "identifiant d'un auteur (« creator ») dans la base de données Biodiversity Heritage Library" "fr")
+(descr-as-in "bhl-creator-id" "" "zh-tw")
+(descr-as-in "bhl-creator-id" "Identifikator eines Autors in der Biodiversity Heritage Library (BHL)" "de")
+(descr-as-in "bhl-creator-id" "" "ru")
+(descr-as-in "bhl-creator-id" "" "es")
+(descr-as-in "bhl-creator-id" "" "ja")
+(descr-as-in "bhl-creator-id" "" "zh-cn")
+(descr-as-in "bhl-creator-id" "" "zh-sg")
+

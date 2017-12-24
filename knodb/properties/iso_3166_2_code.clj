@@ -1,0 +1,31 @@
+(ns properties.iso_3166_2_code
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "iso-3166-2-code")
+
+(name-as-in "iso-3166-2-code" "ISO 3166-2" "zh-hk")
+(name-as-in "iso-3166-2-code" "ISO 3166-2" "pt")
+(name-as-in "iso-3166-2-code" "ISO 3166-2 code" "en")
+(name-as-in "iso-3166-2-code" "ISO 3166-2" "fr")
+(name-as-in "iso-3166-2-code" "ISO 3166-2" "zh-tw")
+(name-as-in "iso-3166-2-code" "ISO 3166-2 Code" "de")
+(name-as-in "iso-3166-2-code" "ISO 3166-2" "ru")
+(name-as-in "iso-3166-2-code" "ISO 3166-2" "es")
+(name-as-in "iso-3166-2-code" "ISO 3166-2" "ja")
+(name-as-in "iso-3166-2-code" "ISO 3166-2" "zh-cn")
+(name-as-in "iso-3166-2-code" "" "zh-sg")
+
+(descr-as-in "iso-3166-2-code" "根據ISO 3166-2的行政區識別碼 (包括國家編號)" "zh-hk")
+(descr-as-in "iso-3166-2-code" "" "pt")
+(descr-as-in "iso-3166-2-code" "identifier for a country subdivision per ISO 3166-2 (include country code)" "en")
+(descr-as-in "iso-3166-2-code" "code de subdivision administrative d'un pays" "fr")
+(descr-as-in "iso-3166-2-code" "" "zh-tw")
+(descr-as-in "iso-3166-2-code" "aus Ländercode und ein- bis dreistelligem alphanummerischem Code für subnationale Einheiten" "de")
+(descr-as-in "iso-3166-2-code" "идентификационный код административной единицы (в т.ч. страны)" "ru")
+(descr-as-in "iso-3166-2-code" "código para este elemento en ISO 3166-2" "es")
+(descr-as-in "iso-3166-2-code" "ISO 3166-2 におけるこの実体の一意なコード（国名コードを含む）" "ja")
+(descr-as-in "iso-3166-2-code" "" "zh-cn")
+(descr-as-in "iso-3166-2-code" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.psh_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "psh-id")
+
+(name-as-in "psh-id" "" "zh-hk")
+(name-as-in "psh-id" "identificador PSH" "pt")
+(name-as-in "psh-id" "PSH ID" "en")
+(name-as-in "psh-id" "identifiant PSH" "fr")
+(name-as-in "psh-id" "" "zh-tw")
+(name-as-in "psh-id" "PSH-ID" "de")
+(name-as-in "psh-id" "код PSH" "ru")
+(name-as-in "psh-id" "identificador PSH" "es")
+(name-as-in "psh-id" "PSH識別子" "ja")
+(name-as-in "psh-id" "" "zh-cn")
+(name-as-in "psh-id" "" "zh-sg")
+
+(descr-as-in "psh-id" "" "zh-hk")
+(descr-as-in "psh-id" "" "pt")
+(descr-as-in "psh-id" "identifier in the authority database of the Czech Technical Library" "en")
+(descr-as-in "psh-id" "identifiant de la base de données de la Bibliothèque Technique Tchèque" "fr")
+(descr-as-in "psh-id" "" "zh-tw")
+(descr-as-in "psh-id" "Identifikator für die Datenbank der Tschechischen Technischen Bibliothek" "de")
+(descr-as-in "psh-id" "код в Чешской технической библиотеке" "ru")
+(descr-as-in "psh-id" "" "es")
+(descr-as-in "psh-id" "Polythematic Structured Subject Heading System" "ja")
+(descr-as-in "psh-id" "" "zh-cn")
+(descr-as-in "psh-id" "" "zh-sg")
+

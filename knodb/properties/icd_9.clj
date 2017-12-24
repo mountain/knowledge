@@ -1,0 +1,31 @@
+(ns properties.icd_9
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "icd-9")
+
+(name-as-in "icd-9" "" "zh-hk")
+(name-as-in "icd-9" "identificador CID-9" "pt")
+(name-as-in "icd-9" "ICD-9" "en")
+(name-as-in "icd-9" "code CIM-9" "fr")
+(name-as-in "icd-9" "" "zh-tw")
+(name-as-in "icd-9" "ICD-9" "de")
+(name-as-in "icd-9" "МКБ-9" "ru")
+(name-as-in "icd-9" "CIE-9" "es")
+(name-as-in "icd-9" "ICD-9" "ja")
+(name-as-in "icd-9" "" "zh-cn")
+(name-as-in "icd-9" "" "zh-sg")
+
+(descr-as-in "icd-9" "" "zh-hk")
+(descr-as-in "icd-9" "código da classificação internacional de doenças - versão 9" "pt")
+(descr-as-in "icd-9" "identifier in the ICD catalogue codes for diseases – Version 9" "en")
+(descr-as-in "icd-9" "ancienne version de la classification internationale des maladies de l'OMS" "fr")
+(descr-as-in "icd-9" "" "zh-tw")
+(descr-as-in "icd-9" "Internationale statistische Klassifikation der Krankheiten – Version 9" "de")
+(descr-as-in "icd-9" "" "ru")
+(descr-as-in "icd-9" "clasificación internacional de enfermedades, novena versión" "es")
+(descr-as-in "icd-9" "国際疾病分類第9版" "ja")
+(descr-as-in "icd-9" "" "zh-cn")
+(descr-as-in "icd-9" "" "zh-sg")
+

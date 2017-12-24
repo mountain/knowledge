@@ -1,0 +1,31 @@
+(ns properties.significant_event
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "significant-event")
+
+(name-as-in "significant-event" "重大事件" "zh-hk")
+(name-as-in "significant-event" "evento significativo" "pt")
+(name-as-in "significant-event" "significant event" "en")
+(name-as-in "significant-event" "événement clé" "fr")
+(name-as-in "significant-event" "重大事件" "zh-tw")
+(name-as-in "significant-event" "Schlüsselereignis" "de")
+(name-as-in "significant-event" "ключевое событие" "ru")
+(name-as-in "significant-event" "evento clave" "es")
+(name-as-in "significant-event" "重要な出来事" "ja")
+(name-as-in "significant-event" "重大事件" "zh-cn")
+(name-as-in "significant-event" "重大事件" "zh-sg")
+
+(descr-as-in "significant-event" "" "zh-hk")
+(descr-as-in "significant-event" "evento(s) significante(s) associado(s) ao sujeito" "pt")
+(descr-as-in "significant-event" "significant or notable events associated with the subject" "en")
+(descr-as-in "significant-event" "événement important associé au sujet" "fr")
+(descr-as-in "significant-event" "" "zh-tw")
+(descr-as-in "significant-event" "wichtiges Ereignis, welches mit dem Thema assoziiert wird" "de")
+(descr-as-in "significant-event" "событие, важное для этого элемента" "ru")
+(descr-as-in "significant-event" "" "es")
+(descr-as-in "significant-event" "主題と関連する重要または特筆される出来事" "ja")
+(descr-as-in "significant-event" "" "zh-cn")
+(descr-as-in "significant-event" "" "zh-sg")
+

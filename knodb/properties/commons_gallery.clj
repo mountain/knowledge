@@ -1,0 +1,31 @@
+(ns properties.commons_gallery
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "commons-gallery")
+
+(name-as-in "commons-gallery" "共享資源圖庫" "zh-hk")
+(name-as-in "commons-gallery" "galeria no Commons" "pt")
+(name-as-in "commons-gallery" "Commons gallery" "en")
+(name-as-in "commons-gallery" "galerie Commons" "fr")
+(name-as-in "commons-gallery" "共享資源圖庫" "zh-tw")
+(name-as-in "commons-gallery" "Commons-Galerie" "de")
+(name-as-in "commons-gallery" "галерея на Викискладе" "ru")
+(name-as-in "commons-gallery" "galería en Commons" "es")
+(name-as-in "commons-gallery" "コモンズのギャラリー" "ja")
+(name-as-in "commons-gallery" "共享资源图库" "zh-cn")
+(name-as-in "commons-gallery" "共享资源图库" "zh-sg")
+
+(descr-as-in "commons-gallery" "" "zh-hk")
+(descr-as-in "commons-gallery" "" "pt")
+(descr-as-in "commons-gallery" "name of the Wikimedia Commons gallery page(s) related to this item (is suitable to allow multiple link to more gallery pages)" "en")
+(descr-as-in "commons-gallery" "nom de la page de la galerie Wikimedia Commons relative à cet item" "fr")
+(descr-as-in "commons-gallery" "" "zh-tw")
+(descr-as-in "commons-gallery" "Name der Galerieseite(n) auf Wikimedia Commons mit Dateien zu dem Objekt (item)" "de")
+(descr-as-in "commons-gallery" "ссылка на страницу из основного пространства" "ru")
+(descr-as-in "commons-gallery" "nombre de la página de la galería de Wikimedia Commons para este artículo" "es")
+(descr-as-in "commons-gallery" "この項目に関連したウィキメディア・コモンズのギャラリーページの名前（複数のギャラリーページへのリンクに適す）" "ja")
+(descr-as-in "commons-gallery" "与此项相关的维基共享资源图库页面的名称（可以添加多个图库页面）" "zh-cn")
+(descr-as-in "commons-gallery" "" "zh-sg")
+

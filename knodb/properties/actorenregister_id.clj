@@ -1,0 +1,31 @@
+(ns properties.actorenregister_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "actorenregister-id")
+
+(name-as-in "actorenregister-id" "" "zh-hk")
+(name-as-in "actorenregister-id" "" "pt")
+(name-as-in "actorenregister-id" "Actorenregister ID" "en")
+(name-as-in "actorenregister-id" "identifiant Actorenregister" "fr")
+(name-as-in "actorenregister-id" "" "zh-tw")
+(name-as-in "actorenregister-id" "" "de")
+(name-as-in "actorenregister-id" "код Actorenregister" "ru")
+(name-as-in "actorenregister-id" "identificador Actorenregister" "es")
+(name-as-in "actorenregister-id" "" "ja")
+(name-as-in "actorenregister-id" "" "zh-cn")
+(name-as-in "actorenregister-id" "" "zh-sg")
+
+(descr-as-in "actorenregister-id" "" "zh-hk")
+(descr-as-in "actorenregister-id" "" "pt")
+(descr-as-in "actorenregister-id" "unique identifier in the Dutch Actorenregister database" "en")
+(descr-as-in "actorenregister-id" "identifiant dans la base de données néerlandaise Actorenregister" "fr")
+(descr-as-in "actorenregister-id" "" "zh-tw")
+(descr-as-in "actorenregister-id" "" "de")
+(descr-as-in "actorenregister-id" "" "ru")
+(descr-as-in "actorenregister-id" "" "es")
+(descr-as-in "actorenregister-id" "" "ja")
+(descr-as-in "actorenregister-id" "" "zh-cn")
+(descr-as-in "actorenregister-id" "" "zh-sg")
+

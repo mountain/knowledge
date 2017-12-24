@@ -1,0 +1,31 @@
+(ns properties.employees
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "employees")
+
+(name-as-in "employees" "員工人數" "zh-hk")
+(name-as-in "employees" "empregados" "pt")
+(name-as-in "employees" "employees" "en")
+(name-as-in "employees" "employés" "fr")
+(name-as-in "employees" "員工人數" "zh-tw")
+(name-as-in "employees" "Beschäftigte" "de")
+(name-as-in "employees" "сотрудников" "ru")
+(name-as-in "employees" "empleados" "es")
+(name-as-in "employees" "従業員数" "ja")
+(name-as-in "employees" "员工人数" "zh-cn")
+(name-as-in "employees" "" "zh-sg")
+
+(descr-as-in "employees" "" "zh-hk")
+(descr-as-in "employees" "" "pt")
+(descr-as-in "employees" "total number of employees of a company at a given point in time" "en")
+(descr-as-in "employees" "nombre total d'employés d'une entreprise à un moment précis" "fr")
+(descr-as-in "employees" "" "zh-tw")
+(descr-as-in "employees" "Anzahl der Menschen, die ein Unternehmen, eine Einrichtung oder eine Behörde beschäftigt" "de")
+(descr-as-in "employees" "общее число сотрудников компании в конкретный момент времени" "ru")
+(descr-as-in "employees" "número total de empleados de una empresa en una fecha concreta" "es")
+(descr-as-in "employees" "与えられた時期における、会社の全従業員数" "ja")
+(descr-as-in "employees" "" "zh-cn")
+(descr-as-in "employees" "" "zh-sg")
+

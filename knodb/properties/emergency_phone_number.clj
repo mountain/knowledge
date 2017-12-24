@@ -1,0 +1,31 @@
+(ns properties.emergency_phone_number
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "emergency-phone-number")
+
+(name-as-in "emergency-phone-number" "緊急救助電話" "zh-hk")
+(name-as-in "emergency-phone-number" "número de telefone de emergência" "pt")
+(name-as-in "emergency-phone-number" "emergency phone number" "en")
+(name-as-in "emergency-phone-number" "numéro d'appel d'urgence" "fr")
+(name-as-in "emergency-phone-number" "緊急救助電話" "zh-tw")
+(name-as-in "emergency-phone-number" "Notrufnummer" "de")
+(name-as-in "emergency-phone-number" "номер телефона экстренной службы" "ru")
+(name-as-in "emergency-phone-number" "teléfono de emergencia" "es")
+(name-as-in "emergency-phone-number" "緊急電話番号" "ja")
+(name-as-in "emergency-phone-number" "紧急救助电话" "zh-cn")
+(name-as-in "emergency-phone-number" "紧急救助电话" "zh-sg")
+
+(descr-as-in "emergency-phone-number" "聯絡緊急服務的電話號碼" "zh-hk")
+(descr-as-in "emergency-phone-number" "" "pt")
+(descr-as-in "emergency-phone-number" "telephone number to contact the emergency services" "en")
+(descr-as-in "emergency-phone-number" "numéro de téléphone pour contacter les services d'urgences" "fr")
+(descr-as-in "emergency-phone-number" "聯絡緊急服務的電話號碼" "zh-tw")
+(descr-as-in "emergency-phone-number" "Telefonnummer, unter der man den Notruf erreicht" "de")
+(descr-as-in "emergency-phone-number" "ссылка на элемент, описывающий телефон экстренной службы" "ru")
+(descr-as-in "emergency-phone-number" "número de teléfono para contactar a los servicios de emergencia" "es")
+(descr-as-in "emergency-phone-number" "緊急時に掛ける電話番号" "ja")
+(descr-as-in "emergency-phone-number" "联络紧急服务的电话号码" "zh-cn")
+(descr-as-in "emergency-phone-number" "联络紧急服务的电话号码" "zh-sg")
+

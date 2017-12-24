@@ -1,0 +1,31 @@
+(ns properties.time_period
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "time-period")
+
+(name-as-in "time-period" "時代" "zh-hk")
+(name-as-in "time-period" "era" "pt")
+(name-as-in "time-period" "time period" "en")
+(name-as-in "time-period" "période" "fr")
+(name-as-in "time-period" "時代" "zh-tw")
+(name-as-in "time-period" "Zeitraum" "de")
+(name-as-in "time-period" "эра" "ru")
+(name-as-in "time-period" "era" "es")
+(name-as-in "time-period" "時代" "ja")
+(name-as-in "time-period" "时代" "zh-cn")
+(name-as-in "time-period" "时代" "zh-sg")
+
+(descr-as-in "time-period" "" "zh-hk")
+(descr-as-in "time-period" "período histórico no qual o sujeito ocorreu" "pt")
+(descr-as-in "time-period" "time period (historic period or era, sports season, theatre season, legislative period etc.) in which the subject occurred" "en")
+(descr-as-in "time-period" "période (époque historique ou ère, saison sportive ou théâtrale, période législative etc.)  dans laquelle le sujet apparaît" "fr")
+(descr-as-in "time-period" "" "zh-tw")
+(descr-as-in "time-period" "Zeitraum (historische Periode oder Zeitalter, Sportsaison, Theatersaison, Legislaturperiode o.ä.) in der das Subjekt auftritt" "de")
+(descr-as-in "time-period" "исторический период [review translation!]" "ru")
+(descr-as-in "time-period" "era o periodo histórico en el cual ocurrió el elemento [review translation!]" "es")
+(descr-as-in "time-period" "主題が発生した歴史的な期間や時代" "ja")
+(descr-as-in "time-period" "" "zh-cn")
+(descr-as-in "time-period" "" "zh-sg")
+

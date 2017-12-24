@@ -1,0 +1,31 @@
+(ns properties.conferred_by
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "conferred-by")
+
+(name-as-in "conferred-by" "頒發者" "zh-hk")
+(name-as-in "conferred-by" "concedido por" "pt")
+(name-as-in "conferred-by" "conferred by" "en")
+(name-as-in "conferred-by" "décerné par" "fr")
+(name-as-in "conferred-by" "頒發者" "zh-tw")
+(name-as-in "conferred-by" "verliehen von" "de")
+(name-as-in "conferred-by" "награда от" "ru")
+(name-as-in "conferred-by" "conferido por" "es")
+(name-as-in "conferred-by" "授与者" "ja")
+(name-as-in "conferred-by" "颁发者" "zh-cn")
+(name-as-in "conferred-by" "" "zh-sg")
+
+(descr-as-in "conferred-by" "" "zh-hk")
+(descr-as-in "conferred-by" "" "pt")
+(descr-as-in "conferred-by" "person or organization who awards a prize to or bestows an honor upon a recipient" "en")
+(descr-as-in "conferred-by" "personne ou organisation ayant atttribué un prix à un récipiendaire" "fr")
+(descr-as-in "conferred-by" "" "zh-tw")
+(descr-as-in "conferred-by" "Organisation oder Person, die die Auszeichnung vergibt" "de")
+(descr-as-in "conferred-by" "личность или организация, присудившая награду" "ru")
+(descr-as-in "conferred-by" "persona u organización que asigna un premio" "es")
+(descr-as-in "conferred-by" "この賞・称号を授ける人物・組織" "ja")
+(descr-as-in "conferred-by" "" "zh-cn")
+(descr-as-in "conferred-by" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.applies_to_jurisdiction
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "applies-to-jurisdiction")
+
+(name-as-in "applies-to-jurisdiction" "管轄區域" "zh-hk")
+(name-as-in "applies-to-jurisdiction" "pertencente à jurisdição" "pt")
+(name-as-in "applies-to-jurisdiction" "applies to jurisdiction" "en")
+(name-as-in "applies-to-jurisdiction" "juridiction concernée" "fr")
+(name-as-in "applies-to-jurisdiction" "管轄區域" "zh-tw")
+(name-as-in "applies-to-jurisdiction" "gehört zum Zuständigkeitsbereich" "de")
+(name-as-in "applies-to-jurisdiction" "юрисдикция распространяется на" "ru")
+(name-as-in "applies-to-jurisdiction" "pertenece a la jurisdicción" "es")
+(name-as-in "applies-to-jurisdiction" "管轄・適用区域" "ja")
+(name-as-in "applies-to-jurisdiction" "管辖区域" "zh-cn")
+(name-as-in "applies-to-jurisdiction" "管辖区域" "zh-sg")
+
+(descr-as-in "applies-to-jurisdiction" "" "zh-hk")
+(descr-as-in "applies-to-jurisdiction" "" "pt")
+(descr-as-in "applies-to-jurisdiction" "the item (an institution, law, public office ...) belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)" "en")
+(descr-as-in "applies-to-jurisdiction" "juridiction (pays, région, commune…) à laquelle appartient ou s’applique l’élément (une institution, une loi…)" "fr")
+(descr-as-in "applies-to-jurisdiction" "" "zh-tw")
+(descr-as-in "applies-to-jurisdiction" "das Datenobjekt (eine Institution, Gesetz, ...) gehört zu oder findet auf den Wert (Zuständigkeitsbereich: Land, Staat, Gemeinde, …) Anwendung" "de")
+(descr-as-in "applies-to-jurisdiction" "территория, на которую распространяется юрисдикция сущности, описываемой в данном элементе" "ru")
+(descr-as-in "applies-to-jurisdiction" "el elemento (una institución, ley, ...) pertenece o está relacionada con el valor (una jurisdicción: un país, estado, municipio, ...)" "es")
+(descr-as-in "applies-to-jurisdiction" "主題のものごと（機関や法令など）は、以下の法域（国家、州、自治体など）に属する、適用される" "ja")
+(descr-as-in "applies-to-jurisdiction" "" "zh-cn")
+(descr-as-in "applies-to-jurisdiction" "" "zh-sg")
+

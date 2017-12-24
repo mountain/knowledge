@@ -1,0 +1,31 @@
+(ns properties.rector
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "rector")
+
+(name-as-in "rector" "" "zh-hk")
+(name-as-in "rector" "reitor" "pt")
+(name-as-in "rector" "rector" "en")
+(name-as-in "rector" "recteur" "fr")
+(name-as-in "rector" "" "zh-tw")
+(name-as-in "rector" "Rektor" "de")
+(name-as-in "rector" "ректор" "ru")
+(name-as-in "rector" "rector" "es")
+(name-as-in "rector" "学長" "ja")
+(name-as-in "rector" "" "zh-cn")
+(name-as-in "rector" "" "zh-sg")
+
+(descr-as-in "rector" "" "zh-hk")
+(descr-as-in "rector" "reitor(a) de uma universidade" "pt")
+(descr-as-in "rector" "rector of a university" "en")
+(descr-as-in "rector" "personne responsable de l'administration exécutive d'une université" "fr")
+(descr-as-in "rector" "" "zh-tw")
+(descr-as-in "rector" "Leitungsfunktion von Universitäten" "de")
+(descr-as-in "rector" "руководитель высшего учебного заведения" "ru")
+(descr-as-in "rector" "Rector de una universidad" "es")
+(descr-as-in "rector" "大学の学長" "ja")
+(descr-as-in "rector" "" "zh-cn")
+(descr-as-in "rector" "" "zh-sg")
+

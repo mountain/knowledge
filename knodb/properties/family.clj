@@ -1,0 +1,31 @@
+(ns properties.family
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "family")
+
+(name-as-in "family" "" "zh-hk")
+(name-as-in "family" "família" "pt")
+(name-as-in "family" "family" "en")
+(name-as-in "family" "famille" "fr")
+(name-as-in "family" "" "zh-tw")
+(name-as-in "family" "Familie" "de")
+(name-as-in "family" "род" "ru")
+(name-as-in "family" "familia" "es")
+(name-as-in "family" "ファミリー" "ja")
+(name-as-in "family" "" "zh-cn")
+(name-as-in "family" "" "zh-sg")
+
+(descr-as-in "family" "" "zh-hk")
+(descr-as-in "family" "" "pt")
+(descr-as-in "family" "family, include dynasty and nobility houses. Not family name (use P734 for family name)." "en")
+(descr-as-in "family" "famille, dynasties et les maisons nobles. Pas  le nom de famille (utiliser P734 pour celui-ci)" "fr")
+(descr-as-in "family" "" "zh-tw")
+(descr-as-in "family" "Fürsten- und Adelshäuser eingeschlossen" "de")
+(descr-as-in "family" "династия или семья благородного происхождения, членом которой является этот человек" "ru")
+(descr-as-in "family" "dinastía o casa nobiliaria" "es")
+(descr-as-in "family" "家族。貴族の家系や王朝名なども含む" "ja")
+(descr-as-in "family" "" "zh-cn")
+(descr-as-in "family" "" "zh-sg")
+

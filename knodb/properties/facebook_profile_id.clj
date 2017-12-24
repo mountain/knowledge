@@ -1,0 +1,31 @@
+(ns properties.facebook_profile_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "facebook-profile-id")
+
+(name-as-in "facebook-profile-id" "Facebook詳細資料ID" "zh-hk")
+(name-as-in "facebook-profile-id" "identificador Facebook" "pt")
+(name-as-in "facebook-profile-id" "Facebook profile ID" "en")
+(name-as-in "facebook-profile-id" "identifiant Facebook" "fr")
+(name-as-in "facebook-profile-id" "Facebook詳細資料ID" "zh-tw")
+(name-as-in "facebook-profile-id" "Facebook Profilkennung" "de")
+(name-as-in "facebook-profile-id" "код Facebook" "ru")
+(name-as-in "facebook-profile-id" "identificador en Facebook" "es")
+(name-as-in "facebook-profile-id" "フェイスブックID" "ja")
+(name-as-in "facebook-profile-id" "Facebook详细资料ID" "zh-cn")
+(name-as-in "facebook-profile-id" "Facebook详细资料ID" "zh-sg")
+
+(descr-as-in "facebook-profile-id" "" "zh-hk")
+(descr-as-in "facebook-profile-id" "" "pt")
+(descr-as-in "facebook-profile-id" "identifier for a person or organization in Facebook" "en")
+(descr-as-in "facebook-profile-id" "identifiant pour une personne ou une organisation sur Facebook" "fr")
+(descr-as-in "facebook-profile-id" "" "zh-tw")
+(descr-as-in "facebook-profile-id" "Benutzername einer Person, Organisation oder Unternehmung auf Facebook" "de")
+(descr-as-in "facebook-profile-id" "идентификатор человека или организации в соц. сети Facebook" "ru")
+(descr-as-in "facebook-profile-id" "identificador de una persona o organización en Facebook" "es")
+(descr-as-in "facebook-profile-id" "フェイスブックで個人や組織を特定するID" "ja")
+(descr-as-in "facebook-profile-id" "" "zh-cn")
+(descr-as-in "facebook-profile-id" "" "zh-sg")
+

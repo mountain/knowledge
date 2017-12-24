@@ -1,0 +1,31 @@
+(ns properties.publication_date
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "publication-date")
+
+(name-as-in "publication-date" "出版日期" "zh-hk")
+(name-as-in "publication-date" "data de publicação" "pt")
+(name-as-in "publication-date" "publication date" "en")
+(name-as-in "publication-date" "date de publication" "fr")
+(name-as-in "publication-date" "出版日期" "zh-tw")
+(name-as-in "publication-date" "Veröffentlichungsdatum" "de")
+(name-as-in "publication-date" "дата публикации" "ru")
+(name-as-in "publication-date" "fecha de publicación" "es")
+(name-as-in "publication-date" "出版日" "ja")
+(name-as-in "publication-date" "出版日期" "zh-cn")
+(name-as-in "publication-date" "出版日期" "zh-sg")
+
+(descr-as-in "publication-date" "作品首次出版或發行的時間" "zh-hk")
+(descr-as-in "publication-date" "" "pt")
+(descr-as-in "publication-date" "date or point in time a work is first published or released" "en")
+(descr-as-in "publication-date" "date à laquelle une œuvre est publiée" "fr")
+(descr-as-in "publication-date" "作品首次出版或發行的時間" "zh-tw")
+(descr-as-in "publication-date" "Zeitpunkt, zu dem ein Werk original veröffentlicht wurde (keine alten Werte überschreiben)" "de")
+(descr-as-in "publication-date" "дата, когда произведение было выпущено в свет" "ru")
+(descr-as-in "publication-date" "fecha en la cual fue publicada esta obra" "es")
+(descr-as-in "publication-date" "この作品が出版された年月日" "ja")
+(descr-as-in "publication-date" "作品首次出版或发行的时间" "zh-cn")
+(descr-as-in "publication-date" "作品首次出版或发行的时间" "zh-sg")
+

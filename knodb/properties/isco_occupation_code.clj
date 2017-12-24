@@ -1,0 +1,31 @@
+(ns properties.isco_occupation_code
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "isco-occupation-code")
+
+(name-as-in "isco-occupation-code" "" "zh-hk")
+(name-as-in "isco-occupation-code" "código ISCO" "pt")
+(name-as-in "isco-occupation-code" "ISCO occupation code" "en")
+(name-as-in "isco-occupation-code" "code CITP" "fr")
+(name-as-in "isco-occupation-code" "ISCO職業代碼" "zh-tw")
+(name-as-in "isco-occupation-code" "ISCO-Code" "de")
+(name-as-in "isco-occupation-code" "код занятости ISCO" "ru")
+(name-as-in "isco-occupation-code" "código CIUO" "es")
+(name-as-in "isco-occupation-code" "ISCOコード" "ja")
+(name-as-in "isco-occupation-code" "" "zh-cn")
+(name-as-in "isco-occupation-code" "" "zh-sg")
+
+(descr-as-in "isco-occupation-code" "" "zh-hk")
+(descr-as-in "isco-occupation-code" "" "pt")
+(descr-as-in "isco-occupation-code" "International Standard Classification of Occupations code" "en")
+(descr-as-in "isco-occupation-code" "code de la Classification internationale type des professions (CITP)" "fr")
+(descr-as-in "isco-occupation-code" "" "zh-tw")
+(descr-as-in "isco-occupation-code" "internationale Standardklassifikation der Berufe" "de")
+(descr-as-in "isco-occupation-code" "International Standard Classification of Occupations code" "ru")
+(descr-as-in "isco-occupation-code" "Código de la Clasificación Internacional Uniforme de Ocupaciones (CIUO)" "es")
+(descr-as-in "isco-occupation-code" "国際標準職業分類コード" "ja")
+(descr-as-in "isco-occupation-code" "" "zh-cn")
+(descr-as-in "isco-occupation-code" "" "zh-sg")
+

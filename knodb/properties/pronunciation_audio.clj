@@ -1,0 +1,31 @@
+(ns properties.pronunciation_audio
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "pronunciation-audio")
+
+(name-as-in "pronunciation-audio" "讀音" "zh-hk")
+(name-as-in "pronunciation-audio" "pronúncia (ficheiro de som)" "pt")
+(name-as-in "pronunciation-audio" "pronunciation audio" "en")
+(name-as-in "pronunciation-audio" "prononciation (fichier son)" "fr")
+(name-as-in "pronunciation-audio" "" "zh-tw")
+(name-as-in "pronunciation-audio" "Aussprache (Audiodatei)" "de")
+(name-as-in "pronunciation-audio" "произношение (звуковой файл)" "ru")
+(name-as-in "pronunciation-audio" "pronunciación (archivo de sonido)" "es")
+(name-as-in "pronunciation-audio" "発音（音声ファイル）" "ja")
+(name-as-in "pronunciation-audio" "读音" "zh-cn")
+(name-as-in "pronunciation-audio" "" "zh-sg")
+
+(descr-as-in "pronunciation-audio" "" "zh-hk")
+(descr-as-in "pronunciation-audio" "" "pt")
+(descr-as-in "pronunciation-audio" "audio file with pronunciation" "en")
+(descr-as-in "pronunciation-audio" "nom d’un fichier son de Wikimedia Commons contenant la prononciation ; utiliser un qualificatif pour identifier la langue (P407) et le type de voix" "fr")
+(descr-as-in "pronunciation-audio" "" "zh-tw")
+(descr-as-in "pronunciation-audio" "Name einer Datei in Commons mit der Aussprache; nutze Abfragekriterien um die Sprache zu identifizieren" "de")
+(descr-as-in "pronunciation-audio" "" "ru")
+(descr-as-in "pronunciation-audio" "nombre de un archivo en Commons con la pronunciación del elemento; usar calificadores para identificar el idioma o el tipo de voz" "es")
+(descr-as-in "pronunciation-audio" "発音を含むウィキメディア・コモンズ上のオーディオファイル" "ja")
+(descr-as-in "pronunciation-audio" "" "zh-cn")
+(descr-as-in "pronunciation-audio" "" "zh-sg")
+

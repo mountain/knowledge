@@ -1,0 +1,31 @@
+(ns properties.atheneum_museum_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "atheneum-museum-id")
+
+(name-as-in "atheneum-museum-id" "" "zh-hk")
+(name-as-in "atheneum-museum-id" "" "pt")
+(name-as-in "atheneum-museum-id" "Atheneum museum ID" "en")
+(name-as-in "atheneum-museum-id" "identifiant Atheneum d'un musée" "fr")
+(name-as-in "atheneum-museum-id" "" "zh-tw")
+(name-as-in "atheneum-museum-id" "" "de")
+(name-as-in "atheneum-museum-id" "" "ru")
+(name-as-in "atheneum-museum-id" "identificador Atheneum de museo" "es")
+(name-as-in "atheneum-museum-id" "" "ja")
+(name-as-in "atheneum-museum-id" "" "zh-cn")
+(name-as-in "atheneum-museum-id" "" "zh-sg")
+
+(descr-as-in "atheneum-museum-id" "" "zh-hk")
+(descr-as-in "atheneum-museum-id" "" "pt")
+(descr-as-in "atheneum-museum-id" "museum or other repository/source id in the Atheneum artworks website" "en")
+(descr-as-in "atheneum-museum-id" "identifiant d'un musée ou autres dans la base de données artistiques Atheneum" "fr")
+(descr-as-in "atheneum-museum-id" "" "zh-tw")
+(descr-as-in "atheneum-museum-id" "" "de")
+(descr-as-in "atheneum-museum-id" "" "ru")
+(descr-as-in "atheneum-museum-id" "" "es")
+(descr-as-in "atheneum-museum-id" "" "ja")
+(descr-as-in "atheneum-museum-id" "" "zh-cn")
+(descr-as-in "atheneum-museum-id" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.commons_creator_page
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "commons-creator-page")
+
+(name-as-in "commons-creator-page" "" "zh-hk")
+(name-as-in "commons-creator-page" "página de criador no Commons" "pt")
+(name-as-in "commons-creator-page" "Commons Creator page" "en")
+(name-as-in "commons-creator-page" "palette de créateur Commons" "fr")
+(name-as-in "commons-creator-page" "共享資源作者頁面" "zh-tw")
+(name-as-in "commons-creator-page" "Commons-Creator-Vorlage" "de")
+(name-as-in "commons-creator-page" "шаблон автора на Викискладе" "ru")
+(name-as-in "commons-creator-page" "plantilla de Creador en Commons" "es")
+(name-as-in "commons-creator-page" "コモンズの作者テンプレート" "ja")
+(name-as-in "commons-creator-page" "" "zh-cn")
+(name-as-in "commons-creator-page" "" "zh-sg")
+
+(descr-as-in "commons-creator-page" "" "zh-hk")
+(descr-as-in "commons-creator-page" "" "pt")
+(descr-as-in "commons-creator-page" "name of Commons Infobox template residing  in Creator namespace on Wikimedia Commons" "en")
+(descr-as-in "commons-creator-page" "nom de la page « Creator » sur Wikimedia Commons" "fr")
+(descr-as-in "commons-creator-page" "" "zh-tw")
+(descr-as-in "commons-creator-page" "Name der Vorlage auf Wikimedia Commons, die Informationen zum Künstler enthält (ohne Creator:-Prefix einzutragen)" "de")
+(descr-as-in "commons-creator-page" "" "ru")
+(descr-as-in "commons-creator-page" "nombre de la plantilla Creador en el proyecto Wikimedia Commons" "es")
+(descr-as-in "commons-creator-page" "ウィキメディア・コモンズにおける、その人物に対応する作者テンプレートの名前（接頭辞「Creator」は含まない）" "ja")
+(descr-as-in "commons-creator-page" "" "zh-cn")
+(descr-as-in "commons-creator-page" "" "zh-sg")
+

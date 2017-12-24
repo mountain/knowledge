@@ -1,0 +1,31 @@
+(ns properties.full_work_available_at
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "full-work-available-at")
+
+(name-as-in "full-work-available-at" "" "zh-hk")
+(name-as-in "full-work-available-at" "texto na íntegra disponível em" "pt")
+(name-as-in "full-work-available-at" "full work available at" "en")
+(name-as-in "full-work-available-at" "texte intégral disponible sur" "fr")
+(name-as-in "full-work-available-at" "" "zh-tw")
+(name-as-in "full-work-available-at" "vollständiger Text verfügbar unter" "de")
+(name-as-in "full-work-available-at" "доступен по URL" "ru")
+(name-as-in "full-work-available-at" "texto completo en" "es")
+(name-as-in "full-work-available-at" "全文テキスト" "ja")
+(name-as-in "full-work-available-at" "全文可见于" "zh-cn")
+(name-as-in "full-work-available-at" "" "zh-sg")
+
+(descr-as-in "full-work-available-at" "" "zh-hk")
+(descr-as-in "full-work-available-at" "" "pt")
+(descr-as-in "full-work-available-at" "URL of a web page containing the full text for this item" "en")
+(descr-as-in "full-work-available-at" "URL de la page contenant le texte intégral de l'élément" "fr")
+(descr-as-in "full-work-available-at" "" "zh-tw")
+(descr-as-in "full-work-available-at" "URL einer Webseite mit dem vollständigen Text" "de")
+(descr-as-in "full-work-available-at" "полное произведение доступно на" "ru")
+(descr-as-in "full-work-available-at" "URL de la página web que contiene el texto completo de este elemento" "es")
+(descr-as-in "full-work-available-at" "主題作品の全文が参照できるURL" "ja")
+(descr-as-in "full-work-available-at" "包含该项全文的网页URL地址" "zh-cn")
+(descr-as-in "full-work-available-at" "" "zh-sg")
+

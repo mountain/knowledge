@@ -1,0 +1,31 @@
+(ns properties.has_tense
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "has-tense")
+
+(name-as-in "has-tense" "" "zh-hk")
+(name-as-in "has-tense" "tem pretérito" "pt")
+(name-as-in "has-tense" "has tense" "en")
+(name-as-in "has-tense" "a comme temps grammatical" "fr")
+(name-as-in "has-tense" "具有時態" "zh-tw")
+(name-as-in "has-tense" "hat grammatische Zeitform" "de")
+(name-as-in "has-tense" "имеет время" "ru")
+(name-as-in "has-tense" "tiene como tiempo gramatical" "es")
+(name-as-in "has-tense" "" "ja")
+(name-as-in "has-tense" "" "zh-cn")
+(name-as-in "has-tense" "" "zh-sg")
+
+(descr-as-in "has-tense" "" "zh-hk")
+(descr-as-in "has-tense" "" "pt")
+(descr-as-in "has-tense" "grammatical category expressing time reference of the language. To include a sample, use qualifier quote (P1683), sample: He writes. If an activity before is needed He sees. If an activity afterwards is needed: He reads." "en")
+(descr-as-in "has-tense" "temps de verbe utilisé dans une langue" "fr")
+(descr-as-in "has-tense" "" "zh-tw")
+(descr-as-in "has-tense" "Zeitform, die in einer bestimmten Sprache verwendet wird" "de")
+(descr-as-in "has-tense" "указывает, какие временные формы глагола присутствуют в языке" "ru")
+(descr-as-in "has-tense" "" "es")
+(descr-as-in "has-tense" "" "ja")
+(descr-as-in "has-tense" "" "zh-cn")
+(descr-as-in "has-tense" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.student
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "student")
+
+(name-as-in "student" "學生" "zh-hk")
+(name-as-in "student" "estudante" "pt")
+(name-as-in "student" "student" "en")
+(name-as-in "student" "élève" "fr")
+(name-as-in "student" "學生" "zh-tw")
+(name-as-in "student" "Schüler" "de")
+(name-as-in "student" "ученики" "ru")
+(name-as-in "student" "estudiante" "es")
+(name-as-in "student" "弟子" "ja")
+(name-as-in "student" "学生" "zh-cn")
+(name-as-in "student" "学生" "zh-sg")
+
+(descr-as-in "student" "" "zh-hk")
+(descr-as-in "student" "estudante(s) notável(is) desse indivíduo" "pt")
+(descr-as-in "student" "notable student(s) of an individual" "en")
+(descr-as-in "student" "étudiant notable de la personne" "fr")
+(descr-as-in "student" "" "zh-tw")
+(descr-as-in "student" "beachtenswerter Schüler der Person" "de")
+(descr-as-in "student" "известные ученики данной персоны" "ru")
+(descr-as-in "student" "estudiante(s) notable(s) de una persona" "es")
+(descr-as-in "student" "主題人物の著名な教え子・弟子。博士課程の指導学生はP185を使用" "ja")
+(descr-as-in "student" "" "zh-cn")
+(descr-as-in "student" "" "zh-sg")
+

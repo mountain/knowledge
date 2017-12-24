@@ -1,0 +1,31 @@
+(ns properties.archon_code
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "archon-code")
+
+(name-as-in "archon-code" "" "zh-hk")
+(name-as-in "archon-code" "" "pt")
+(name-as-in "archon-code" "ARCHON code" "en")
+(name-as-in "archon-code" "code ARCHON" "fr")
+(name-as-in "archon-code" "" "zh-tw")
+(name-as-in "archon-code" "ARCHON-Code" "de")
+(name-as-in "archon-code" "" "ru")
+(name-as-in "archon-code" "código ARCHON" "es")
+(name-as-in "archon-code" "" "ja")
+(name-as-in "archon-code" "" "zh-cn")
+(name-as-in "archon-code" "" "zh-sg")
+
+(descr-as-in "archon-code" "" "zh-hk")
+(descr-as-in "archon-code" "" "pt")
+(descr-as-in "archon-code" "A unique number used to identify archival collection locations within the UK and key global repositories holding collections relating to British history." "en")
+(descr-as-in "archon-code" "numéro unique utilisé pour identifier les collections d'archives au Royaume-Uni et dans les principaux organes d'archivage mondiaux détenant des collections relatives à l'histoire britannique" "fr")
+(descr-as-in "archon-code" "" "zh-tw")
+(descr-as-in "archon-code" "eindeutige Kennung, die der Identifizierung von Archivstandorten innerhalb des Vereinigten Königreichs sowie weltweit bedeutsamer Archivstandorte mit Bezug zur britischen Geschichte dient" "de")
+(descr-as-in "archon-code" "" "ru")
+(descr-as-in "archon-code" "" "es")
+(descr-as-in "archon-code" "" "ja")
+(descr-as-in "archon-code" "" "zh-cn")
+(descr-as-in "archon-code" "" "zh-sg")
+

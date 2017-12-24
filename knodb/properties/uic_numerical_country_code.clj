@@ -1,0 +1,31 @@
+(ns properties.uic_numerical_country_code
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "uic-numerical-country-code")
+
+(name-as-in "uic-numerical-country-code" "" "zh-hk")
+(name-as-in "uic-numerical-country-code" "" "pt")
+(name-as-in "uic-numerical-country-code" "UIC numerical country code" "en")
+(name-as-in "uic-numerical-country-code" "code numérique UIC de pays" "fr")
+(name-as-in "uic-numerical-country-code" "" "zh-tw")
+(name-as-in "uic-numerical-country-code" "" "de")
+(name-as-in "uic-numerical-country-code" "" "ru")
+(name-as-in "uic-numerical-country-code" "código numérico de país UIC" "es")
+(name-as-in "uic-numerical-country-code" "" "ja")
+(name-as-in "uic-numerical-country-code" "" "zh-cn")
+(name-as-in "uic-numerical-country-code" "" "zh-sg")
+
+(descr-as-in "uic-numerical-country-code" "" "zh-hk")
+(descr-as-in "uic-numerical-country-code" "" "pt")
+(descr-as-in "uic-numerical-country-code" "numerical country code issued by International Union of Railways" "en")
+(descr-as-in "uic-numerical-country-code" "code numérique de pays utilisé par l'Union internationale des chemins de fer" "fr")
+(descr-as-in "uic-numerical-country-code" "" "zh-tw")
+(descr-as-in "uic-numerical-country-code" "" "de")
+(descr-as-in "uic-numerical-country-code" "" "ru")
+(descr-as-in "uic-numerical-country-code" "código emitido por la Unión Internacional de Ferrovias" "es")
+(descr-as-in "uic-numerical-country-code" "" "ja")
+(descr-as-in "uic-numerical-country-code" "" "zh-cn")
+(descr-as-in "uic-numerical-country-code" "" "zh-sg")
+

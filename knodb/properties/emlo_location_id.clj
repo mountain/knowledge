@@ -1,0 +1,31 @@
+(ns properties.emlo_location_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "emlo-location-id")
+
+(name-as-in "emlo-location-id" "" "zh-hk")
+(name-as-in "emlo-location-id" "" "pt")
+(name-as-in "emlo-location-id" "EMLO location ID" "en")
+(name-as-in "emlo-location-id" "" "fr")
+(name-as-in "emlo-location-id" "" "zh-tw")
+(name-as-in "emlo-location-id" "" "de")
+(name-as-in "emlo-location-id" "" "ru")
+(name-as-in "emlo-location-id" "" "es")
+(name-as-in "emlo-location-id" "" "ja")
+(name-as-in "emlo-location-id" "" "zh-cn")
+(name-as-in "emlo-location-id" "" "zh-sg")
+
+(descr-as-in "emlo-location-id" "" "zh-hk")
+(descr-as-in "emlo-location-id" "" "pt")
+(descr-as-in "emlo-location-id" "identifier for a location in the Early Modern Letters Online database maintained by the University of Oxford" "en")
+(descr-as-in "emlo-location-id" "" "fr")
+(descr-as-in "emlo-location-id" "" "zh-tw")
+(descr-as-in "emlo-location-id" "" "de")
+(descr-as-in "emlo-location-id" "" "ru")
+(descr-as-in "emlo-location-id" "" "es")
+(descr-as-in "emlo-location-id" "" "ja")
+(descr-as-in "emlo-location-id" "" "zh-cn")
+(descr-as-in "emlo-location-id" "" "zh-sg")
+

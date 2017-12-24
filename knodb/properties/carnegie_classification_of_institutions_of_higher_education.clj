@@ -1,0 +1,31 @@
+(ns properties.carnegie_classification_of_institutions_of_higher_education
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "carnegie-classification-of-institutions-of-higher-education")
+
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "" "zh-hk")
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "" "pt")
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "Carnegie Classification of Institutions of Higher Education" "en")
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "classification Carnegie des institutions d'enseignement supérieur" "fr")
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "" "zh-tw")
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "Carnegie Classification of Institutions of Higher Education" "de")
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "классификация Карнеги для вуза" "ru")
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "" "es")
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "" "ja")
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "" "zh-cn")
+(name-as-in "carnegie-classification-of-institutions-of-higher-education" "" "zh-sg")
+
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "" "zh-hk")
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "" "pt")
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "classification of colleges and universities in the United States" "en")
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "classification des collèges et universités des États-Unis" "fr")
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "" "zh-tw")
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "Klassifikation von Hochschulen in den USA" "de")
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "Классификация Карнеги учреждений высшего образования" "ru")
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "" "es")
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "" "ja")
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "" "zh-cn")
+(descr-as-in "carnegie-classification-of-institutions-of-higher-education" "" "zh-sg")
+

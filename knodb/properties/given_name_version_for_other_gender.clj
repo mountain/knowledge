@@ -1,0 +1,31 @@
+(ns properties.given_name_version_for_other_gender
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "given-name-version-for-other-gender")
+
+(name-as-in "given-name-version-for-other-gender" "" "zh-hk")
+(name-as-in "given-name-version-for-other-gender" "versão do nome no gênero oposto" "pt")
+(name-as-in "given-name-version-for-other-gender" "given name version for other gender" "en")
+(name-as-in "given-name-version-for-other-gender" "prénom correspondant dans le genre grammatical opposé" "fr")
+(name-as-in "given-name-version-for-other-gender" "" "zh-tw")
+(name-as-in "given-name-version-for-other-gender" "äquivalenter Vorname für das andere Geschlecht" "de")
+(name-as-in "given-name-version-for-other-gender" "вариант личного имени для другого пола" "ru")
+(name-as-in "given-name-version-for-other-gender" "nombre correspondiente en el otro género" "es")
+(name-as-in "given-name-version-for-other-gender" "名の変種（性による）" "ja")
+(name-as-in "given-name-version-for-other-gender" "" "zh-cn")
+(name-as-in "given-name-version-for-other-gender" "" "zh-sg")
+
+(descr-as-in "given-name-version-for-other-gender" "" "zh-hk")
+(descr-as-in "given-name-version-for-other-gender" "" "pt")
+(descr-as-in "given-name-version-for-other-gender" "equivalent name (with respect to the meaning of the name) in the same language: female version of a male first name, male version of a female first name. Add primarily the closest matching one" "en")
+(descr-as-in "given-name-version-for-other-gender" "nom équivalent dans la même langue : version féminine dun prénom masculin, version masculine d'un prénom féminin. Ajouté en premier le prénom correspondant le plus proche." "fr")
+(descr-as-in "given-name-version-for-other-gender" "" "zh-tw")
+(descr-as-in "given-name-version-for-other-gender" "weibliche Form eines männlichen Vornamens oder die männliche Form eines weiblichen Vornamens" "de")
+(descr-as-in "given-name-version-for-other-gender" "ссылка на эквивалентное имя в том же языке, которое имеет то же происхождение" "ru")
+(descr-as-in "given-name-version-for-other-gender" "" "es")
+(descr-as-in "given-name-version-for-other-gender" "主題となる個人名 (given name) の、同一言語での他の性での形。例：フランス語男性名 Jean に対する女性名 Jeanne" "ja")
+(descr-as-in "given-name-version-for-other-gender" "" "zh-cn")
+(descr-as-in "given-name-version-for-other-gender" "" "zh-sg")
+

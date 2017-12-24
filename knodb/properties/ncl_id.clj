@@ -1,0 +1,31 @@
+(ns properties.ncl_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "ncl-id")
+
+(name-as-in "ncl-id" "國家圖書館索引碼" "zh-hk")
+(name-as-in "ncl-id" "identificador NCL" "pt")
+(name-as-in "ncl-id" "NCL ID" "en")
+(name-as-in "ncl-id" "identifiant NCL" "fr")
+(name-as-in "ncl-id" "國家圖書館索引碼" "zh-tw")
+(name-as-in "ncl-id" "NCL (Taiwan)" "de")
+(name-as-in "ncl-id" "код NCL" "ru")
+(name-as-in "ncl-id" "identificador NCL" "es")
+(name-as-in "ncl-id" "国家図書館ID" "ja")
+(name-as-in "ncl-id" "国家图书馆索引码" "zh-cn")
+(name-as-in "ncl-id" "国家图书馆索引码" "zh-sg")
+
+(descr-as-in "ncl-id" "中華民國國家圖書館權威資料索引碼" "zh-hk")
+(descr-as-in "ncl-id" "" "pt")
+(descr-as-in "ncl-id" "identifier for authority control issued by the National Central Library in Taiwan" "en")
+(descr-as-in "ncl-id" "identifiant de la Bibliothèque Nationale de Taiwain ( National Central Library )" "fr")
+(descr-as-in "ncl-id" "中華民國國家圖書館權威資料索引碼" "zh-tw")
+(descr-as-in "ncl-id" "Normdateneintrag in der Nationalbibliothek Taiwans (National Central Library)" "de")
+(descr-as-in "ncl-id" "код в Национальной центральной библиотеке Тайваня" "ru")
+(descr-as-in "ncl-id" "identificador de la Biblioteca Nacional de Taiwán" "es")
+(descr-as-in "ncl-id" "台湾の国家図書館が発行する典拠情報識別子" "ja")
+(descr-as-in "ncl-id" "中华民国国家图书馆权威资料索引码" "zh-cn")
+(descr-as-in "ncl-id" "中华民国国家图书馆权威资料索引码" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.spoken_text_audio
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "spoken-text-audio")
+
+(name-as-in "spoken-text-audio" "" "zh-hk")
+(name-as-in "spoken-text-audio" "áudio de texto falado" "pt")
+(name-as-in "spoken-text-audio" "spoken text audio" "en")
+(name-as-in "spoken-text-audio" "fichier audio de l'élément" "fr")
+(name-as-in "spoken-text-audio" "" "zh-tw")
+(name-as-in "spoken-text-audio" "Audiodatei eines gesprochenen Texts" "de")
+(name-as-in "spoken-text-audio" "аудиозапись прочитанного текста" "ru")
+(name-as-in "spoken-text-audio" "archivo de audio del elemento" "es")
+(name-as-in "spoken-text-audio" "話し言葉の音声" "ja")
+(name-as-in "spoken-text-audio" "" "zh-cn")
+(name-as-in "spoken-text-audio" "" "zh-sg")
+
+(descr-as-in "spoken-text-audio" "" "zh-hk")
+(descr-as-in "spoken-text-audio" "arquivo de áudio sobre a obra e / ou artigo da Wikipédia, incluindo áudio descrições." "pt")
+(descr-as-in "spoken-text-audio" "audio file for the spoken work or Wikipedia article, including audio descriptions" "en")
+(descr-as-in "spoken-text-audio" "fichier audio représentant l’œuvre lue ou l’article lu de Wikipédia" "fr")
+(descr-as-in "spoken-text-audio" "" "zh-tw")
+(descr-as-in "spoken-text-audio" "Audiodatei eines gesprochenen Werkes oder Wikipedia-Artikels" "de")
+(descr-as-in "spoken-text-audio" "аудио-файл с записью речи или статьи Википедии" "ru")
+(descr-as-in "spoken-text-audio" "archivo de audio hablado de la obra o artículo de Wikipedia" "es")
+(descr-as-in "spoken-text-audio" "話し言葉による作品やウィキペディア用の音声ファイル" "ja")
+(descr-as-in "spoken-text-audio" "" "zh-cn")
+(descr-as-in "spoken-text-audio" "" "zh-sg")
+

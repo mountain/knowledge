@@ -1,0 +1,31 @@
+(ns properties.ne_se_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "ne_se-id")
+
+(name-as-in "ne_se-id" "" "zh-hk")
+(name-as-in "ne_se-id" "" "pt")
+(name-as-in "ne_se-id" "NE.se ID" "en")
+(name-as-in "ne_se-id" "identifiant Nationalencyklopedin Online" "fr")
+(name-as-in "ne_se-id" "" "zh-tw")
+(name-as-in "ne_se-id" "Nationalencyklopedin Online ID (Schwedisch)" "de")
+(name-as-in "ne_se-id" "идентификатор NE.se" "ru")
+(name-as-in "ne_se-id" "identificador Nationalencyklopedin" "es")
+(name-as-in "ne_se-id" "" "ja")
+(name-as-in "ne_se-id" "" "zh-cn")
+(name-as-in "ne_se-id" "" "zh-sg")
+
+(descr-as-in "ne_se-id" "" "zh-hk")
+(descr-as-in "ne_se-id" "" "pt")
+(descr-as-in "ne_se-id" "ID of article on the Swedish Nationalencyklopedin (NE.se) site" "en")
+(descr-as-in "ne_se-id" "identifiant d'un article sur le site Swedish Nationalencyklopedin (NE.se)" "fr")
+(descr-as-in "ne_se-id" "" "zh-tw")
+(descr-as-in "ne_se-id" "" "de")
+(descr-as-in "ne_se-id" "идентификатор статьи на сайте Шведской национальной энциклопедии NE.se" "ru")
+(descr-as-in "ne_se-id" "" "es")
+(descr-as-in "ne_se-id" "" "ja")
+(descr-as-in "ne_se-id" "" "zh-cn")
+(descr-as-in "ne_se-id" "" "zh-sg")
+

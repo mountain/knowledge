@@ -1,0 +1,31 @@
+(ns properties.jewage_person_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "jewage-person-id")
+
+(name-as-in "jewage-person-id" "" "zh-hk")
+(name-as-in "jewage-person-id" "" "pt")
+(name-as-in "jewage-person-id" "JewAge person ID" "en")
+(name-as-in "jewage-person-id" "identifiant JewAge d'une personne" "fr")
+(name-as-in "jewage-person-id" "" "zh-tw")
+(name-as-in "jewage-person-id" "" "de")
+(name-as-in "jewage-person-id" "" "ru")
+(name-as-in "jewage-person-id" "identificador JewAge de persona" "es")
+(name-as-in "jewage-person-id" "" "ja")
+(name-as-in "jewage-person-id" "" "zh-cn")
+(name-as-in "jewage-person-id" "" "zh-sg")
+
+(descr-as-in "jewage-person-id" "" "zh-hk")
+(descr-as-in "jewage-person-id" "" "pt")
+(descr-as-in "jewage-person-id" "identifier for a person on JewAge, a genealogical database for Jewish people" "en")
+(descr-as-in "jewage-person-id" "identifiant d'une personne sur JewAge, base de données généalogiques de Juifs" "fr")
+(descr-as-in "jewage-person-id" "" "zh-tw")
+(descr-as-in "jewage-person-id" "" "de")
+(descr-as-in "jewage-person-id" "" "ru")
+(descr-as-in "jewage-person-id" "identificador de una persona en JewAge, una base de datos genealógica para judíos" "es")
+(descr-as-in "jewage-person-id" "" "ja")
+(descr-as-in "jewage-person-id" "" "zh-cn")
+(descr-as-in "jewage-person-id" "" "zh-sg")
+

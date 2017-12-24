@@ -1,0 +1,31 @@
+(ns properties.architect
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "architect")
+
+(name-as-in "architect" "建築師" "zh-hk")
+(name-as-in "architect" "arquitecto" "pt")
+(name-as-in "architect" "architect" "en")
+(name-as-in "architect" "architecte" "fr")
+(name-as-in "architect" "建築師" "zh-tw")
+(name-as-in "architect" "Architekt" "de")
+(name-as-in "architect" "архитектор" "ru")
+(name-as-in "architect" "arquitecto" "es")
+(name-as-in "architect" "設計" "ja")
+(name-as-in "architect" "建筑师" "zh-cn")
+(name-as-in "architect" "建筑师" "zh-sg")
+
+(descr-as-in "architect" "" "zh-hk")
+(descr-as-in "architect" "pessoa ou empresa que desenhou o edifício" "pt")
+(descr-as-in "architect" "person or architectural firm that designed this building" "en")
+(descr-as-in "architect" "personne ou firme architectural ayant conçu l'édifice, et supervisé sa construction" "fr")
+(descr-as-in "architect" "" "zh-tw")
+(descr-as-in "architect" "Person oder Architektengruppe, die dieses Bauwerk geplant hat" "de")
+(descr-as-in "architect" "человек или компания, разработавшая проект этого здания" "ru")
+(descr-as-in "architect" "persona o empresa encargada del diseño de una edificación" "es")
+(descr-as-in "architect" "この建築物を設計した人物・設計事務所" "ja")
+(descr-as-in "architect" "" "zh-cn")
+(descr-as-in "architect" "" "zh-sg")
+

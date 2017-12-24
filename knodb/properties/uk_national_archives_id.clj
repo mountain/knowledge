@@ -1,0 +1,31 @@
+(ns properties.uk_national_archives_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "uk-national-archives-id")
+
+(name-as-in "uk-national-archives-id" "" "zh-hk")
+(name-as-in "uk-national-archives-id" "" "pt")
+(name-as-in "uk-national-archives-id" "UK National Archives ID" "en")
+(name-as-in "uk-national-archives-id" "identifiant National Archives" "fr")
+(name-as-in "uk-national-archives-id" "" "zh-tw")
+(name-as-in "uk-national-archives-id" "" "de")
+(name-as-in "uk-national-archives-id" "" "ru")
+(name-as-in "uk-national-archives-id" "identificador Archivos Nacionales del Reino Unido" "es")
+(name-as-in "uk-national-archives-id" "" "ja")
+(name-as-in "uk-national-archives-id" "" "zh-cn")
+(name-as-in "uk-national-archives-id" "" "zh-sg")
+
+(descr-as-in "uk-national-archives-id" "" "zh-hk")
+(descr-as-in "uk-national-archives-id" "" "pt")
+(descr-as-in "uk-national-archives-id" "identifier for a person, family or organisation, in the UK's National Archives database" "en")
+(descr-as-in "uk-national-archives-id" "" "fr")
+(descr-as-in "uk-national-archives-id" "" "zh-tw")
+(descr-as-in "uk-national-archives-id" "" "de")
+(descr-as-in "uk-national-archives-id" "" "ru")
+(descr-as-in "uk-national-archives-id" "" "es")
+(descr-as-in "uk-national-archives-id" "" "ja")
+(descr-as-in "uk-national-archives-id" "" "zh-cn")
+(descr-as-in "uk-national-archives-id" "" "zh-sg")
+

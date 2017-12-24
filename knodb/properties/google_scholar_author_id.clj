@@ -1,0 +1,31 @@
+(ns properties.google_scholar_author_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "google-scholar-author-id")
+
+(name-as-in "google-scholar-author-id" "" "zh-hk")
+(name-as-in "google-scholar-author-id" "" "pt")
+(name-as-in "google-scholar-author-id" "Google Scholar author ID" "en")
+(name-as-in "google-scholar-author-id" "identifiant Google Scholar d'un auteur" "fr")
+(name-as-in "google-scholar-author-id" "" "zh-tw")
+(name-as-in "google-scholar-author-id" "Google-Scholar-ID" "de")
+(name-as-in "google-scholar-author-id" "код Google Scholar" "ru")
+(name-as-in "google-scholar-author-id" "identificador Google Académico" "es")
+(name-as-in "google-scholar-author-id" "" "ja")
+(name-as-in "google-scholar-author-id" "" "zh-cn")
+(name-as-in "google-scholar-author-id" "" "zh-sg")
+
+(descr-as-in "google-scholar-author-id" "" "zh-hk")
+(descr-as-in "google-scholar-author-id" "" "pt")
+(descr-as-in "google-scholar-author-id" "identifier of a person, in the Google Scholar academic search service" "en")
+(descr-as-in "google-scholar-author-id" "Identifiant Google Scholar d'un universitaire" "fr")
+(descr-as-in "google-scholar-author-id" "" "zh-tw")
+(descr-as-in "google-scholar-author-id" "Identifikator für Personen bei Google Scholar" "de")
+(descr-as-in "google-scholar-author-id" "Идентификатор лица, в академической поисковой службе Google Scholar" "ru")
+(descr-as-in "google-scholar-author-id" "" "es")
+(descr-as-in "google-scholar-author-id" "" "ja")
+(descr-as-in "google-scholar-author-id" "" "zh-cn")
+(descr-as-in "google-scholar-author-id" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.encyclopedia_of_modern_ukraine_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "encyclopedia-of-modern-ukraine-id")
+
+(name-as-in "encyclopedia-of-modern-ukraine-id" "" "zh-hk")
+(name-as-in "encyclopedia-of-modern-ukraine-id" "" "pt")
+(name-as-in "encyclopedia-of-modern-ukraine-id" "Encyclopedia of Modern Ukraine ID" "en")
+(name-as-in "encyclopedia-of-modern-ukraine-id" "identifiant Encyclopedia of Modern Ukraine" "fr")
+(name-as-in "encyclopedia-of-modern-ukraine-id" "" "zh-tw")
+(name-as-in "encyclopedia-of-modern-ukraine-id" "" "de")
+(name-as-in "encyclopedia-of-modern-ukraine-id" "Онлайн-идентификатор Энциклопедии современной Украины" "ru")
+(name-as-in "encyclopedia-of-modern-ukraine-id" "" "es")
+(name-as-in "encyclopedia-of-modern-ukraine-id" "" "ja")
+(name-as-in "encyclopedia-of-modern-ukraine-id" "" "zh-cn")
+(name-as-in "encyclopedia-of-modern-ukraine-id" "" "zh-sg")
+
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "" "zh-hk")
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "" "pt")
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "identifier for an entry on the official website of the Encyclopedia of Modern Ukraine" "en")
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "" "fr")
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "" "zh-tw")
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "" "de")
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "" "ru")
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "" "es")
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "" "ja")
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "" "zh-cn")
+(descr-as-in "encyclopedia-of-modern-ukraine-id" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.catalog
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "catalog")
+
+(name-as-in "catalog" "" "zh-hk")
+(name-as-in "catalog" "catálogo" "pt")
+(name-as-in "catalog" "catalog" "en")
+(name-as-in "catalog" "catalogue" "fr")
+(name-as-in "catalog" "" "zh-tw")
+(name-as-in "catalog" "Katalog" "de")
+(name-as-in "catalog" "каталог" "ru")
+(name-as-in "catalog" "catálogo" "es")
+(name-as-in "catalog" "カタログ" "ja")
+(name-as-in "catalog" "" "zh-cn")
+(name-as-in "catalog" "" "zh-sg")
+
+(descr-as-in "catalog" "" "zh-hk")
+(descr-as-in "catalog" "" "pt")
+(descr-as-in "catalog" "catalog for the item, or, as a qualifier of P528 – catalog for which the 'catalog code' is valid" "en")
+(descr-as-in "catalog" "catalogue de l'élément, ou, comme qualificatif de P528, catalogue dans lequel le numéro est valide" "fr")
+(descr-as-in "catalog" "" "zh-tw")
+(descr-as-in "catalog" "Katalog des Gegenstandes, oder als Qualifikation von P528, Katalog unter Angabe der Katalognummer" "de")
+(descr-as-in "catalog" "квалификатор для использования с каталожными кодами (P528)" "ru")
+(descr-as-in "catalog" "catálogo para el elemento, o si calificador de P528 catálogo para el cual el número es válido" "es")
+(descr-as-in "catalog" "項目に関するカタログ、あるいは、P528のqualifierである場合はその番号が用いられるカタログ" "ja")
+(descr-as-in "catalog" "" "zh-cn")
+(descr-as-in "catalog" "" "zh-sg")
+

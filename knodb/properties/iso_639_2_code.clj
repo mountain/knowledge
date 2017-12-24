@@ -1,0 +1,31 @@
+(ns properties.iso_639_2_code
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "iso-639-2-code")
+
+(name-as-in "iso-639-2-code" "ISO 639-2代碼" "zh-hk")
+(name-as-in "iso-639-2-code" "ISO 639-2" "pt")
+(name-as-in "iso-639-2-code" "ISO 639-2 code" "en")
+(name-as-in "iso-639-2-code" "code ISO 639-2" "fr")
+(name-as-in "iso-639-2-code" "ISO 639-2代碼" "zh-tw")
+(name-as-in "iso-639-2-code" "ISO 639-2" "de")
+(name-as-in "iso-639-2-code" "код ISO 639-2" "ru")
+(name-as-in "iso-639-2-code" "código ISO 639-2" "es")
+(name-as-in "iso-639-2-code" "ISO 639-2" "ja")
+(name-as-in "iso-639-2-code" "ISO 639-2代码" "zh-cn")
+(name-as-in "iso-639-2-code" "ISO 639-2代码" "zh-sg")
+
+(descr-as-in "iso-639-2-code" "語言的ISO 639-2碼" "zh-hk")
+(descr-as-in "iso-639-2-code" "" "pt")
+(descr-as-in "iso-639-2-code" "identifier for a language or macrolanguage or language family language, defined in ISO 639-2 standard, 3-letter technical or bibliographical  code" "en")
+(descr-as-in "iso-639-2-code" "identificateur technique ou bibliographique en 3 lettres d'une langue, d'une macrolangue ou d'une famille de langues, défini dans la norme ISO 639-2" "fr")
+(descr-as-in "iso-639-2-code" "" "zh-tw")
+(descr-as-in "iso-639-2-code" "Kennung für Namen von Sprachen von der Internationalen Organisation für Normung" "de")
+(descr-as-in "iso-639-2-code" "трёхбуквенный код языка" "ru")
+(descr-as-in "iso-639-2-code" "identificador técnico o bibliográfico en tres letras de una lengua, macrolengua o familia de lenguas, definido en la norma ISO 639-2" "es")
+(descr-as-in "iso-639-2-code" "その言語のISO 639-2 コード" "ja")
+(descr-as-in "iso-639-2-code" "" "zh-cn")
+(descr-as-in "iso-639-2-code" "" "zh-sg")
+

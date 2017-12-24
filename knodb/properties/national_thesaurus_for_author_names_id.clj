@@ -1,0 +1,31 @@
+(ns properties.national_thesaurus_for_author_names_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "national-thesaurus-for-author-names-id")
+
+(name-as-in "national-thesaurus-for-author-names-id" "NTA編號" "zh-hk")
+(name-as-in "national-thesaurus-for-author-names-id" "identificador NTA PPN" "pt")
+(name-as-in "national-thesaurus-for-author-names-id" "National Thesaurus for Author Names ID" "en")
+(name-as-in "national-thesaurus-for-author-names-id" "identifiant Bibliothèque royale des Pays-Bas" "fr")
+(name-as-in "national-thesaurus-for-author-names-id" "" "zh-tw")
+(name-as-in "national-thesaurus-for-author-names-id" "NTA-Nummer" "de")
+(name-as-in "national-thesaurus-for-author-names-id" "код NTA" "ru")
+(name-as-in "national-thesaurus-for-author-names-id" "identificador NTA" "es")
+(name-as-in "national-thesaurus-for-author-names-id" "NTA PPN 識別子" "ja")
+(name-as-in "national-thesaurus-for-author-names-id" "NTA识别码（荷兰）" "zh-cn")
+(name-as-in "national-thesaurus-for-author-names-id" "" "zh-sg")
+
+(descr-as-in "national-thesaurus-for-author-names-id" "" "zh-hk")
+(descr-as-in "national-thesaurus-for-author-names-id" "" "pt")
+(descr-as-in "national-thesaurus-for-author-names-id" "identifier from the Dutch National Thesaurus for Author names" "en")
+(descr-as-in "national-thesaurus-for-author-names-id" "identifiant de la Bibliothèque royale des Pays-Bas" "fr")
+(descr-as-in "national-thesaurus-for-author-names-id" "" "zh-tw")
+(descr-as-in "national-thesaurus-for-author-names-id" "Normdatei der Königlichen Bibliothek der Niederlande" "de")
+(descr-as-in "national-thesaurus-for-author-names-id" "код Нидерландского национального тезауруса имён авторов" "ru")
+(descr-as-in "national-thesaurus-for-author-names-id" "" "es")
+(descr-as-in "national-thesaurus-for-author-names-id" "オランダ国立図書館の PPN 識別子" "ja")
+(descr-as-in "national-thesaurus-for-author-names-id" "" "zh-cn")
+(descr-as-in "national-thesaurus-for-author-names-id" "" "zh-sg")
+

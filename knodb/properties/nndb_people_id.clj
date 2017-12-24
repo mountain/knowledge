@@ -1,0 +1,31 @@
+(ns properties.nndb_people_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "nndb-people-id")
+
+(name-as-in "nndb-people-id" "" "zh-hk")
+(name-as-in "nndb-people-id" "identificador NNDB" "pt")
+(name-as-in "nndb-people-id" "NNDB people ID" "en")
+(name-as-in "nndb-people-id" "identifiant NNDB" "fr")
+(name-as-in "nndb-people-id" "" "zh-tw")
+(name-as-in "nndb-people-id" "Notable Names Database" "de")
+(name-as-in "nndb-people-id" "код в Notable Names Database" "ru")
+(name-as-in "nndb-people-id" "Notable Names Database" "es")
+(name-as-in "nndb-people-id" "Notable Names Database の ID" "ja")
+(name-as-in "nndb-people-id" "" "zh-cn")
+(name-as-in "nndb-people-id" "" "zh-sg")
+
+(descr-as-in "nndb-people-id" "" "zh-hk")
+(descr-as-in "nndb-people-id" "" "pt")
+(descr-as-in "nndb-people-id" "identifier in the Notable Names Database, a biographical database: only for people entries" "en")
+(descr-as-in "nndb-people-id" "base de données biographiques" "fr")
+(descr-as-in "nndb-people-id" "" "zh-tw")
+(descr-as-in "nndb-people-id" "biografische Datenbank" "de")
+(descr-as-in "nndb-people-id" "" "ru")
+(descr-as-in "nndb-people-id" "" "es")
+(descr-as-in "nndb-people-id" "" "ja")
+(descr-as-in "nndb-people-id" "" "zh-cn")
+(descr-as-in "nndb-people-id" "" "zh-sg")
+

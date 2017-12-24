@@ -1,0 +1,31 @@
+(ns properties.gard_rare_disease_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "gard-rare-disease-id")
+
+(name-as-in "gard-rare-disease-id" "" "zh-hk")
+(name-as-in "gard-rare-disease-id" "" "pt")
+(name-as-in "gard-rare-disease-id" "GARD rare disease ID" "en")
+(name-as-in "gard-rare-disease-id" "identifiant GARD de maladie rare" "fr")
+(name-as-in "gard-rare-disease-id" "" "zh-tw")
+(name-as-in "gard-rare-disease-id" "GARD-Kennung für seltene Krankheiten" "de")
+(name-as-in "gard-rare-disease-id" "" "ru")
+(name-as-in "gard-rare-disease-id" "identificador GARD de enfermedad rara" "es")
+(name-as-in "gard-rare-disease-id" "" "ja")
+(name-as-in "gard-rare-disease-id" "" "zh-cn")
+(name-as-in "gard-rare-disease-id" "" "zh-sg")
+
+(descr-as-in "gard-rare-disease-id" "" "zh-hk")
+(descr-as-in "gard-rare-disease-id" "" "pt")
+(descr-as-in "gard-rare-disease-id" "identifier for a rare disease in the United States National Institutes of Health's Genetic and Rare Diseases (GARD) Information Center database" "en")
+(descr-as-in "gard-rare-disease-id" "identifiant d'une maladie rare dans labase de données du centre d'information Genetic and Rare Diseases (GARD) du National Institutes of Health américain" "fr")
+(descr-as-in "gard-rare-disease-id" "" "zh-tw")
+(descr-as-in "gard-rare-disease-id" "Identifikator einer seltenen Krankheit in der Datenbank des United States National Institutes of Health's Genetic and Rare Diseases (GARD)" "de")
+(descr-as-in "gard-rare-disease-id" "" "ru")
+(descr-as-in "gard-rare-disease-id" "" "es")
+(descr-as-in "gard-rare-disease-id" "" "ja")
+(descr-as-in "gard-rare-disease-id" "" "zh-cn")
+(descr-as-in "gard-rare-disease-id" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.soc_code_2010
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "soc-code-2010")
+
+(name-as-in "soc-code-2010" "" "zh-hk")
+(name-as-in "soc-code-2010" "Código de Ocupação SOC" "pt")
+(name-as-in "soc-code-2010" "SOC Code (2010)" "en")
+(name-as-in "soc-code-2010" "code SOC (2010)" "fr")
+(name-as-in "soc-code-2010" "" "zh-tw")
+(name-as-in "soc-code-2010" "Standard Occupational Classification Code 2010" "de")
+(name-as-in "soc-code-2010" "код занятости SOC (2010)" "ru")
+(name-as-in "soc-code-2010" "código de ocupación SOC" "es")
+(name-as-in "soc-code-2010" "" "ja")
+(name-as-in "soc-code-2010" "" "zh-cn")
+(name-as-in "soc-code-2010" "" "zh-sg")
+
+(descr-as-in "soc-code-2010" "" "zh-hk")
+(descr-as-in "soc-code-2010" "" "pt")
+(descr-as-in "soc-code-2010" "Standard Occupational Classification code for US jobs (2010 version)" "en")
+(descr-as-in "soc-code-2010" "code Standard Occupational Classification pour l'activité employée américaine" "fr")
+(descr-as-in "soc-code-2010" "" "zh-tw")
+(descr-as-in "soc-code-2010" "" "de")
+(descr-as-in "soc-code-2010" "Standard Occupational Classification для профессий США (версия 2010 года)" "ru")
+(descr-as-in "soc-code-2010" "código Standard Occupational Classification para los trabajos en Estados Unidos" "es")
+(descr-as-in "soc-code-2010" "" "ja")
+(descr-as-in "soc-code-2010" "" "zh-cn")
+(descr-as-in "soc-code-2010" "" "zh-sg")
+

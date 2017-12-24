@@ -1,0 +1,31 @@
+(ns properties.le_monde_diplomatique_subject_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "le-monde-diplomatique-subject-id")
+
+(name-as-in "le-monde-diplomatique-subject-id" "" "zh-hk")
+(name-as-in "le-monde-diplomatique-subject-id" "" "pt")
+(name-as-in "le-monde-diplomatique-subject-id" "Le Monde diplomatique subject ID" "en")
+(name-as-in "le-monde-diplomatique-subject-id" "identifiant Le Monde diplomatique d'un sujet" "fr")
+(name-as-in "le-monde-diplomatique-subject-id" "" "zh-tw")
+(name-as-in "le-monde-diplomatique-subject-id" "" "de")
+(name-as-in "le-monde-diplomatique-subject-id" "идентификатор темы Le Monde diplomatique" "ru")
+(name-as-in "le-monde-diplomatique-subject-id" "identificador Le Monde diplomatique de un tema" "es")
+(name-as-in "le-monde-diplomatique-subject-id" "" "ja")
+(name-as-in "le-monde-diplomatique-subject-id" "" "zh-cn")
+(name-as-in "le-monde-diplomatique-subject-id" "" "zh-sg")
+
+(descr-as-in "le-monde-diplomatique-subject-id" "" "zh-hk")
+(descr-as-in "le-monde-diplomatique-subject-id" "" "pt")
+(descr-as-in "le-monde-diplomatique-subject-id" "identifier for a topic in the French newspaper Le Monde diplomatique" "en")
+(descr-as-in "le-monde-diplomatique-subject-id" "identifiant d'un thème traité par le journal français Le Monde diplomatique" "fr")
+(descr-as-in "le-monde-diplomatique-subject-id" "" "zh-tw")
+(descr-as-in "le-monde-diplomatique-subject-id" "" "de")
+(descr-as-in "le-monde-diplomatique-subject-id" "идентификатор темы во французской газете  Le Monde diplomatique" "ru")
+(descr-as-in "le-monde-diplomatique-subject-id" "" "es")
+(descr-as-in "le-monde-diplomatique-subject-id" "" "ja")
+(descr-as-in "le-monde-diplomatique-subject-id" "" "zh-cn")
+(descr-as-in "le-monde-diplomatique-subject-id" "" "zh-sg")
+

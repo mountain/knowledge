@@ -1,0 +1,31 @@
+(ns properties.said_to_be_the_same_as
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "said-to-be-the-same-as")
+
+(name-as-in "said-to-be-the-same-as" "據稱相同詞" "zh-hk")
+(name-as-in "said-to-be-the-same-as" "identificado como" "pt")
+(name-as-in "said-to-be-the-same-as" "said to be the same as" "en")
+(name-as-in "said-to-be-the-same-as" "réputé identique à" "fr")
+(name-as-in "said-to-be-the-same-as" "據稱相同詞" "zh-tw")
+(name-as-in "said-to-be-the-same-as" "eventuell gleichwertig" "de")
+(name-as-in "said-to-be-the-same-as" "предположительно одно и то же с" "ru")
+(name-as-in "said-to-be-the-same-as" "se dice que es lo mismo que" "es")
+(name-as-in "said-to-be-the-same-as" "同一とされる事物" "ja")
+(name-as-in "said-to-be-the-same-as" "据称相同于" "zh-cn")
+(name-as-in "said-to-be-the-same-as" "" "zh-sg")
+
+(descr-as-in "said-to-be-the-same-as" "" "zh-hk")
+(descr-as-in "said-to-be-the-same-as" "entidade identificada como outra identidade, mas com controvérsias" "pt")
+(descr-as-in "said-to-be-the-same-as" "this item is said to be the same as that item, but the statement is disputed" "en")
+(descr-as-in "said-to-be-the-same-as" "d'après la source, le sujet pourrait être égal à l'objet" "fr")
+(descr-as-in "said-to-be-the-same-as" "" "zh-tw")
+(descr-as-in "said-to-be-the-same-as" "es könnte sich um das gleiche Objekt handeln, das ist jedoch umstritten" "de")
+(descr-as-in "said-to-be-the-same-as" "есть мнение, что этот элемент — то же самое, что и тот элемент, но это утверждение оспаривается" "ru")
+(descr-as-in "said-to-be-the-same-as" "se dice que el presente item es el mismo que este otro, pero esto está disputado" "es")
+(descr-as-in "said-to-be-the-same-as" "主題と同一であるとされている項目、ただし議論がある" "ja")
+(descr-as-in "said-to-be-the-same-as" "" "zh-cn")
+(descr-as-in "said-to-be-the-same-as" "" "zh-sg")
+

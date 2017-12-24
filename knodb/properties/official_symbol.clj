@@ -1,0 +1,31 @@
+(ns properties.official_symbol
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "official-symbol")
+
+(name-as-in "official-symbol" "" "zh-hk")
+(name-as-in "official-symbol" "símbolo oficial" "pt")
+(name-as-in "official-symbol" "official symbol" "en")
+(name-as-in "official-symbol" "symbole officiel" "fr")
+(name-as-in "official-symbol" "" "zh-tw")
+(name-as-in "official-symbol" "offizielles Symbol" "de")
+(name-as-in "official-symbol" "официальный символ" "ru")
+(name-as-in "official-symbol" "símbolo oficial" "es")
+(name-as-in "official-symbol" "公式シンボル" "ja")
+(name-as-in "official-symbol" "" "zh-cn")
+(name-as-in "official-symbol" "" "zh-sg")
+
+(descr-as-in "official-symbol" "" "zh-hk")
+(descr-as-in "official-symbol" "" "pt")
+(descr-as-in "official-symbol" "official symbol of administrative entities" "en")
+(descr-as-in "official-symbol" "symbole officiel d'une entité administrative" "fr")
+(descr-as-in "official-symbol" "" "zh-tw")
+(descr-as-in "official-symbol" "offizielles Symbol einer staatlichen Verwaltungseinheit" "de")
+(descr-as-in "official-symbol" "" "ru")
+(descr-as-in "official-symbol" "" "es")
+(descr-as-in "official-symbol" "行政区の公式シンボル" "ja")
+(descr-as-in "official-symbol" "" "zh-cn")
+(descr-as-in "official-symbol" "" "zh-sg")
+

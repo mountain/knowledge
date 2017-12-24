@@ -1,0 +1,31 @@
+(ns properties.ted_topic_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "ted-topic-id")
+
+(name-as-in "ted-topic-id" "" "zh-hk")
+(name-as-in "ted-topic-id" "ID de tópico do TED" "pt")
+(name-as-in "ted-topic-id" "TED topic ID" "en")
+(name-as-in "ted-topic-id" "identificateur de sujet de la conférence TED" "fr")
+(name-as-in "ted-topic-id" "" "zh-tw")
+(name-as-in "ted-topic-id" "TED-Themen-ID" "de")
+(name-as-in "ted-topic-id" "код темы TED" "ru")
+(name-as-in "ted-topic-id" "identificador de tema en TED" "es")
+(name-as-in "ted-topic-id" "" "ja")
+(name-as-in "ted-topic-id" "" "zh-cn")
+(name-as-in "ted-topic-id" "" "zh-sg")
+
+(descr-as-in "ted-topic-id" "" "zh-hk")
+(descr-as-in "ted-topic-id" "identificador de um tópico, na base de dados de palestras do TED" "pt")
+(descr-as-in "ted-topic-id" "identifier of a topic, in the TED database of talks" "en")
+(descr-as-in "ted-topic-id" "identifiant d'un sujet, dans la base de données TED" "fr")
+(descr-as-in "ted-topic-id" "" "zh-tw")
+(descr-as-in "ted-topic-id" "ID eines Themas in der TED-Datenbank" "de")
+(descr-as-in "ted-topic-id" "" "ru")
+(descr-as-in "ted-topic-id" "identificador de un tema en la base de datos de charlas de TED" "es")
+(descr-as-in "ted-topic-id" "" "ja")
+(descr-as-in "ted-topic-id" "" "zh-cn")
+(descr-as-in "ted-topic-id" "" "zh-sg")
+

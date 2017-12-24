@@ -1,0 +1,31 @@
+(ns properties.replaced_by
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "replaced-by")
+
+(name-as-in "replaced-by" "繼任者" "zh-hk")
+(name-as-in "replaced-by" "substituído por" "pt")
+(name-as-in "replaced-by" "replaced by" "en")
+(name-as-in "replaced-by" "remplacé par" "fr")
+(name-as-in "replaced-by" "繼任" "zh-tw")
+(name-as-in "replaced-by" "ersetzt durch" "de")
+(name-as-in "replaced-by" "заменён на" "ru")
+(name-as-in "replaced-by" "reemplazado por" "es")
+(name-as-in "replaced-by" "後継" "ja")
+(name-as-in "replaced-by" "" "zh-cn")
+(name-as-in "replaced-by" "" "zh-sg")
+
+(descr-as-in "replaced-by" "" "zh-hk")
+(descr-as-in "replaced-by" "pessoa ou estado que sucedeu num cargo, posição, etc. Use P156 (sucedido por) se o item não foi substituído (p./ex. livros numa série). Use P167 (estrutura substituída por) para estruturas." "pt")
+(descr-as-in "replaced-by" "person or item which replaces another. Use P156 (followed by) if the item is not replaced, e.g. books in a series nor identical" "en")
+(descr-as-in "replaced-by" "personne ou item ayant remplacé l'élément ; utiliser P156 si l'élément est suivi et pas remplacé" "fr")
+(descr-as-in "replaced-by" "職銜，由某（人、某職稱或某物件...等）所替代。如果此物件不是被替代（例如：系列書籍），請使用P156。" "zh-tw")
+(descr-as-in "replaced-by" "Person, Organisation, Zustand oder Gegenstand, der/die einen anderen im Amt, in der Position ersetzt etc. Verwende P156 (Nachfolger), wenn der Gegenstand nicht ersetzt wird, z.B. Bücher in einer Serie und Vorgänger und Nachfolger nicht identisch sind" "de")
+(descr-as-in "replaced-by" "человек, организация или объект, который занял место другого в должности, позиции и т. д. Используйте P156 («следующее по порядку») если объект не был заменён, например, одна книга в серии книг" "ru")
+(descr-as-in "replaced-by" "persona, organización u otro elemento que fue reemplazado en el puesto, posición, etc. Usar P156 si el elemento no es reemplazado (libro en una serie)" "es")
+(descr-as-in "replaced-by" "主題の地位・領土等を引き継いだもの（後任の人物、後継の国家など）。順序についてはP156を使用。" "ja")
+(descr-as-in "replaced-by" "" "zh-cn")
+(descr-as-in "replaced-by" "" "zh-sg")
+

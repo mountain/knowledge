@@ -1,0 +1,31 @@
+(ns properties.age_of_majority
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "age-of-majority")
+
+(name-as-in "age-of-majority" "法定年齡" "zh-hk")
+(name-as-in "age-of-majority" "maioridade" "pt")
+(name-as-in "age-of-majority" "age of majority" "en")
+(name-as-in "age-of-majority" "âge de la majorité" "fr")
+(name-as-in "age-of-majority" "法定年齡" "zh-tw")
+(name-as-in "age-of-majority" "Alter der Volljährigkeit" "de")
+(name-as-in "age-of-majority" "возраст совершеннолетия" "ru")
+(name-as-in "age-of-majority" "mayoría de edad" "es")
+(name-as-in "age-of-majority" "成年" "ja")
+(name-as-in "age-of-majority" "法定年龄" "zh-cn")
+(name-as-in "age-of-majority" "法定年龄" "zh-sg")
+
+(descr-as-in "age-of-majority" "" "zh-hk")
+(descr-as-in "age-of-majority" "" "pt")
+(descr-as-in "age-of-majority" "threshold of adulthood as recognized or declared in law. Use qualifiers subject of to link to item for articles with more detail. Use start time or point in time for historic data." "en")
+(descr-as-in "age-of-majority" "" "fr")
+(descr-as-in "age-of-majority" "" "zh-tw")
+(descr-as-in "age-of-majority" "" "de")
+(descr-as-in "age-of-majority" "" "ru")
+(descr-as-in "age-of-majority" "" "es")
+(descr-as-in "age-of-majority" "法的な成人の閾値。より詳細な記事へのリンクには「主題(P805)」修飾子を使用。歴史的なデータには「開始日(P580)」や「時点(P585)」を使用。" "ja")
+(descr-as-in "age-of-majority" "" "zh-cn")
+(descr-as-in "age-of-majority" "" "zh-sg")
+

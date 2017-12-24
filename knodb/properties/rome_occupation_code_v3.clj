@@ -1,0 +1,31 @@
+(ns properties.rome_occupation_code_v3
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "rome-occupation-code-v3")
+
+(name-as-in "rome-occupation-code-v3" "ROME職業編號（v3）" "zh-hk")
+(name-as-in "rome-occupation-code-v3" "código de ocupação ROME" "pt")
+(name-as-in "rome-occupation-code-v3" "ROME Occupation Code (v3)" "en")
+(name-as-in "rome-occupation-code-v3" "code métier ROME" "fr")
+(name-as-in "rome-occupation-code-v3" "ROME職業編號（v3）" "zh-tw")
+(name-as-in "rome-occupation-code-v3" "ROME-Berufscode" "de")
+(name-as-in "rome-occupation-code-v3" "код ROME" "ru")
+(name-as-in "rome-occupation-code-v3" "código de ocupación ROME" "es")
+(name-as-in "rome-occupation-code-v3" "ROME職業コード（第3版）" "ja")
+(name-as-in "rome-occupation-code-v3" "ROME职业编号（v3）" "zh-cn")
+(name-as-in "rome-occupation-code-v3" "" "zh-sg")
+
+(descr-as-in "rome-occupation-code-v3" "" "zh-hk")
+(descr-as-in "rome-occupation-code-v3" "" "pt")
+(descr-as-in "rome-occupation-code-v3" "ROME Code for a given occupation in France (V3, 1 letter, 4 digits)" "en")
+(descr-as-in "rome-occupation-code-v3" "code ROME (v3) pour un métier donné, composé d'une lettre et de 4 chiffres, trouvable sur le site de Pôle Emploi ou via Code rome et le nom du métier" "fr")
+(descr-as-in "rome-occupation-code-v3" "" "zh-tw")
+(descr-as-in "rome-occupation-code-v3" "ROME-Code für einen Beruf, mit einem Buchstaben und vier Nummern" "de")
+(descr-as-in "rome-occupation-code-v3" "для профессий во Франции" "ru")
+(descr-as-in "rome-occupation-code-v3" "código ROME para una ocupación en Francia (versión 3: 1 letra, 4 dígitos)" "es")
+(descr-as-in "rome-occupation-code-v3" "" "ja")
+(descr-as-in "rome-occupation-code-v3" "" "zh-cn")
+(descr-as-in "rome-occupation-code-v3" "" "zh-sg")
+

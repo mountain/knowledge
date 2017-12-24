@@ -1,0 +1,31 @@
+(ns properties.snac_ark_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "snac-ark-id")
+
+(name-as-in "snac-ark-id" "" "zh-hk")
+(name-as-in "snac-ark-id" "" "pt")
+(name-as-in "snac-ark-id" "SNAC Ark ID" "en")
+(name-as-in "snac-ark-id" "identifiant Social Networks Archival Context" "fr")
+(name-as-in "snac-ark-id" "" "zh-tw")
+(name-as-in "snac-ark-id" "Soziale-Netzwerke-und-Archivkontext-ID" "de")
+(name-as-in "snac-ark-id" "код в проекте SNAC" "ru")
+(name-as-in "snac-ark-id" "Identificador de Redes Sociales y Contexto de Archivo" "es")
+(name-as-in "snac-ark-id" "" "ja")
+(name-as-in "snac-ark-id" "" "zh-cn")
+(name-as-in "snac-ark-id" "" "zh-sg")
+
+(descr-as-in "snac-ark-id" "" "zh-hk")
+(descr-as-in "snac-ark-id" "" "pt")
+(descr-as-in "snac-ark-id" "identifier for items in the Social Networks and Archival Context system" "en")
+(descr-as-in "snac-ark-id" "identifiant pour un élément dans le système Social Networks Archival Context" "fr")
+(descr-as-in "snac-ark-id" "" "zh-tw")
+(descr-as-in "snac-ark-id" "Identifikator in der SNAC-Datenbank" "de")
+(descr-as-in "snac-ark-id" "" "ru")
+(descr-as-in "snac-ark-id" "identificador de elementos en el sistema de Redes Sociales y Contexto de Archivo" "es")
+(descr-as-in "snac-ark-id" "" "ja")
+(descr-as-in "snac-ark-id" "" "zh-cn")
+(descr-as-in "snac-ark-id" "" "zh-sg")
+

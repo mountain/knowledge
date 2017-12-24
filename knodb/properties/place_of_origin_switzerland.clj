@@ -1,0 +1,31 @@
+(ns properties.place_of_origin_switzerland
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "place-of-origin-switzerland")
+
+(name-as-in "place-of-origin-switzerland" "" "zh-hk")
+(name-as-in "place-of-origin-switzerland" "Local de origem (Suíça)" "pt")
+(name-as-in "place-of-origin-switzerland" "place of origin (Switzerland)" "en")
+(name-as-in "place-of-origin-switzerland" "lieu d'origine (Suisse)" "fr")
+(name-as-in "place-of-origin-switzerland" "" "zh-tw")
+(name-as-in "place-of-origin-switzerland" "Heimatort (Schweiz)" "de")
+(name-as-in "place-of-origin-switzerland" "место происхождения (Швейцария)" "ru")
+(name-as-in "place-of-origin-switzerland" "lugar de origen (Suiza)" "es")
+(name-as-in "place-of-origin-switzerland" "" "ja")
+(name-as-in "place-of-origin-switzerland" "" "zh-cn")
+(name-as-in "place-of-origin-switzerland" "" "zh-sg")
+
+(descr-as-in "place-of-origin-switzerland" "" "zh-hk")
+(descr-as-in "place-of-origin-switzerland" "" "pt")
+(descr-as-in "place-of-origin-switzerland" "lieu d'origine of a Swiss national. Not be confused with place of birth or place of residence" "en")
+(descr-as-in "place-of-origin-switzerland" "lieu d'origine d'un citoyen suisse. A ne pas confondre avec le lieu de naissance ou le domicile d'une personne" "fr")
+(descr-as-in "place-of-origin-switzerland" "" "zh-tw")
+(descr-as-in "place-of-origin-switzerland" "Heimatort eines Schweizer Bürgers; nicht zu verwechseln mit Geburtsort oder Wohnort" "de")
+(descr-as-in "place-of-origin-switzerland" "место, откуда родом швейцарец" "ru")
+(descr-as-in "place-of-origin-switzerland" "lugar de origen de un ciudadano suizo" "es")
+(descr-as-in "place-of-origin-switzerland" "" "ja")
+(descr-as-in "place-of-origin-switzerland" "" "zh-cn")
+(descr-as-in "place-of-origin-switzerland" "" "zh-sg")
+

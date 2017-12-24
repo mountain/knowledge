@@ -1,0 +1,31 @@
+(ns properties.organizer
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "organizer")
+
+(name-as-in "organizer" "主辦者" "zh-hk")
+(name-as-in "organizer" "organizador" "pt")
+(name-as-in "organizer" "organizer" "en")
+(name-as-in "organizer" "organisateur" "fr")
+(name-as-in "organizer" "主辦者" "zh-tw")
+(name-as-in "organizer" "Veranstalter" "de")
+(name-as-in "organizer" "организатор" "ru")
+(name-as-in "organizer" "organizador" "es")
+(name-as-in "organizer" "主催者" "ja")
+(name-as-in "organizer" "主办者" "zh-cn")
+(name-as-in "organizer" "主办者" "zh-sg")
+
+(descr-as-in "organizer" "" "zh-hk")
+(descr-as-in "organizer" "pessoa ou instituição que organiza o evento" "pt")
+(descr-as-in "organizer" "person or institution organizing an event" "en")
+(descr-as-in "organizer" "personne ou institution organisant un événement" "fr")
+(descr-as-in "organizer" "" "zh-tw")
+(descr-as-in "organizer" "Person oder Institution, die eine Veranstaltung organisiert" "de")
+(descr-as-in "organizer" "лицо или организация, устроившие данное мероприятие" "ru")
+(descr-as-in "organizer" "persona o institución que organiza un evento" "es")
+(descr-as-in "organizer" "そのイベントを主催する人物や団体" "ja")
+(descr-as-in "organizer" "" "zh-cn")
+(descr-as-in "organizer" "" "zh-sg")
+

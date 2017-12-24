@@ -1,0 +1,31 @@
+(ns properties.share_catalogue_author_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "share-catalogue-author-id")
+
+(name-as-in "share-catalogue-author-id" "" "zh-hk")
+(name-as-in "share-catalogue-author-id" "" "pt")
+(name-as-in "share-catalogue-author-id" "SHARE Catalogue author ID" "en")
+(name-as-in "share-catalogue-author-id" "identifiant SHARE Catalogue" "fr")
+(name-as-in "share-catalogue-author-id" "" "zh-tw")
+(name-as-in "share-catalogue-author-id" "" "de")
+(name-as-in "share-catalogue-author-id" "код автора в каталоге SHARE" "ru")
+(name-as-in "share-catalogue-author-id" "identificador SHARE Catalogue de autor" "es")
+(name-as-in "share-catalogue-author-id" "" "ja")
+(name-as-in "share-catalogue-author-id" "" "zh-cn")
+(name-as-in "share-catalogue-author-id" "" "zh-sg")
+
+(descr-as-in "share-catalogue-author-id" "" "zh-hk")
+(descr-as-in "share-catalogue-author-id" "" "pt")
+(descr-as-in "share-catalogue-author-id" "identifier for authors in SHARE Catalogue, a linked data federated catalogue of several Southern Italy universities" "en")
+(descr-as-in "share-catalogue-author-id" "identifiant d'un auteur dans le SHARE Catalogue, catalogue fédéré des données de plusieurs universités du sud de l'Italie" "fr")
+(descr-as-in "share-catalogue-author-id" "" "zh-tw")
+(descr-as-in "share-catalogue-author-id" "" "de")
+(descr-as-in "share-catalogue-author-id" "объединённый каталог университетов Южной Италии" "ru")
+(descr-as-in "share-catalogue-author-id" "" "es")
+(descr-as-in "share-catalogue-author-id" "" "ja")
+(descr-as-in "share-catalogue-author-id" "" "zh-cn")
+(descr-as-in "share-catalogue-author-id" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.geography_of_topic
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "geography-of-topic")
+
+(name-as-in "geography-of-topic" "" "zh-hk")
+(name-as-in "geography-of-topic" "geografia" "pt")
+(name-as-in "geography-of-topic" "geography of topic" "en")
+(name-as-in "geography-of-topic" "géographie" "fr")
+(name-as-in "geography-of-topic" "" "zh-tw")
+(name-as-in "geography-of-topic" "Geographie" "de")
+(name-as-in "geography-of-topic" "география темы" "ru")
+(name-as-in "geography-of-topic" "geografía" "es")
+(name-as-in "geography-of-topic" "主題の地理" "ja")
+(name-as-in "geography-of-topic" "" "zh-cn")
+(name-as-in "geography-of-topic" "" "zh-sg")
+
+(descr-as-in "geography-of-topic" "" "zh-hk")
+(descr-as-in "geography-of-topic" "" "pt")
+(descr-as-in "geography-of-topic" "item that deals with the geography of the subject" "en")
+(descr-as-in "geography-of-topic" "élément qui a trait à la géographie du sujet" "fr")
+(descr-as-in "geography-of-topic" "" "zh-tw")
+(descr-as-in "geography-of-topic" "Geographie des Artikelthemas" "de")
+(descr-as-in "geography-of-topic" "описание географии данного объекта" "ru")
+(descr-as-in "geography-of-topic" "elemento que trata la geografía del sujeto" "es")
+(descr-as-in "geography-of-topic" "" "ja")
+(descr-as-in "geography-of-topic" "" "zh-cn")
+(descr-as-in "geography-of-topic" "" "zh-sg")
+

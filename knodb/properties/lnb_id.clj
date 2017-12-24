@@ -1,0 +1,31 @@
+(ns properties.lnb_id
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "lnb-id")
+
+(name-as-in "lnb-id" "" "zh-hk")
+(name-as-in "lnb-id" "" "pt")
+(name-as-in "lnb-id" "LNB ID" "en")
+(name-as-in "lnb-id" "identifiant LNB" "fr")
+(name-as-in "lnb-id" "" "zh-tw")
+(name-as-in "lnb-id" "LNB" "de")
+(name-as-in "lnb-id" "код LNB" "ru")
+(name-as-in "lnb-id" "identificador LNB" "es")
+(name-as-in "lnb-id" "LNB識別子" "ja")
+(name-as-in "lnb-id" "" "zh-cn")
+(name-as-in "lnb-id" "" "zh-sg")
+
+(descr-as-in "lnb-id" "" "zh-hk")
+(descr-as-in "lnb-id" "" "pt")
+(descr-as-in "lnb-id" "identifier assigned by the National Library of Latvia" "en")
+(descr-as-in "lnb-id" "identifiant dans la Bibliothèque Nationale de Lettonie" "fr")
+(descr-as-in "lnb-id" "" "zh-tw")
+(descr-as-in "lnb-id" "Normdateneintrag der Lettischen Nationalbibliothek" "de")
+(descr-as-in "lnb-id" "номер в каталоге Национальной библиотеки Латвии" "ru")
+(descr-as-in "lnb-id" "" "es")
+(descr-as-in "lnb-id" "ラトビア国立図書館のコード" "ja")
+(descr-as-in "lnb-id" "" "zh-cn")
+(descr-as-in "lnb-id" "" "zh-sg")
+

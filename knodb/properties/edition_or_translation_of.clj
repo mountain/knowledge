@@ -1,0 +1,31 @@
+(ns properties.edition_or_translation_of
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "edition-or-translation-of")
+
+(name-as-in "edition-or-translation-of" "版本屬於或翻譯自" "zh-hk")
+(name-as-in "edition-or-translation-of" "edição de" "pt")
+(name-as-in "edition-or-translation-of" "edition or translation of" "en")
+(name-as-in "edition-or-translation-of" "édition de" "fr")
+(name-as-in "edition-or-translation-of" "版本屬於或翻譯自" "zh-tw")
+(name-as-in "edition-or-translation-of" "Ausgabe oder Übersetzung von" "de")
+(name-as-in "edition-or-translation-of" "является изданием или переводом" "ru")
+(name-as-in "edition-or-translation-of" "edición o traducción de" "es")
+(name-as-in "edition-or-translation-of" "原典・翻訳元" "ja")
+(name-as-in "edition-or-translation-of" "版本属于或翻译自" "zh-cn")
+(name-as-in "edition-or-translation-of" "版本属于或翻译自" "zh-sg")
+
+(descr-as-in "edition-or-translation-of" "" "zh-hk")
+(descr-as-in "edition-or-translation-of" "" "pt")
+(descr-as-in "edition-or-translation-of" "is an edition or translation of this entity" "en")
+(descr-as-in "edition-or-translation-of" "est une édition de l'œuvre suivante" "fr")
+(descr-as-in "edition-or-translation-of" "" "zh-tw")
+(descr-as-in "edition-or-translation-of" "Ausgabe (Werk) der Publikation" "de")
+(descr-as-in "edition-or-translation-of" "ссылка на элемент про сам текст (книгу)" "ru")
+(descr-as-in "edition-or-translation-of" "es una edición o traducción de esta publicación" "es")
+(descr-as-in "edition-or-translation-of" "主題の作品（テキスト）は、以下のものの翻訳・あるいは版のひとつである" "ja")
+(descr-as-in "edition-or-translation-of" "" "zh-cn")
+(descr-as-in "edition-or-translation-of" "" "zh-sg")
+

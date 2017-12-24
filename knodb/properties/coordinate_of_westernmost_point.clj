@@ -1,0 +1,31 @@
+(ns properties.coordinate_of_westernmost_point
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "coordinate-of-westernmost-point")
+
+(name-as-in "coordinate-of-westernmost-point" "最西點" "zh-hk")
+(name-as-in "coordinate-of-westernmost-point" "ponto ocidental" "pt")
+(name-as-in "coordinate-of-westernmost-point" "coordinate of westernmost point" "en")
+(name-as-in "coordinate-of-westernmost-point" "coordonnées du point le plus à l'ouest" "fr")
+(name-as-in "coordinate-of-westernmost-point" "最西點" "zh-tw")
+(name-as-in "coordinate-of-westernmost-point" "westlichster Punkt" "de")
+(name-as-in "coordinate-of-westernmost-point" "самая западная точка" "ru")
+(name-as-in "coordinate-of-westernmost-point" "punto más occidental" "es")
+(name-as-in "coordinate-of-westernmost-point" "最西端" "ja")
+(name-as-in "coordinate-of-westernmost-point" "最西点" "zh-cn")
+(name-as-in "coordinate-of-westernmost-point" "" "zh-sg")
+
+(descr-as-in "coordinate-of-westernmost-point" "" "zh-hk")
+(descr-as-in "coordinate-of-westernmost-point" "" "pt")
+(descr-as-in "coordinate-of-westernmost-point" "westernmost point of a location" "en")
+(descr-as-in "coordinate-of-westernmost-point" "point le plus à l'ouest d'un lieu" "fr")
+(descr-as-in "coordinate-of-westernmost-point" "" "zh-tw")
+(descr-as-in "coordinate-of-westernmost-point" "westlichster Punkt eines Orts" "de")
+(descr-as-in "coordinate-of-westernmost-point" "" "ru")
+(descr-as-in "coordinate-of-westernmost-point" "" "es")
+(descr-as-in "coordinate-of-westernmost-point" "場所の最西端" "ja")
+(descr-as-in "coordinate-of-westernmost-point" "" "zh-cn")
+(descr-as-in "coordinate-of-westernmost-point" "" "zh-sg")
+

@@ -1,0 +1,31 @@
+(ns properties.external_data_available_at
+   (:refer-clojure :exclude [==])
+   (:use clojure.core.logic)
+   (:use meta.meta))
+
+(fact Property "external-data-available-at")
+
+(name-as-in "external-data-available-at" "" "zh-hk")
+(name-as-in "external-data-available-at" "coleção externa de dados" "pt")
+(name-as-in "external-data-available-at" "external data available at" "en")
+(name-as-in "external-data-available-at" "site externe de données" "fr")
+(name-as-in "external-data-available-at" "" "zh-tw")
+(name-as-in "external-data-available-at" "externe Daten" "de")
+(name-as-in "external-data-available-at" "источник дополнительных внешних данных" "ru")
+(name-as-in "external-data-available-at" "datos externos disponibles en" "es")
+(name-as-in "external-data-available-at" "外部データURL" "ja")
+(name-as-in "external-data-available-at" "" "zh-cn")
+(name-as-in "external-data-available-at" "" "zh-sg")
+
+(descr-as-in "external-data-available-at" "" "zh-hk")
+(descr-as-in "external-data-available-at" "sítio externo onde dados sobre o sujeito podem ser encontrados" "pt")
+(descr-as-in "external-data-available-at" "URL where external data on this item can be found" "en")
+(descr-as-in "external-data-available-at" "site externe où des données du sujet sont disponibles" "fr")
+(descr-as-in "external-data-available-at" "" "zh-tw")
+(descr-as-in "external-data-available-at" "URL, unter der externe Daten zu dem Thema gefunden werden können" "de")
+(descr-as-in "external-data-available-at" "" "ru")
+(descr-as-in "external-data-available-at" "sitio externo donde pueden encontrarse datos sobre el asunto o materia" "es")
+(descr-as-in "external-data-available-at" "この項目についての外部データがあるURL" "ja")
+(descr-as-in "external-data-available-at" "" "zh-cn")
+(descr-as-in "external-data-available-at" "" "zh-sg")
+
